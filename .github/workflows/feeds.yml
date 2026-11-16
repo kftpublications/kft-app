@@ -1,0 +1,29 @@
+name: Refresh content feed
+on:
+  schedule: [{ cron: '0 4 * * *' }]   # 04:00 UTC daily
+  push: { branches: [main] }          # also deploy code changes, not only at 04:00
+  workflow_dispatch:
+permissions: { contents: write, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: false }   # a push and the nightly run must not deploy at the same time
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:                      # required by actions/deploy-pages
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/build-feeds.mjs
+      - name: Commit feed if changed
+        if: github.event_name != 'push'   # do not add a bot commit on top of every push
+        run: |
+          git config user.name "kft-feed-bot"; git config user.email "actions@users.noreply.github.com"
+          git add public/data/feed.json
+          git diff --cached --quiet || (git commit -m "Refresh feed.json" && git push)
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: public }
+      - id: deploy
+        uses: actions/deploy-pages@v4
