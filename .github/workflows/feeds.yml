@@ -3,25 +3,50 @@ on:
   schedule: [{ cron: '0 4 * * *' }]   # 04:00 UTC daily
   push: { branches: [main] }          # also deploy code changes, not only at 04:00
   workflow_dispatch:
+    inputs:
+      offline_sources:
+        description: 'Acceptance test 9: comma-separated sources to treat as offline (e.g. rss-kft,rss-official,uoc,archive)'
+        required: false
+        default: ''
+      booking_deep:
+        description: 'Also open each Inn Style deep link (creates an enquiry record per retreat at Inn Style; use sparingly)'
+        required: false
+        default: 'false'
 permissions: { contents: write, pages: write, id-token: write }
 concurrency: { group: pages, cancel-in-progress: false }   # a push and the nightly run must not deploy at the same time
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 60               # first nights crawl the archive and run oEmbed checks at ≤1 req/s (about 25 min)
     environment:                      # required by actions/deploy-pages
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 20 }
-      - run: node scripts/build-feeds.mjs
-      - name: Commit feed if changed
+        with: { node-version: 20, cache: npm }
+      - run: npm ci --no-audit --no-fund      # sharp (image resizing) only
+      - run: npm test
+      - name: Build data files
+        run: node scripts/build-feeds.mjs
+        env:
+          OFFLINE_SOURCES: ${{ github.event.inputs.offline_sources }}
+          # No YouTube API key: the libraries come from keyless sources (see ARCHITECTURE.md)
+      - name: Check Inn Style booking links
+        run: node scripts/check-booking-links.mjs
+        env:
+          BOOKING_DEEP: ${{ github.event.inputs.booking_deep == 'true' && '1' || '0' }}
+        continue-on-error: true           # warnings only; never blocks the deploy
+      - name: Daily passages (only when a source exists)
+        run: node scripts/build-daily.mjs
+        env:
+          DAILY_SOURCE_URL: ${{ vars.DAILY_SOURCE_URL }}
+      - name: Commit data if changed
         if: github.event_name != 'push'   # do not add a bot commit on top of every push
         run: |
           git config user.name "kft-feed-bot"; git config user.email "actions@users.noreply.github.com"
-          git add public/data/feed.json
-          git diff --cached --quiet || (git commit -m "Refresh feed.json" && git push)
+          git add public/data data/library
+          git diff --cached --quiet || (git commit -m "Refresh data files" && git push)
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: { path: public }

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kftpublications.github.io/kft-app/schemas/daily.schema.json",
+  "title": "Daily passages (Daily tab)",
+  "type": "object",
+  "required": ["version", "updated", "passages"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "updated": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}" },
+    "passages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["day", "flowId", "flowTitle", "flowIndex", "flowLength", "text", "source"],
+        "additionalProperties": false,
+        "properties": {
+          "day": { "type": "integer", "minimum": 1, "maximum": 365 },
+          "flowId": { "type": "string", "minLength": 1 },
+          "flowTitle": { "type": "string", "minLength": 1 },
+          "flowIndex": { "type": "integer", "minimum": 1 },
+          "flowLength": { "type": "integer", "minimum": 1 },
+          "title": { "type": "string" },
+          "text": { "type": "string", "minLength": 1 },
+          "source": {
+            "type": "object",
+            "required": ["work"],
+            "additionalProperties": false,
+            "properties": {
+              "work": { "type": "string", "minLength": 1 },
+              "date": { "type": "string" },
+              "place": { "type": "string" }
+            }
+          },
+          "audioUrl": { "type": "string", "pattern": "^https://" },
+          "durationSec": { "type": "integer", "minimum": 1 },
+          "transcriptUrl": { "type": "string", "pattern": "^https://" }
+        }
+      }
+    }
+  }
+}

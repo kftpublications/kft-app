@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "resultSince": "2026-11-16T23:13:48.934Z",
+  "retreats": 25,
+  "passed": 24,
+  "failed": 1,
+  "pages": {
+    "home": {
+      "url": "https://krishnamurticentre.innstyle.co.uk/",
+      "status": 200,
+      "ok": true
+    },
+    "giftVouchers": {
+      "url": "https://krishnamurticentre.innstyle.co.uk/gift-vouchers",
+      "status": 200,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "promo": 72322,
+      "name": "Young Adults Retreat",
+      "start": "2026-11-20",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/72322?start_date=2026-11-20&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=72322",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2026-11-23",
+      "ok": true
+    },
+    {
+      "promo": 72330,
+      "name": "Group Retreat",
+      "start": "2026-11-27",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/72330?start_date=2026-11-27&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=72330",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2026-11-30",
+      "ok": true
+    },
+    {
+      "promo": 75544,
+      "name": "Silent Retreat",
+      "start": "2027-02-19",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75544?start_date=2027-02-19&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75544",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-02-20",
+      "ok": true
+    },
+    {
+      "promo": 75572,
+      "name": "Group Retreat",
+      "start": "2027-02-26",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75572?start_date=2027-02-26&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75572",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-03-01",
+      "ok": true
+    },
+    {
+      "promo": 75563,
+      "name": "Weekend Retreat",
+      "start": "2027-03-12",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75563?start_date=2027-03-12&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75563",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-03-13",
+      "ok": true
+    },
+    {
+      "promo": 75567,
+      "name": "Young Adults Retreat",
+      "start": "2027-03-19",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75567?start_date=2027-03-19&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75567",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-03-22",
+      "ok": true
+    },
+    {
+      "promo": 75553,
+      "name": "Group Retreat",
+      "start": "2027-04-16",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75553?start_date=2027-04-16&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75553",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-04-19",
+      "ok": true
+    },
+    {
+      "promo": 75545,
+      "name": "Silent Retreat",
+      "start": "2027-04-23",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75545?start_date=2027-04-23&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75545",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-04-24",
+      "ok": true
+    },
+    {
+      "promo": 75573,
+      "name": "Group Retreat",
+      "start": "2027-05-07",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75573?start_date=2027-05-07&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75573",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-05-10",
+      "ok": true
+    },
+    {
+      "promo": 75546,
+      "name": "Silent Retreat",
+      "start": "2027-05-21",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75546?start_date=2027-05-21&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75546",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-05-22",
+      "ok": true
+    },
+    {
+      "promo": 75564,
+      "name": "Weekend Retreat",
+      "start": "2027-06-04",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75564?start_date=2027-06-04&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75564",
+      "checks": {
+        "deepLink": [
+          "no price (£)"
+        ],
+        "promotion": "ok"
+      },
+      "ok": false
+    },
+    {
+      "promo": 75568,
+      "name": "Young Adults Retreat",
+      "start": "2027-06-18",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75568?start_date=2027-06-18&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75568",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-06-21",
+      "ok": true
+    },
+    {
+      "promo": 75555,
+      "name": "Group Retreat",
+      "start": "2027-07-02",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75555?start_date=2027-07-02&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75555",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-07-05",
+      "ok": true
+    },
+    {
+      "promo": 75547,
+      "name": "Silent Retreat",
+      "start": "2027-07-30",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75547?start_date=2027-07-30&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75547",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-07-31",
+      "ok": true
+    },
+    {
+      "promo": 75610,
+      "name": "Krishnamurti Gathering",
+      "start": "2027-08-13",
+      "nights": 5,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75610?start_date=2027-08-13&nights=5&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75610",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-08-17",
+      "ok": true
+    },
+    {
+      "promo": 75565,
+      "name": "Weekend Retreat",
+      "start": "2027-08-27",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75565?start_date=2027-08-27&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75565",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-08-28",
+      "ok": true
+    },
+    {
+      "promo": 75571,
+      "name": "Young Adults Retreat",
+      "start": "2027-09-03",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75571?start_date=2027-09-03&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75571",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-09-06",
+      "ok": true
+    },
+    {
+      "promo": 75548,
+      "name": "Silent Retreat",
+      "start": "2027-09-17",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75548?start_date=2027-09-17&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75548",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-09-18",
+      "ok": true
+    },
+    {
+      "promo": 75556,
+      "name": "Group Retreat",
+      "start": "2027-09-24",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75556?start_date=2027-09-24&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75556",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-09-27",
+      "ok": true
+    },
+    {
+      "promo": 75575,
+      "name": "Weekend Retreat",
+      "start": "2027-10-08",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75575?start_date=2027-10-08&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75575",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-10-09",
+      "ok": true
+    },
+    {
+      "promo": 75549,
+      "name": "Silent Retreat",
+      "start": "2027-10-15",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75549?start_date=2027-10-15&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75549",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-10-16",
+      "ok": true
+    },
+    {
+      "promo": 75570,
+      "name": "Young Adults Retreat",
+      "start": "2027-10-22",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75570?start_date=2027-10-22&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75570",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-10-25",
+      "ok": true
+    },
+    {
+      "promo": 75550,
+      "name": "Silent Retreat",
+      "start": "2027-11-12",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75550?start_date=2027-11-12&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75550",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-11-13",
+      "ok": true
+    },
+    {
+      "promo": 75557,
+      "name": "Group Retreat",
+      "start": "2027-11-26",
+      "nights": 4,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75557?start_date=2027-11-26&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75557",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-11-29",
+      "ok": true
+    },
+    {
+      "promo": 75551,
+      "name": "Silent Retreat",
+      "start": "2027-12-03",
+      "nights": 2,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/75551?start_date=2027-12-03&nights=2&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=75551",
+      "checks": {
+        "deepLink": "ok",
+        "promotion": "ok"
+      },
+      "endDate": "2027-12-04",
+      "ok": true
+    }
+  ]
+}

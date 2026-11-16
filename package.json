@@ -1,11 +1,16 @@
 {
   "name": "kft-app-prototype",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Concept prototype: one Krishnamurti Foundation Trust app for podcasts, videos, readings and Centre retreats.",
   "scripts": {
     "feeds": "node scripts/build-feeds.mjs",
+    "check-booking": "node scripts/check-booking-links.mjs",
+    "test": "node --test scripts/test/*.test.mjs",
     "serve": "npx --yes serve public -l 5173"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
   },
   "engines": { "node": ">=20" }
 }

@@ -1,0 +1,106 @@
+{
+ "version": 1,
+ "updated": "2026-11-16",
+ "passages": [
+  {
+   "day": 1,
+   "flowId": "f-test-a",
+   "flowTitle": "Test flow A",
+   "flowIndex": 1,
+   "flowLength": 4,
+   "text": "TEST FIXTURE passage for day 1. This is placeholder text for automated tests, not a Krishnamurti passage.\n\nSecond paragraph of the day 1 test passage, with <b>markup</b> & \"quotes\" that must appear as plain text.",
+   "source": {
+    "work": "Test Source 1",
+    "place": "Test Place",
+    "date": "1970"
+   },
+   "title": "Test title for day 1",
+   "audioUrl": "https://daily-audio.test/day1.mp3",
+   "durationSec": 120,
+   "transcriptUrl": "https://kfoundation.org/test-transcript/"
+  },
+  {
+   "day": 2,
+   "flowId": "f-test-a",
+   "flowTitle": "Test flow A",
+   "flowIndex": 2,
+   "flowLength": 4,
+   "text": "TEST FIXTURE passage for day 2. This is placeholder text for automated tests, not a Krishnamurti passage.\n\nSecond paragraph of the day 2 test passage, with <b>markup</b> & \"quotes\" that must appear as plain text.",
+   "source": {
+    "work": "Test Source 2",
+    "place": "Test Place",
+    "date": "1970"
+   },
+   "audioUrl": "https://daily-audio.test/day2.mp3",
+   "durationSec": 120
+  },
+  {
+   "day": 3,
+   "flowId": "f-test-a",
+   "flowTitle": "Test flow A",
+   "flowIndex": 3,
+   "flowLength": 4,
+   "text": "TEST FIXTURE passage for day 3. This is placeholder text for automated tests, not a Krishnamurti passage.\n\nSecond paragraph of the day 3 test passage, with <b>markup</b> & \"quotes\" that must appear as plain text.",
+   "source": {
+    "work": "Test Source 3",
+    "place": "Test Place",
+    "date": "1970"
+   }
+  },
+  {
+   "day": 4,
+   "flowId": "f-test-a",
+   "flowTitle": "Test flow A",
+   "flowIndex": 4,
+   "flowLength": 4,
+   "text": "TEST FIXTURE passage for day 4. This is placeholder text for automated tests, not a Krishnamurti passage.\n\nSecond paragraph of the day 4 test passage, with <b>markup</b> & \"quotes\" that must appear as plain text.",
+   "source": {
+    "work": "Test Source 4",
+    "place": "Test Place",
+    "date": "1970"
+   }
+  },
+  {
+   "day": 5,
+   "flowId": "f-test-b",
+   "flowTitle": "Test flow B",
+   "flowIndex": 1,
+   "flowLength": 3,
+   "text": "TEST FIXTURE passage for day 5. This is placeholder text for automated tests, not a Krishnamurti passage.\n\nSecond paragraph of the day 5 test passage, with <b>markup</b> & \"quotes\" that must appear as plain text.",
+   "source": {
+    "work": "Test Source 5",
+    "place": "Test Place",
+    "date": "1970"
+   },
+   "title": "Test title for day 5",
+   "audioUrl": "https://daily-audio.test/day5.mp3",
+   "durationSec": 120
+  },
+  {
+   "day": 6,
+   "flowId": "f-test-b",
+   "flowTitle": "Test flow B",
+   "flowIndex": 2,
+   "flowLength": 3,
+   "text": "TEST FIXTURE passage for day 6. This is placeholder text for automated tests, not a Krishnamurti passage.\n\nSecond paragraph of the day 6 test passage, with <b>markup</b> & \"quotes\" that must appear as plain text.",
+   "source": {
+    "work": "Test Source 6",
+    "place": "Test Place",
+    "date": "1970"
+   }
+  },
+  {
+   "day": 7,
+   "flowId": "f-test-b",
+   "flowTitle": "Test flow B",
+   "flowIndex": 3,
+   "flowLength": 3,
+   "text": "TEST FIXTURE passage for day 7. This is placeholder text for automated tests, not a Krishnamurti passage.\n\nSecond paragraph of the day 7 test passage, with <b>markup</b> & \"quotes\" that must appear as plain text.",
+   "source": {
+    "work": "Test Source 7",
+    "place": "Test Place",
+    "date": "1970"
+   }
+  }
+ ]
+}

@@ -22,14 +22,18 @@ Reviewed 16 Nov 2026. The app was tested in Chromium at iPhone 13 size. The live
 | 14 | build-feeds.mjs | `itunes:duration` in `HH:MM:SS` format becomes `null`. | Parse seconds, `MM:SS` and `HH:MM:SS`. |
 | 15 | build-feeds.mjs | Collection episodes with the same timestamp sort in the wrong order (294 above 295 and 296). | Sort by episode number when dates are equal. |
 | 16 | build-feeds.mjs | If one source fails, `Promise.all` stops the full build. | Keep the last good data for that source and show a GitHub warning. |
+| 18 | app.css | On the live site, tapping play makes the whole app jump sideways. `#app` is `overflow: hidden`, which still lets Chrome scroll it to the off-screen detail panel. | `overflow: clip`. |
+| 19 | app.js / build-feeds.mjs | The programme was typed in by hand. It missed 9 retreats that Inn Style lists, and dates go out of date. | The feed builder reads each retreat from Inn Style ("promotion" pages) each night. The app uses `feed.json` and keeps a built-in copy as a fallback. |
+| 20 | app.js | Booking opened the Inn Style home page, and the user had to select everything again. Retreat prices were estimates from individual-stay rates. | Retreats open Inn Style at the room-and-price step, with the dates and guests filled in (`/enquiries/<id>?start_date=…&nights=…`). The app shows no estimate for retreats. Inn Style shows the real price. |
+| 21 | app.js | Gift vouchers and "Play on YouTube" opened outside the app. | Gift vouchers open in the in-app browser. "Play on YouTube" shows only where the player cannot run. |
 | 17 | feeds.yml | `actions/deploy-pages` needs `environment: github-pages`. Without it, the deploy step fails. Code changes deploy only at 04:00. | Add the environment, `configure-pages`, `concurrency` and a `push` trigger. |
 
 ## B. Flaws not fixed (decisions for Hark and KFT)
 
 1. **The app does not use `feed.json`.** All content is hard-coded in `app.js`. The nightly feed is built and cached, but the app does not read it. This is the most important next step.
-2. **In-app browser fallback does not work.** Browsers fire the iframe `load` event also when a site blocks framing (`X-Frame-Options` / `frame-ancestors`). Thus the "This page can't be shown" message almost never appears. The user sees a blank or "refused to connect" page. Use a list of hosts that allow framing (Inn Style). Open other hosts in a new tab.
-3. **Booking data is not sent to Inn Style.** The user selects dates, room and guests, but Inn Style opens on its home page. Find out if Inn Style accepts dates in the URL.
-4. **Retreat estimates use individual-stay rates** (also in the README). Do not show a price for retreats until retreat prices are known.
+2. **In-app browser on iPhone.** All linked sites (Store, Donate, articles, Inn Style) load in the frame in desktop Chrome (tested 16 Nov). The fallback message cannot detect a blocked frame, because browsers fire `load` also then. The real risk is iPhone Safari: it blocks cookies in frames from other sites, so the Inn Style booking and the store basket can lose their session. Test on an iPhone. In a native build, open these pages as full pages in a WebView, not in a frame.
+3. **Individual stays cannot be deep-linked.** Inn Style's calendar uses a session form (POST), so the app opens the calendar and the user selects the dates again. Ask Inn Style for a link format or an API. Room type cannot be passed for retreats either.
+4. **Inn Style data errors.** The Inn Style list page shows "7 – 1 May" for the Group Retreat in May 2027. The booking form says 7 May for 4 nights (7–11 May). Ask the Centre to correct the text.
 5. **No saved state.** Playback position, "Save" and "Downloaded" are lost on reload. "Continue listening" only works in one session. Store these in `localStorage` (prototype) or on the device (native).
 6. **Hard-coded text.** The passage, share text, programme, rates, closure dates and phone number are in `app.js`. Rates and dates will go out of date.
 7. **Focus management.** Sheets and the detail view do not move focus or keep focus inside. A screen-reader pass is necessary (README item 6).

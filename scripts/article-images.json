@@ -1,0 +1,11 @@
+{
+  "note": "kfoundation.org images the app shows (Read tab articles in public/js/app.js). build-feeds.mjs mirrors each into public/data/img/ (≤400 px wide); public/data/img/images.json maps source URL -> local path. Add a URL here when the app shows a new kfoundation.org image.",
+  "images": [
+    "https://kfoundation.org/wp-content/uploads/2022/07/black-and-white-photo-portrait-of-j-krishnamurti-on-a-dark-background-looking-at-the-camera.jpg",
+    "https://kfoundation.org/wp-content/uploads/2022/07/black-and-white-photograph-of-j-krishnamurti-with-trees-in-the-background-looking-to-right.jpg",
+    "https://kfoundation.org/wp-content/uploads/2022/07/black-and-white-photograph-of-j-krishnamurti-looking-down-left-with-leaves-background.jpg",
+    "https://kfoundation.org/wp-content/uploads/2022/07/black-and-white-photograph-of-j-krishnamurti-in-indian-clothes-looking-to-right.jpg",
+    "https://kfoundation.org/wp-content/uploads/2023/09/K-on-AI-Square.jpg",
+    "https://kfoundation.org/wp-content/uploads/2022/07/colour-photograph-of-j-krishnamurti-looking-at-the-branches-of-a-tree.jpg"
+  ]
+}

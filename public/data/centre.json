@@ -1,0 +1,26 @@
+{
+  "source": "https://krishnamurticentre.org.uk/booking/",
+  "checked": "2026-11-16",
+  "note": "Edit this file when the Centre's rates or dates change. The app reads it at start; the copy inside app.js is only an offline fallback.",
+  "rooms": [
+    { "id": "standard", "name": "Standard", "weekday": 100, "weekend": 110, "week": 612, "sleeps": 1 },
+    { "id": "large", "name": "Large", "weekday": 115, "weekend": 125, "week": 702, "sleeps": 1 },
+    { "id": "flat", "name": "Flat", "weekday": 150, "weekend": 170, "week": 927, "sleeps": 2 }
+  ],
+  "reduced": { "weekday": 80, "weekend": 90, "rooms": 3 },
+  "dayVisits": [
+    { "label": "With lunch", "price": 20 },
+    { "label": "With supper", "price": 15 },
+    { "label": "Lunch and supper", "price": 35 },
+    { "label": "Study facilities only", "price": 0 }
+  ],
+  "deposit": 100,
+  "closures": [{ "from": "2027-01-04", "reopen": "2027-02-12" }],
+  "minNights": 2,
+  "maxNights": 14,
+  "adultsOnly": true,
+  "checkIn": "11:00",
+  "checkOut": "10:00",
+  "phone": { "display": "+44 (0)1962 771748", "tel": "+441962771748" },
+  "email": "info@krishnamurticentre.org.uk"
+}

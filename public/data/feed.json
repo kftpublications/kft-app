@@ -1,329 +1,213 @@
 {
-  "generatedAt": "2026-11-16T22:07:16.893Z",
+  "version": 2,
+  "generatedAt": "2026-11-16T23:39:22.091Z",
+  "files": {
+    "podcasts/uoc.json": {
+      "v": "d8aed06cb9",
+      "bytes": 730588,
+      "n": 305
+    },
+    "podcasts/collection.json": {
+      "v": "7fc6966984",
+      "bytes": 906664,
+      "n": 300
+    },
+    "videos/kft/index.json": {
+      "v": "186cd59439",
+      "bytes": 44240,
+      "n": 259
+    },
+    "videos/kft/playlists.json": {
+      "v": "beacdc4dcd",
+      "bytes": 617,
+      "n": 2
+    },
+    "videos/kft/descriptions.json": {
+      "v": "26eb7cf0fa",
+      "bytes": 31399,
+      "n": 35
+    },
+    "videos/official/index.json": {
+      "v": "c22e2375e2",
+      "bytes": 83837,
+      "n": 420
+    },
+    "videos/official/playlists.json": {
+      "v": "87b0b3d58b",
+      "bytes": 3983,
+      "n": 12
+    },
+    "videos/official/descriptions.json": {
+      "v": "ab137c392e",
+      "bytes": 87028,
+      "n": 129
+    },
+    "videos/other/index.json": {
+      "v": "5ce29b019c",
+      "bytes": 133,
+      "n": 0
+    },
+    "videos/other/playlists.json": {
+      "v": "b64ae29e0d",
+      "bytes": 57,
+      "n": 0
+    },
+    "videos/other/descriptions.json": {
+      "v": "0ad793cc7f",
+      "bytes": 50,
+      "n": 0
+    },
+    "archive/index.json": {
+      "v": "47a3eec58e",
+      "bytes": 434457,
+      "n": 3326
+    },
+    "matches.json": {
+      "v": "e45c263d72",
+      "bytes": 24673,
+      "n": 126
+    },
+    "search.json": {
+      "v": "b27e99ba78",
+      "bytes": 431832,
+      "n": 4677
+    }
+  },
+  "counts": {
+    "uoc": 305,
+    "collection": 300,
+    "kft": 259,
+    "kftShorts": 12,
+    "official": 420,
+    "other": 0,
+    "archive": 3326,
+    "archiveWithVideo": 540,
+    "matches": 126
+  },
   "podcasts": {
     "urgencyOfChange": {
       "title": "Urgency of Change • The Krishnamurti Podcast",
       "image": "https://pbcdn1.podbean.com/imglogo/image-logo/5956680/Podcast-Cover-Art-2025-m.jpg",
       "episodes": [
         {
+          "key": "u305",
+          "id": "krishnamurti.podbean.com/c87f6df3-c1e4-3d00-82e8-f519a41ef7fc",
+          "number": 305,
           "title": "Krishnamurti on Non-violence",
           "date": "2026-11-04T05:30:00.000Z",
           "durationSec": 3760,
           "audioUrl": "https://mcdn.podbean.com/mf/web/mem663c8gp5z2b85/305_Urgency_of_Change8x1gp.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-non-violence/",
-          "description": "‘I am violent. I project an idea of non-violence, and hope the pursuit of non-violence will help me to be free of violence. In the pursuit of non-violence I am still being violent.’ This episode on Non-violence has four sections. The first extract (2:36) is from Krishnamurti’s first talk at Rajghat 1963, and is titled: The Fiction of Non-violence The second extract (14:06) is from the third discussion at Brockwood Park School in 1983, and is titled: The Violent Pursuit of Non-violence. The third extract (31:51) is from Krishnamurti’s second talk in Ojai 1983, and is titled: Ending Violence Com"
+          "description": "‘I am violent. I project an idea of non-violence, and hope the pursuit of non-violence will help me to be free of violence. In the pursuit of non-violence I am still being violent.’\n\nThis episode on Non-violence has four sections.\n\nThe first extract (2:36) is from Krishnamurti’s…",
+          "theme": "Non-violence"
         },
         {
+          "key": "u304",
+          "id": "krishnamurti.podbean.com/b3d407db-7986-38d5-a219-4924f9c2b2a4",
+          "number": 304,
           "title": "Krishnamurti on Ignorance",
           "date": "2026-10-17T08:28:00.000Z",
           "durationSec": 4611,
           "audioUrl": "https://mcdn.podbean.com/mf/web/i87a4es4jsisqmbm/304_Urgency_of_Change92ycd.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-ignorance/",
-          "description": "‘Knowledge can never be whole, can never be complete, total. Therefore in it there is ignorance.’ This episode on Ignorance has four sections. The first extract (2:28) is from Krishnamurti’s first talk in Bombay 1969, and is titled: What Is Ignorance? The second extract (25:31) is from the sixth talk in Saanen 1979, and is titled:In Knowledge Is Ignorance. The third extract (50:17) is from Krishnamurti’s sixth talk in New York 1968, and is titled The Sorrow of Ignorance. The final extract in this episode (1:00:24) is from the second talk in Saanen 1962, and is titled: Ignorance and Innocence. "
+          "description": "‘Knowledge can never be whole, can never be complete, total. Therefore in it there is ignorance.’\n\nThis episode on Ignorance has four sections.\n\nThe first extract (2:28) is from Krishnamurti’s first talk in Bombay 1969, and is titled: What Is Ignorance?\n\nThe second extract…",
+          "theme": "Ignorance"
         },
         {
+          "key": "u303",
+          "id": "krishnamurti.podbean.com/59f5db9e-bf50-3140-9dad-a9b10544f2a3",
+          "number": 303,
           "title": "Krishnamurti on The Timeless and The Eternal",
           "date": "2026-10-07T04:30:00.000Z",
           "durationSec": 4099,
           "audioUrl": "https://mcdn.podbean.com/mf/web/ck5y252kahpzbybp/303_Urgency_of_Changebt47t.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-the-timeless-and-the-eternal/",
-          "description": "‘Can you discover something which is not of time, which is eternal, something which is not put together by thought?’ This episode on The Timeless and the Eternal has three sections. The first extract (2:30) is from Krishnamurti’s tenth talk in Ojai 1949, and is titled: We Cannot Think About the Timeless. The second extract (20:58) is from the tenth talk in Saanen 1964, and is titled: One Must Be Free of Influence To Discover the Eternal. The final extract in this episode (45:43) is from Krishnamurti’s third talk in New York 1972, and is titled: Something Untouched by Death. The Krishnamurti Po"
+          "description": "‘Can you discover something which is not of time, which is eternal, something which is not put together by thought?’\n\nThis episode on The Timeless and the Eternal has three sections.\n\nThe first extract (2:30) is from Krishnamurti’s tenth talk in Ojai 1949, and is titled: We…",
+          "theme": "The Timeless and The Eternal"
         },
         {
+          "key": "u302",
+          "id": "krishnamurti.podbean.com/090649e0-5be0-31c5-99f0-3384480e6ca9",
+          "number": 302,
           "title": "Krishnamurti on Choiceless Awareness",
           "date": "2026-09-23T04:30:00.000Z",
           "durationSec": 3821,
           "audioUrl": "https://mcdn.podbean.com/mf/web/fiervt6fsfxue3xf/302_Urgency_of_Change8p709.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-choiceless-awareness/",
-          "description": "‘Choiceless awareness is a state of mind that sees what actually is taking place, factually, without any condemnation or justification.’ This episode on Choiceless Awareness has three sections. The first extract (2:43) is from Krishnamurti’s first talk in New Delhi 1967, and is titled: Choiceless Awareness in Everyday Life. The second extract (15:06) is from the first question and answer meeting in Saanen 1984, and is titled: Choiceless Awareness Ends the Brain’s Recording. The final extract in this episode (30:40) is from Krishnamurti’s fifth talk in Amsterdam 1968, and is titled: Awareness o"
+          "description": "‘Choiceless awareness is a state of mind that sees what actually is taking place, factually, without any condemnation or justification.’\n\nThis episode on Choiceless Awareness has three sections.\n\nThe first extract (2:43) is from Krishnamurti’s first talk in New Delhi 1967, and…",
+          "theme": "Choiceless Awareness"
         },
         {
+          "key": "u301",
+          "id": "krishnamurti.podbean.com/ea81e5b2-4db6-3f4c-a98b-d89373650799",
+          "number": 301,
           "title": "Krishnamurti on Concepts",
           "date": "2026-09-09T04:30:00.000Z",
           "durationSec": 4249,
           "audioUrl": "https://mcdn.podbean.com/mf/web/56d6igmzgtkdzwqw/301_Urgency_of_Changebwfb8.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-concepts/",
-          "description": "‘We have built a conceptual world, a world based on ideas, a world based on a philosophy which is essentially material.’ This episode on Concepts has three sections. The first extract (2:25) is from the fifth talk in Madras 1980, and is titled: Why Do We Live On Concepts? The second extract (31:32) is from Krishnamurti’s sixth talk in Saanen 1974, and is titled: Is There Security in Concepts? The final extract in this episode (50:24) is from the first talk in Amsterdam 1967, and is titled: Seeing Without Concepts. The Krishnamurti Podcast features carefully selected extracts from his talks. Ea"
+          "description": "‘We have built a conceptual world, a world based on ideas, a world based on a philosophy which is essentially material.’\n\nThis episode on Concepts has three sections.\n\nThe first extract (2:25) is from the fifth talk in Madras 1980, and is titled: Why Do We Live On Concepts?\n\nThe…",
+          "theme": "Concepts"
         },
         {
+          "key": "u300",
+          "id": "krishnamurti.podbean.com/974c70d8-2295-3ebc-afac-626727a41116",
+          "number": 300,
           "title": "Krishnamurti on Harmony",
           "date": "2026-08-12T04:30:00.000Z",
           "durationSec": 4331,
           "audioUrl": "https://mcdn.podbean.com/mf/web/hcubs428unude9t2/300_Urgency_of_Changebjg0o.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-harmony/",
-          "description": "‘Harmony is stillness, a harmony between the body, the heart and the mind – complete harmony. This episode on Harmony has four sections. The first extract (2:30) is from the third discussion in Saanen 1971, and is titled: What Is Harmony? The second extract (17:43) is from Krishnamurti’s seventh talk in Saanen 1972, and is titled: Insight Brings Harmony. The third extract (49:29) is from the seventh talk in Saanen 1971, and is titled: Complete Harmony. The final extract in this episode (1:02:13) is from Krishnamurti’s talk in Rome 1972, and is titled: Meditation Comes Only to a Harmonious Life"
+          "description": "‘Harmony is stillness, a harmony between the body, the heart and the mind – complete harmony.\n\nThis episode on Harmony has four sections.\n\nThe first extract (2:30) is from the third discussion in Saanen 1971, and is titled: What Is Harmony?\n\nThe second extract (17:43) is from…",
+          "theme": "Harmony"
         },
         {
+          "key": "u299",
+          "id": "krishnamurti.podbean.com/f913e5b7-1be6-3226-ae14-a64fba4184eb",
+          "number": 299,
           "title": "Krishnamurti on Detachment",
           "date": "2026-07-29T04:30:00.000Z",
           "durationSec": 3854,
           "audioUrl": "https://mcdn.podbean.com/mf/web/cpunkrbzb7t3tcgv/299_Urgency_of_Change6c50s.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurtj-on-detachment/",
-          "description": "‘In the process of attachment, there is pain. To avoid that pain, we try to cultivate detachment. And so we keep up this circle, which is always painful.’ This episode on Detachment has three sections. The first extract (2:42) is from Krishnamurti’s fifth talk in Saanen 1982, and is titled: Detachment Is Just an Idea. The second extract (21:35) is from the first talk in Bangalore 1971, and is titled: The Pursuit of Detachment. The final extract in this episode (43:21) is from the first talk in Ojai 1949, and is titled: Where There Is Love, There Is No Question of Attachment or Detachment. The "
+          "description": "‘In the process of attachment, there is pain. To avoid that pain, we try to cultivate detachment. And so we keep up this circle, which is always painful.’\n\nThis episode on Detachment has three sections.\n\nThe first extract (2:42) is from Krishnamurti’s fifth talk in Saanen 1982,…",
+          "theme": "Detachment"
         },
         {
+          "key": "u298",
+          "id": "krishnamurti.podbean.com/c2e1599b-9867-341e-9495-5c2adee6dfcb",
+          "number": 298,
           "title": "Krishnamurti on Children",
           "date": "2026-07-15T04:30:00.000Z",
           "durationSec": 4302,
           "audioUrl": "https://mcdn.podbean.com/mf/web/87x95urri23xyabd/298_Urgency_of_Change88ek9.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-children/",
-          "description": "‘If you’re concerned about your own children, what is your responsibility? Amusement? Entertainment? Pleasure? That seems to be the road that everyone is following.’ This episode on Children has four sections. The first extract (2:45) is from Krishnamurti’s second discussion with teachers in Ojai 1977, and is titled: Our Responsibility to Children. The second extract (20:10) is from the third discussion with teachers in Ojai 1975, and is titled: Can Children Live Without Conflict? The third extract (47:58) is from Krishnamurti’s eighth discussion with teachers in Ojai 1983, and is titled: What"
+          "description": "‘If you’re concerned about your own children, what is your responsibility? Amusement? Entertainment? Pleasure? That seems to be the road that everyone is following.’\n\nThis episode on Children has four sections.\n\nThe first extract (2:45) is from Krishnamurti’s second discussion…",
+          "theme": "Children"
         },
         {
+          "key": "u297",
+          "id": "krishnamurti.podbean.com/17d225d0-d1af-373f-90a7-67e25ca1e72b",
+          "number": 297,
           "title": "Krishnamurti on Activism and Social Change",
           "date": "2026-07-01T04:30:00.000Z",
           "durationSec": 4227,
           "audioUrl": "https://mcdn.podbean.com/mf/web/uus62is7s7ye75h8/297_Urgency_of_Change9e1hf.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-activism-and-social-change/",
-          "description": "‘We are always talking about outward change in the social structure, either through violence or through peaceful means. The problem is much deeper than mere social change.’ This episode on Activism & Social Change has three sections. The first extract (2:48) is from the third discussion with young adults in Saanen 1968, and is titled: Where Should Change Begin? The second extract (24:20) is from Krishnamurti’s first talk in Rome 1968, and is titled Can We Change the Social Order? The final extract in this episode (57:55) is from the first talk in New York 1971, and is titled: You Are Totally R"
+          "description": "‘We are always talking about outward change in the social structure, either through violence or through peaceful means. The problem is much deeper than mere social change.’\n\nThis episode on Activism & Social Change has three sections.\n\nThe first extract (2:48) is from the third…",
+          "theme": "Activism and Social Change"
         },
         {
+          "key": "u296",
+          "id": "krishnamurti.podbean.com/47138c84-5831-36c5-87a7-07df92fc38c4",
+          "number": 296,
           "title": "Krishnamurti on Sanity",
           "date": "2026-06-17T04:30:00.000Z",
           "durationSec": 4561,
           "audioUrl": "https://mcdn.podbean.com/mf/web/a6igmqey9wafi7pq/296_Urgency_of_Change7ewya.mp3",
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-sanity/",
-          "description": "‘One of the indications of sanity is that there is no contradiction within oneself, no imbalance, where thought and action correspond to each other.’ This episode on Sanity has four sections. The first extract (2:36) is from Krishnamurti’s first talk in Madras 1977, and is titled: Sanity in Observation and Communication. The second extract (18:07) is from the second talk in Santa Monica 1972, and is titled: Sane Action in an Insane World. The third extract (55:23) is from Krishnamurti’s fourth talk in Paris 1965, and is titled: Sanity and Virtue Go Together. The final extract in this episode ("
-        },
-        {
-          "title": "Krishnamurti on Challenge",
-          "date": "2026-05-29T07:28:50.000Z",
-          "durationSec": 4172,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/2qk4fcivf2tzdt55/295_Urgency_of_Changeac7mv.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-challenge/",
-          "description": "‘When the response is equal to the challenge, there is harmony, there is integration between challenge and response.’ This episode on Challenge has four sections. The first extract (2:45) is from Krishnamurti’s first talk at Brockwood Park in 1978, and is titled: Challenging Ourselves Deeply. The second extract (33:41) is from the eleventh talk in Ojai 1949, and is titled: Meeting a Challenge Adequately. The third extract (44:42) is from the question and answer meeting at Rajghat in 1964, and is titled: Are Challenges Needed? The final extract in this episode (51:58) is from the second talk in"
-        },
-        {
-          "title": "Krishnamurti on The Past",
-          "date": "2026-05-20T06:29:52.000Z",
-          "durationSec": 4553,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/fssitnidrjnrni9e/294_Urgency_of_Change9ev80.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-the-past/",
-          "description": "‘The past is always overshadowing the present, the past memories, the pleasures, the flattery or insults. The past touches the present and gives it a twist. This episode on The Past has three sections. The first extract (2:49) is from Krishnamurti’s second talk in New Delhi 1962, and is titled ‘Can the Past Be Dissolved?’ The second extract (26:13) is from the first talk in New York 1971, and is titled ‘The Movement of the Past.’ The final extract in this episode (55:43) is from Krishnamurti’s sixth talk in Saanen 1967, and is titled ‘The Observer Is the Past’. The Krishnamurti Podcast feature"
-        },
-        {
-          "title": "Krishnamurti on Competition",
-          "date": "2026-05-06T04:30:00.000Z",
-          "durationSec": 3492,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/ein92ekj8fjs248c/293_Urgency_of_Change7y0m8.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-competition/",
-          "description": "‘When you are constantly in struggle, constantly in conflict, constantly competitive, you must inevitably wear yourself out, both psychologically and physically.’ This episode on Competition has four sections. The first extract (2:48) is from Krishnamurti’s third talk at Rajghat in 1963, and is titled ‘Can We Live Happily in This Competitive World?’ The second extract (11:42) is from the fourth question and answer meeting in Ojai 1980, and is titled ‘Why Are We Competitive?’ The third extract (25:05) is from Krishnamurti’s third talk in Paris 1961, and is titled ‘Competition and Conflict’. The"
-        },
-        {
-          "title": "Krishnamurti on Art",
-          "date": "2026-04-22T04:30:00.000Z",
-          "durationSec": 3964,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/y6mg5erqwjbp3yam/292_Urgency_of_Change9dh4y.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-art/",
-          "description": "‘The greatest art is the art of living – not the paintings, the sculptures, the poems, the marvellous literature. That has its place, but to find out the art of living is the greatest art.’ This episode on Art has four sections. The first extract (2:40) is from the second question and answer meeting in Saanen 1984, and is titled: Is Art the Product of Thought? The second extract (28:12) is from Krishnamurti’s eighth talk in Ojai 1949, and is titled: Art and Sensitivity. The third extract (39:14) is from the first question and answer meeting in Ojai 1983, and is titled: What Is the Role of the "
-        },
-        {
-          "title": "Krishnamurti on Behaviour",
-          "date": "2026-04-08T04:30:00.000Z",
-          "durationSec": 4497,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/wqwngc8tnqsaem7h/291_Urgency_of_Change8nzkt.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-behaviour/",
-          "description": "‘Behaviour, conduct, is very important in life. And man has lived on this earth, I don't know how many millions of years, and yet he has not learnt how to behave.’ This episode on Behaviour has four sections. The first extract (2:49) is from Krishnamurti’s second talk at Rishi Valley in 1967, and is titled: Is There a Code of Behaviour? The second extract (27:36) is from the second discussion at Brockwood Park School in 1978, and is titled: Is There a Common Criteria for Right Behaviour? The third extract (41:04) is from Krishnamurti’s second talk in Bangalore 1974, and is titled: Non-mechanic"
-        },
-        {
-          "title": "Krishnamurti on Flowering",
-          "date": "2026-03-25T05:30:00.000Z",
-          "durationSec": 4565,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/427pknge6j7r2a2v/290_Urgency_of_Changebphj6.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-flowering/",
-          "description": "‘We are not talking about revolt but rather of a complete flowering of human goodness, which can alone produce a good, creative society.’ This episode on Flowering has four sections. The first extract (2:46) is from Krishnamurti’s fourth talk in Saanen 1965, and is titled ‘Goodness Only Flowers in Freedom’. The second extract (23:45) is from the fourth discussion at Brockwood Park School in 1982, and is titled ‘A Soil in Which Goodness Can Flower’. The third extract (47:09) is from Krishnamurti’s fourth talk in Madras 1973, and is titled ‘Letting the Past Flower in the Present’. The final extr"
-        },
-        {
-          "title": "Krishnamurti on Communication",
-          "date": "2026-03-11T05:30:00.000Z",
-          "durationSec": 4678,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/b3m6pkiq6887v36n/289_Urgency_of_Changeaic9i.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-communication/",
-          "description": "‘To communicate, you and I must be not only intense but meet at the same level, with the same intensity, at the same moment. Otherwise communication ceases.’ This episode on Communication has four sections. The first extract (2:46) is from Krishnamurti’s first talk in Saanen 1965, and is titled ‘Communication Is a Two-way Process’. The second extract (13:48) is from the second talk at Rajghat in 1964, and is titled ‘Communication and Communion’. The third extract (37:34) is from Krishnamurti’s sixth talk in Bombay 1965, and is titled ‘Communication Requires Sensitivity’. The final extract in t"
-        },
-        {
-          "title": "Krishnamurti on Suffering",
-          "date": "2026-02-25T05:30:00.000Z",
-          "durationSec": 4234,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/yqnxfw6jp7zbyem9/288_Urgency_of_Changea3bhg.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-suffering/",
-          "description": "‘We want suffering to be diluted, alleviated, put away, explained away. But that doesn't help us to understand suffering.’ This episode on Suffering has four sections. The first extract (2:33) is from Krishnamurti’s second talk in Saanen 1975, and is titled: Vast Human Suffering. The second extract (19:02) is from the third talk at Brockwood Park in 1974, and is titled: Understanding Suffering. The third extract (37:00) is from Krishnamurti’s fifth talk in Saanen 1977, and is titled: An Insight Into Suffering. The final extract in this episode (55:54) is from the twelfth talk. in Ojai 1949, an"
-        },
-        {
-          "title": "Krishnamurti on Discovery",
-          "date": "2026-02-11T05:30:00.000Z",
-          "durationSec": 3986,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/mvh8akw2c9ri7vpx/287_Urgency_of_Change7tn3h.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-discovery/",
-          "description": "‘It is one of the most marvellous things in life to discover something unexpectedly, spontaneously, without premeditation, without preparing; to come upon something instantly and see the beauty of it, the sacredness of it, the reality of it.’ This episode on Discovery has three sections. The first extract (2:53) is from Krishnamurti’s third talk at Brockwood Park in 1970, and is titled: Discovering Our Conditioning. The second extract (27:54) is from the second talk in Saanen 1967, and is titled: Discovery Brings About Energy. The third and final extract in this episode (53:56) is from Krishna"
-        },
-        {
-          "title": "Krishnamurti on The Structure of Society",
-          "date": "2026-01-28T05:30:00.000Z",
-          "durationSec": 4346,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/b9cgsaiq5zspf5px/286_Urgency_of_Changebkfbl.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-the-structure-of-society/",
-          "description": "‘You can only be spiritual when you destroy the social structure of your being, which is, the world in which you live, the world of ambition, greed, envy and seeking power.’ This episode on The Structure of Society has two sections. The first extract (2:51) is from Krishnamurti’s first talk in Bombay 1962, and is titled: The Nature of Society. The second and final extract in this episode (39:05) is from the first talk in London 1962, and is titled: Destroying the Psychological Structure of Society. The Krishnamurti Podcast features carefully selected extracts from Krishnamurti’s recorded talks"
-        },
-        {
-          "title": "Krishnamurti on Holism",
-          "date": "2026-01-14T05:30:00.000Z",
-          "durationSec": 4566,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/i6sjcru5if4wbkkw/285_Urgency_of_Change75cry.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-holism/",
-          "description": "‘To perceive something holistically, that is to perceive without time, is to have a mind that is global – to see humanity as a whole.’ This episode on Holism has five sections. The first extract (2:44) is from Krishnamurti’s sixth talk in Saanen 1977, and is titled: Seeing Holistically. The second extract (26:58) is from the first seminar meeting at Rishi Valley in 1983, and is titled: Holistic Education. The third extract (42:21) is from the first question & answer meeting in Ojai 1981, and is titled: Holistic Perception. The fourth extract (55:46) is from Krishnamurti’s sixth talk in Ojai 19"
-        },
-        {
-          "title": "Krishnamurti on Despair",
-          "date": "2025-12-31T05:30:00.000Z",
-          "durationSec": 4576,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/963a6kqh7ab9ik4j/284_Urgency_of_Change8id7a.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-despair/",
-          "description": "‘There is the sense of inward frustration, the sense of hopeless despair without an end. Perhaps most people are not aware of it, or if they are, they avoid it. But it is there. So what is one to do?’ This episode on Despair has four sections. The first extract (2:42) is from Krishnamurti’s third talk in Ojai 1973, and is titled: Despair, Hope and Belief. The second extract (14:20) is from the second talk in Saanen 1962, and is titled: The Source of Despair. The third extract (48:08) is from Krishnamurti’s fourth talk in Ojai 1949, and is titled: Facing Despair. The final extract in this episo"
-        },
-        {
-          "title": "Krishnamurti on Science",
-          "date": "2025-12-17T05:30:00.000Z",
-          "durationSec": 4175,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/2fptsc8u227s3y9b/283_Urgency_of_Changebg3wb.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-science/",
-          "description": "‘As long as science is the activity of a separate group or nation, which is tribal activity, such knowledge can only bring about greater conflict, greater havoc in the world – which is what is happening now.’ This episode on Science has three sections. The first extract (2:46) is from the first small group discussion in New Delhi 1981, and is titled: Scientists Have Not Helped Me. The second extract (13:01) is from the first talk at Los Alamos in 1984, and is titled: Creativity in Science. The third and final extract in this episode (59:57) is from a direct recording in Ojai 1984, and is title"
-        },
-        {
-          "title": "Krishnamurti on Vulnerability",
-          "date": "2025-12-03T05:30:00.000Z",
-          "durationSec": 3873,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/si49i2a9iuqwr5g3/282_Urgency_of_Changeaudta.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-vulnerability/",
-          "description": "‘Only a mind that is vulnerable is capable of affection and love, not a mind that is jealous, possessive or dominating.’ This episode on Vulnerability has three sections. The first extract (2:46) is from the second public discussion in Saanen 1965, and is titled: Vulnerability & Sensitivity. The second extract (22:06) is from a direct recording in Ojai 1983, and is titled: We Lose Vulnerability in This World of Noise. The third and final extract (37:57) in this episode is from the sixth talk in Saanen 1966, and is titled: Pretension, Innocence & Vulnerability. The Krishnamurti Podcast features"
-        },
-        {
-          "title": "Krishnamurti on Civilisation",
-          "date": "2025-11-19T05:30:00.000Z",
-          "durationSec": 5122,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/29mwkpg7b4a4thx3/281_Urgency_of_Change6nc8h.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-civilisation/",
-          "description": "‘Trapped in this peculiar culture and civilisation, how am I to fundamentally change, and what is involved in this change?’ This episode on Civilisation has three sections. The first extract (2:42) is from Krishnamurti’s second talk in Saanen 1973, and is titled: Civilisation Conditions Us. The second extract (40:51) is from the second small group discussion in Rome 1972, and is titled: Western Civilisation Is Based on Measurement. The final extract in this episode (48:30) is from Krishnamurti’s third talk in Saanen 1973, and is titled: Freedom from the Conditioning of Civilisation. The Krishn"
-        },
-        {
-          "title": "Krishnamurti on Goodness & Generosity",
-          "date": "2025-11-05T05:30:00.000Z",
-          "durationSec": 4541,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/irxxvgjds3f5fxue/280_Urgency_of_Change93jpo.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-goodness-generosity/",
-          "description": "‘Religion means to live daily life in goodness – goodness being compassionate, kind, generous.’ This episode on Goodness & Generosity has five sections. The first extract (2:35) is from Krishnamurti’s third talk in Rishi Valley 1973, and is titled: Educating Children to Flower in Goodness. The second extract (22:12) is from the first talk in Ojai 1979, and is titled: Is Goodness Possible in This World? The third extract (52:22) is from the fourth discussion at Brockwood Park School in 1982, and is titled: You Can’t Be Generous Without Love. The fourth extract (58:43) is from the seventh talk i"
-        },
-        {
-          "title": "Krishnamurti on Drugs",
-          "date": "2025-10-22T04:30:00.000Z",
-          "durationSec": 3878,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/3mx8a9s4d5v3itki/279_Urgency_of_Change7arac.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-drugs/",
-          "description": "‘Drugs don't alter your boredom, a drug doesn't end your sorrow. You may escape for the time being, but there is still sorrow.’ This episode on Drugs has six sections. The first extract (2:42) is from Krishnamurti’s first talk in Amsterdam 1971, and is titled: Why Do You Take Drugs? The second extract (8:39) is from a discussion with students in Ojai 1966, and is titled: Taking Drugs Is Nothing New. The third extract (17:24) is from Krishnamurti’s fourth talk at Brockwood Park in 1971, and is titled: Can Drugs Reveal the Whole of Consciousness? The fourth extract (28:32) is from Krishnamurti’s"
-        },
-        {
-          "title": "Krishnamurti on Maturity",
-          "date": "2025-10-08T04:30:00.000Z",
-          "durationSec": 4013,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/g6gfh84u39gdumsb/278_Urgency_of_Change9qae6.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-maturity/",
-          "description": "‘Maturity comes not with age or having a degree. That is not maturity. Maturity is a state of mind and heart.’ This episode on Maturity has five sections. The first extract (2:41) is from Krishnamurti’s sixth talk in Bombay 1962, and is titled: What is Maturity? The second extract (21:42) is from the fourth talk at Rishi Valley in 1965, and is titled: The Slowly Maturing Mind. The third extract (37:18) is from the second discussion with staff at Brockwood Park in 1974, and is titled: Maturing Endlessly. The fourth extract (45:16) is from Krishnamurti’s sixth public talk in Saanen 1962, and is "
-        },
-        {
-          "title": "Krishnamurti on Politics",
-          "date": "2025-09-24T04:30:00.000Z",
-          "durationSec": 4596,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/4292t2mwdyijk2b2/277_Urgency_of_Change81pnm.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-politics/",
-          "description": "‘We need political, religious, social and psychological change, deep down at the very roots. How is this to be brought about, and where do we begin?’ This episode on Politics has six sections. The first extract (2:48) is from the third discussion with young people in Saanen 1968, and is titled: Does Change Begin Politically? The second extract (15:48) is from the fourth question and answer meeting in Ojai 1982, and is titled: Political Action. The third extract (34:41) is from a radio interview at Brockwood Park in 1980, and is titled: The Involvement of Religion in Politics. The fourth extrac"
-        },
-        {
-          "title": "Krishnamurti on Stillness",
-          "date": "2025-09-10T04:30:00.000Z",
-          "durationSec": 4889,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/v82twgysvhvqgq2q/276_Urgency_of_Changebadhy.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-stillness/",
-          "description": "‘There is a stillness which is not dependent on anything. It is only that quality of stillness, that absolute silence of the mind that can see the eternal, timeless, nameless.’ This episode on Stillness has six sections. The first extract (2:36) is from the fourth small group discussion at Brockwood Park in 1973, and is titled: Does Controlling the Mind Lead to Stillness? The second extract (24:07) is from the seventh discussion in Saanen 1969, and is titled: Stillness Cannot Be Induced. The third extract (35:38) is from Krishnamurti’s eighth talk in Paris 1961, and is titled: In Stillness Com"
-        },
-        {
-          "title": "Krishnamurti on Awakening Intelligence",
-          "date": "2025-08-13T04:30:00.000Z",
-          "durationSec": 3948,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/vkahn2azjdhmfj6v/275_Urgency_of_Change8ubuv.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-awakening-intelligence/",
-          "description": "‘In the awakening of intelligence is the beginning of total happy security of human beings. Nowhere else will you have security except in that.’ This episode on Awakening has four sections. The first extract (2:19) is from the second question and answer meeting in Saanen 1981, and is titled: Intelligence Cannot Be Cultivated. The second extract (13:12) is from Krishnamurti’s third talk in Saanen 1977, and is titled: The Three Essential Things in the Awakening of Intelligence. The third extract (29:10) is from the third talk in Madras 1979, and is titled: In Awakening Intelligence Is Order and "
-        },
-        {
-          "title": "Krishnamurti on The Heart",
-          "date": "2025-07-30T04:30:00.000Z",
-          "durationSec": 4160,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/va4y4ahj2mp5wgn7/274_Urgency_of_Change8kka2.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-the-heart/",
-          "description": "‘A heart that has no jealousy or envy, that knows no competition, that has no fear, that knows what it means to love – only such a heart and mind can respond to the phenomena going on in the world.’ This episode on The Heart has four sections. The first extract (2:39) is from Krishnamurti’s fourth talk in Bombay 1969, and is titled: A New Quality of Mind and Heart. The second extract (23:24) is from the third discussion in Saanen 1971, and is titled: Harmony of the Body, Heart and Mind. The third extract (34:44) is from Krishnamurti’s first talk in Madras 1964, and is titled: Giving Your Heart"
-        },
-        {
-          "title": "Krishnamurti on Organisations",
-          "date": "2025-07-16T04:30:00.000Z",
-          "durationSec": 4545,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/wmi7zc4j3nummkc2/273_Urgency_of_Changeacvsm.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-organisations/",
-          "description": "‘Organisations will never succeed in bringing about peace because human beings individually, collectively, nationally, are in conflict.’ This episode on Organisations has six sections. The first extract (2:40) is from a phonograph recording of Krishnamurti, and is titled: Truth Cannot Be Organised. The second extract (8:18) is from the first talk in Santa Monica 1971, and is titled: Organisations Have Not Solved Our Problems. The third extract (26:16) is from Krishnamurti’s talk at the United Nations in 1985, and is titled: Organisations Cannot Help Us Live Peacefully The fourth extract (48:33"
-        },
-        {
-          "title": "Krishnamurti on The Scientific Mind and the Religious Mind",
-          "date": "2025-07-01T04:30:00.000Z",
-          "durationSec": 4722,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/jpcexhtr8sqmrqis/272_Urgency_of_Change85esx.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-the-scientific-mind-and-the-religious-mind/",
-          "description": "‘The really scientific mind and the really religious mind are the only two minds that can exist now, not the superstitious, believing, temple-going, church-worshipping mind.’ This episode on The Scientific Mind and the Religious Mind has two sections. The first extract (2:47) is from Krishnamurti’s eleventh talk in London 1961, and is titled: The Scientific and Religious Spirit. The second and final extract in this episode (53:01) is from the eighth talk in Madras 1961, and is titled: The Only Two Minds That Can Now Exist. Each fortnightly episode of the Krishnamurti podcast is based on a sign"
-        },
-        {
-          "title": "Krishnamurti on Sensitivity",
-          "date": "2025-06-18T04:30:00.000Z",
-          "durationSec": 4155,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/9g4rhdz44y3wt98a/271_Urgency_of_Changeaf4cf.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-sensitivity/",
-          "description": "‘Without sensitivity there is no intelligence, and therefore no love. And where there is no love, there is no beauty.’ This episode on Sensitivity has three sections. The first extract (2:38) is from Krishnamurti’s second talk at Rajghat in 1967, and is titled: Most of Us Are Insensitive. The second extract (22:47) is from the second talk at Brockwood Park in 1969, and is titled: Extraordinary Sensitivity. The final extract in this episode (34:00) is from Krishnamurti’s eighth talk in Saanen 1963, and is titled: The Highly Sensitive Brain. Each episode of the Krishnamurti podcast is based on a"
-        },
-        {
-          "title": "Krishnamurti on Thinking",
-          "date": "2025-06-04T04:30:00.000Z",
-          "durationSec": 4758,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/q6g54vgfa5j6aui9/270_Urgency_of_Change7ng4q.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-thinking/",
-          "description": "‘Thinking is mechanical; thinking can never be free. It can be reasonable, sane and logical, but thinking can never be free.’ This episode on Thinking has three sections. The first extract (2:30) is from Krishnamurti’s first talk at Rajghat in 1985, and is titled: What Is Thinking? The second extract (37:36) is from the first talk in Saanen 1982, and is titled: Is Thinking Individual? The final extract in this episode (1:03:50) is from Krishnamurti’s seventh talk in Saanen 1961, and is titled: Positive and Negative Thinking. Each episode of the Krishnamurti podcast is based on a significant th"
-        },
-        {
-          "title": "Krishnamurti on Respectability",
-          "date": "2025-05-21T04:30:00.000Z",
-          "durationSec": 4608,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/xmvq4xvq4kc5fe6k/269_Urgency_of_Changeb84ba.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-respectability/",
-          "description": "‘The flowering of goodness can never take place when the mind is respectable, when the mind is conforming to a pattern – the social pattern, an ideological pattern or a religious pattern.’ This episode on Respectability has two sections. The first extract (2:45) is from Krishnamurti’s fourth talk in Bombay 1965, and is titled: The Framework of Respectability. The second and final extract (45:54) in this episode is from the sixth talk in London 1961, and is titled: Respectability and Conditioning. Each episode of the Krishnamurti podcast is based on a significant theme of his talks. Extracts fr"
-        },
-        {
-          "title": "Krishnamurti on Movement",
-          "date": "2025-05-07T04:30:00.000Z",
-          "durationSec": 4366,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/nyg8scebhtkahbsz/268_Urgency_of_Changeblai1.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-movement/",
-          "description": "‘Thought is a material process, a movement. When there is no movement, there something totally original, totally untouched by humanity, untouched by all the movement of thought.’ This episode on Movement has three sections. The first extract (2:48) is from Krishnamurti’s third talk in Saanen 1973, and is titled: Thought Is Movement in Time. The second extract (29:46) is from the seventh talk in Saanen 1976, and is titled: When the Movement of the Past Meets the ‘Now’. The final extract in this episode (1:04:49) is from a direct recording by Krishnamurti in 1970, and is titled: Ending the Movem"
-        },
-        {
-          "title": "Krishnamurti on 'You Are The World'",
-          "date": "2025-04-23T04:30:00.000Z",
-          "durationSec": 4545,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/2a6sttkmh65e4dah/267_Urgency_of_Change6ezt8.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-you-are-the-world/",
-          "description": "‘The problem is you. The problem, the crisis, the challenge is in you, and you have to reply adequately. You are the world.’ This episode on You Are the World has three sections. The first extract (2:46) is from Krishnamurti’s first talk in Madras 1977, and is titled: It is an absolute, irrevocable fact that you are the world. The second extract (23:26) is from the third talk in New Delhi 1963, and is titled: There Is No Division Between the World and You. The third and final extract in this episode (1:00:35) is from the third talk in Bombay 1977, and is titled: The Stream of Continuity. Each "
-        },
-        {
-          "title": "Krishnamurti on Existence",
-          "date": "2025-04-09T04:30:00.000Z",
-          "durationSec": 4025,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/3h8ampmh9u23jzpb/266_Urgency_of_Change8rs59.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-existence/",
-          "description": "‘What does it all mean, the existence that we lead? What is the meaning of all the work, misery, confusion, and this sense of meaningless existence?’ This episode on Existence has four sections. The first extract (2:40) is from Krishnamurti’s fifth talk in Bombay 1981, and is titled: What Is the Most Important Thing In Our Existence? The second extract (18:27) is from the sixth talk in Saanen 1972, and is titled: The Mind Finds Its Existence in Its Contents. The third extract (44:30) is from Krishnamurti’s sixth talk in New York 1966, and is titled: The Absurd Triviality of Our Existence. The "
+          "description": "‘One of the indications of sanity is that there is no contradiction within oneself, no imbalance, where thought and action correspond to each other.’\n\nThis episode on Sanity has four sections.\n\nThe first extract (2:36) is from Krishnamurti’s first talk in Madras 1977, and is…",
+          "theme": "Sanity"
         }
       ]
     },
@@ -332,324 +216,154 @@
       "image": "https://pbcdn1.podbean.com/imglogo/image-logo/22322522/The_Krishnamurti_Collection_-_Smallbqqkw.jpg",
       "episodes": [
         {
+          "key": "c300",
+          "id": "krishnamurticollection.podbean.com/c791972b-4e79-3b9e-8f1b-0b9257b5a7ad",
+          "number": 300,
           "title": "300 • Rajghat 1969 (1/1) • Discussion with Donald Ingram Smith: Flowering Is Only Possible in Freedom",
           "date": "2026-11-14T06:00:00.000Z",
           "durationSec": 2760,
           "audioUrl": "https://mcdn.podbean.com/mf/web/xn2ebvd2zx23ywtd/0300_3KFT_01_RA69CDI_-_Rajghat_1969_-_Dialogue_-_Flowering_is_only_possible_in_freedomanr2r.mp3",
           "link": "https://krishnamurticollection.podbean.com/e/300-%e2%80%a2-rajghat-1969-11-%e2%80%a2-discussion-with-donald-ingram-smith-flowering-is-only-possible-in-freedom/",
-          "description": "Krishnamurti: Discussion with Donald Ingram Smith Rajghat 1969 1/1: Flowering Is Only Possible in Freedom Q: Is it possible to flower into wholeness within the framework of society? Thought can never be free because it has its roots in the past. The truth of insecurity gives the brain security. Q: Can thought come to an end? It is necessary to be aware of the whole mechanism that builds images. Q: What is one to do with leisure? The more I realise I am empty, the more I hold on as an escape from loneliness and from the void in myself. - The Krishnamurti Collection is an official podcast by Kri"
+          "description": "Krishnamurti: Discussion with Donald Ingram Smith\n\nRajghat 1969\n\n1/1: Flowering Is Only Possible in Freedom\n\nQ: Is it possible to flower into wholeness within the framework of society?\n\nThought can never be free because it has its roots in the past.\n\nThe truth of insecurity…",
+          "series": "Rajghat 1969",
+          "seriesId": "rajghat-1969-300",
+          "part": 1,
+          "parts": 1
         },
         {
+          "key": "c299",
+          "id": "krishnamurticollection.podbean.com/62b2057e-853f-3c1b-8a77-383f12e06b5a",
+          "number": 299,
           "title": "299 • Ojai 1984 (6/6) • Talk 4: Is Love Part of Consciousness?",
           "date": "2026-11-07T06:04:00.000Z",
           "durationSec": 4768,
           "audioUrl": "https://mcdn.podbean.com/mf/web/w7d27spae9tjapi5/0299_2KC1_04_OJ84T4_-_Ojai_1984_-_Public_Talk_4_-_Is_love_part_of_consciousness9zg7e.mp3",
           "link": "https://krishnamurticollection.podbean.com/e/299-%e2%80%a2-ojai-1984-66-%e2%80%a2-talk-4-is-love-part-of-consciousness/",
-          "description": "Krishnamurti: Attention and Order Ojai 1984, Public Meetings 6/6: Is Love Part of Consciousness? What is it to be free? What is freedom that is not ‘from’ something and not a reaction? Is freedom possible when thought is operating all the time? What is the relationship between desire and thought? Is thought driven by desire? What is beauty? When do you perceive the sense of immensity and the truth of beauty? Can you look at something with all your senses fully alive, alert? When there is total attention, is there a self? Is love in the realm of thought? To understand the depth, greatness, flam"
+          "description": "Krishnamurti: Attention and Order\n\nOjai 1984, Public Meetings\n\n6/6: Is Love Part of Consciousness?\n\nWhat is it to be free? What is freedom that is not ‘from’ something and not a reaction?\n\nIs freedom possible when thought is operating all the time?\n\nWhat is the relationship…",
+          "series": "Ojai 1984",
+          "seriesId": "ojai-1984-294",
+          "part": 6,
+          "parts": 6
         },
         {
+          "key": "c298",
+          "id": "krishnamurticollection.podbean.com/4c125a4b-9231-362c-8642-496443df044d",
+          "number": 298,
           "title": "298 • Ojai 1984 (5/6) • Talk 3: Attention Is Like a Fire",
           "date": "2026-11-07T06:02:00.000Z",
           "durationSec": 4759,
           "audioUrl": "https://mcdn.podbean.com/mf/web/72fj7e49e4593ad7/0298_1BPS_03_OJ84T3_-_Ojai_1984_-_Public_Talk_3_-_Attention_is_like_a_fire8v3gl.mp3",
           "link": "https://krishnamurticollection.podbean.com/e/298-%e2%80%a2-ojai-1984-56-%e2%80%a2-talk-3-attention-is-like-a-fire/",
-          "description": "Krishnamurti: Attention and Order Ojai 1984, Public Meetings 5/6: Attention Is Like a Fire Since all time is in the now, what is action? What is action in relation to becoming? Is violence different from the examiner? If I am confused or uncertain, can the brain be secure? When the brain is clear, is there choice at all? Psychologically we are all attempting to become something. All time is in the present. The future is now. Can one deal with the fact, not with the idea? Is love action in itself? Attention is the flame in which sorrow ends. Why have we kept death far away from living? To live "
+          "description": "Krishnamurti: Attention and Order\n\nOjai 1984, Public Meetings\n\n5/6: Attention Is Like a Fire\n\nSince all time is in the now, what is action? What is action in relation to becoming?\n\nIs violence different from the examiner?\n\nIf I am confused or uncertain, can the brain be secure?…",
+          "series": "Ojai 1984",
+          "seriesId": "ojai-1984-294",
+          "part": 5,
+          "parts": 6
         },
         {
+          "key": "c297",
+          "id": "krishnamurticollection.podbean.com/5d7ec2f7-d744-3b9b-8ad1-0ab0bfafca3a",
+          "number": 297,
           "title": "297 • Ojai 1984 (4/6) • Question & Answer Meeting 2: 2nd Question & Answer Meeting",
           "date": "2026-11-07T06:01:00.000Z",
           "durationSec": 5767,
           "audioUrl": "https://mcdn.podbean.com/mf/web/fa7pppr77q3knujf/0297_9KC3_06_OJ84Q2_-_Ojai_1984_-_Public_Q_A_29sud5.mp3",
           "link": "https://krishnamurticollection.podbean.com/e/297-%e2%80%a2-ojai-1984-46-%e2%80%a2-question-answer-meeting-2-2nd-question-answer-meeting/",
-          "description": "Krishnamurti: Attention and Order Ojai 1984, Public Meetings 4/6: 2nd Question & Answer Meeting Q1: There are moments in which there is great clarity. What is necessary to allow such a sustained clarity, intensity and the wholeness of being? Q2: What is judgement? How is one to determine the line dividing opinion and the perception of fact? Q3: There are many people who have considerable difficultly with homosexuality. Could you, even briefly, put some light on this question? Q4: How is one to live on this earth without harm or destruction to its beauty, without bringing suffering and death to"
+          "description": "Krishnamurti: Attention and Order\n\nOjai 1984, Public Meetings\n\n4/6: 2nd Question & Answer Meeting\n\nQ1: There are moments in which there is great clarity. What is necessary to allow such a sustained clarity, intensity and the wholeness of being?\n\nQ2: What is judgement? How is one…",
+          "series": "Ojai 1984",
+          "seriesId": "ojai-1984-294",
+          "part": 4,
+          "parts": 6
         },
         {
-          "title": "294 • Ojai 1984 (1/6) • Talk 1: Truth Is the Catalyst to End Conflict",
-          "date": "2026-11-07T06:00:00.000Z",
-          "durationSec": 5019,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/snuwj82fsrbh6uyv/0294_6UOC_01_OJ84T1_-_Ojai_1984_-_Public_Talk_1_-_Truth_is_the_catalyst_to_end_conflict9uxmm.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/294-%e2%80%a2-ojai-1984-16-%e2%80%a2-talk-1-truth-is-the-catalyst-to-end-conflict/",
-          "description": "Krishnamurti: Attention and Order Ojai 1984, Public Meetings 1/6: Truth Is the Catalyst to End Conflict We are going to question everything, including what the speaker is saying. If you are dissatisfied, not in revolt, with all the things that man has put together, then you are beginning to inquire into it. Is it possible to fundamentally change human behaviour? Love and simplicity are the essence of austerity. Can there be austerity without inward clarity? Do I approach a problem freely or with a solution I would like to bring about? What is thinking? Knowledge and thought being limited must "
-        },
-        {
-          "title": "295 • Ojai 1984 (2/6) • Talk 2: What Is Wrong with Pleasure?",
-          "date": "2026-11-07T06:00:00.000Z",
-          "durationSec": 3973,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/46nzf5e5yxbsifra/0295_7NWS_02_OJ84T2_-_Ojai_1984_-_Public_Talk_2_-_What_is_wrong_with_pleasure9xobm.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/295-%e2%80%a2-ojai-1984-26-%e2%80%a2-talk-2-what-is-wrong-with-pleasure/",
-          "description": "Krishnamurti: Attention and Order Ojai 1984, Public Meetings 2/6: What Is Wrong with Pleasure? What is order? Learning implies a constant movement, observation without a motive. Why have I sought pleasure all my life? What is wrong with pleasure? Can fear ever end or must it be the burden of humanity everlastingly? Is your brain passionate enough to find out? What is going to happen to the brain when the computer can do almost everything? How can I stop the movement of time and thought? Is that the right question? - The Krishnamurti Collection is an official podcast by Krishnamurti Foundation "
-        },
-        {
+          "key": "c296",
+          "id": "krishnamurticollection.podbean.com/f7aa80cf-f737-33ac-a6df-6e1e9a7be31a",
+          "number": 296,
           "title": "296 • Ojai 1984 (3/6) • Question & Answer Meeting 1: 1st Question & Answer Meeting",
           "date": "2026-11-07T06:00:00.000Z",
           "durationSec": 4607,
           "audioUrl": "https://mcdn.podbean.com/mf/web/6g6scvtthv367whj/0296_8DNT_05_OJ84Q1_-_Ojai_1984_-_Public_Q_A_1bdzfx.mp3",
           "link": "https://krishnamurticollection.podbean.com/e/296-%e2%80%a2-ojai-1984-36-%e2%80%a2-question-answer-meeting-1-1st-question-answer-meeting/",
-          "description": "Krishnamurti: Attention and Order Ojai 1984, Public Meetings 3/6: 1st Question & Answer Meeting Q1: I understand that all people have a similar consciousness, but it seems a vast jump to say that all people share the same consciousness. Q2: Have you designated a special teacher or a person to carry on your teachings after you have gone? Someone is claiming this position. Q3: What is observing thought down to its very roots? I watch my thoughts, one leads to another in an endless chain. What ends this? What brings change? Q4: Please explain what you mean by saying that if one perceives truth an"
+          "description": "Krishnamurti: Attention and Order\n\nOjai 1984, Public Meetings\n\n3/6: 1st Question & Answer Meeting\n\nQ1: I understand that all people have a similar consciousness, but it seems a vast jump to say that all people share the same consciousness.\n\nQ2: Have you designated a special…",
+          "series": "Ojai 1984",
+          "seriesId": "ojai-1984-294",
+          "part": 3,
+          "parts": 6
         },
         {
-          "title": "290 • Santa Cruz 1969 (1/4) • Students Talk 1: Freeing the Mind of Fear Is Part of Meditation",
-          "date": "2026-10-31T06:00:00.000Z",
-          "durationSec": 5277,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/xge22pxistear7xa/0290_2KC1_01_SZ69TYP1_-_Santa_Cruz_1969_-_Students_Talk_1_-_Freeing_the_mind_of_fear_is_part_of_meditation6l5rh.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/290-%e2%80%a2-santa-cruz-1969-14-%e2%80%a2-students-talk-1-freeing-the-mind-of-fear-is-part-of-meditation/",
-          "description": "Krishnamurti: The Enlightenment of Understanding Oneself Santa Cruz 1969, Students Talks 1/4: Freeing the Mind of Fear Is Part of Meditation The truly religious have no psychological fear. Can this be done? The word is not the thing, the description is not the described, the explanation is not the explained. What is fear? How does it come about? What do I do when I discover thought breeds pleasure and pain? Do I see something beautiful actually, without the word? Is it a non-verbal or a verbal look? Is there a division between the observer and the thing called fear, or are they one? - The Kris"
+          "key": "c295",
+          "id": "krishnamurticollection.podbean.com/851ebc8e-7f4d-3e8d-a5f2-1c9a0a4a40ac",
+          "number": 295,
+          "title": "295 • Ojai 1984 (2/6) • Talk 2: What Is Wrong with Pleasure?",
+          "date": "2026-11-07T06:00:00.000Z",
+          "durationSec": 3973,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/46nzf5e5yxbsifra/0295_7NWS_02_OJ84T2_-_Ojai_1984_-_Public_Talk_2_-_What_is_wrong_with_pleasure9xobm.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/295-%e2%80%a2-ojai-1984-26-%e2%80%a2-talk-2-what-is-wrong-with-pleasure/",
+          "description": "Krishnamurti: Attention and Order\n\nOjai 1984, Public Meetings\n\n2/6: What Is Wrong with Pleasure?\n\nWhat is order?\n\nLearning implies a constant movement, observation without a motive.\n\nWhy have I sought pleasure all my life? What is wrong with pleasure?\n\nCan fear ever end or must…",
+          "series": "Ojai 1984",
+          "seriesId": "ojai-1984-294",
+          "part": 2,
+          "parts": 6
         },
         {
-          "title": "291 • Santa Cruz 1969 (2/4) • Students Talk 2: Is Fear Something Separate from the Observer?",
-          "date": "2026-10-31T06:00:00.000Z",
-          "durationSec": 5231,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/chj4sgsrcxs4smxk/0291_3KFT_02_SZ69TYP2_-_Santa_Cruz_1969_-_Students_Talk_2_-_Is_fear_something_separate_from_the_observer_airl8.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/291-%e2%80%a2-santa-cruz-1969-24-%e2%80%a2-students-talk-2-is-fear-something-separate-from-the-observer/",
-          "description": "Krishnamurti: The Enlightenment of Understanding Oneself Santa Cruz 1969, Students Talks 2/4: Is Fear Something Separate from the Observer? Are the thinker and thought different from fear? Can fear be dissipated through analysis? The fact is I am violent. Why do I have an opposite: the ideal, non-violence? Q: Is there a path by which we can erase the separation between the observer and the observed, and therefore fear? Q: Is it possible to educate a child to become aware? Q: How do you continue awareness of unawareness? Q: What is the purpose of life? Q: What is one to do if you or someone is "
+          "key": "c294",
+          "id": "krishnamurticollection.podbean.com/944947da-6e5e-3202-8362-9494fa6da1e3",
+          "number": 294,
+          "title": "294 • Ojai 1984 (1/6) • Talk 1: Truth Is the Catalyst to End Conflict",
+          "date": "2026-11-07T06:00:00.000Z",
+          "durationSec": 5019,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/snuwj82fsrbh6uyv/0294_6UOC_01_OJ84T1_-_Ojai_1984_-_Public_Talk_1_-_Truth_is_the_catalyst_to_end_conflict9uxmm.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/294-%e2%80%a2-ojai-1984-16-%e2%80%a2-talk-1-truth-is-the-catalyst-to-end-conflict/",
+          "description": "Krishnamurti: Attention and Order\n\nOjai 1984, Public Meetings\n\n1/6: Truth Is the Catalyst to End Conflict\n\nWe are going to question everything, including what the speaker is saying.\n\nIf you are dissatisfied, not in revolt, with all the things that man has put together, then you…",
+          "series": "Ojai 1984",
+          "seriesId": "ojai-1984-294",
+          "part": 1,
+          "parts": 6
         },
         {
-          "title": "292 • Santa Cruz 1969 (3/4) • Students Talk 3: The Purpose of Life; Asking the Impossible",
-          "date": "2026-10-31T06:00:00.000Z",
-          "durationSec": 5455,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/pfj3yqvu54ur7xiy/0292_4KC2_03_SZ69TYP3_-_Santa_Cruz_1969_-_Students_Talk_3_-_The_purpose_of_life_asking_the_impossiblea73gb.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/292-%e2%80%a2-santa-cruz-1969-34-%e2%80%a2-students-talk-3-the-purpose-of-life-asking-the-impossible/",
-          "description": "Krishnamurti: The Enlightenment of Understanding Oneself Santa Cruz 1969, Students Talks 3/4: The Purpose of Life; Asking the Impossible Can one take part in the whole of life? What is the purpose of all existence? To find out what is possible, one must find out what is impossible. What is love if not pleasure? The death of yesterday is the death of all psychological accumulation. Q: What is the difference between thought and insight? Q: How do people become neurotic? Q: When does thought end and silence begin? Q: When self-centred activity ceases, what motivates action? Q: You spoke of mildly"
-        },
-        {
+          "key": "c293",
+          "id": "krishnamurticollection.podbean.com/2140d716-be07-3a58-867d-f815e01e404f",
+          "number": 293,
           "title": "293 • Santa Cruz 1969 (4/4) • Students Talk 4: Putting Aside All Seeking; Understanding Oneself",
           "date": "2026-10-31T06:00:00.000Z",
           "durationSec": 6464,
           "audioUrl": "https://mcdn.podbean.com/mf/web/r8kgsqqaphrw6a2s/0293_5SMD_04_SZ69TYP4_-_Santa_Cruz_1969_-_Students_Talk_4_-_Putting_aside_all_seeking_understanding_oneselfbnt9c.mp3",
           "link": "https://krishnamurticollection.podbean.com/e/293-%e2%80%a2-santa-cruz-1969-44-%e2%80%a2-students-talk-4-putting-aside-all-seeking-understanding-oneself/",
-          "description": "Krishnamurti: The Enlightenment of Understanding Oneself Santa Cruz 1969, Students Talks 4/4: Putting Aside All Seeking; Understanding Oneself What does it mean to seek? Can I know myself? Q: Does denying the false imply effort and striving? What is the hidden part of me? How you learn about yourself matters. Q: Where did you learn all that you know? Q: If we follow your teachings, will we get to know you? Q: Can the saints and gurus aid the devotee? Q: Have you eliminated thought? Q: Could you be a woman? Q: I can see that sexual experience is an escape, but I can’t really believe it. Q: How "
+          "description": "Krishnamurti: The Enlightenment of Understanding Oneself\n\nSanta Cruz 1969, Students Talks\n\n4/4: Putting Aside All Seeking; Understanding Oneself\n\nWhat does it mean to seek?\n\nCan I know myself?\n\nQ: Does denying the false imply effort and striving?\n\nWhat is the hidden part of me?…",
+          "series": "Santa Cruz 1969",
+          "seriesId": "santa-cruz-1969-290",
+          "part": 4,
+          "parts": 4
         },
         {
-          "title": "289 • Claremont 1968 (1/1) • Conversation with Huston Smith: Authority Is Destructive",
-          "date": "2026-10-24T05:00:00.000Z",
-          "durationSec": 3566,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/te8yjp4kzy4v9itp/0289_1BPS_01_CL68CHS_-_Claremont_1968_-_Dialogue_-_Authority_is_destructivebbjsl.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/289-%e2%80%a2-claremont-1968-11-%e2%80%a2-conversation-with-huston-smith-authority-is-destructive/",
-          "description": "Krishnamurti: Conversation with Huston Smith Claremont 1968 1/1: Authority Is Destructive Q: In this confused and confusing world, torn by conflicting voices without and within, with hearts that seem star-crossed and tensions that never go, is it possible to live with total lucidity? To have clarity, the first essential thing is freedom, freedom from authority. To be a light to yourself you must deny every other light, however great that light be. As long as man accepts violence and lives a way of life which is violent, he perpetuates fear and accepts authority. The moment you bring in the ‘ho"
+          "key": "c292",
+          "id": "krishnamurticollection.podbean.com/09ce829c-4364-33f3-879b-c433535ba37b",
+          "number": 292,
+          "title": "292 • Santa Cruz 1969 (3/4) • Students Talk 3: The Purpose of Life; Asking the Impossible",
+          "date": "2026-10-31T06:00:00.000Z",
+          "durationSec": 5455,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/pfj3yqvu54ur7xiy/0292_4KC2_03_SZ69TYP3_-_Santa_Cruz_1969_-_Students_Talk_3_-_The_purpose_of_life_asking_the_impossiblea73gb.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/292-%e2%80%a2-santa-cruz-1969-34-%e2%80%a2-students-talk-3-the-purpose-of-life-asking-the-impossible/",
+          "description": "Krishnamurti: The Enlightenment of Understanding Oneself\n\nSanta Cruz 1969, Students Talks\n\n3/4: The Purpose of Life; Asking the Impossible\n\nCan one take part in the whole of life?\n\nWhat is the purpose of all existence?\n\nTo find out what is possible, one must find out what is…",
+          "series": "Santa Cruz 1969",
+          "seriesId": "santa-cruz-1969-290",
+          "part": 3,
+          "parts": 4
         },
         {
-          "title": "285 • Calcutta 1982 (1/4) • Talk 1: Your Consciousness Is the Consciousness of All Humanity",
-          "date": "2026-10-17T05:00:00.000Z",
-          "durationSec": 4378,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/n5g5dtk5m8np5gsj/0285_6UOC_01_CC82T1_-_Your_consciousness_is_the_consciousness_of_all_humanity9vw0s.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/285-%e2%80%a2-calcutta-1982-14-%e2%80%a2-talk-1-your-consciousness-is-the-consciousness-of-all-humanity/",
-          "description": "Krishnamurti: If You Fundamentally Change You Affect the Whole Consciousness of Man Calcutta 1982, Public Meetings 1/4: Your Consciousness Is the Consciousness of All Humanity Where there is division, as the Arab and the Jew, the Hindu and the Muslim, there must be conflict. Why has man become what he is in spite of great experience, great knowledge and vast technological advancement? The future of man is at stake. The crisis is not only physical but in consciousness, in our being. You are the world and the world is you. Your consciousness is not yours, it is the ground on which all human bein"
-        },
-        {
-          "title": "286 • Calcutta 1982 (2/4) • Talk 2: Is There a New Instrument Totally Different from Thought?",
-          "date": "2026-10-17T05:00:00.000Z",
-          "durationSec": 5053,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/ithk554bju6ipcxj/0286_7NWS_02_CC82T2_-_Is_there_a_new_instrument_totally_different_from_thought_5z6ys.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/286-%e2%80%a2-calcutta-1982-24-%e2%80%a2-talk-2-is-there-a-new-instrument-totally-different-from-thought/",
-          "description": "Krishnamurti: If You Fundamentally Change You Affect the Whole Consciousness of Man Calcutta 1982, Public Meetings 2/4: Is There a New Instrument Totally Different from Thought? What place has knowledge in human relationship? You have accepted thought as the only instrument man has. That instrument has created havoc in the world. Is there a new instrument totally different from thought, which thought has not touched at all? Have you ever tried to observe without the word? Have we destroyed our senses? What is desire? Why have people said to suppress it or deny it, if you cannot identify it wit"
-        },
-        {
-          "title": "287 • Calcutta 1982 (3/4) • Talk 3: What Is the Nature and the Structure of Disorder?",
-          "date": "2026-10-17T05:00:00.000Z",
-          "durationSec": 4315,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/4ig28ney2yw3vs4r/0287_8DNT_03_CC82T3_-_Calcutta_Kolkata_1982_-_Public_Talk_3_-_What_is_the_nature_and_the_structure_of_disorderbj2rh.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/287-%e2%80%a2-calcutta-1982-34-%e2%80%a2-talk-3-what-is-the-nature-and-the-structure-of-disorder/",
-          "description": "Krishnamurti: If You Fundamentally Change You Affect the Whole Consciousness of Man Calcutta 1982, Public Meetings 3/4: What Is the Nature and the Structure of Disorder? What is disorder? Why do we have ideals? One of the major factors of a life which is disorderly is trying to change ‘what is’ into ‘what should be’. Psychologically, inwardly, why do we accept authority? When you follow somebody, your brain becomes dull, routine, mechanical, which is the destructive nature of the human brain. When sorrow comes with the loss of somebody, can one remain with that pain, look it, hold it? To under"
-        },
-        {
-          "title": "288 • Calcutta 1982 (4/4) • Talk 4: Time, Death and Meditation",
-          "date": "2026-10-17T05:00:00.000Z",
-          "durationSec": 4465,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/bu4za96m9jk24fag/0288_9KC3_04_CC82T4_-_Calcutta_Kolkata_1982_-_Public_Talk_4_-_Time_death_and_meditation9catj.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/288-%e2%80%a2-calcutta-1982-44-%e2%80%a2-talk-4-time-death-and-meditation/",
-          "description": "Krishnamurti: If You Fundamentally Change You Affect the Whole Consciousness of Man Calcutta 1982, Public Meetings 4/4: Time, Death and Meditation Psychological time is invented by thought. What is your daily life? If you are the rest of mankind then what is your responsibility to man and to what is happening in the world? When you say you want to be born next life, that you believe in reincarnation, what is it that is going to be reborn? What are you? What is death? You are a vast reservoir of memories, words, pictures and symbols. Your consciousness is the rest of mankind. You are not an ind"
-        },
-        {
-          "title": "280 • Brockwood Park 1978 (1/5) • Discussion 1: Are You Not Saying What the Buddha Said?",
-          "date": "2026-10-10T05:00:00.000Z",
-          "durationSec": 5879,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/qua4t3ys4erv73ie/0280_1BPS_01_BR7879CBS1_-_Brockwood_Park_1978_-_Buddhist_Scholars_Discussion_1_-_Are_you_not_saying_what_the_Buddha_said_16j9rq.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/280-%e2%80%a2-brockwood-park-1978-15-%e2%80%a2-discussion-1-are-you-not-saying-what-the-buddha-said/",
-          "description": "Krishnamurti: Can Humanity Change? Brockwood Park 1978-79, Buddhist Scholars Discussions 1/5: Are You Not Saying What the Buddha Said? Q: Does knowledge condition human beings? Knowledge means accumulation of information, experience, facts, theories and principles, the past and the present. This bundle we call knowledge. Can a mind that is burdened with knowledge see truth? Will we get more knowledge by reading what the Buddha or Christ said? We are full of this accumulative instinct that we think will help us to jump into heaven. Can I look at the fact without the word with all its intimation"
-        },
-        {
-          "title": "281 • Brockwood Park 1978 (2/5) • Discussion 2: Is There a State of Mind Without the Self?",
-          "date": "2026-10-10T05:00:00.000Z",
-          "durationSec": 5585,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/wwe6t78zc8m6m2fy/0281_2KC1_02_BR7879CBS2_-_Brockwood_Park_1978_-_Buddhist_Scholars_Discussion_2_-_Is_there_a_state_of_mind_without_the_self_18qu09.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/281-%e2%80%a2-brockwood-park-1978-25-%e2%80%a2-discussion-2-is-there-a-state-of-mind-without-the-self/",
-          "description": "Krishnamurti: Can Humanity Change? Brockwood Park 1978-79, Buddhist Scholars Discussions 2/5: Is There a State of Mind Without the Self? Q: What is the state of the mind that is in the process of dying? What is death? Is there life after death, is there a continuity? If not, what is the point of living at all? Why is there the whole process of identification: my possessions, what I will be, success, power, prestige? The identification process is the essence of the self. Is it possible to live in daily life without this identification process which brings about the structure and the nature of t"
-        },
-        {
-          "title": "282 • Brockwood Park 1978 (3/5) • Discussion 3: Does Free Will Exist?",
-          "date": "2026-10-10T05:00:00.000Z",
-          "durationSec": 6531,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/y33v3u36y9q8zwea/0282_3KFT_03_BR7879CBS3_-_Brockwood_Park_1978_-_Buddhist_Scholars_Discussion_3_-_Does_free_will_exist_16t0c2.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/282-%e2%80%a2-brockwood-park-1978-35-%e2%80%a2-discussion-3-does-free-will-exist/",
-          "description": "Krishnamurti: Can Humanity Change? Brockwood Park 1978-79, Buddhist Scholars Discussions 3/5: Does Free Will Exist? We say free will exists because we can choose between this and that. Apart from material things, why is there choice? Is there an action in which there is no effort of will at all and therefore no choice? Why does thought identify with sensations? Is there duality in identification? How did thought begin in me? Was it handed down by parents, education, environment, the past? Does the word create the thought or thought creates words? Why does thought enter into action? Is there an"
-        },
-        {
-          "title": "283 • Brockwood Park 1978 (4/5) • Discussion 4: What Is Truth?",
-          "date": "2026-10-10T05:00:00.000Z",
-          "durationSec": 5593,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/vu7qkhcuzwbcahjz/0283_4KC2_04_BR7879CBS4_-_Brockwood_Park_1979_-_Buddhist_Scholars_Discussion_1_-_What_is_truth_1a0hsb.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/283-%e2%80%a2-brockwood-park-1978-45-%e2%80%a2-discussion-4-what-is-truth/",
-          "description": "Krishnamurti: Can Humanity Change? Brockwood Park 1978-79, Buddhist Scholars Discussions 4/5: What Is Truth? Q: Is there a difference between reality and truth? All the things that thought has put together – literature, poetry, painting, illusions, gods and symbols – that is reality for us. But nature is not created by thought. Can the mind, the network of all the senses apprehend, see and observe truth? Psychological time is the invention of thought, which we use as a means of achieving enlightenment. Is such time an illusion? Is truth measurable by words? Truth is timeless, thought is of tim"
-        },
-        {
-          "title": "284 • Brockwood Park 1978 (5/5) • Discussion 5: Is There Life After Death?",
-          "date": "2026-10-10T05:00:00.000Z",
-          "durationSec": 6380,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/5biaqt2bkmejbsnr/0284_5SMD_05_BR7879CBS5_-_Brockwood_Park_1979_-_Buddhist_Scholars_Discussion_2_-_Is_there_life_after_death_197hqn.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/284-%e2%80%a2-brockwood-park-1978-55-%e2%80%a2-discussion-5-is-there-life-after-death/",
-          "description": "Krishnamurti: Can Humanity Change? Brockwood Park 1978-79, Buddhist Scholars Discussions 5/5: Is There Life After Death? Q: Is there life after death? When the body dies the desires, the anxieties, the tragedies and the misery go on. They go on contributing to the vast common stream in which mankind lives. Each of us is representative of the whole of that stream. By inquiring into the whole nature of suffering can one end it and be out of the stream? The free inquiry into suffering is insight. As long as I accept any authority, Buddhist or otherwise, can there be insight? For the man who is no"
-        },
-        {
-          "title": "279 • Saanen 1961 (9/9) • Talk 9: It Is Only the Religious Mind That Can Be in a State of Creation",
-          "date": "2026-10-03T05:08:00.000Z",
-          "durationSec": 3703,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/c93h96dmpqajbsjs/0279_9KC3_09_SA61T9_-_Saanen_1961_-_Public_Talk_9_-_It_is_only_the_religious_mind_that_6gdv3.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/279-%e2%80%a2-saanen-1961-99-%e2%80%a2-talk-9-it-is-only-the-religious-mind-that-can-be-in-a-state-of-creation/",
-          "description": "Krishnamurti: A Revolution in the Mind Saanen 1961, Public Meetings 9/9: It Is Only the Religious Mind That Can Be in a State of Creation A revolution in the mind is the way of religion. Every experience is shaped by the past. Is it possible to deny all experience? To find reality or God, the mind must be alone, uninfluenced. How frightened we are to destroy everything that we have accumulated. When there is the destruction of all authority man has created in his desire to be secure inwardly, there is creation. To the religious mind there is no time. The religious mind does not belong to any i"
-        },
-        {
-          "title": "278 • Saanen 1961 (8/9) • Talk 8: To Die Implies Having No Continuity of Thought",
-          "date": "2026-10-03T05:07:00.000Z",
-          "durationSec": 3408,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/ui5828b2jbnf3q74/0278_8DNT_08_SA61T8_-_Saanen_1961_-_Public_Talk_8_-_To_die_implies_having_no_b4d4r.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/278-%e2%80%a2-saanen-1961-89-%e2%80%a2-talk-8-to-die-implies-having-no-continuity-of-thought/",
-          "description": "Krishnamurti: A Revolution in the Mind Saanen 1961, Public Meetings 8/9: To Die Implies Having No Continuity of Thought The conscious mind cannot observe the unconscious. The educated, recent mind cannot possibly inquire into the unconscious, which is old, which is the residue of time, of the race, of experiences. The unconscious is the repository of infinite knowledge of things that have been. Examining and interpreting fragmentarily strengthens the layers of the unconscious, hidden mind. The unconscious must be approached negatively because you don’t know what it is. If there were no tomorro"
-        },
-        {
-          "title": "277 • Saanen 1961 (7/9) • Talk 7: An Attentive Mind Is Without Conflict, Therefore Free",
-          "date": "2026-10-03T05:06:00.000Z",
-          "durationSec": 3331,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/juh6zq6cyp2r7m59/0277_7NWS_07_SA61T7_-_Saanen_1961_-_Public_Talk_7_-_An_attentive_mind_is_without_8luxz.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/277-%e2%80%a2-saanen-1961-79-%e2%80%a2-talk-7-an-attentive-mind-is-without-conflict-therefore-free/",
-          "description": "Krishnamurti: A Revolution in the Mind Saanen 1961, Public Meetings 7/9: An Attentive Mind Is Without Conflict, Therefore Free Negative thinking implies no effort, whereas positive thinking does imply effort. Effort means being in conflict, in which is involved achievement, suppression and denial. Have we ever observed our self as it is, consciously or unconsciously, without trying to change, substitute, transform, suppress what we see? A mind and a brain in conflict is never quiet. What is in conflict all the time becomes dull. The state of mind that says, ‘I do not know,’ and is waiting for "
-        },
-        {
-          "title": "276 • Saanen 1961 (6/9) • Talk 6: Time Does Not Wipe Away Sorrow",
-          "date": "2026-10-03T05:05:00.000Z",
-          "durationSec": 3969,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/qzsbvt55nuj5x37n/0276_6UOC_06_SA61T6_-_Saanen_1961_-_Public_Talk_6_-_Time_does_not_wipe_azu12.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/276-%e2%80%a2-saanen-1961-69-%e2%80%a2-talk-6-time-does-not-wipe-away-sorrow/",
-          "description": "Krishnamurti: A Revolution in the Mind Saanen 1961, Public Meetings 6/9: Time Does Not Wipe Away Sorrow Escapes, explanations, beliefs and hopes bring about sorrow. The fact can never bring sorrow. It is possible to be totally free from sorrow when the mind no longer seeks explanations but faces the fact. Can each one of us intelligently, sanely face the fact when someone is dead and one is lonely? Why does each one of us have sorrow? Is it possible to be rid of sorrow completely? Sorrow is conflict. Why are we in conflict? Can the mind live, function, be, without any shelter? Can the mind fac"
-        },
-        {
-          "title": "275 • Saanen 1961 (5/9) • Talk 5: Self-Knowing Is the Beginning of Meditation",
-          "date": "2026-10-03T05:04:00.000Z",
-          "durationSec": 3738,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/wq683rptdnd446tu/0275_5SMD_05_SA61T5_-_Saanen_1961_-_Public_Talk_5_-_Self-knowing_is_6kn6c.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/275-%e2%80%a2-saanen-1961-59-%e2%80%a2-talk-5-self-knowing-is-the-beginning-of-meditation/",
-          "description": "Krishnamurti: A Revolution in the Mind Saanen 1961, Public Meetings 5/9: Self-Knowing Is the Beginning of Meditation A mind that is crippled with authority can never be free to find out. To be aware of every movement of thought, the implication of every word, the significance of every desire, and not to deny or accept but to watch choicelessly, frees the mind from authority. Meditation is not a process of disciplining, controlling or shaping the mind by desire or by knowledge. The mind has to be aware of its own thoughts, the motives from where thoughts have arisen, the cause of them. A mind t"
-        },
-        {
-          "title": "274 • Saanen 1961 (4/9) • Talk 4: There Is No Learning, There Is Only Seeing",
-          "date": "2026-10-03T05:03:00.000Z",
-          "durationSec": 3895,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/5jaq4kihqyndqfs2/0274_4KC2_04_SA61T4_-_Saanen_1961_-_Public_Talk_4_-_There_is_no_learning_9cvmn.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/274-%e2%80%a2-saanen-1961-49-%e2%80%a2-talk-4-there-is-no-learning-there-is-only-seeing/",
-          "description": "Krishnamurti: A Revolution in the Mind Saanen 1961, Public Meetings 4/9: There Is No Learning, There Is Only Seeing Humility is not virtue. Anything that is cultivated, disciplined or controlled does not bring it about. Humility is not a thing to be sown and reaped; it must come into being. Is learning accumulation of knowledge? All change implies violence, and through violence there is nothing new. Control, subjugation and conformity to a pattern implies violence. Humility is the state of mind which has completely discarded the accumulative process and its opposites, and is from moment to mom"
-        },
-        {
-          "title": "273 • Saanen 1961 (3/9) • Talk 3: Why Are We in Such Conflict?",
-          "date": "2026-10-03T05:02:00.000Z",
-          "durationSec": 4408,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/3vfgxh3ymmtq46c6/0273_3KFT_03_SA61T3_-_Saanen_1961_-_Public_Talk_3_-_Why_are_we_in_such_conflict_9as11.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/273-%e2%80%a2-saanen-1961-39-%e2%80%a2-talk-3-why-are-we-in-such-conflict/",
-          "description": "Krishnamurti: A Revolution in the Mind Saanen 1961, Public Meetings 3/9: Why Are We in Such Conflict? Is the mind capable of being completely and totally free of all conflict? One cannot do anything about the conflict in the world, but one can do something radical about our own inward conflicts. As long as there is an experiencer and the experience as two different states, there must be conflict. Conflict destroys sensitivity, passion and intensity. Do we see life, a tree, another person through ideas, opinions and memories? Can we see the totality of conflict, and be in contact with that tota"
-        },
-        {
-          "title": "272 • Saanen 1961 (2/9) • Talk 2: To See Something Totally, the Brain Must Be Quiet",
-          "date": "2026-10-03T05:01:00.000Z",
-          "durationSec": 3991,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/xf7twv6kt437tf9f/0272_2KC1_02_SA61T2_-_Saanen_1961_-_Public_Talk_2_-_To_see_something_totally_8erws.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/272-%e2%80%a2-saanen-1961-29-%e2%80%a2-talk-2-to-see-something-totally-the-brain-must-be-quiet/",
-          "description": "Krishnamurti: A Revolution in the Mind Saanen 1961, Public Meetings 2/9: To See Something Totally, the Brain Must Be Quiet The demand for order is merely the demand for security. There is no security either outwardly or inwardly. To find out what peace is, one must be totally free of violence. What is it to see something totally? The brain, with its mechanical habits, its animal instincts, its urge to remain in safety, can never see anything totally. The seeing totally of something can only take place when the brain is highly sensitive and recognizes its own limitations. Right order can only c"
-        },
-        {
-          "title": "271 • Saanen 1961 (1/9) • Talk 1: How Do We Meet Life?",
-          "date": "2026-10-03T05:00:00.000Z",
-          "durationSec": 4176,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/ntyz6r4zq8uq2gid/0271_1BPS_01_SA61T1_-_Saanen_1961_-_Public_Talk_1_-_How_do_we_meet_au1fx.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/271-%e2%80%a2-saanen-1961-19-%e2%80%a2-talk-1-how-do-we-meet-life/",
-          "description": "Krishnamurti: A Revolution in the Mind Saanen 1961, Public Meetings 1/9: How Do We Meet Life? A serious mind is constantly aware and thereby purifying itself. The world is broken up in fragments: politically, religiously, economically, and in thought and in philosophy. A mind that is creative has no pattern. Only such a mind can deal with the problems of the world. We are concerned with the shattering of the mind, so out of that shattering something new can take place. Q: Why is it that we find it difficult to put a right question? Q: What is it that is preventing us from going into a problem "
-        },
-        {
-          "title": "267 • San Francisco 1973 (1/4) • Talk 1: Knowledge in Relationship Creates Division",
-          "date": "2026-09-26T05:00:00.000Z",
-          "durationSec": 4741,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/yckg5mhkyd3kykt3/0267_6UOC_SF73T1_-_San_Francisco_1973_-_Public_Talk_1_-_Knowledge_in_relationship_creates_divisionb9yok.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/267-%e2%80%a2-san-francisco-1973-14-%e2%80%a2-talk-1-knowledge-in-relationship-creates-division/",
-          "description": "Krishnamurti: Meditation Is the Total Negation of the Self San Francisco 1973, Public Meetings 1/4: Knowledge in Relationship Creates Division Relationship is of the highest importance because relationship creates society. Where there is division between you and me, we and they, there must be conflict. Observation implies total attention. Attention comes when you are deeply interested. Your relationship with another is based on knowledge. We have got a great many images and conclusions, so the mind is not free to observe. Can the mind that functions with conclusions be free? Questions from the"
-        },
-        {
-          "title": "268 • San Francisco 1973 (2/4) • Talk 2: What Is the Place of Thought?",
-          "date": "2026-09-26T05:00:00.000Z",
-          "durationSec": 5248,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/u4zyxmabpr3fur4c/0268_7NWS_SF73T2_-_San_Francisco_1973_-_Public_Talk_2_-_What_is_the_place_of_thought_be62e.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/268-%e2%80%a2-san-francisco-1973-24-%e2%80%a2-talk-2-what-is-the-place-of-thought/",
-          "description": "Krishnamurti: Meditation Is the Total Negation of the Self San Francisco 1973, Public Meetings 2/4: What Is the Place of Thought? What is the function of thought? What is action and what is its relationship to thought? Is there a non-fragmentary whole action in relationship, not controlled by thought, measurement or the past? Our life is based on two principles: pleasure and fear. Order only comes when you observe how disorderly and confused your life is. Can you observe fear without reaction from the past? What place has thought in human relationship? Questions from the audience followed the "
-        },
-        {
-          "title": "269 • San Francisco 1973 (3/4) • Talk 3: Suffering, Love and Freedom from Death",
-          "date": "2026-09-26T05:00:00.000Z",
-          "durationSec": 5130,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/j8qrxyvntyzce5ew/0269_8DNT_SF73T3_-_San_Francisco_1973_-_Public_Talk_3_-_Suffering_love_and_freedom_from_death73wq4.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/269-%e2%80%a2-san-francisco-1973-34-%e2%80%a2-talk-3-suffering-love-and-freedom-from-death/",
-          "description": "Krishnamurti: Meditation Is the Total Negation of the Self San Francisco 1973, Public Meetings 3/4: Suffering, Love and Freedom from Death Action is not different from perception; if you see something dangerous, you act instantly. A mind caught in suffering cannot understand the nature of love. Can you remain with suffering without the description or the word? Can one who is pursuing pleasure know what love is? Can the mind, living in this world, be free from death? Living, love and death are one. When you separate them, there is conflict, pain, sorrow and the fear of death. Questions from the"
-        },
-        {
-          "title": "270 • San Francisco 1973 (4/4) • Talk 4: Total Negation of the Self",
-          "date": "2026-09-26T05:00:00.000Z",
-          "durationSec": 5100,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/7iewamnq3mdz59hz/0270_9KC3_SF73T4_-_San_Francisco_1973_-_Public_Talk_4_-_Total_negation_of_the_self8plba.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/270-%e2%80%a2-san-francisco-1973-44-%e2%80%a2-talk-4-total-negation-of-the-self/",
-          "description": "Krishnamurti: Meditation Is the Total Negation of the Self San Francisco 1973, Public Meetings 4/4: Total Negation of the Self What is religion? Why do we accept the false and make-believe? Meditation is the quality of mind completely attentive and silent. Can thought be controlled? The freedom to stand completely alone psychologically is one of the greatest things in life. The ‘me’ has to cease completely and not think in terms of the better or becoming something more, which denies the good. Enlightenment is not a fixed place. All one has to do is understand the chaos and disorder in which we"
-        },
-        {
-          "title": "266 • Rajghat 1972 (2/2) • Talk 2: Can the Mind Observe Without Time?",
-          "date": "2026-09-19T05:02:00.000Z",
-          "durationSec": 5310,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/gmhzkwe8zringjee/0365_7NWS_02_RA72T2_-_Rajghat_1972_-_Public_Talk_2_-_Can_the_mind_observe_without_time_9q51v.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/365-%e2%80%a2-rajghat-1972-22-%e2%80%a2-talk-2-can-the-mind-observe-without-time/",
-          "description": "Krishnamurti: Beliefs Dissipate Energy Rajghat 1972, Public Meetings 2/2: Can the Mind Observe Without Time? What is it we are seeking and why do we seek? Time is involved in searching and when the mind desires or demands experience. What is a mind to do that has been brought up and evolved in time? Can the mind always functioning in the field of time as the known be free without practice, discipline or effort? If you don’t move at all from the fact of suffering, what takes place? We are asking the mind not to think at all. Questions from the audience followed the talk - The Krishnamurti Colle"
-        },
-        {
-          "title": "265 • Rajghat 1972 (1/2) • Talk 1: An Energy That Has Never Known Corruption",
-          "date": "2026-09-19T05:01:00.000Z",
-          "durationSec": 5143,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/tuwb5huyjnnuiaf5/0364_6UOC_01_RA72T1_-_Rajghat_1972_-_Public_Talk_1_-_An_energy_that_has_never_known_corruptionbn6n6.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/364-%e2%80%a2-rajghat-1972-12-%e2%80%a2-talk-1-an-energy-that-has-never-known-corruption/",
-          "description": "Krishnamurti: Beliefs Dissipate Energy Rajghat 1972, Public Meetings 1/2: An Energy That Has Never Known Corruption How am I to deal with ‘what is’ actually, which is myself? When the mind has undissipated energy, it can go beyond ‘what is’. When I say I must put away my beliefs, who is the ‘me’ that says this? Conflict is a wastage of energy. The ‘me’ is the invention of thought. ‘How can I go beyond myself?’ is a wrong question. Can the mind be totally attentive? Attention is the summation of total energy. Questions from the audience followed the talk - The Krishnamurti Collection is an offi"
-        },
-        {
-          "title": "264 • Brandeis University 1968 (1/1) • Seminar: A Way of Living That Cannot Be Taught by Another",
-          "date": "2026-09-12T05:00:00.000Z",
-          "durationSec": 5284,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/um6z8m7g76tuyie2/0264_3KFT_01_BN68S_-_Brandeis_University_1968_-_Seminar_-_A_way_of_living_that_cannot_be_taught_by_anothera9lam.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/264-%e2%80%a2-brandeis-university-1968-11-%e2%80%a2-seminar-a-way-of-living-that-cannot-be-taught-by-another/",
-          "description": "Krishnamurti: Brandeis University 1968, Seminar 1/1: A Way of Living That Cannot Be Taught by Another Has education any significance? Q: Are you familiar with the new left movement in this country? Q: Is it possible to demonstrate the process of meditation? Can your mind be completely still? Q: Is there a way to observe oneself impartially? What is time? Do I know violence through non-violence? Q: How does one structure one’s life as a social animal? Q: Could you explain the connection between love and death? Q: Do you see any hope for universities? Q: Why do you give talks? Is change a matter"
-        },
-        {
-          "title": "259 • Brandeis University 1968 (1/5) • Students Talk 1: Psychological Revolution Without Time",
-          "date": "2026-09-05T05:00:00.000Z",
-          "durationSec": 5403,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/via2fq38ircvi4fs/0259_7NWS_01_BN68TYP1_-_Brandeis_University_1968_-_Students_Talk_1_-_Psychological_revolution_without_time8kqnv.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/259-%e2%80%a2-brandeis-university-1968-15-%e2%80%a2-students-talk-1-psychological-revolution-without-time/",
-          "description": "Krishnamurti: A Mind Purged of the Past Knows Love Brandeis University 1968, Students Meetings 1/5: Psychological Revolution Without Time Why have we given such importance to thought? Freedom is not an idea. Violence is in each human being – can one change it completely and live in peace? Is the observer, the thinker, the experiencer, different from the thing observed, the experience, the thought? Q: Could you talk about diet? Q: How can one know oneself without being an observer? Q: Why does the separation between the observer and the observed lead to conflict? Q: Is it possible to act withou"
-        },
-        {
-          "title": "260 • Brandeis University 1968 (2/5) • Students Talk 2: Fear and Awareness",
-          "date": "2026-09-05T05:00:00.000Z",
-          "durationSec": 4290,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/932amzrwazey2wgi/0260_8DNT_02_BN68TYP2_-_Brandeis_University_1968_-_Students_Talk_2_-_Fear_and_awareness711rx.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/260-%e2%80%a2-brandeis-university-1968-25-%e2%80%a2-students-talk-2-fear-and-awareness/",
-          "description": "Krishnamurti: A Mind Purged of the Past Knows Love Brandeis University 1968, Students Meetings 2/5: Fear and Awareness We have so many complex problems; one has to find the answer oneself. Can the conscious mind uncover hidden fears? What is the structure and nature of fear? What sustains, gives continuity to fear of the past and future? Can thought through time dissolve fear? What is the state of the mind that says, ‘I have understood something’? Q: If dreams are manifestations of hidden fears, how is it possible to bring them out into the consciousness? Q: Is awareness the solution to the pr"
-        },
-        {
-          "title": "261 • Brandeis University 1968 (3/5) • Students Talk 3: Meditation, Virtue, Love and Order",
-          "date": "2026-09-05T05:00:00.000Z",
-          "durationSec": 4463,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/7faj8yc43gs3n2ub/0261_9KC3_04_BN68TYP3_-_Brandeis_University_1968_-_Students_Talk_3_-_Meditation_virtue_love_and_order85odg.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/261-%e2%80%a2-brandeis-university-1968-35-%e2%80%a2-students-talk-3-meditation-virtue-love-and-order/",
-          "description": "Krishnamurti: A Mind Purged of the Past Knows Love Brandeis University 1968, Students Meetings 3/5: Meditation, Virtue, Love and Order What is meditation, if it is not an escape? What is virtue? Without order, how can the mind be sensitive, alive, free? Is there any relationship between husband and wife when they have images of each other? Is it possible for a twisted, fragmentary mind to see clearly and innocently? Why should experience leave a mark? Can love be cultivated by thought? Q: What happens to people who don’t have a sharp, clear mind? Q: How does attention come about? - The Krishna"
+          "key": "c291",
+          "id": "krishnamurticollection.podbean.com/ce45e8cb-fec9-3fab-b99e-4908ab0546c6",
+          "number": 291,
+          "title": "291 • Santa Cruz 1969 (2/4) • Students Talk 2: Is Fear Something Separate from the Observer?",
+          "date": "2026-10-31T06:00:00.000Z",
+          "durationSec": 5231,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/chj4sgsrcxs4smxk/0291_3KFT_02_SZ69TYP2_-_Santa_Cruz_1969_-_Students_Talk_2_-_Is_fear_something_separate_from_the_observer_airl8.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/291-%e2%80%a2-santa-cruz-1969-24-%e2%80%a2-students-talk-2-is-fear-something-separate-from-the-observer/",
+          "description": "Krishnamurti: The Enlightenment of Understanding Oneself\n\nSanta Cruz 1969, Students Talks\n\n2/4: Is Fear Something Separate from the Observer?\n\nAre the thinker and thought different from fear?\n\nCan fear be dissipated through analysis?\n\nThe fact is I am violent. Why do I have an…",
+          "series": "Santa Cruz 1969",
+          "seriesId": "santa-cruz-1969-290",
+          "part": 2,
+          "parts": 4
         }
       ]
     }
@@ -658,188 +372,728 @@
     "kftChannel": [
       {
         "id": "R2qnrj9fssQ",
-        "title": "Do the right thing, whatever others do | Krishnamurti",
-        "date": "2026-11-16T19:00:06+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/R2qnrj9fssQ/hqdefault.jpg"
+        "title": "Do the right thing, whatever others do",
+        "date": "2026-11-16",
+        "thumbnail": "https://i.ytimg.com/vi/R2qnrj9fssQ/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
       },
       {
         "id": "D2yzpTDRYxY",
-        "title": "Space means silence | Krishnamurti",
-        "date": "2026-11-15T06:30:28+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/D2yzpTDRYxY/hqdefault.jpg"
+        "title": "Space means silence",
+        "date": "2026-11-15",
+        "thumbnail": "https://i.ytimg.com/vi/D2yzpTDRYxY/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
       },
       {
         "id": "k05pL2MkeHg",
-        "title": "What do we mean by change? | Krishnamurti",
-        "date": "2026-11-14T19:00:05+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/k05pL2MkeHg/hqdefault.jpg"
+        "title": "What do we mean by change?",
+        "date": "2026-11-14",
+        "thumbnail": "https://i.ytimg.com/vi/k05pL2MkeHg/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
       },
       {
         "id": "wwt2bQcVykc",
-        "title": "Are you carrying the burden of occupation? | Krishnamurti",
-        "date": "2026-11-13T06:30:28+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/wwt2bQcVykc/hqdefault.jpg"
+        "title": "Are you carrying the burden of occupation?",
+        "date": "2026-11-13",
+        "thumbnail": "https://i.ytimg.com/vi/wwt2bQcVykc/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
       },
       {
         "id": "WrmdS6-wbVQ",
-        "title": "We are afraid to be free of mediocrity | Krishnamurti",
-        "date": "2026-11-12T19:00:03+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/WrmdS6-wbVQ/hqdefault.jpg"
+        "title": "We are afraid to be free of mediocrity",
+        "date": "2026-11-12",
+        "thumbnail": "https://i.ytimg.com/vi/WrmdS6-wbVQ/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
       },
       {
         "id": "YQQyjwwyUvg",
-        "title": "Is relationship an escape from loneliness? | Krishnamurti",
-        "date": "2026-11-11T19:00:15+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/YQQyjwwyUvg/hqdefault.jpg"
+        "title": "Is relationship an escape from loneliness?",
+        "date": "2026-11-11",
+        "thumbnail": "https://i.ytimg.com/vi/YQQyjwwyUvg/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
       },
       {
         "id": "IbQeHueBt-0",
-        "title": "Driving | Krishnamurti",
-        "date": "2026-11-10T19:00:13+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/IbQeHueBt-0/hqdefault.jpg"
+        "title": "Driving",
+        "date": "2026-11-10",
+        "thumbnail": "https://i.ytimg.com/vi/IbQeHueBt-0/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
       },
       {
         "id": "SSqiHYKHISs",
-        "title": "You are anger | Krishnamurti",
-        "date": "2026-11-09T19:00:26+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/SSqiHYKHISs/hqdefault.jpg"
+        "title": "You are anger",
+        "date": "2026-11-09",
+        "thumbnail": "https://i.ytimg.com/vi/SSqiHYKHISs/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
       },
       {
         "id": "nFQxEGIJRuw",
-        "title": "‘What happens when we die?' is a wrong question | Krishnamurti",
-        "date": "2026-11-08T06:30:35+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/nFQxEGIJRuw/hqdefault.jpg"
+        "title": "‘What happens when we die?' is a wrong question",
+        "date": "2026-11-08",
+        "thumbnail": "https://i.ytimg.com/vi/nFQxEGIJRuw/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
       },
       {
         "id": "V4wqX1RRen0",
-        "title": "The annihilation of division | Krishnamurti",
-        "date": "2026-11-07T19:00:34+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/V4wqX1RRen0/hqdefault.jpg"
-      },
-      {
-        "id": "TU_tPjE7c0o",
-        "title": "Books meant nothing to me | Krishnamurti",
-        "date": "2026-11-06T06:30:32+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/TU_tPjE7c0o/hqdefault.jpg"
-      },
-      {
-        "id": "o0_l7y7vSCY",
-        "title": "The company of the wise | Krishnamurti",
-        "date": "2026-11-05T19:00:22+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/o0_l7y7vSCY/hqdefault.jpg"
-      },
-      {
-        "id": "9EcXTP9wHNU",
-        "title": "There is no 'how' | Krishnamurti",
-        "date": "2026-11-04T19:00:19+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/9EcXTP9wHNU/hqdefault.jpg"
-      },
-      {
-        "id": "LZ4se_3eqo0",
-        "title": "The Krishnamurti Podcast - Ep. 305 - Krishnamurti on Non-violence",
-        "date": "2026-11-04T05:30:08+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/LZ4se_3eqo0/hqdefault.jpg"
-      },
-      {
-        "id": "M3inoZIAlog",
-        "title": "What does repetition do to the mind? | Krishnamurti",
-        "date": "2026-11-03T19:00:14+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/M3inoZIAlog/hqdefault.jpg"
+        "title": "The annihilation of division",
+        "date": "2026-11-07",
+        "thumbnail": "https://i.ytimg.com/vi/V4wqX1RRen0/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
       }
     ],
     "officialChannel": [
       {
         "id": "SNKwpHnW2GI",
-        "title": "Knowledge creates fragmentation | J. Krishnamurti",
-        "date": "2026-11-14T06:30:34+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/SNKwpHnW2GI/hqdefault.jpg"
+        "title": "Knowledge creates fragmentation",
+        "date": "2026-11-14",
+        "thumbnail": "https://i.ytimg.com/vi/SNKwpHnW2GI/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "official"
       },
       {
         "id": "ocRWW0u_JWU",
-        "title": "Audio | J. Krishnamurti - Rome 1968 - Discussion - Why are we not aware of the danger of violence?",
-        "date": "2026-11-10T06:30:18+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/ocRWW0u_JWU/hqdefault.jpg"
+        "title": "J. Krishnamurti - Rome 1968 - Discussion - Why are we not aware of the danger of violence?",
+        "date": "2026-11-10",
+        "thumbnail": "https://i.ytimg.com/vi/ocRWW0u_JWU/mqdefault.jpg",
+        "kind": "full",
+        "format": "audio",
+        "short": false,
+        "channel": "official"
       },
       {
         "id": "NUaTzC7s3Sc",
-        "title": "The pursuit of non-fact | J. Krishnamurti",
-        "date": "2026-11-05T10:44:08+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/NUaTzC7s3Sc/hqdefault.jpg"
+        "title": "The pursuit of non-fact",
+        "date": "2026-11-05",
+        "thumbnail": "https://i.ytimg.com/vi/NUaTzC7s3Sc/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "official"
       },
       {
         "id": "Sc-7Dixd2bU",
-        "title": "Audio | J. Krishnamurti - Paris 1965 - Public Talk 5 - The root of contradiction is the division...",
-        "date": "2026-11-03T06:30:39+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/Sc-7Dixd2bU/hqdefault.jpg"
+        "title": "J. Krishnamurti - Paris 1965 - Public Talk 5 - The root of contradiction is the division...",
+        "date": "2026-11-03",
+        "thumbnail": "https://i.ytimg.com/vi/Sc-7Dixd2bU/mqdefault.jpg",
+        "kind": "full",
+        "format": "audio",
+        "short": false,
+        "channel": "official"
       },
       {
         "id": "s3R5gc5hvMs",
-        "title": "We are being carefully conditioned | J. Krishnamurti",
-        "date": "2026-11-02T08:46:16+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/s3R5gc5hvMs/hqdefault.jpg"
+        "title": "We are being carefully conditioned",
+        "date": "2026-11-02",
+        "thumbnail": "https://i.ytimg.com/vi/s3R5gc5hvMs/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "official"
       },
       {
         "id": "PAoiDrJqvsw",
-        "title": "Audio | J. Krishnamurti - Paris 1965 - Public Talk 4 - The process of meditation",
-        "date": "2026-10-27T06:30:31+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/PAoiDrJqvsw/hqdefault.jpg"
+        "title": "J. Krishnamurti - Paris 1965 - Public Talk 4 - The process of meditation",
+        "date": "2026-10-27",
+        "thumbnail": "https://i.ytimg.com/vi/PAoiDrJqvsw/mqdefault.jpg",
+        "kind": "full",
+        "format": "audio",
+        "short": false,
+        "channel": "official"
       },
       {
         "id": "qOv5_SzWx0Q",
-        "title": "Is it possible to look without comparing? | J. Krishnamurti",
-        "date": "2026-10-24T05:30:16+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/qOv5_SzWx0Q/hqdefault.jpg"
+        "title": "Is it possible to look without comparing?",
+        "date": "2026-10-24",
+        "thumbnail": "https://i.ytimg.com/vi/qOv5_SzWx0Q/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "official"
       },
       {
         "id": "w1BbGwCjzAE",
-        "title": "Audio | J. Krishnamurti - Paris 1965 - Public Talk 3 - Seeing the limitations of pleasure and desire",
-        "date": "2026-10-20T05:30:38+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/w1BbGwCjzAE/hqdefault.jpg"
+        "title": "J. Krishnamurti - Paris 1965 - Public Talk 3 - Seeing the limitations of pleasure and desire",
+        "date": "2026-10-20",
+        "thumbnail": "https://i.ytimg.com/vi/w1BbGwCjzAE/mqdefault.jpg",
+        "kind": "full",
+        "format": "audio",
+        "short": false,
+        "channel": "official"
       },
       {
         "id": "Yxz24rbg-zg",
-        "title": "We think we need time to change | J. Krishnamurti",
-        "date": "2026-10-17T05:30:02+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/Yxz24rbg-zg/hqdefault.jpg"
+        "title": "We think we need time to change",
+        "date": "2026-10-17",
+        "thumbnail": "https://i.ytimg.com/vi/Yxz24rbg-zg/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "official"
       },
       {
         "id": "QoYluTR4Y2g",
-        "title": "Audio | J. Krishnamurti - Paris 1965 - Public Talk 2 - Why do we accept the continuity of fear?",
-        "date": "2026-10-13T05:30:27+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/QoYluTR4Y2g/hqdefault.jpg"
-      },
-      {
-        "id": "HTtshNDsIW8",
-        "title": "Harmonious living | J. Krishnamurti",
-        "date": "2026-10-10T05:30:21+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/HTtshNDsIW8/hqdefault.jpg"
-      },
-      {
-        "id": "OEQGs-wTVT8",
-        "title": "Audio | J. Krishnamurti - Paris 1965 - Public Talk 1 - Clearing the mind of all problems",
-        "date": "2026-10-06T05:30:22+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/OEQGs-wTVT8/hqdefault.jpg"
-      },
-      {
-        "id": "dVC3Bq4JhMU",
-        "title": "Resistance is a form of self-defence | J. Krishnamurti",
-        "date": "2026-10-03T05:30:24+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/dVC3Bq4JhMU/hqdefault.jpg"
-      },
-      {
-        "id": "urVA9TDNjM0",
-        "title": "Audio | J. Krishnamurti - Paris 1965 - Small Group Discussion - Concentration, attention...",
-        "date": "2026-09-29T05:30:28+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/urVA9TDNjM0/hqdefault.jpg"
-      },
-      {
-        "id": "zi5cPoLqiG4",
-        "title": "Can intellect bring order? | J. Krishnamurti",
-        "date": "2026-09-25T17:02:56+00:00",
-        "thumbnail": "https://i.ytimg.com/vi/zi5cPoLqiG4/hqdefault.jpg"
+        "title": "J. Krishnamurti - Paris 1965 - Public Talk 2 - Why do we accept the continuity of fear?",
+        "date": "2026-10-13",
+        "thumbnail": "https://i.ytimg.com/vi/QoYluTR4Y2g/mqdefault.jpg",
+        "kind": "full",
+        "format": "audio",
+        "short": false,
+        "channel": "official"
       }
     ]
   },
+  "retreats": [
+    {
+      "promo": 72322,
+      "name": "Young Adults Retreat",
+      "start": "2026-11-20",
+      "nights": 4
+    },
+    {
+      "promo": 72330,
+      "name": "Group Retreat",
+      "start": "2026-11-27",
+      "nights": 4
+    },
+    {
+      "promo": 75544,
+      "name": "Silent Retreat",
+      "start": "2027-02-19",
+      "nights": 2
+    },
+    {
+      "promo": 75572,
+      "name": "Group Retreat",
+      "start": "2027-02-26",
+      "nights": 4
+    },
+    {
+      "promo": 75563,
+      "name": "Weekend Retreat",
+      "start": "2027-03-12",
+      "nights": 2
+    },
+    {
+      "promo": 75567,
+      "name": "Young Adults Retreat",
+      "start": "2027-03-19",
+      "nights": 4
+    },
+    {
+      "promo": 75553,
+      "name": "Group Retreat",
+      "start": "2027-04-16",
+      "nights": 4
+    },
+    {
+      "promo": 75545,
+      "name": "Silent Retreat",
+      "start": "2027-04-23",
+      "nights": 2
+    },
+    {
+      "promo": 75573,
+      "name": "Group Retreat",
+      "start": "2027-05-07",
+      "nights": 4
+    },
+    {
+      "promo": 75546,
+      "name": "Silent Retreat",
+      "start": "2027-05-21",
+      "nights": 2
+    },
+    {
+      "promo": 75564,
+      "name": "Weekend Retreat",
+      "start": "2027-06-04",
+      "nights": 2
+    },
+    {
+      "promo": 75568,
+      "name": "Young Adults Retreat",
+      "start": "2027-06-18",
+      "nights": 4
+    },
+    {
+      "promo": 75555,
+      "name": "Group Retreat",
+      "start": "2027-07-02",
+      "nights": 4
+    },
+    {
+      "promo": 75547,
+      "name": "Silent Retreat",
+      "start": "2027-07-30",
+      "nights": 2
+    },
+    {
+      "promo": 75610,
+      "name": "Krishnamurti Gathering",
+      "start": "2027-08-13",
+      "nights": 5
+    },
+    {
+      "promo": 75565,
+      "name": "Weekend Retreat",
+      "start": "2027-08-27",
+      "nights": 2
+    },
+    {
+      "promo": 75571,
+      "name": "Young Adults Retreat",
+      "start": "2027-09-03",
+      "nights": 4
+    },
+    {
+      "promo": 75548,
+      "name": "Silent Retreat",
+      "start": "2027-09-17",
+      "nights": 2
+    },
+    {
+      "promo": 75556,
+      "name": "Group Retreat",
+      "start": "2027-09-24",
+      "nights": 4
+    },
+    {
+      "promo": 75575,
+      "name": "Weekend Retreat",
+      "start": "2027-10-08",
+      "nights": 2
+    },
+    {
+      "promo": 75549,
+      "name": "Silent Retreat",
+      "start": "2027-10-15",
+      "nights": 2
+    },
+    {
+      "promo": 75570,
+      "name": "Young Adults Retreat",
+      "start": "2027-10-22",
+      "nights": 4
+    },
+    {
+      "promo": 75550,
+      "name": "Silent Retreat",
+      "start": "2027-11-12",
+      "nights": 2
+    },
+    {
+      "promo": 75557,
+      "name": "Group Retreat",
+      "start": "2027-11-26",
+      "nights": 4
+    },
+    {
+      "promo": 75551,
+      "name": "Silent Retreat",
+      "start": "2027-12-03",
+      "nights": 2
+    }
+  ],
+  "promotions": [
+    {
+      "id": 75168,
+      "slug": "1-the-krishnamurti-centre",
+      "title": "1 — The Krishnamurti Centre",
+      "order": 1,
+      "date": "2026-06-22T01:19:33Z",
+      "modified": "2026-07-01T07:41:10Z",
+      "image": "data/img/1-9067d9.jpg",
+      "activeDays": [
+        11,
+        95,
+        177,
+        261,
+        343
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "data/img/1-9067d9.jpg",
+          "alt": "The Krishnamurti Centre",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/1.jpg"
+        },
+        {
+          "type": "text",
+          "text": "The Krishnamurti Centre offers quiet retreats for those wishing to inquire into their lives, in light of the teachings of J. Krishnamurti. Join us for a group retreat, a day visit, or tailor your own study programme."
+        },
+        {
+          "type": "cta",
+          "label": "Learn more",
+          "url": "https://krishnamurticentre.org.uk/"
+        }
+      ],
+      "imageSource": "https://kfoundation.org/wp-content/uploads/2026/06/1.jpg"
+    },
+    {
+      "id": 75170,
+      "slug": "2-brockwood-park-bp-video",
+      "title": "2 — Brockwood Park (BP video)",
+      "order": 2,
+      "date": "2026-06-22T01:19:33Z",
+      "modified": "2026-06-22T02:53:40Z",
+      "image": "data/img/2-115847.jpg",
+      "activeDays": [
+        21,
+        105,
+        187,
+        271,
+        354
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "data/img/2-115847.jpg",
+          "alt": "Brockwood Park — Krishnamurti's Living Legacy",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/2.jpg"
+        },
+        {
+          "type": "text",
+          "text": "Step into Brockwood Park, an international haven of inquiry founded by J. Krishnamurti, in a new short film that moves from its early gatherings to today’s thriving programmes."
+        },
+        {
+          "type": "cta",
+          "label": "Watch video",
+          "url": "https://youtu.be/aRwNXeJya8Y"
+        }
+      ],
+      "imageSource": "https://kfoundation.org/wp-content/uploads/2026/06/2.jpg"
+    },
+    {
+      "id": 75172,
+      "slug": "3-the-krishnamurti-centre-video",
+      "title": "3 — The Krishnamurti Centre (video)",
+      "order": 3,
+      "date": "2026-06-22T01:19:34Z",
+      "modified": "2026-06-22T02:53:40Z",
+      "image": "data/img/3-e7f342.jpg",
+      "activeDays": [
+        31,
+        115,
+        198,
+        281
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "data/img/3-e7f342.jpg",
+          "alt": "The Krishnamurti Centre",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/3.jpg"
+        },
+        {
+          "type": "text",
+          "text": "The Krishnamurti Retreat Centre is situated in the beautiful countryside of southern England. It offers retreats individually and in groups. The focus is on inquiry in light of Krishnamurti’s teachings."
+        },
+        {
+          "type": "cta",
+          "label": "Watch video",
+          "url": "https://youtu.be/sUJESTkZK0Y"
+        }
+      ],
+      "imageSource": "https://kfoundation.org/wp-content/uploads/2026/06/3.jpg"
+    },
+    {
+      "id": 75174,
+      "slug": "4-the-teachings-foundation-website",
+      "title": "4 — The Teachings (Foundation website)",
+      "order": 4,
+      "date": "2026-06-22T01:19:34Z",
+      "modified": "2026-06-22T02:53:40Z",
+      "image": "data/img/4-13a4dc.jpg",
+      "activeDays": [
+        42,
+        125,
+        208,
+        292
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "data/img/4-13a4dc.jpg",
+          "alt": "J. Krishnamurti",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/4.jpg"
+        },
+        {
+          "type": "text",
+          "text": "The Foundation website offers a wealth of resources, including hundreds of quotes, photographs, free downloads, book recommendations, an extensive Index of Topics, and Urgency of Change – The Krishnamurti Podcast."
+        },
+        {
+          "type": "cta",
+          "label": "Explore the teachings",
+          "url": "https://kfoundation.org/"
+        }
+      ],
+      "imageSource": "https://kfoundation.org/wp-content/uploads/2026/06/4.jpg"
+    },
+    {
+      "id": 75176,
+      "slug": "5-the-krishnamurti-centre-programme",
+      "title": "5 — The Krishnamurti Centre (programme)",
+      "order": 5,
+      "date": "2026-06-22T01:19:34Z",
+      "modified": "2026-06-22T02:53:40Z",
+      "image": "data/img/5-b74e2c.jpg",
+      "activeDays": [
+        52,
+        135,
+        219,
+        302
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "data/img/5-b74e2c.jpg",
+          "alt": "The Krishnamurti Centre",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/5.jpg"
+        },
+        {
+          "type": "text",
+          "text": "The Krishnamurti Centre offers a variety of group retreats, including for young adults. The atmosphere is one of openness and friendliness, with a sense of freedom to inquire with others and alone."
+        },
+        {
+          "type": "cta",
+          "label": "See programme",
+          "url": "https://krishnamurticentre.org.uk/programme"
+        }
+      ],
+      "imageSource": "https://kfoundation.org/wp-content/uploads/2026/06/5.jpg"
+    },
+    {
+      "id": 75178,
+      "slug": "6-brockwood-park-landing",
+      "title": "6 — Brockwood Park (landing)",
+      "order": 6,
+      "date": "2026-06-22T01:19:35Z",
+      "modified": "2026-06-22T02:53:40Z",
+      "image": "data/img/6-2fc5e4.jpg",
+      "activeDays": [
+        62,
+        145,
+        229,
+        313
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "data/img/6-2fc5e4.jpg",
+          "alt": "Brockwood Park",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/6.jpg"
+        },
+        {
+          "type": "text",
+          "text": "Brockwood Park, set in ancient woods and rolling hills, is the peaceful yet accessible setting where The Krishnamurti Centre, Brockwood Park School and the Krishnamurti Foundation form a unique whole dedicated to inquiry, education, and the worldwide preservation of Krishnamurti’s teachings.",
+          "links": [
+            {
+              "text": "The Krishnamurti Centre",
+              "url": "https://krishnamurticentre.org.uk/"
+            },
+            {
+              "text": "Brockwood Park School",
+              "url": "https://brockwood.org.uk/"
+            },
+            {
+              "text": "Krishnamurti Foundation",
+              "url": "https://kfoundation.org/"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Learn more",
+          "url": "https://kfoundation.org/brockwood/"
+        }
+      ],
+      "imageSource": "https://kfoundation.org/wp-content/uploads/2026/06/6.jpg"
+    },
+    {
+      "id": 75180,
+      "slug": "7-the-krishnamurti-centre-volunteering",
+      "title": "7 — The Krishnamurti Centre (volunteering)",
+      "order": 7,
+      "date": "2026-06-22T01:19:35Z",
+      "modified": "2026-06-22T02:53:40Z",
+      "image": "data/img/7-f270a7.jpg",
+      "activeDays": [
+        72,
+        156,
+        240,
+        323
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "data/img/7-f270a7.jpg",
+          "alt": "The Krishnamurti Centre — volunteering",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/7.jpg"
+        },
+        {
+          "type": "text",
+          "text": "At The Krishnamurti Centre, we accept a number of residential volunteers aged 19 to 40, providing the chance to explore fundamental questions in life in light of Krishnamurti’s teachings. We also host Young Adults Retreats throughout the year.",
+          "links": [
+            {
+              "text": "Young Adults Retreats",
+              "url": "https://krishnamurticentre.org.uk/young-adults-retreat/"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Learn more & apply",
+          "url": "https://krishnamurticentre.org.uk/volunteer/"
+        }
+      ],
+      "imageSource": "https://kfoundation.org/wp-content/uploads/2026/06/7.jpg"
+    },
+    {
+      "id": 75182,
+      "slug": "8-the-teachings-free-downloads",
+      "title": "8 — The Teachings (free downloads)",
+      "order": 8,
+      "date": "2026-06-22T01:19:36Z",
+      "modified": "2026-06-22T02:53:40Z",
+      "image": "data/img/8-268aaf.jpg",
+      "activeDays": [
+        84,
+        167,
+        251,
+        333
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "data/img/8-268aaf.jpg",
+          "alt": "Free downloads",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/8.jpg"
+        },
+        {
+          "type": "text",
+          "text": "Visit the Downloads section of our website for free booklets and PDF guides to our audio and video resources on the official YouTube channels, including translations and video extracts."
+        },
+        {
+          "type": "cta",
+          "label": "Free downloads",
+          "url": "https://kfoundation.org/downloads/"
+        }
+      ],
+      "imageSource": "https://kfoundation.org/wp-content/uploads/2026/06/8.jpg"
+    },
+    {
+      "id": 75184,
+      "slug": "9-end-of-journey",
+      "title": "9 — End of Journey",
+      "order": 9,
+      "date": "2026-06-22T01:19:36Z",
+      "modified": "2026-06-22T02:53:40Z",
+      "image": "data/img/9a-25ee58.jpg",
+      "activeDays": [
+        365
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "data/img/9a-25ee58.jpg",
+          "alt": "A Year with Krishnamurti",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/9a.jpg"
+        },
+        {
+          "type": "heading",
+          "text": "In Ending is a New Beginning"
+        },
+        {
+          "type": "text",
+          "text": "The year-long journey of daily Krishnamurti texts has now come to an end, but you can continue exploring in a number of ways. Thousands of video and audio recordings are available on our YouTube channels, including extracts and previously unpublished talks and discussions. The Foundation website includes carefully chosen quotes, book suggestions and an extensive Index of Topics. The site also features a search function that enables easy access to transcripts and videos of Krishnamurti’s talks, as well as curated materials."
+        },
+        {
+          "type": "text",
+          "text": "And the inquiry need not end here.",
+          "style": "lead"
+        },
+        {
+          "type": "text",
+          "text": "You are warmly invited to visit The Krishnamurti Centre at Brockwood Park, founded by Krishnamurti, where you can meet others who are deeply interested in exploring these questions together. We look forward to seeing you soon.",
+          "links": [
+            {
+              "text": "The Krishnamurti Centre",
+              "url": "https://krishnamurticentre.org.uk/"
+            },
+            {
+              "text": "Brockwood Park",
+              "url": "https://kfoundation.org/brockwood/"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "label": "Book your stay",
+          "url": "https://krishnamurticentre.org.uk/"
+        },
+        {
+          "type": "rule"
+        },
+        {
+          "type": "heading",
+          "text": "Please Consider Supporting This Work"
+        },
+        {
+          "type": "image",
+          "src": "data/img/9b-c302c7.jpg",
+          "alt": "J. Krishnamurti",
+          "source": "https://kfoundation.org/wp-content/uploads/2026/06/9b.jpg"
+        },
+        {
+          "type": "text",
+          "text": "“The Foundations will see to it that these teachings are kept whole, are not distorted, are not made corrupt.” —Krishnamurti",
+          "style": "quote"
+        },
+        {
+          "type": "text",
+          "text": "This mandate from Krishnamurti is even more critical in the age of misinformation and artificial intelligence and serves as the guiding principle under which the Foundation operates. We believe Krishnamurti’s teachings are increasingly relevant to the challenges individuals, society and humanity face."
+        },
+        {
+          "type": "cta",
+          "label": "Support this work",
+          "url": "https://kfoundation.org/donate/"
+        }
+      ],
+      "imageSource": "https://kfoundation.org/wp-content/uploads/2026/06/9a.jpg"
+    }
+  ],
   "archiveGenres": [
     {
       "id": 33,
@@ -881,5 +1135,23 @@
       "name": "Talk",
       "count": 1548
     }
-  ]
+  ],
+  "images": {
+    "https://kfoundation.org/wp-content/uploads/2022/07/black-and-white-photo-portrait-of-j-krishnamurti-on-a-dark-background-looking-at-the-camera.jpg": "data/img/black-and-white-photo-portrait-of-j-krishnamurti-a77c80.jpg",
+    "https://kfoundation.org/wp-content/uploads/2022/07/black-and-white-photograph-of-j-krishnamurti-with-trees-in-the-background-looking-to-right.jpg": "data/img/black-and-white-photograph-of-j-krishnamurti-wit-7ece7e.jpg",
+    "https://kfoundation.org/wp-content/uploads/2022/07/black-and-white-photograph-of-j-krishnamurti-looking-down-left-with-leaves-background.jpg": "data/img/black-and-white-photograph-of-j-krishnamurti-loo-cee2ec.jpg",
+    "https://kfoundation.org/wp-content/uploads/2022/07/black-and-white-photograph-of-j-krishnamurti-in-indian-clothes-looking-to-right.jpg": "data/img/black-and-white-photograph-of-j-krishnamurti-in--511fdd.jpg",
+    "https://kfoundation.org/wp-content/uploads/2023/09/K-on-AI-Square.jpg": "data/img/k-on-ai-square-9386d8.jpg",
+    "https://kfoundation.org/wp-content/uploads/2022/07/colour-photograph-of-j-krishnamurti-looking-at-the-branches-of-a-tree.jpg": "data/img/colour-photograph-of-j-krishnamurti-looking-at-t-ab1092.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/1.jpg": "data/img/1-9067d9.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/2.jpg": "data/img/2-115847.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/3.jpg": "data/img/3-e7f342.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/4.jpg": "data/img/4-13a4dc.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/5.jpg": "data/img/5-b74e2c.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/6.jpg": "data/img/6-2fc5e4.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/7.jpg": "data/img/7-f270a7.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/8.jpg": "data/img/8-268aaf.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/9a.jpg": "data/img/9a-25ee58.jpg",
+    "https://kfoundation.org/wp-content/uploads/2026/06/9b.jpg": "data/img/9b-c302c7.jpg"
+  }
 }
