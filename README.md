@@ -55,7 +55,7 @@ tests/fixtures/          Daily test data (never shipped)
 1. Listen, Watch, search, cross-links and the programme come from the data files; rates from `data/centre.json`; the Daily passage only from `data/daily.json`. Quotes, articles, "Start here" and retreat descriptions are still built-in (steps 3–4).
 2. No retreat price estimates: Inn Style shows the real retreat prices.
 3. The hard-coded Today passage is gone; Today shows a passage only when `data/daily.json` exists.
-4. The framed in-app browser is used only for kfoundation.org and krishnamurticentre.org.uk pages. Inn Style (booking, vouchers) is never framed; on the web it opens in the same tab. A native build should use the platform in-app browser for all of these.
+4. The framed in-app browser is used only for kfoundation.org and krishnamurticentre.org.uk reading pages; their forms and payments (Donate, Newsletter, any /donate, /give, /newsletter, /checkout, /cart, /my-account path) open as a full page in a new tab, like the Store. Inn Style (booking, vouchers) is never framed; on the web it opens in the same tab. A native build should use the platform in-app browser for all of these.
 5. YouTube can't play in the background (YouTube terms), so audio-only talks should use the podcast MP3s.
 6. Accessibility: tap targets are 44 to 48px. A screen-reader pass hasn't been done.
 7. No analytics, accounts or ads, by design (KFT content is free and ad-free).

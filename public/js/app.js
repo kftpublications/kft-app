@@ -631,6 +631,9 @@
             var u = new URL(href, location.href);
             if (u.protocol !== "https:") return false;
             var h = u.hostname.toLowerCase();
+            // Forms and payments open as a full page: framed, the donation form's script fails ("Blocked a frame")
+            // and the browser drops the site's consent and Stripe cookies as third-party (checked 17 Nov 2026)
+            if (/^\/(donate|give|newsletter|checkout|cart|my-account)(\/|$)/i.test(u.pathname)) return false;
             return h === "kfoundation.org" || h === "www.kfoundation.org" ||
               h === "krishnamurticentre.org.uk" || h === "www.krishnamurticentre.org.uk";
           } catch (err) { return false; }
