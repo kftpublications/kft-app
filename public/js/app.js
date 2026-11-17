@@ -268,35 +268,190 @@
         }, true);
 
         /* ---------- Today ---------- */
+        // Top to bottom: date, today's passage, continue listening, new this week, Instagram, the Centre, saved
         function renderToday() {
-          var c300 = SHOWS.kc.eps[0], u305 = SHOWS.uoc.eps[0], v = VIDEOS.kft.list[0];
           var todayLabel = new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
-          var rail = (c300 ? newCard("ep", c300.id, SHOWS.kc.cover, "Collection", c300.title.replace(/^\d+\s*•\s*/, ""), metaText(c300)) : "") +
-            (u305 ? newCard("ep", u305.id, SHOWS.uoc.cover, "Urgency of Change", u305.title, metaText(u305)) : "") +
-            (v ? newCard("video", v.id, vThumb(v), "Video", v.title, joinMeta(v.date, v.ch)) : "");
           $("s-today").innerHTML =
-            '<div class="x-pad"><p class="x-smallcaps">' + esc(todayLabel) + "</p></div>" +
-            todayDailyCard() +
-            '<div class="x-sec"><div class="x-sec-head"><h2 class="x-sec-title">New this week</h2></div><div class="x-rail">' +
-              rail +
-            "</div></div>" +
-            '<div class="x-sec"><div class="x-sec-head"><h2 class="x-sec-title">Next at the Centre</h2></div>' +
-              '<div class="x-card x-centre">' +
-                '<p class="x-meta">The Krishnamurti Centre, Brockwood Park</p>' +
-                (upcoming().slice(0, 2).map(centreRow).join("") || '<p class="x-meta x-centre-empty">New dates are announced soon.</p>') +
-                '<button class="x-btn x-btn--block u-mt3" data-act="tab" data-tab="visit">See programme</button>' +
-              "</div></div>" +
+            '<div class="x-pad x-today-head"><h1 class="x-smallcaps x-today-date">' + esc(todayLabel) + "</h1></div>" +
+            todayHero() +
             '<div class="x-sec" id="continue-wrap" hidden><div class="x-sec-head"><h2 class="x-sec-title">Continue listening</h2></div><div id="continue"></div></div>' +
+            newThisWeek() +
+            '<div id="ig-wrap">' + instagramHtml() + "</div>" +
+            centreCard() +
             '<div class="x-sec" id="saved-wrap" hidden><div class="x-sec-head"><h2 class="x-sec-title">Saved</h2></div><ul class="x-list" id="saved-list"></ul></div>';
           renderContinue();
           renderSaved();
         }
-        function newCard(kind, id, img, label, title, meta) {
-          return '<button class="x-card x-newcard" data-act="' + kind + '" data-' + (kind === "ep" ? "ep" : "v") + '="' + esc(id) + '">' +
-            '<img src="' + esc(img) + '" alt="" loading="lazy" />' +
-            '<span class="x-nc-body"><span class="x-kind">' + esc(label) + '</span><span class="x-nc-title">' + esc(title) + '</span><span class="x-meta">' + esc(meta) + "</span></span></button>";
+
+        // Today's passage: today's entry in data/daily.json when there is one. Otherwise, INTERIM: the app's own
+        // QUOTES, one per day of the year, until the kfoundation.org quotes pipeline (step 3) supplies passages.
+        // Nothing is made up here: every passage is either from daily.json or from QUOTES.
+        var HERO_PHOTO = ARTICLES[5][3]; // colour photograph of K looking at the branches of a tree (local copy via feed.json images)
+        function dayOfYear(d) { var s = new Date(d.getFullYear(), 0, 1); return Math.round((new Date(d.getFullYear(), d.getMonth(), d.getDate()) - s) / 864e5); }
+        function todayPassage() {
+          var p = DAILY.byDay[dailyDayNumber()];
+          if (p) return { daily: p, text: p.text.split(/\n\s*\n/)[0].trim(), source: sourceLine(p), interim: false };
+          if (!QUOTES.length) return null;
+          var q = QUOTES[dayOfYear(new Date()) % QUOTES.length];
+          return { daily: null, text: q[0], source: q[1], interim: true };
+        }
+        function quoteId(text) {
+          var h = 0;
+          for (var i = 0; i < text.length; i++) h = (h * 31 + text.charCodeAt(i)) | 0;
+          return "quote:" + (h >>> 0).toString(36);
+        }
+        function quoteSaveBtn(id) {
+          var on = !!savedItems[id];
+          return '<button class="x-act' + (on ? " is-on" : "") + '" data-act="save-quote" data-id="' + esc(id) + '" aria-pressed="' + on + '">' + I.heart + (on ? "Saved" : "Save") + "</button>";
+        }
+        function todayHero() {
+          var q = todayPassage();
+          if (!q) return "";
+          var p = q.daily, ep = p && p.audioUrl ? getEp("d" + p.day) : null, photo = IMGMAP[HERO_PHOTO], id = quoteId(q.text);
+          var dayLine = p ? joinMeta("Day " + p.day + " of 365", flowLine(p)) : "";
+          return '<article class="x-card x-today-hero' + (p ? " x-daily-card" : "") + '" aria-labelledby="th-label" data-passage="' + (q.interim ? "interim" : "daily") + '" data-qid="' + esc(id) + '">' +
+            (photo ? '<img class="x-th-photo" src="' + esc(photo) + '" alt="J. Krishnamurti looking at the branches of a tree" />' : "") +
+            '<div class="x-th-body">' +
+              '<p class="x-smallcaps x-accent" id="th-label">Today\'s passage</p>' +
+              (p
+                ? '<button class="x-th-quote" data-act="dopen" data-day="' + p.day + '"><span class="x-th-text">' + esc(q.text) + '</span><span class="x-visually-hidden">. Read today\'s passage in full</span></button>'
+                : '<blockquote class="x-th-text">' + esc(q.text) + "</blockquote>") +
+              (q.source ? '<p class="x-meta x-th-source">' + esc(q.source) + "</p>" : "") +
+              (dayLine ? '<p class="x-meta x-th-day">' + esc(dayLine) + "</p>" : "") +
+              '<div class="x-actions">' +
+                (ep ? '<button class="x-act" data-act="play" data-ep="' + esc(ep.id) + '" aria-label="Listen to today\'s passage">' + PP + "<span>Listen</span></button>" : "") +
+                quoteSaveBtn(id) +
+                '<button class="x-act" data-act="share-quote">' + I.share + "Share</button>" +
+              "</div>" +
+            "</div>" +
+          "</article>";
+        }
+        function toggleSaveQuote(id) {
+          var q = todayPassage(), hadFocus = document.activeElement && document.activeElement.getAttribute("data-id") === id;
+          if (savedItems[id]) { delete savedItems[id]; store("savedItems", savedItems); tidyLibrary(); }
+          else if (q && quoteId(q.text) === id) {
+            savedItems[id] = Date.now();
+            library[id] = { kind: "quote", title: q.text, source: q.source || "", day: q.daily ? q.daily.day : null };
+            store("lib", library);
+            store("savedItems", savedItems);
+          }
+          [].forEach.call(app.querySelectorAll('.x-today-hero [data-act="save-quote"][data-id="' + id + '"]'), function (b) { b.outerHTML = quoteSaveBtn(id); });
+          toast(savedItems[id] ? "Saved. Find it on Today." : "Removed from saved");
+          renderSaved();
+          var nb = $("s-today").querySelector('.x-today-hero [data-act="save-quote"]');
+          if (nb && hadFocus) nb.focus();
+        }
+        function shareQuote() {
+          var q = todayPassage();
+          if (!q) return;
+          var link = location.href.split("#")[0];
+          var text = "“" + q.text + "”\n\nJ. Krishnamurti" + (q.source ? ", " + q.source : "");
+          if (navigator.share) { navigator.share({ title: "Today's passage", text: text, url: link }).catch(function () {}); return; }
+          if (navigator.clipboard) navigator.clipboard.writeText(link).then(function () { toast("Link copied"); }, function () { toast("Copy is not available here"); });
+          else toast("Copy is not available here");
+        }
+
+        // New this week: the newest episodes of both podcasts and the newest videos of both channels, newest first
+        var VBADGE = { full: "Full talk", extract: "Extract", short: "Short" };
+        function epIso(ep) {
+          if (ep.iso) return ep.iso;
+          var m = /^(\d{1,2}) (\w{3})\w* (\d{4})$/.exec(ep.date || ""), mi = m ? "JanFebMarAprMayJunJulAugSepOctNovDec".indexOf(m[2]) / 3 : -1;
+          return mi > -1 ? m[3] + "-" + ("0" + (mi + 1)).slice(-2) + "-" + ("0" + m[1]).slice(-2) : "";
+        }
+        function newItems() {
+          var out = [];
+          [["kc", 2], ["uoc", 2]].forEach(function (s) {
+            SHOWS[s[0]].eps.slice(0, s[1]).forEach(function (ep) {
+              out.push({ kind: "ep", id: ep.id, img: SHOWS[s[0]].cover, badge: "Podcast", label: SHOWS[s[0]].name, title: ep.title.replace(/^\d+\s*•\s*/, ""), meta: joinMeta(ep.date, mins(ep)), iso: epIso(ep) });
+            });
+          });
+          ["kft", "off"].forEach(function (k) {
+            VIDEOS[k].list.slice().sort(function (a, b) { return (b.iso || "").localeCompare(a.iso || ""); }).slice(0, 3).forEach(function (v) {
+              out.push({ kind: "video", id: v.id, img: vThumb(v), badge: VBADGE[kindOf(v)] || "Video", label: v.ch, title: v.title, meta: joinMeta(v.date, vDur(v)), iso: v.iso || "" });
+            });
+          });
+          return out.sort(function (a, b) { return b.iso.localeCompare(a.iso); }).slice(0, 8);
+        }
+        function newThisWeek() {
+          var items = newItems();
+          if (!items.length) return "";
+          return '<div class="x-sec"><div class="x-sec-head"><h2 class="x-sec-title">New this week</h2><button class="x-seeall" data-act="tab" data-tab="listen">See all</button></div><div class="x-rail">' +
+            items.map(function (o) { return newCard(o.kind, o.id, o.img, o.badge, o.label, o.title, o.meta); }).join("") +
+          "</div></div>";
+        }
+        function newCard(kind, id, img, badge, label, title, meta) {
+          return '<button class="x-card x-newcard" data-act="' + (kind === "ep" ? "ep" : "video") + '" data-' + (kind === "ep" ? "ep" : "v") + '="' + esc(id) + '" aria-label="' + esc(badge + ": " + title + (meta ? ", " + meta : "")) + '">' +
+            '<span class="x-nc-art"><img src="' + esc(img) + '" alt="" loading="lazy" /><span class="x-nc-badge" aria-hidden="true">' + esc(badge) + "</span></span>" +
+            '<span class="x-nc-body" aria-hidden="true"><span class="x-kind">' + esc(label) + '</span><span class="x-nc-title">' + esc(title) + '</span><span class="x-meta">' + esc(meta) + "</span></span></button>";
         }
         function metaText(ep) { return joinMeta(ep.date, mins(ep)); }
+
+        // Instagram: only from data/instagram.json (built by the pipeline; no Meta scripts in the app).
+        // Without the file: one compact "Follow us" row. With it: the latest post large, the next ones small.
+        var IG_URL = "https://www.instagram.com/krishnamurtifoundationtrust/";
+        var IG = null;
+        var IGI = {
+          carousel: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="13" height="13" rx="2"/><path d="M4 16V6a2 2 0 0 1 2-2h10"/></svg>',
+          video: '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>',
+          logo: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>'
+        };
+        var IG_TYPE = { image: "Photo", carousel: "Carousel", video: "Video" };
+        function igImage(u) { return (isHttp(u) && /^https:/i.test(u)) || /^data\/ig\/[\w.-]+\.(jpe?g|png|webp)$/i.test(txt(u)); }
+        function applyInstagram(x) {
+          var posts = x && Array.isArray(x.posts) ? x.posts : [];
+          var list = posts.map(function (p) {
+            if (!p || typeof p !== "object") return null;
+            var link = txt(p.permalink), t = txt(p.type).toLowerCase(), d = new Date(txt(p.timestamp));
+            if (!txt(p.id) || !/^https:\/\/(www\.)?instagram\.com\/[\w\/.-]+$/.test(link) || !igImage(p.image) || !IG_TYPE[t]) return null;
+            return { id: txt(p.id), link: link, image: txt(p.image), type: t, caption: plainText(p.caption), date: isNaN(d.getTime()) ? null : d };
+          }).filter(Boolean).sort(function (a, b) { return (b.date || 0) - (a.date || 0); });
+          IG = list.length ? list : null;
+          var w = $("ig-wrap");
+          if (w) w.innerHTML = instagramHtml();
+        }
+        function loadInstagram() {
+          if (!window.fetch || IS_PREVIEW) return;
+          try {
+            fetch("data/instagram.json", { cache: "no-cache" })
+              .then(function (r) { if (!r.ok) throw new Error("instagram " + r.status); return r.json(); })
+              .then(applyInstagram)
+              .catch(function () {});
+          } catch (err) {}
+        }
+        function igDate(d) { return d ? d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : ""; }
+        function igAlt(p) { return IG_TYPE[p.type] + (p.caption ? ": " + p.caption.slice(0, 90) : "") + (p.date ? ", " + igDate(p.date) : "") + ". Opens Instagram"; }
+        function instagramHtml() {
+          if (!IG) {
+            return '<div class="x-sec x-ig-compact"><a class="x-card x-ig-follow" href="' + IG_URL + '" data-act="ext" data-kind="link">' + IGI.logo +
+              '<span><span class="x-row-title">Follow us on Instagram</span><span class="x-meta">@krishnamurtifoundationtrust</span></span>' + I.out + "</a></div>";
+          }
+          var top = IG[0], more = IG.slice(1, 7);
+          return '<div class="x-sec"><div class="x-sec-head"><h2 class="x-sec-title">Instagram</h2></div>' +
+            '<a class="x-card x-ig-feature" href="' + esc(top.link) + '" data-act="ext" data-kind="link" aria-label="' + esc(igAlt(top)) + '">' +
+              '<span class="x-ig-img"><img src="' + esc(top.image) + '" alt="" loading="lazy" />' + (IGI[top.type] ? '<span class="x-ig-type">' + IGI[top.type] + "</span>" : "") + "</span>" +
+              '<span class="x-ig-body" aria-hidden="true">' + (top.caption ? '<span class="x-ig-cap">' + esc(top.caption) + "</span>" : "") + '<span class="x-meta">' + esc(joinMeta(igDate(top.date), "@krishnamurtifoundationtrust")) + "</span></span>" +
+            "</a>" +
+            (more.length ? '<h3 class="x-ig-more-title">More from Instagram</h3><div class="x-ig-grid">' + more.map(function (p) {
+              return '<a class="x-ig-tile" href="' + esc(p.link) + '" data-act="ext" data-kind="link" aria-label="' + esc(igAlt(p)) + '"><img src="' + esc(p.image) + '" alt="" loading="lazy" />' + (IGI[p.type] ? '<span class="x-ig-type">' + IGI[p.type] + "</span>" : "") + "</a>";
+            }).join("") + "</div>" : "") +
+            '<div class="x-pad"><a class="x-btn x-btn--ghost x-btn--block u-mt4" href="' + IG_URL + '" data-act="ext" data-kind="link">Follow on Instagram ' + I.out + "</a></div>" +
+          "</div>";
+        }
+
+        // At the Centre: photo header, the next two retreats (upcoming() leaves out ended ones), any coming closure
+        function centreCard() {
+          var closure = closuresShort()[0];
+          return '<div class="x-sec"><div class="x-sec-head"><h2 class="x-sec-title">At the Centre</h2></div>' +
+            '<div class="x-card x-centre">' +
+              '<div class="x-centre-photo"><img src="' + CU + '2-gallery-1-SFW.jpg" alt="" loading="lazy" /><div class="x-overphoto"><p class="x-centre-name">The Krishnamurti Centre</p><p class="x-centre-place">Brockwood Park, Hampshire</p></div></div>' +
+              '<div class="x-centre-body">' +
+                (upcoming().slice(0, 2).map(centreRow).join("") || '<p class="x-meta x-centre-empty">New dates are announced soon.</p>') +
+                (closure ? '<p class="x-meta x-centre-closure">' + esc(closure) + "</p>" : "") +
+                '<button class="x-btn x-btn--block u-mt4" data-act="book">Book a stay</button>' +
+                '<button class="x-btn x-btn--ghost x-btn--block u-mt3" data-act="programme">See programme</button>' +
+              "</div>" +
+            "</div></div>";
+        }
         function centreRow(i) {
           var r = RETREATS[i];
           return '<button class="x-centre-row" data-act="retreat" data-i="' + r.promo + '"><span><span class="x-row-title">' + esc(r.name) + '</span><span class="x-meta">' + esc(r.label) + "</span></span>" + I.chev + "</button>";
@@ -340,7 +495,7 @@
             var ep = getEp(id), s = SHOWS[ep.show], isCur = cur && cur.id === id;
             return '<div class="x-card x-continue">' +
               '<img src="' + esc(s.cover) + '" alt="" />' +
-              '<button class="x-c-body" data-act="' + (isCur ? "np" : "ep") + '" data-ep="' + esc(id) + '"><span class="x-row-title x-ellip">' + esc(ep.title) + '</span><span class="x-meta" data-left="' + esc(id) + '">' + esc(joinMeta(s.name, leftText(ep))) + '</span><span class="x-bar"><i class="x-prog" data-ep="' + esc(id) + '" style="width:' + pctOf(ep) + '%"></i></span></button>' +
+              '<button class="x-c-body" data-act="' + (isCur ? "np" : "ep") + '" data-ep="' + esc(id) + '"><span class="x-row-title x-clamp2">' + esc(ep.title) + '</span><span class="x-meta" data-left="' + esc(id) + '">' + esc(leftText(ep) || s.name) + '</span><span class="x-bar"><i class="x-prog" data-ep="' + esc(id) + '" style="width:' + pctOf(ep) + '%"></i></span></button>' +
               playBtn(id) +
             "</div>";
           }).join("");
@@ -354,6 +509,11 @@
           var ids = Object.keys(savedItems).sort(function (a, b) { return (savedItems[b] || 0) - (savedItems[a] || 0); });
           var html = ids.map(function (id) {
             var e = library[id] || {};
+            if (e.kind === "quote") {
+              if (typeof e.title !== "string" || !e.title) return "";
+              return '<li class="x-row x-saved-quote"><div class="x-row-main"><span class="x-row-title">“' + esc(e.title) + '”</span><span class="x-meta">' + esc(joinMeta("Passage", typeof e.source === "string" ? e.source : "")) + "</span></div>" +
+                '<button class="x-playbtn" data-act="save-quote" data-id="' + esc(id) + '" aria-pressed="true" aria-label="Remove passage from saved">' + I.heart.replace('fill="none"', 'fill="currentColor"') + "</button></li>";
+            }
             if (e.kind === "video" || (!e.kind && VIDS[id])) {
               var v = getVid(id);
               if (!v) return "";
@@ -1716,6 +1876,13 @@
               if (bu) openExternal(bu, "booking"); else renderBookEst();
               break;
             case "retreat": openRetreat(+el.getAttribute("data-i")); break;
+            case "save-quote": toggleSaveQuote(el.getAttribute("data-id")); break;
+            case "share-quote": shareQuote(); break;
+            case "programme":
+              switchTab("visit");
+              var pg = $("programme");
+              if (pg) $("s-visit").scrollTop = pg.offsetTop - 8;
+              break;
             case "dfav": toggleDailyFav(+el.getAttribute("data-day")); break;
             case "dshare": shareDaily(+el.getAttribute("data-day")); break;
             case "dday": if (el.getAttribute("data-day")) openDailyDay(+el.getAttribute("data-day")); break;
@@ -1903,16 +2070,17 @@
         }
         function applyFeed(feed) {
           if (!feed || typeof feed !== "object") return;
+          var changed = false;
           if (feed.files && typeof feed.files === "object") FILES = feed.files;
           if (feed.counts && typeof feed.counts === "object") feedCounts = feed.counts;
           if (feed.images && typeof feed.images === "object") {
             Object.keys(feed.images).forEach(function (k) { var v = feed.images[k]; if (typeof v === "string" && /^data\/img\/[\w.-]+\.(jpe?g|png|webp)$/i.test(v)) IMGMAP[k] = v; });
+            if (IMGMAP[HERO_PHOTO]) changed = true;
             var sec = document.querySelector("#s-read .x-articles");
             if (sec) sec.innerHTML = ARTICLES.map(function (a) { return '<a class="x-article"' + BR(a[2], a[0]) + ' data-q="' + esc((a[0] + " " + a[1]).toLowerCase()) + '">' + articleArt(a) + "<div><h3>" + esc(a[0]) + '</h3><p class="x-clamp2">‘' + esc(a[1]) + "’</p></div></a>"; }).join("");
           }
           var pods = feed.podcasts && typeof feed.podcasts === "object" ? feed.podcasts : {};
           var vids = feed.videos && typeof feed.videos === "object" ? feed.videos : {};
-          var changed = false;
           [["uoc", pods.urgencyOfChange, "u"], ["kc", pods.collection, "c"]].forEach(function (p) {
             var show = p[1] && typeof p[1] === "object" ? p[1] : null;
             if (show && isHttp(show.image)) { SHOWS[p[0]].cover = show.image; changed = true; }
@@ -2101,4 +2269,5 @@
         loadCentre();
         loadFeed();
         loadDaily();
+        loadInstagram();
       })();

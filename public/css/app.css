@@ -122,6 +122,7 @@ body { margin: 0; }
 .x-brand { display: flex; align-items: center; gap: var(--s2); font: 400 1.375rem/1 var(--serif); letter-spacing: 0.01em; min-width: 0; }
 .x-brand span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .x-brand svg { color: var(--accent); flex: none; }
+.x-logo { display: block; flex: none; height: 28px; width: 154px; background: currentColor; -webkit-mask: url(../icons/kft-logo.png) left center / contain no-repeat; mask: url(../icons/kft-logo.png) left center / contain no-repeat; }
 .x-header .x-iconbtn { margin-left: auto; }
 .x-iconbtn { width: var(--tap); height: var(--tap); display: grid; place-items: center; border-radius: 50%; flex: none; color: var(--ink); }
 .x-iconbtn:hover { background: var(--surface); }
@@ -283,13 +284,49 @@ body { margin: 0; }
 /* Today */
 .x-passage { margin: var(--s4) var(--gutter) 0; padding: var(--s6) var(--s6) var(--s3); }
 .x-passage blockquote { margin: var(--s3) 0 var(--s4); font: var(--t-passage); }
-.x-newcard { width: min(288px, 82cqw); min-height: 104px; padding: var(--s3); display: flex; gap: var(--s3); align-items: flex-start; text-align: left; overflow: hidden; }
-.x-newcard img { width: 72px; height: 72px; border-radius: var(--r-img); object-fit: cover; flex: none; }
-.x-nc-body { min-width: 0; display: grid; gap: var(--s1); }
+/* Today: date, passage hero, new this week, Instagram, At the Centre */
+.x-today-head { display: grid; gap: var(--s1); }
+.x-today-date { margin: 0; }
+.x-today-hero { margin: var(--s5) var(--gutter) 0; overflow: hidden; }
+.x-th-photo { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: center 30%; }
+.x-th-body { padding: var(--s6) var(--s6) var(--s3); }
+.x-th-text { display: block; margin: var(--s3) 0 var(--s3); font: 400 1.5rem/2.125rem var(--serif); color: var(--ink); }
+.x-th-quote { display: block; width: 100%; text-align: left; border-radius: var(--r-ctl); }
+.x-th-quote .x-th-text { display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; overflow: hidden; }
+.x-th-day { margin-top: var(--s1); }
+.x-sec-head .x-seeall { min-height: var(--tap); min-width: var(--tap); padding: 0 var(--s1); margin-right: calc(-1 * var(--s1)); font: var(--t-button); color: var(--accent); }
+.x-newcard { width: min(240px, 66cqw); display: flex; flex-direction: column; text-align: left; overflow: hidden; }
+.x-nc-art { position: relative; display: block; width: 100%; aspect-ratio: 16 / 10; }
+.x-nc-art img { width: 100%; height: 100%; object-fit: cover; }
+.x-nc-badge { position: absolute; left: var(--s2); top: var(--s2); padding: 3px var(--s2); border-radius: var(--r-chip); background: var(--bg); color: var(--ink); font: 600 0.6875rem/1rem var(--x-sans); letter-spacing: 0.06em; text-transform: uppercase; }
+.x-nc-body { min-width: 0; display: grid; gap: var(--s1); padding: var(--s3) var(--s4) var(--s4); }
 .x-nc-body .x-kind { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.x-nc-title { font: var(--t-row); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.x-centre { margin: 0 var(--gutter); padding: var(--s5); }
-.x-centre > .x-meta:first-child { margin-bottom: var(--s4); }
+.x-nc-title { font: var(--t-row); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.75rem; }
+.x-ig-follow { margin: 0 var(--gutter); min-height: 64px; padding: var(--s3) var(--s4); display: flex; align-items: center; gap: var(--s3); }
+.x-ig-follow > span { flex: 1; min-width: 0; display: grid; gap: 2px; }
+.x-ig-follow > span .x-meta { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.x-ig-follow > svg:first-child { color: var(--accent); flex: none; }
+.x-ig-follow > svg:last-child { color: var(--muted); flex: none; }
+.x-ig-feature { display: block; margin: 0 var(--gutter); overflow: hidden; }
+.x-ig-img { position: relative; display: block; aspect-ratio: 1 / 1; }
+.x-ig-img img, .x-ig-tile img { width: 100%; height: 100%; object-fit: cover; }
+.x-ig-type { position: absolute; right: var(--s2); top: var(--s2); width: 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; background: rgb(0 0 0 / 0.55); color: #fff; }
+.x-ig-body { display: grid; gap: var(--s1); padding: var(--s3) var(--s4) var(--s4); }
+.x-ig-cap { font: var(--t-small); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.x-ig-more-title { font: var(--t-label); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); padding: 0 var(--gutter); margin: var(--s5) 0 var(--s2); }
+.x-ig-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s1); padding: 0 var(--gutter); }
+.x-ig-tile { position: relative; display: block; aspect-ratio: 1 / 1; border-radius: var(--s1); overflow: hidden; }
+.x-ig-tile .x-ig-type { width: 24px; height: 24px; right: var(--s1); top: var(--s1); }
+.x-ig-tile .x-ig-type svg { width: 14px; height: 14px; }
+.x-centre { margin: 0 var(--gutter); overflow: hidden; }
+.x-centre-photo { position: relative; aspect-ratio: 16 / 9; background: #23343a; }
+.x-centre-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 45%; background: #23343a; }
+.x-overphoto { position: absolute; left: 0; right: 0; bottom: 0; padding: var(--s3) var(--s4); background: rgb(10 18 20 / 0.62); color: #fff; }
+.x-centre-name { font: 400 1.25rem/1.625rem var(--serif); }
+.x-centre-place { font: var(--t-meta); color: rgb(255 255 255 / 0.9); }
+.x-centre-body { padding: var(--s2) var(--s5) var(--s5); }
+.x-centre-body > .x-centre-row:first-child { border-top: 0; }
+.x-centre-closure { padding: var(--s3) 0 0; border-top: 1px solid var(--line); }
 .x-centre-row { display: flex; align-items: center; justify-content: space-between; gap: var(--s3); width: 100%; text-align: left; min-height: 60px; padding: var(--s3) 0; border-top: 1px solid var(--line); }
 .x-centre-row > span { display: grid; gap: 2px; }
 .x-centre-row svg { color: var(--muted); flex: none; }
@@ -297,7 +334,7 @@ body { margin: 0; }
 .x-continue { margin: 0 var(--gutter); padding: var(--s3); display: flex; gap: var(--s3); align-items: center; }
 .x-continue + .x-continue { margin-top: var(--s3); }
 .x-continue img { width: 56px; height: 56px; border-radius: var(--r-img); object-fit: cover; flex: none; }
-.x-continue .x-c-body { flex: 1; min-width: 0; display: grid; gap: 6px; text-align: left; min-height: var(--tap); }
+.x-continue .x-c-body { flex: 1; min-width: 0; display: grid; gap: 4px; text-align: left; min-height: var(--tap); }
 
 /* Daily */
 .x-daily-card .x-flowline { margin-top: var(--s1); }

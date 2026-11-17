@@ -4,9 +4,9 @@
 // Downloaded episodes live in a separate cache (kft-audio-v1, written by app.js) under a same-origin
 // address, ./offline-audio/<episode id>, and are served from it with byte ranges, so they play offline.
 // Streamed MP3s from Podbean never pass through this worker. Bump CACHE when the shell list changes.
-const CACHE = 'kft-app-v4';
+const CACHE = 'kft-app-v6';
 const AUDIO = 'kft-audio-v1';
-const SHELL = ['./', './index.html', './css/app.css', './js/app.js', './vendor/hark.css', './vendor/hark-hero.css', './vendor/hark.js', './manifest.webmanifest', './icons/icon-192.png', './data/centre.json', './data/feed.json'];
+const SHELL = ['./', './index.html', './css/app.css', './js/app.js', './vendor/hark.css', './vendor/hark-hero.css', './vendor/hark.js', './manifest.webmanifest', './icons/icon-192.png', './icons/kft-logo.png', './data/centre.json', './data/feed.json'];
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
@@ -59,8 +59,8 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   if (url.origin !== location.origin) return; // never touch MP3s, YouTube or Inn Style
   if (url.pathname.includes('/offline-audio/')) { e.respondWith(fromAudioCache(e.request)); return; }
-  // Live data: fresh when online; offline, the last good copy (daily.json may also sit in kft-daily-v1)
-  if (/\/data\/(feed|centre|daily)\.json$/.test(url.pathname)) {
+  // Live data: fresh when online; offline, the last good copy (daily.json may also sit in kft-daily-v1; instagram.json is optional)
+  if (/\/data\/(feed|centre|daily|instagram)\.json$/.test(url.pathname)) {
     e.respondWith(fetch(e.request).then((r) => (r.ok ? put(e.request, r) : caches.match(e.request, { ignoreSearch: true }).then((c) => c || r))).catch(() => caches.match(e.request, { ignoreSearch: true }).then((c) => c || offline())));
     return;
   }
