@@ -314,6 +314,7 @@ body { margin: 0; }
 .x-ig-body { display: grid; gap: var(--s1); padding: var(--s3) var(--s4) var(--s4); }
 .x-ig-cap { font: var(--t-small); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .x-ig-more-title { font: var(--t-label); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); padding: 0 var(--gutter); margin: var(--s5) 0 var(--s2); }
+.x-ig-note { padding: 0 var(--gutter); margin: var(--s3) 0 0; }
 .x-ig-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s1); padding: 0 var(--gutter); }
 .x-ig-tile { position: relative; display: block; aspect-ratio: 1 / 1; border-radius: var(--s1); overflow: hidden; }
 .x-ig-tile .x-ig-type { width: 24px; height: 24px; right: var(--s1); top: var(--s1); }

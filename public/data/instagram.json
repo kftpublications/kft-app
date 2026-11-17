@@ -1,0 +1,63 @@
+{
+ "example": true,
+ "read": "2026-11-17",
+ "note": "Example only: KFT's latest public Instagram posts, saved by hand on 17 Nov 2026 for reference. They do not update. A live feed needs KFT's Instagram account connected (Instagram API with Instagram Login).",
+ "posts": [
+  {
+   "id": "Df1RbG_xHbM",
+   "permalink": "https://www.instagram.com/krishnamurtifoundationtrust/reel/Df1RbG_xHbM/",
+   "image": "data/ig/Df1RbG_xHbM.jpg",
+   "type": "video",
+   "caption": "Can the brain be without a single problem? | Krishnamurti\n\nFrom the first public talk in Bombay, 1985",
+   "timestamp": "2026-11-16"
+  },
+  {
+   "id": "DfzoJ1YIMrf",
+   "permalink": "https://www.instagram.com/krishnamurtifoundationtrust/p/DfzoJ1YIMrf/",
+   "image": "data/ig/DfzoJ1YIMrf.jpg",
+   "type": "image",
+   "caption": "",
+   "timestamp": "2026-11-16"
+  },
+  {
+   "id": "Dfy0NYxR8i6",
+   "permalink": "https://www.instagram.com/krishnamurtifoundationtrust/p/Dfy0NYxR8i6/",
+   "image": "data/ig/Dfy0NYxR8i6.jpg",
+   "type": "image",
+   "caption": "",
+   "timestamp": "2026-11-15"
+  },
+  {
+   "id": "DfxDXWMj25F",
+   "permalink": "https://www.instagram.com/krishnamurtifoundationtrust/p/DfxDXWMj25F/",
+   "image": "data/ig/DfxDXWMj25F.jpg",
+   "type": "image",
+   "caption": "",
+   "timestamp": "2026-11-15"
+  },
+  {
+   "id": "DfwNbPsRtLc",
+   "permalink": "https://www.instagram.com/krishnamurtifoundationtrust/reel/DfwNbPsRtLc/",
+   "image": "data/ig/DfwNbPsRtLc.jpg",
+   "type": "video",
+   "caption": "",
+   "timestamp": "2026-11-14"
+  },
+  {
+   "id": "DfuekHsm3m1",
+   "permalink": "https://www.instagram.com/krishnamurtifoundationtrust/p/DfuekHsm3m1/",
+   "image": "data/ig/DfuekHsm3m1.jpg",
+   "type": "image",
+   "caption": "",
+   "timestamp": "2026-11-14"
+  },
+  {
+   "id": "Dfr5x76mTmp",
+   "permalink": "https://www.instagram.com/krishnamurtifoundationtrust/p/Dfr5x76mTmp/",
+   "image": "data/ig/Dfr5x76mTmp.jpg",
+   "type": "image",
+   "caption": "",
+   "timestamp": "2026-11-13"
+  }
+ ]
+}

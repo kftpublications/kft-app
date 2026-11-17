@@ -389,7 +389,7 @@
         // Instagram: only from data/instagram.json (built by the pipeline; no Meta scripts in the app).
         // Without the file: one compact "Follow us" row. With it: the latest post large, the next ones small.
         var IG_URL = "https://www.instagram.com/krishnamurtifoundationtrust/";
-        var IG = null;
+        var IG = null, IG_NOTE = "";
         var IGI = {
           carousel: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="13" height="13" rx="2"/><path d="M4 16V6a2 2 0 0 1 2-2h10"/></svg>',
           video: '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>',
@@ -406,6 +406,8 @@
             return { id: txt(p.id), link: link, image: txt(p.image), type: t, caption: plainText(p.caption), date: isNaN(d.getTime()) ? null : d };
           }).filter(Boolean).sort(function (a, b) { return (b.date || 0) - (a.date || 0); });
           IG = list.length ? list : null;
+          // A hand-saved example file says so in "note"; it is shown under the posts so nobody mistakes it for a live feed
+          IG_NOTE = IG && x.example === true ? plainText(x.note) : "";
           var w = $("ig-wrap");
           if (w) w.innerHTML = instagramHtml();
         }
@@ -434,6 +436,7 @@
             (more.length ? '<h3 class="x-ig-more-title">More from Instagram</h3><div class="x-ig-grid">' + more.map(function (p) {
               return '<a class="x-ig-tile" href="' + esc(p.link) + '" data-act="ext" data-kind="link" aria-label="' + esc(igAlt(p)) + '"><img src="' + esc(p.image) + '" alt="" loading="lazy" />' + (IGI[p.type] ? '<span class="x-ig-type">' + IGI[p.type] + "</span>" : "") + "</a>";
             }).join("") + "</div>" : "") +
+            (IG_NOTE ? '<p class="x-meta x-ig-note">' + esc(IG_NOTE) + "</p>" : "") +
             '<div class="x-pad"><a class="x-btn x-btn--ghost x-btn--block u-mt4" href="' + IG_URL + '" data-act="ext" data-kind="link">Follow on Instagram ' + I.out + "</a></div>" +
           "</div>";
         }
