@@ -73,6 +73,7 @@ Proposal:
 | Donate | **iPhone:** only inside the app if Apple approves KFT as a nonprofit and the app uses Apple Pay. If not, it must open Safari. **Android:** check Google Play's policy before release |
 | Maps, phone, email | Open the system Maps, Phone and Mail apps. This is normal and expected |
 
+**Web build vs native (Toby, post-audit note, 17 Nov 2026).** In the web prototype, Donate, Newsletter and Store open kfoundation.org / store.kfoundation.org in a new browser tab. That is fine for the web only. The native apps must open them in the in-app full-screen browser (section 1: Capacitor Browser or a full-screen WebView, through `window.KFTShell.openExternal`), never in an external tab, so the user stays inside the app. The one exception stays Donate on iPhone without Apple's nonprofit approval (table above).
 
 ## 7. Test plan (each release)
 
