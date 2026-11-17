@@ -1768,6 +1768,16 @@
           detail.setAttribute("aria-hidden", "true");
           setTimeout(function () { if (!detail.classList.contains("is-open")) $("detail-body").innerHTML = ""; }, 360);
         }
+        // Every screen's bottom padding includes the mini player and tab bar as they are drawn now (text size,
+        // safe area, player shown or not), so the last row is never under them
+        (function () {
+          var bottom = app.querySelector(".x-bottom");
+          if (!bottom) return;
+          var set = function () { app.style.setProperty("--bottom-h", Math.ceil(bottom.getBoundingClientRect().height) + "px"); };
+          set();
+          if (window.ResizeObserver) new ResizeObserver(set).observe(bottom);
+          window.addEventListener("resize", set);
+        })();
         function switchTab(t) {
           closeDetail();
           closeSheets();

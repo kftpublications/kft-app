@@ -33,7 +33,7 @@
   --on-accent: #ffffff;
   --ph: #eceeef;
   --danger: #b3261e;
-  --glass: rgb(255 255 255 / 0.92);
+  --glass: rgb(255 255 255 / 0.96);   /* ≥94% opaque: text behind the bar must not show through */
   --scrim: rgb(0 0 0 / 0.32);
   --toast-bg: #1a1c1d; --toast-ink: #ffffff;
   /* Shape and depth */
@@ -58,7 +58,7 @@
     --on-accent: #06222c;
     --ph: #23282a;
     --danger: #ff8a80;
-    --glass: rgb(27 30 31 / 0.92);
+    --glass: rgb(27 30 31 / 0.96);
     --scrim: rgb(0 0 0 / 0.55);
     --toast-bg: #eceeef; --toast-ink: #111314;
     --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px rgb(0 0 0 / 0.35);
@@ -130,7 +130,7 @@ body { margin: 0; }
 .x-screens { position: relative; flex: 1; min-height: 0; }
 .x-screen {
   position: absolute; inset: 0; overflow-y: auto; overscroll-behavior: contain;
-  padding: var(--s6) 0 112px; opacity: 0; visibility: hidden;
+  padding: var(--s6) 0 calc(var(--bottom-h, 112px) + var(--s6)); opacity: 0; visibility: hidden;
   transition: opacity var(--dur) var(--ease), visibility 0s linear var(--dur);
   scrollbar-width: none;
 }
@@ -163,7 +163,8 @@ body { margin: 0; }
 .x-mini .x-c-body { flex: 1; min-width: 0; display: grid; gap: 2px; }
 .x-mini .x-row-title { font-size: 0.875rem; line-height: 1.25rem; }
 .x-mini .x-bar { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; border-radius: 0; background: transparent; }
-.has-player .x-screen, .has-player .x-detail-body { padding-bottom: 184px; }
+/* --bottom-h is the measured height of the tab bar plus the mini player when shown (set in app.js) */
+.has-player .x-screen, .has-player .x-detail-body { padding-bottom: calc(var(--bottom-h, 184px) + var(--s6)); }
 
 /* ---------- 5. Shared components ---------- */
 .x-pad { padding: 0 var(--gutter); }
@@ -437,7 +438,7 @@ body { margin: 0; }
 .x-detail.is-open { transform: none; visibility: visible; transition: transform var(--dur-slow) var(--ease); }
 .x-detail-bar { flex: none; display: flex; align-items: center; gap: var(--s1); padding: var(--s1) var(--s2); border-bottom: 1px solid var(--line); min-height: 52px; }
 .x-detail-bar span { font: 500 0.9375rem/1.25rem var(--x-sans); }
-.x-detail-body { flex: 1; overflow-y: auto; padding: var(--s5) var(--gutter) 120px; scrollbar-width: none; }
+.x-detail-body { flex: 1; overflow-y: auto; padding: var(--s5) var(--gutter) calc(var(--bottom-h, 112px) + var(--s6)); scrollbar-width: none; }
 .x-detail-body::-webkit-scrollbar { display: none; }
 .x-detail-cover { width: 180px; height: 180px; border-radius: var(--r-card); object-fit: cover; box-shadow: var(--shadow); margin: var(--s2) auto var(--s6); }
 .x-detail-body h1 { font: var(--t-title); margin: var(--s2) 0; }
