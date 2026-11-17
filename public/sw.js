@@ -4,7 +4,7 @@
 // Downloaded episodes live in a separate cache (kft-audio-v1, written by app.js) under a same-origin
 // address, ./offline-audio/<episode id>, and are served from it with byte ranges, so they play offline.
 // Streamed MP3s from Podbean never pass through this worker. Bump CACHE when the shell list changes.
-const CACHE = 'kft-app-v7';
+const CACHE = 'kft-app-v8';
 const AUDIO = 'kft-audio-v1';
 const SHELL = ['./', './index.html', './css/app.css', './js/app.js', './vendor/hark.css', './vendor/hark-hero.css', './vendor/hark.js', './manifest.webmanifest', './icons/icon-192.png', './icons/kft-logo.png', './data/centre.json', './data/feed.json'];
 

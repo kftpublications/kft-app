@@ -190,7 +190,8 @@
           dl: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></svg>',
           check: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
           search: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4 4"/></svg>',
-          close: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>'
+          close: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+          headphones: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3.5" y="14" width="4" height="6.5" rx="1.5"/><rect x="16.5" y="14" width="4" height="6.5" rx="1.5"/></svg>'
         };
         var PP = I.play + I.pause;
         var PP_BIG = PP.replace(/width="18" height="18"/g, 'width="30" height="30"');
@@ -552,12 +553,13 @@
               (ser && !rows.length ? '<li class="x-empty">Loading this series…</li>' : "") +
               rows.map(function (ep) {
                 var pct = played[ep.id] ? 0 : pctOf(ep);
-                return '<li class="x-row' + (played[ep.id] ? " is-played" : "") + '"><button class="x-row-main" data-act="ep" data-ep="' + esc(ep.id) + '"><span class="x-row-title">' + esc(ep.title) + '</span><span class="x-meta">' + esc(joinMeta(ep.date, mins(ep), epState(ep))) + "</span>" +
+                return '<li class="x-row' + (played[ep.id] ? " is-played" : "") + '"><button class="x-row-main" data-act="ep" data-ep="' + esc(ep.id) + '"><span class="x-row-title" data-fit="' + esc(ep.title) + '">' + esc(ep.title) + '</span><span class="x-meta">' + esc(joinMeta(ep.date, mins(ep), epState(ep))) + "</span>" +
                   (pct ? '<span class="x-bar x-rowbar"><i class="x-prog" data-ep="' + esc(ep.id) + '" style="width:' + pct + '%"></i></span>' : "") +
                   "</button>" + playBtn(ep.id) + "</li>";
               }).join("") +
             "</ul>" +
             (ser ? "" : moreBtn(state.show, feedTotal(state.show)));
+          fitTitles($("s-listen"));
           syncPlay();
         }
         function epDesc(ep) {
@@ -703,6 +705,14 @@
           return n;
         }
         function vDur(v) { return v.sec ? fmt(v.sec) : ""; }
+        // Audio-only full recordings: a text card (place and year large, title, a small "Audio" label) instead of
+        // YouTube's thumbnail, which is the same still photograph for every audio upload
+        function audioCard(v, d) {
+          var place = v.place || "", year = v.year ? String(v.year) : "";
+          return '<button class="x-video x-video--audio" data-act="video" data-v="' + esc(v.id) + '"><span class="x-thumb x-audiocard" aria-hidden="true">' +
+            '<span class="x-ac-big">' + esc(place || year || "Audio") + (place && year ? " <b>" + esc(year) + "</b>" : "") + '</span><span class="x-ac-label">' + I.headphones + "Audio</span>" +
+            (d ? '<em class="x-dur">' + esc(d) + "</em>" : "") + '</span><span class="x-row-title">' + esc(v.title) + '</span><span class="x-meta">' + esc(joinMeta(v.date, v.ch)) + "</span></button>";
+        }
         function renderWatch() {
           var counts = watchCounts();
           var segs = WKINDS.filter(function (w) { return counts[w[0]] > 0; });
@@ -724,6 +734,7 @@
             '<div class="x-videos' + (isShort ? " x-shorts" : "") + '">' +
               (list.slice(0, state.more[mk]).map(function (v) {
                 var d = vDur(v);
+                if (v.fmt === "audio" && !isShort) return audioCard(v, d);
                 return '<button class="x-video" data-act="video" data-v="' + esc(v.id) + '"><span class="x-thumb"><img src="' + esc(vThumb(v)) + '" alt="" loading="lazy" /><span>' + I.play + "</span>" + (d ? '<em class="x-dur">' + esc(d) + "</em>" : "") + '</span><span class="x-row-title">' + esc(v.title) + '</span><span class="x-meta">' + esc(joinMeta(v.date, v.ch)) + "</span></button>";
               }).join("") || '<p class="x-empty">' + (segs.length ? "No videos on " + esc((state.topic || "").toLowerCase()) + " here yet." : "Videos are on their way. Check your connection.") + "</p>") +
             "</div>" +
@@ -1065,16 +1076,24 @@
           SHOWS.daily.eps.forEach(function (ep) { EPS[ep.id] = ep; });
           renderDaily();
           renderToday();
+          dailyTab();
+        }
+        // The Daily tab is shown only once data/daily.json has passages (hidden in index.html until then)
+        function dailyTab() {
+          var b = app.querySelector('.x-tab[data-tab="daily"]');
+          if (!b) return;
+          b.hidden = !DAILY.list.length;
+          if (b.hidden && DAILY.loaded && state.tab === "daily") switchTab("today");
         }
         function dailyEp(p) {
           return { id: "d" + p.day, title: p.title || "Day " + p.day + (p.flowTitle ? " · " + p.flowTitle : ""), date: "", min: p.durationSec ? Math.max(1, Math.round(p.durationSec / 60)) : null, url: p.audioUrl, show: "daily", desc: p.text.split(/\n\s*\n/)[0], day: p.day };
         }
         function loadDaily() {
-          if (!window.fetch || IS_PREVIEW) { DAILY.loaded = true; renderDaily(); return; }
+          if (!window.fetch || IS_PREVIEW) { DAILY.loaded = true; renderDaily(); dailyTab(); return; }
           fetch("data/daily.json", { cache: "no-cache" })
             .then(function (r) { if (!r.ok) throw new Error("daily " + r.status); return r.json(); })
             .then(applyDaily)
-            .catch(function () { DAILY.loaded = true; renderDaily(); renderToday(); });
+            .catch(function () { DAILY.loaded = true; renderDaily(); renderToday(); dailyTab(); });
         }
         function paras(text) {
           return text.split(/\n\s*\n/).map(function (t) { return t.trim(); }).filter(Boolean).map(function (t) { return "<p>" + esc(t).replace(/\n/g, "<br />") + "</p>"; }).join("");
@@ -1627,14 +1646,48 @@
           syncPlay();
         }
         function toggle() { if (cur) playEp(cur.id); }
+        // Titles cut where they no longer fit end at a word, not mid-word. The element keeps its CSS clamp
+        // (1 or 2 lines); words are dropped until the text fits, and the full title stays in title/aria.
+        function fitTitle(el, text) {
+          if (!el) return;
+          el.textContent = text;
+          el.removeAttribute("title");
+          if (!el.clientWidth) return; // not on screen: fitted again when its tab opens
+          var over = function () { return el.scrollHeight > el.clientHeight + 1 || el.scrollWidth > el.clientWidth + 1; };
+          if (!over()) return;
+          var words = text.split(/\s+/), lo = 1, hi = words.length - 1, best = 1;
+          while (lo <= hi) {
+            var mid = (lo + hi) >> 1;
+            el.textContent = words.slice(0, mid).join(" ").replace(/[\s•·:,;&–-]+$/, "") + "…";
+            if (over()) hi = mid - 1; else { best = mid; lo = mid + 1; }
+          }
+          var cut = words.slice(0, best).join(" ").replace(/[\s•·:,;&–-]+$/, "") + "…";
+          el.innerHTML = '<span aria-hidden="true">' + esc(cut) + '</span><span class="x-visually-hidden">' + esc(text) + "</span>";
+          el.setAttribute("title", text);
+        }
+        function fitTitles(root) {
+          if (!root) return;
+          [].forEach.call(root.querySelectorAll("[data-fit]"), function (el) { fitTitle(el, el.getAttribute("data-fit")); });
+        }
+        // Player art: the episode's own image when it has one, else its show's cover, else the built-in cover,
+        // else the app icon, each tried in turn when an image fails to load (no blank square in the mini player)
+        var BUILTIN_COVER = { uoc: SHOWS.uoc.cover, kc: SHOWS.kc.cover, daily: SHOWS.daily.cover };
+        function setArt(img, ep) {
+          if (!img || !ep) return;
+          var s = SHOWS[ep.show] || {};
+          var chain = [ep.image, s.cover, BUILTIN_COVER[ep.show], "icons/icon-512.png"].filter(function (u, i, a) { return u && a.indexOf(u) === i; });
+          var i = 0;
+          img.onerror = function () { i++; if (i < chain.length) img.src = chain[i]; else img.onerror = null; };
+          img.src = chain[0];
+        }
         function setNow() {
           var s = SHOWS[cur.show];
           $("mini").hidden = false;
           app.classList.add("has-player");
-          $("mini-art").src = s.cover;
-          $("mini-title").textContent = cur.title;
+          setArt($("mini-art"), cur);
+          fitTitle($("mini-title"), cur.title);
           $("mini-show").textContent = s.name;
-          $("np-art").src = s.cover;
+          setArt($("np-art"), cur);
           $("np-art").alt = s.name + " cover art";
           $("np-show").textContent = s.name;
           $("np-title").textContent = cur.title;
@@ -1776,7 +1829,7 @@
           var set = function () { app.style.setProperty("--bottom-h", Math.ceil(bottom.getBoundingClientRect().height) + "px"); };
           set();
           if (window.ResizeObserver) new ResizeObserver(set).observe(bottom);
-          window.addEventListener("resize", set);
+          window.addEventListener("resize", function () { set(); fitTitles($("s-" + state.tab)); if (cur) fitTitle($("mini-title"), cur.title); });
         })();
         function switchTab(t) {
           closeDetail();
@@ -1784,6 +1837,8 @@
           state.tab = t;
           if (t === "listen") loadFullPodcasts();
           [].forEach.call(app.querySelectorAll(".x-screen"), function (s) { s.classList.toggle("is-active", s.id === "s-" + t); });
+          fitTitles($("s-" + t));
+          if (cur) fitTitle($("mini-title"), cur.title);
           [].forEach.call(app.querySelectorAll(".x-tab"), function (b) {
             var on = b.getAttribute("data-tab") === t;
             b.classList.toggle("is-on", on);
@@ -2024,6 +2079,8 @@
           for (var i = 0; i < url.length; i++) h = (h * 31 + url.charCodeAt(i)) | 0;
           return prefix + "x" + (h >>> 0).toString(36);
         }
+        // "(1/1)" says nothing for a single-part Collection series; parts of longer series keep "(2/6)"
+        function cleanEpTitle(t) { return t.replace(/\s*\(1\/1\)/, ""); }
         function feedEpisodes(src, show, prefix) {
           if (!src || typeof src !== "object" || !Array.isArray(src.episodes)) return null;
           var seen = {};
@@ -2036,7 +2093,7 @@
             var desc = plainText(e.description);
             // The feed builder cuts descriptions at 600 characters; show that they continue
             if (desc && txt(e.description).length === 600) desc = desc.replace(/\s+\S*$/, "") + "…";
-            var ep = { id: id, title: txt(e.title), date: fmtFeedDate(e.date), min: secs ? Math.max(1, Math.round(secs / 60)) : null, url: e.audioUrl, link: isHttp(e.link) ? e.link : "", desc: desc, show: show };
+            var ep = { id: id, title: cleanEpTitle(txt(e.title)), date: fmtFeedDate(e.date), min: secs ? Math.max(1, Math.round(secs / 60)) : null, url: e.audioUrl, link: isHttp(e.link) ? e.link : "", desc: desc, show: show };
             if (txt(e.seriesId)) { ep.series = txt(e.seriesId); ep.part = Number(e.part) >= 1 ? Math.floor(e.part) : null; }
             if (Array.isArray(e.chapters)) ep.chapters = e.chapters.map(function (c) {
               return c && txt(c.title) ? { start: typeof c.start === "number" && c.start >= 0 ? c.start : null, title: txt(c.title), source: txt(c.source) } : null;
@@ -2130,7 +2187,7 @@
           renderListen();
           renderWatch();
           // Refresh the player's artwork and lock-screen artwork if a show's image changed
-          if (cur) { $("mini-art").src = SHOWS[cur.show].cover; $("np-art").src = SHOWS[cur.show].cover; mediaSession(); }
+          if (cur) { setArt($("mini-art"), cur); setArt($("np-art"), cur); mediaSession(); }
           finishReturn();
         }
         // Rates, closures and contact details: data/centre.json, validated, with the built-in copy as fallback
@@ -2193,6 +2250,11 @@
                 var vv = mkVideo(k, txt(r.id), txt(r.t), r.d || r.r, "https://i.ytimg.com/vi/" + txt(r.id) + "/mqdefault.jpg", r.kind || r.k, r.sh === 1 || r.sh === true, r.f, r.s);
                 if (!r.d && r.r) { vv.date = vv.date ? "Recorded " + vv.date : ""; vv.recorded = true; }
                 if (typeof r.ar === "number") vv.ar = r.ar;
+                // Format (k: "audio" = an audio-only upload, which YouTube shows with one repeated still), place and year
+                if (txt(r.k)) vv.fmt = txt(r.k);
+                if (txt(r.pl)) vv.place = txt(r.pl);
+                var yr = Number(r.y) || Number(txt(r.r).slice(0, 4));
+                if (yr > 1900 && yr < 2100) vv.year = yr;
                 return vv;
               }).filter(Boolean);
               if (!list.length) return;
