@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-16T23:39:22.091Z",
+  "generatedAt": "2026-11-17T04:47:05.366Z",
   "files": {
     "podcasts/uoc.json": {
       "v": "d8aed06cb9",
@@ -13,9 +13,9 @@
       "n": 300
     },
     "videos/kft/index.json": {
-      "v": "186cd59439",
-      "bytes": 44240,
-      "n": 259
+      "v": "d07779e93b",
+      "bytes": 66855,
+      "n": 394
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -28,9 +28,9 @@
       "n": 35
     },
     "videos/official/index.json": {
-      "v": "c22e2375e2",
-      "bytes": 83837,
-      "n": 420
+      "v": "864b6eb89e",
+      "bytes": 145686,
+      "n": 770
     },
     "videos/official/playlists.json": {
       "v": "87b0b3d58b",
@@ -58,30 +58,30 @@
       "n": 0
     },
     "archive/index.json": {
-      "v": "47a3eec58e",
-      "bytes": 434457,
+      "v": "c547f3b7f2",
+      "bytes": 488386,
       "n": 3326
     },
     "matches.json": {
-      "v": "e45c263d72",
-      "bytes": 24673,
+      "v": "c93d4ea584",
+      "bytes": 24769,
       "n": 126
     },
     "search.json": {
-      "v": "b27e99ba78",
-      "bytes": 431832,
-      "n": 4677
+      "v": "a023d79e8d",
+      "bytes": 484310,
+      "n": 5162
     }
   },
   "counts": {
     "uoc": 305,
     "collection": 300,
-    "kft": 259,
+    "kft": 394,
     "kftShorts": 12,
-    "official": 420,
+    "official": 770,
     "other": 0,
     "archive": 3326,
-    "archiveWithVideo": 540,
+    "archiveWithVideo": 1040,
     "matches": 126
   },
   "podcasts": {

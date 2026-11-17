@@ -336,11 +336,17 @@
       "short": false,
       "durationSec": null,
       "src": [
+        "archive",
         "playlist"
       ],
       "first": "2026-11-16T23:07:26.523Z",
       "avail": "ok",
-      "checked": "2026-11-16T23:15:26.024Z"
+      "checked": "2026-11-16T23:15:26.024Z",
+      "archive": 73413,
+      "recorded": "1976-07-13",
+      "genres": [
+        "Talk"
+      ]
     },
     "u_aQIUakcsY": {
       "id": "u_aQIUakcsY",
@@ -364,11 +370,17 @@
       "short": false,
       "durationSec": null,
       "src": [
+        "archive",
         "playlist"
       ],
       "first": "2026-11-16T23:07:26.523Z",
       "avail": "ok",
-      "checked": "2026-11-16T23:15:26.024Z"
+      "checked": "2026-11-16T23:15:26.024Z",
+      "archive": 73483,
+      "recorded": "1977-07-12",
+      "genres": [
+        "Talk"
+      ]
     },
     "2D2IPDRPvFY": {
       "id": "2D2IPDRPvFY",
@@ -542,6 +554,63 @@
       ],
       "recorded": "1971-03-29"
     },
+    "_ehb1Ln3kBk": {
+      "id": "_ehb1Ln3kBk",
+      "title": "Can thinking come to an end?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73455,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
+    "_HldkOzWiw0": {
+      "id": "_HldkOzWiw0",
+      "title": "The sannyasi under the tree",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73661,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1980-07-20"
+    },
+    "_JuFKGh1BEk": {
+      "id": "_JuFKGh1BEk",
+      "title": "A place of no registration",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73432,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-18"
+    },
     "_kwyJ7OxBWo": {
       "id": "_kwyJ7OxBWo",
       "title": "What is faith?",
@@ -579,6 +648,25 @@
         "Talk"
       ],
       "recorded": "1984-07-10"
+    },
+    "_Pd2a5aAcIs": {
+      "id": "_Pd2a5aAcIs",
+      "title": "We only come together during a crisis",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73575,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-07-28"
     },
     "-6I2JFed1wo": {
       "id": "-6I2JFed1wo",
@@ -618,6 +706,25 @@
       ],
       "recorded": "1982-07-18"
     },
+    "-9hdy81ReLQ": {
+      "id": "-9hdy81ReLQ",
+      "title": "Be free to look",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73685,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-07-12"
+    },
     "-DMSyroj-Go": {
       "id": "-DMSyroj-Go",
       "title": "Why make meditation into a problem?",
@@ -655,6 +762,25 @@
         "Dialogue"
       ],
       "recorded": "1972-02-16"
+    },
+    "-ECIyBb-7w8": {
+      "id": "-ECIyBb-7w8",
+      "title": "The word is never the thing",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73490,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-14"
     },
     "-gpOcsXtIYc": {
       "id": "-gpOcsXtIYc",
@@ -713,6 +839,25 @@
       ],
       "recorded": "1981-07-21"
     },
+    "-z98AKIt42M": {
+      "id": "-z98AKIt42M",
+      "title": "The future is the movement of fear",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73612,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-17"
+    },
     "01K3Vp6jFVU": {
       "id": "01K3Vp6jFVU",
       "title": "Why do we have ideals?",
@@ -731,6 +876,25 @@
         "Dialogue"
       ],
       "recorded": "1972-02-16"
+    },
+    "0kxgQKIh4Vk": {
+      "id": "0kxgQKIh4Vk",
+      "title": "Observation without motive",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73619,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-22"
     },
     "0mHeVaXdkIY": {
       "id": "0mHeVaXdkIY",
@@ -788,6 +952,25 @@
         "Dialogue"
       ],
       "recorded": "1974-02-20"
+    },
+    "0WPHxWH3BVU": {
+      "id": "0WPHxWH3BVU",
+      "title": "We have created a duality",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73422,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-15"
     },
     "18kTHH7nCvU": {
       "id": "18kTHH7nCvU",
@@ -884,6 +1067,44 @@
       ],
       "recorded": "1981-07-26"
     },
+    "1nO8Bzxn_oY": {
+      "id": "1nO8Bzxn_oY",
+      "title": "The man in a bowler hat",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73669,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-07-30"
+    },
+    "2274CiQb-JA": {
+      "id": "2274CiQb-JA",
+      "title": "Will you let your past go?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73592,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-10"
+    },
     "2aN7ecc7EsI": {
       "id": "2aN7ecc7EsI",
       "title": "What does it mean to learn?",
@@ -960,6 +1181,44 @@
       ],
       "recorded": "1981-07-23"
     },
+    "2r9FnWz_pmE": {
+      "id": "2r9FnWz_pmE",
+      "title": "Let’s think together",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73591,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-10"
+    },
+    "2xgcPlSSx9I": {
+      "id": "2xgcPlSSx9I",
+      "title": "Can you live a harmonious life?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73438,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-20"
+    },
     "39e_mNZL9zQ": {
       "id": "39e_mNZL9zQ",
       "title": "The continuation of self-centredness",
@@ -978,6 +1237,25 @@
         "Talk"
       ],
       "recorded": "1984-07-15"
+    },
+    "3CFs7WjSeI0": {
+      "id": "3CFs7WjSeI0",
+      "title": "Is it possible to register only the necessary?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73498,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
     },
     "3F4hV8gZyr0": {
       "id": "3F4hV8gZyr0",
@@ -1093,6 +1371,63 @@
       ],
       "recorded": "1982-07-20"
     },
+    "3UaaRaDwwlY": {
+      "id": "3UaaRaDwwlY",
+      "title": "A movement that is timeless",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73523,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-24"
+    },
+    "43hGOxmqWDI": {
+      "id": "43hGOxmqWDI",
+      "title": "It is important to have space",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73522,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-24"
+    },
+    "4P3vILOl7es": {
+      "id": "4P3vILOl7es",
+      "title": "We think time is necessary",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73444,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-22"
+    },
     "4Si4N5OTdCw": {
       "id": "4Si4N5OTdCw",
       "title": "We don’t demand freedom",
@@ -1207,6 +1542,25 @@
       ],
       "recorded": "1983-07-17"
     },
+    "6eoO0FNcVZI": {
+      "id": "6eoO0FNcVZI",
+      "title": "Is it possible to live without a pattern?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73481,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-12"
+    },
     "6HhVbIur9Fk": {
       "id": "6HhVbIur9Fk",
       "title": "Doubt what I am saying",
@@ -1264,6 +1618,82 @@
       ],
       "recorded": "1982-07-13"
     },
+    "6QNfXXxuvwM": {
+      "id": "6QNfXXxuvwM",
+      "title": "Beauty is when you are not",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73459,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
+    "6sfNno3J2Ew": {
+      "id": "6sfNno3J2Ew",
+      "title": "The boy who left home to search for truth",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73670,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-07-30"
+    },
+    "6TXoYQGqbUQ": {
+      "id": "6TXoYQGqbUQ",
+      "title": "You have an image about yourself",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73412,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-13"
+    },
+    "6y8K2A2m1hU": {
+      "id": "6y8K2A2m1hU",
+      "title": "An action not born of will",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73421,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-15"
+    },
     "7_2tla_GbMw": {
       "id": "7_2tla_GbMw",
       "title": "You still have to wash the dishes",
@@ -1301,6 +1731,101 @@
         "Talk"
       ],
       "recorded": "1981-07-19"
+    },
+    "796kAZXxCo0": {
+      "id": "796kAZXxCo0",
+      "title": "What is implied in experience",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73453,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
+    "7k-NwbzJmTw": {
+      "id": "7k-NwbzJmTw",
+      "title": "Are our relationships based on memory?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73434,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-20"
+    },
+    "7lG3ATB0aEc": {
+      "id": "7lG3ATB0aEc",
+      "title": "Can the sorrow of humanity end?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73439,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-20"
+    },
+    "8-Ab948czOY": {
+      "id": "8-Ab948czOY",
+      "title": "There is no one to guide you",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73451,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
+    "8SZrLahmYRU": {
+      "id": "8SZrLahmYRU",
+      "title": "What will make you change?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73593,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-10"
     },
     "8TnrxyyknMo": {
       "id": "8TnrxyyknMo",
@@ -1340,6 +1865,25 @@
       ],
       "recorded": "1984-07-15"
     },
+    "9_HSPFqHOu0": {
+      "id": "9_HSPFqHOu0",
+      "title": "Can thought be controlled?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73454,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
     "92h5DXxsWUM": {
       "id": "92h5DXxsWUM",
       "title": "A fact has no duality",
@@ -1358,6 +1902,25 @@
         "Talk"
       ],
       "recorded": "1983-07-17"
+    },
+    "9F8bkb_FT9A": {
+      "id": "9F8bkb_FT9A",
+      "title": "Can you observe your longing?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73620,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-22"
     },
     "9i9dyRjs3Yk": {
       "id": "9i9dyRjs3Yk",
@@ -1454,6 +2017,25 @@
       ],
       "recorded": "1982-07-26"
     },
+    "AChW8H3CCVI": {
+      "id": "AChW8H3CCVI",
+      "title": "Mesmerised by mantras",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73660,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1980-07-20"
+    },
     "AMIsd9W3Kxg": {
       "id": "AMIsd9W3Kxg",
       "title": "What is the future of humanity?",
@@ -1530,6 +2112,25 @@
       ],
       "recorded": "1984-07-17"
     },
+    "b171SSBSwIM": {
+      "id": "b171SSBSwIM",
+      "title": "The foundations of meditation",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73415,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-13"
+    },
     "BaJ_jt7JTJU": {
       "id": "BaJ_jt7JTJU",
       "title": "The simplicity of awareness",
@@ -1567,6 +2168,25 @@
         "Dialogue"
       ],
       "recorded": "1974-02-26"
+    },
+    "bIw7Eiu6zLI": {
+      "id": "bIw7Eiu6zLI",
+      "title": "Sensation is natural",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73420,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-15"
     },
     "BlYrkJ3XGUQ": {
       "id": "BlYrkJ3XGUQ",
@@ -1643,6 +2263,25 @@
         "Talk"
       ],
       "recorded": "1983-07-10"
+    },
+    "BZffD-YjHbY": {
+      "id": "BZffD-YjHbY",
+      "title": "Strife must exist where there is division",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73601,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-15"
     },
     "c1S0V4Vdm58": {
       "id": "c1S0V4Vdm58",
@@ -1758,6 +2397,25 @@
       ],
       "recorded": "1984-07-19"
     },
+    "CGXZ1U6eDJk": {
+      "id": "CGXZ1U6eDJk",
+      "title": "Is love desire?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73501,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
+    },
     "cHO9qWNLM1g": {
       "id": "cHO9qWNLM1g",
       "title": "Is it possible to not record?",
@@ -1796,6 +2454,25 @@
       ],
       "recorded": "1985-04-20"
     },
+    "Ck7lJ2IHSvs": {
+      "id": "Ck7lJ2IHSvs",
+      "title": "You are the representative of all humanity",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73512,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-21"
+    },
     "Ckawq7TTGso": {
       "id": "Ckawq7TTGso",
       "title": "A perception that ends conflict immediately",
@@ -1814,6 +2491,44 @@
         "Talk"
       ],
       "recorded": "1981-07-16"
+    },
+    "cnV0DkSfnFs": {
+      "id": "cnV0DkSfnFs",
+      "title": "Intelligent insight",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73505,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-19"
+    },
+    "cOcV8uMbpP4": {
+      "id": "cOcV8uMbpP4",
+      "title": "The turning point is in our consciousness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73683,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-07-12"
     },
     "CPOgyBHcotg": {
       "id": "CPOgyBHcotg",
@@ -1853,6 +2568,44 @@
       ],
       "recorded": "1981-07-21"
     },
+    "Cxy8p-gcCN0": {
+      "id": "Cxy8p-gcCN0",
+      "title": "Learning how to observe",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73513,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-21"
+    },
+    "D3d3nWBsano": {
+      "id": "D3d3nWBsano",
+      "title": "Insight is not intuition",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73598,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-12"
+    },
     "DEBE_PXCb_Y": {
       "id": "DEBE_PXCb_Y",
       "title": "The relationship between teacher and student",
@@ -1871,6 +2624,82 @@
         "Dialogue"
       ],
       "recorded": "1972-02-16"
+    },
+    "DeH-U5ONv7Y": {
+      "id": "DeH-U5ONv7Y",
+      "title": "There is no freedom in attachment",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73514,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-21"
+    },
+    "DfNXfscTNUg": {
+      "id": "DfNXfscTNUg",
+      "title": "The house of humanity is burning",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73515,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-21"
+    },
+    "dGq8B_HD-fA": {
+      "id": "dGq8B_HD-fA",
+      "title": "Can you observe life as a total movement?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73511,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-21"
+    },
+    "DgrLSFlQ4ys": {
+      "id": "DgrLSFlQ4ys",
+      "title": "Why do you pursue pleasure?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73429,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-18"
     },
     "dHzqGDe2tso": {
       "id": "dHzqGDe2tso",
@@ -1910,6 +2739,63 @@
       ],
       "recorded": "1982-07-13"
     },
+    "dkjTdm4aF84": {
+      "id": "dkjTdm4aF84",
+      "title": "Facing loneliness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73440,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-20"
+    },
+    "DLLyN8uOTLg": {
+      "id": "DLLyN8uOTLg",
+      "title": "Pure observation",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73616,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-19"
+    },
+    "DNajf4slhQE": {
+      "id": "DNajf4slhQE",
+      "title": "We are hooked on our own conclusions",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73579,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-07-29"
+    },
     "DXTflc5YfQQ": {
       "id": "DXTflc5YfQQ",
       "title": "When there is space there is freedom",
@@ -1947,6 +2833,44 @@
         "Dialogue"
       ],
       "recorded": "1972-02-16"
+    },
+    "e3gM5Gpfl1I": {
+      "id": "e3gM5Gpfl1I",
+      "title": "Don’t let thought seep in",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73419,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-15"
+    },
+    "E4DImbj3LqI": {
+      "id": "E4DImbj3LqI",
+      "title": "What is it to be aware?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73431,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-18"
     },
     "eB5ZYYCSUsg": {
       "id": "eB5ZYYCSUsg",
@@ -2024,6 +2948,44 @@
       ],
       "recorded": "1970-04-05"
     },
+    "eNfkc8wkyQI": {
+      "id": "eNfkc8wkyQI",
+      "title": "Living without making decisions",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73518,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-24"
+    },
+    "eR4SeryeZcY": {
+      "id": "eR4SeryeZcY",
+      "title": "Is there fear without the word ‘fear’?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73409,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-13"
+    },
     "EwFwkTC8KEA": {
       "id": "EwFwkTC8KEA",
       "title": "If you have an image, you are going to be hurt",
@@ -2062,6 +3024,25 @@
       ],
       "recorded": "1972-02-17"
     },
+    "FLTvnvWiNsI": {
+      "id": "FLTvnvWiNsI",
+      "title": "We cling to the known",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73447,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-22"
+    },
     "FmoQDLyoYQQ": {
       "id": "FmoQDLyoYQQ",
       "title": "Very few have a sense of beauty",
@@ -2080,6 +3061,44 @@
         "Dialogue"
       ],
       "recorded": "1974-02-22"
+    },
+    "FozjVgBTOSo": {
+      "id": "FozjVgBTOSo",
+      "title": "What are you seeking?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73621,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-22"
+    },
+    "FTNrS9TS7eE": {
+      "id": "FTNrS9TS7eE",
+      "title": "Listen with care",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73605,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-15"
     },
     "fvxWzS4rt_o": {
       "id": "fvxWzS4rt_o",
@@ -2138,6 +3157,25 @@
       ],
       "recorded": "1966-01-01"
     },
+    "G35pFJg8T8M": {
+      "id": "G35pFJg8T8M",
+      "title": "The beauty of thinking together",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73586,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-08"
+    },
     "GDxmChW8AJU": {
       "id": "GDxmChW8AJU",
       "title": "All time is contained in the now",
@@ -2156,6 +3194,25 @@
         "Talk"
       ],
       "recorded": "1984-07-08"
+    },
+    "gF1pRjZhu1Q": {
+      "id": "gF1pRjZhu1Q",
+      "title": "Thought has created the future",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73611,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-17"
     },
     "Gh0s49Row_s": {
       "id": "Gh0s49Row_s",
@@ -2290,6 +3347,25 @@
       ],
       "recorded": "1974-02-27"
     },
+    "GyCVI6Ypdl8": {
+      "id": "GyCVI6Ypdl8",
+      "title": "Art means to put everything in its right place",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73410,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-13"
+    },
     "gYZGhk2JbDw": {
       "id": "gYZGhk2JbDw",
       "title": "What is health?",
@@ -2327,6 +3403,25 @@
         "Talk"
       ],
       "recorded": "1983-07-17"
+    },
+    "hdjl3fkeEfA": {
+      "id": "hdjl3fkeEfA",
+      "title": "Psychological authority",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73482,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-12"
     },
     "Hh7mQep01IM": {
       "id": "Hh7mQep01IM",
@@ -2385,6 +3480,25 @@
       ],
       "recorded": "1972-02-15"
     },
+    "HpCVVVFPpDs": {
+      "id": "HpCVVVFPpDs",
+      "title": "Where there is analysis there must be conflict",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73487,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-14"
+    },
     "hTLRdAt1t2A": {
       "id": "hTLRdAt1t2A",
       "title": "Any movement away is disorder",
@@ -2403,6 +3517,44 @@
         "Talk"
       ],
       "recorded": "1982-07-15"
+    },
+    "hw4BspcYlSE": {
+      "id": "hw4BspcYlSE",
+      "title": "Are emotions rooted in thought?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73442,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-20"
+    },
+    "hYj5vv53udo": {
+      "id": "hYj5vv53udo",
+      "title": "Our consciousness is self-centred",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73426,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-18"
     },
     "I0ihKhyfU24": {
       "id": "I0ihKhyfU24",
@@ -2461,6 +3613,63 @@
       ],
       "recorded": "1984-07-12"
     },
+    "IDZtWhn1Nos": {
+      "id": "IDZtWhn1Nos",
+      "title": "The nature of thought",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73686,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-07-12"
+    },
+    "INynHjRrrJ8": {
+      "id": "INynHjRrrJ8",
+      "title": "Movement away from ‘what is’",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73507,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-19"
+    },
+    "iqQnH-0iqx4": {
+      "id": "iqQnH-0iqx4",
+      "title": "We want to find security in attachment",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73597,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-12"
+    },
     "iTMFqYGRkVk": {
       "id": "iTMFqYGRkVk",
       "title": "What is going to happen to your brain?",
@@ -2479,6 +3688,44 @@
         "Talk"
       ],
       "recorded": "1983-07-19"
+    },
+    "iVoFsiC0_Xc": {
+      "id": "iVoFsiC0_Xc",
+      "title": "Thinking is a reaction to memory",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73687,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-07-12"
+    },
+    "iy9E4Qr1wf8": {
+      "id": "iy9E4Qr1wf8",
+      "title": "Desire flowers the moment you create the image",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73609,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-17"
     },
     "IyrW307_ISE": {
       "id": "IyrW307_ISE",
@@ -2537,6 +3784,44 @@
       ],
       "recorded": "1981-07-26"
     },
+    "JaTKtNZUPo4": {
+      "id": "JaTKtNZUPo4",
+      "title": "Thinking together",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73588,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-10"
+    },
+    "jH-XYYCdnQg": {
+      "id": "jH-XYYCdnQg",
+      "title": "A silent mind",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73458,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
     "jh5Atf7jH3Y": {
       "id": "jh5Atf7jH3Y",
       "title": "See without the ‘me’",
@@ -2594,6 +3879,25 @@
       ],
       "recorded": "1974-02-27"
     },
+    "jkZ1bQ4QukQ": {
+      "id": "jkZ1bQ4QukQ",
+      "title": "Is it possible not to register?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73411,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-13"
+    },
     "JmrCGijBwMA": {
       "id": "JmrCGijBwMA",
       "title": "Learning is flowing, never static",
@@ -2632,6 +3936,25 @@
       ],
       "recorded": "1982-07-20"
     },
+    "jO968EU3OEc": {
+      "id": "jO968EU3OEc",
+      "title": "Being out of this world though living in it",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73478,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-10"
+    },
     "JOmlAHlzh34": {
       "id": "JOmlAHlzh34",
       "title": "Prejudice prevents perception",
@@ -2669,6 +3992,44 @@
         "Talk"
       ],
       "recorded": "1982-07-20"
+    },
+    "jP9qQqB5Ee4": {
+      "id": "jP9qQqB5Ee4",
+      "title": "Seeing without registering",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73497,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
+    },
+    "jQoGLHeLBWM": {
+      "id": "jQoGLHeLBWM",
+      "title": "Me first, you second",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73581,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-07-29"
     },
     "JQSS2XD-zxk": {
       "id": "JQSS2XD-zxk",
@@ -2784,6 +4145,25 @@
       ],
       "recorded": "1984-07-17"
     },
+    "jXzYBd-9y08": {
+      "id": "jXzYBd-9y08",
+      "title": "Choice comes about when there is no clarity",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73519,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-24"
+    },
     "k54Q5qdborg": {
       "id": "k54Q5qdborg",
       "title": "Can you look at that fear without naming it?",
@@ -2860,6 +4240,120 @@
       ],
       "recorded": "1974-02-22"
     },
+    "KUeXfj55whs": {
+      "id": "KUeXfj55whs",
+      "title": "Very few human beings change radically",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73417,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-15"
+    },
+    "l2n1Gsjra_Q": {
+      "id": "l2n1Gsjra_Q",
+      "title": "Discipline means to learn, not to conform",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73600,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-15"
+    },
+    "L5wIVLFdpJg": {
+      "id": "L5wIVLFdpJg",
+      "title": "Conflict and comparison",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73506,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-19"
+    },
+    "l64YLS3yQUY": {
+      "id": "l64YLS3yQUY",
+      "title": "Observation with no direction",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73457,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
+    "l7LTL9jb0Rc": {
+      "id": "l7LTL9jb0Rc",
+      "title": "What we are talking about is serious",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73475,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-10"
+    },
+    "L8RXXiB2Rzw": {
+      "id": "L8RXXiB2Rzw",
+      "title": "We have been programmed for thousands of years",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73689,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-07-14"
+    },
     "lBe5GQOa0sk": {
       "id": "lBe5GQOa0sk",
       "title": "Dependence and isolation",
@@ -2897,6 +4391,25 @@
         "Talk"
       ],
       "recorded": "1981-07-26"
+    },
+    "lGcatqqWezQ": {
+      "id": "lGcatqqWezQ",
+      "title": "Observing consciousness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73427,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-18"
     },
     "LJUNE3e7xEI": {
       "id": "LJUNE3e7xEI",
@@ -2974,6 +4487,25 @@
       ],
       "recorded": "1972-02-16"
     },
+    "Lx-Ai7-wdMQ": {
+      "id": "Lx-Ai7-wdMQ",
+      "title": "The word ‘fear’ is not the feeling of fear",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73414,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-13"
+    },
     "lXDW5lpfX08": {
       "id": "lXDW5lpfX08",
       "title": "Living with no control",
@@ -3050,6 +4582,44 @@
       ],
       "recorded": "1985-04-21"
     },
+    "m1Ia4BPniEA": {
+      "id": "m1Ia4BPniEA",
+      "title": "A battle between two images",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73423,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-15"
+    },
+    "M7pEhyn4l28": {
+      "id": "M7pEhyn4l28",
+      "title": "Selfish activity",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73615,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-19"
+    },
     "Mciwa7rLteI": {
       "id": "Mciwa7rLteI",
       "title": "We have identified love with pleasure",
@@ -3069,6 +4639,44 @@
       ],
       "recorded": "1985-04-21"
     },
+    "mekckA13ha4": {
+      "id": "mekckA13ha4",
+      "title": "Ending is a new beginning",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73446,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-22"
+    },
+    "MJ1DTmw1Dho": {
+      "id": "MJ1DTmw1Dho",
+      "title": "Is love a remembrance?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73500,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
+    },
     "mkhcFrxc25o": {
       "id": "mkhcFrxc25o",
       "title": "Krishnamurti is visited by a monkey",
@@ -3087,6 +4695,25 @@
         "Dialogue"
       ],
       "recorded": "1974-02-21"
+    },
+    "MWaeqiQlld0": {
+      "id": "MWaeqiQlld0",
+      "title": "Psychologically there is no future",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73589,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-10"
     },
     "mx7emgXQ7aQ": {
       "id": "mx7emgXQ7aQ",
@@ -3126,6 +4753,63 @@
       ],
       "recorded": "1978-04-23"
     },
+    "n9eMKxBoGFs": {
+      "id": "n9eMKxBoGFs",
+      "title": "Psychological time",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73584,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-08"
+    },
+    "nEPUAQ5q3IM": {
+      "id": "nEPUAQ5q3IM",
+      "title": "The arts of learning, seeing and listening",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73489,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-14"
+    },
+    "nF1SvjZiPOI": {
+      "id": "nF1SvjZiPOI",
+      "title": "Observation can only take place in the now",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73452,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
     "nKDMKjoeVRo": {
       "id": "nKDMKjoeVRo",
       "title": "What is time?",
@@ -3144,6 +4828,25 @@
         "Talk"
       ],
       "recorded": "1985-04-20"
+    },
+    "Nl7dcSkoAlQ": {
+      "id": "Nl7dcSkoAlQ",
+      "title": "Putting a stop to time is death",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73445,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-22"
     },
     "NpQO9GMdKzc": {
       "id": "NpQO9GMdKzc",
@@ -3183,6 +4886,25 @@
       ],
       "recorded": "1984-07-12"
     },
+    "o1o2BV5_STM": {
+      "id": "o1o2BV5_STM",
+      "title": "Every human being is seeking pleasure",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73496,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
+    },
     "OIdd3d4Lixo": {
       "id": "OIdd3d4Lixo",
       "title": "Nobody can tell you what meditation means",
@@ -3201,6 +4923,25 @@
         "Talk"
       ],
       "recorded": "1983-07-21"
+    },
+    "oQ2U3QjLgvY": {
+      "id": "oQ2U3QjLgvY",
+      "title": "Real meditation (Saanen 1977)",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73466,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1977-07-29"
     },
     "oS-SccR2y5g": {
       "id": "oS-SccR2y5g",
@@ -3258,6 +4999,25 @@
         "Talk"
       ],
       "recorded": "1982-07-13"
+    },
+    "P4B1rrjkioY": {
+      "id": "P4B1rrjkioY",
+      "title": "The silence of emptiness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73470,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1977-07-30"
     },
     "PaH4Qh3AWGA": {
       "id": "PaH4Qh3AWGA",
@@ -3373,6 +5133,44 @@
       ],
       "recorded": "1984-07-15"
     },
+    "q0QbIrCzYXg": {
+      "id": "q0QbIrCzYXg",
+      "title": "Image-making in relationship",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73499,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
+    },
+    "Q2GRjoO5HkA": {
+      "id": "Q2GRjoO5HkA",
+      "title": "Thought seeks security in what it creates",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73476,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-10"
+    },
     "QADeZuspzj0": {
       "id": "QADeZuspzj0",
       "title": "The whole cosmos is movement in relationship",
@@ -3411,6 +5209,25 @@
       ],
       "recorded": "1970-04-06"
     },
+    "QcN0dWK2xaM": {
+      "id": "QcN0dWK2xaM",
+      "title": "Are we seeking security?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73474,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-10"
+    },
     "QfJmp7lP32I": {
       "id": "QfJmp7lP32I",
       "title": "What do we mean by education?",
@@ -3429,6 +5246,44 @@
         "Question & Answer"
       ],
       "recorded": "1984-07-24"
+    },
+    "qhCzriCZw_4": {
+      "id": "qhCzriCZw_4",
+      "title": "There must be freedom to observe",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73424,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-15"
+    },
+    "QHMJabZPRvE": {
+      "id": "QHMJabZPRvE",
+      "title": "Clarity is not born of logic",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73493,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
     },
     "qHN82da2mDA": {
       "id": "qHN82da2mDA",
@@ -3582,6 +5437,25 @@
       ],
       "recorded": "1981-07-21"
     },
+    "R3h81DFsCTY": {
+      "id": "R3h81DFsCTY",
+      "title": "What is called meditation is not meditation",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73572,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-07-27"
+    },
     "r43_SX4MkI4": {
       "id": "r43_SX4MkI4",
       "title": "Religion should unify not divide",
@@ -3600,6 +5474,25 @@
         "Dialogue"
       ],
       "recorded": "1972-02-17"
+    },
+    "r6AYvBuldEU": {
+      "id": "r6AYvBuldEU",
+      "title": "Living without will",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73520,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-24"
     },
     "rdfLn64Dbcs": {
       "id": "rdfLn64Dbcs",
@@ -3620,6 +5513,44 @@
       ],
       "recorded": "1966-01-01"
     },
+    "RdzcXp_ZVsc": {
+      "id": "RdzcXp_ZVsc",
+      "title": "Why are we confused?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73576,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-07-28"
+    },
+    "RHsWc0ydaZ0": {
+      "id": "RHsWc0ydaZ0",
+      "title": "Observing inwardly",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73462,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1977-07-27"
+    },
     "Rm-WB1_HIhE": {
       "id": "Rm-WB1_HIhE",
       "title": "Why have we accepted fear?",
@@ -3638,6 +5569,25 @@
         "Talk"
       ],
       "recorded": "1985-04-20"
+    },
+    "Rs3HAG05Oyc": {
+      "id": "Rs3HAG05Oyc",
+      "title": "There is fear when there is comparison",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73488,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-14"
     },
     "rwgLKPPOwXU": {
       "id": "rwgLKPPOwXU",
@@ -3696,6 +5646,44 @@
       ],
       "recorded": "1978-04-20"
     },
+    "S6dPpn0XLSY": {
+      "id": "S6dPpn0XLSY",
+      "title": "What is right livelihood?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73460,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
+    "s78wiTJX1a0": {
+      "id": "s78wiTJX1a0",
+      "title": "A radical psychological transformation",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73495,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
+    },
     "seRx0o6jetI": {
       "id": "seRx0o6jetI",
       "title": "Why do you come here?",
@@ -3752,6 +5740,25 @@
         "Talk"
       ],
       "recorded": "1981-07-19"
+    },
+    "sv8Kuv6jIOE": {
+      "id": "sv8Kuv6jIOE",
+      "title": "Every human being is the rest of humanity",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73494,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
     },
     "sXBoJ7M9VHQ": {
       "id": "sXBoJ7M9VHQ",
@@ -3943,6 +5950,25 @@
       ],
       "recorded": "1982-07-22"
     },
+    "tw6dWwJ9XG4": {
+      "id": "tw6dWwJ9XG4",
+      "title": "Negate what love is not",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73503,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-17"
+    },
     "U7ItkgKN_vU": {
       "id": "U7ItkgKN_vU",
       "title": "To live without conflict",
@@ -3961,6 +5987,25 @@
         "Dialogue"
       ],
       "recorded": "1974-02-26"
+    },
+    "UenEis2h79Q": {
+      "id": "UenEis2h79Q",
+      "title": "Can we create a good society?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73580,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-07-29"
     },
     "uFl1GxjvrGc": {
       "id": "uFl1GxjvrGc",
@@ -4019,6 +6064,44 @@
       ],
       "recorded": "1981-07-26"
     },
+    "UQRH-NGP5s0": {
+      "id": "UQRH-NGP5s0",
+      "title": "The disciple who could walk on water",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73529,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-07-27"
+    },
+    "UTdbn3QCgk0": {
+      "id": "UTdbn3QCgk0",
+      "title": "Conclusions about another",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73510,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-21"
+    },
     "UtDIIZIDCP4": {
       "id": "UtDIIZIDCP4",
       "title": "Tribalism",
@@ -4076,6 +6159,25 @@
       ],
       "recorded": "1981-07-23"
     },
+    "VcN3PTfTh70": {
+      "id": "VcN3PTfTh70",
+      "title": "The boy sent to visit Death",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73658,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1980-07-17"
+    },
     "vhasmdAoFG4": {
       "id": "vhasmdAoFG4",
       "title": "What is action?",
@@ -4094,6 +6196,25 @@
         "Talk"
       ],
       "recorded": "1985-04-21"
+    },
+    "vKHpHkrn03A": {
+      "id": "vKHpHkrn03A",
+      "title": "An immediate ending",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73449,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-22"
     },
     "VmuXKozuj4I": {
       "id": "VmuXKozuj4I",
@@ -4152,6 +6273,25 @@
       ],
       "recorded": "1981-07-21"
     },
+    "VuMS3MCR32o": {
+      "id": "VuMS3MCR32o",
+      "title": "Vanity and arrogance",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73614,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-19"
+    },
     "vVvz6d0yTJk": {
       "id": "vVvz6d0yTJk",
       "title": "Have you ever asked what beauty is?",
@@ -4170,6 +6310,44 @@
         "Talk"
       ],
       "recorded": "1985-04-20"
+    },
+    "VxuNO3i0XK4": {
+      "id": "VxuNO3i0XK4",
+      "title": "Come to meditation afresh",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73566,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1978-07-23"
+    },
+    "vyy2I0YVnA4": {
+      "id": "vyy2I0YVnA4",
+      "title": "Where there is authority there is conformity",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73480,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-12"
     },
     "W3A0PTA93vY": {
       "id": "W3A0PTA93vY",
@@ -4209,6 +6387,25 @@
       ],
       "recorded": "1984-07-12"
     },
+    "w4x_EI8y-vU": {
+      "id": "w4x_EI8y-vU",
+      "title": "Fear is a terrible burden",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73516,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-21"
+    },
     "Wt2EnuSioFk": {
       "id": "Wt2EnuSioFk",
       "title": "Can images end?",
@@ -4228,6 +6425,25 @@
       ],
       "recorded": "1982-07-13"
     },
+    "wtDz_QW7Gks": {
+      "id": "wtDz_QW7Gks",
+      "title": "An absolutely silent mind",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73623,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-22"
+    },
     "WtKJdBaxjQY": {
       "id": "WtKJdBaxjQY",
       "title": "Cleansing the consciousness of humanity",
@@ -4246,6 +6462,25 @@
         "Talk"
       ],
       "recorded": "1981-07-23"
+    },
+    "wwideu3wEhE": {
+      "id": "wwideu3wEhE",
+      "title": "What is compassion?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73491,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-14"
     },
     "wx51-tA9oJg": {
       "id": "wx51-tA9oJg",
@@ -4284,6 +6519,44 @@
         "Talk"
       ],
       "recorded": "1970-04-09"
+    },
+    "X0h4058gvnI": {
+      "id": "X0h4058gvnI",
+      "title": "Can we bring about a good society?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73590,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-10"
+    },
+    "x27EAGVWoVg": {
+      "id": "x27EAGVWoVg",
+      "title": "What is the ego?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73604,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-15"
     },
     "x6QGd-7BbW0": {
       "id": "x6QGd-7BbW0",
@@ -4342,6 +6615,44 @@
       ],
       "recorded": "1978-04-20"
     },
+    "xewNA_77Dr8": {
+      "id": "xewNA_77Dr8",
+      "title": "Two people without images is a miraculous thing",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73437,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-20"
+    },
+    "xfiexptp_Vo": {
+      "id": "xfiexptp_Vo",
+      "title": "Thought is never intelligent",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73477,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-10"
+    },
     "XfwWFpmW7ic": {
       "id": "XfwWFpmW7ic",
       "title": "Has memory anything to do with love?",
@@ -4380,6 +6691,63 @@
       ],
       "recorded": "1981-07-21"
     },
+    "XHgl0p6-qbc": {
+      "id": "XHgl0p6-qbc",
+      "title": "Why does the brain build up images?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73435,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-20"
+    },
+    "xwHnsprGE4Y": {
+      "id": "xwHnsprGE4Y",
+      "title": "Repeating a mantra is not meditation",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73573,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-07-27"
+    },
+    "Y46N_j4YKCw": {
+      "id": "Y46N_j4YKCw",
+      "title": "Dropping pleasure instantly",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73456,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-25"
+    },
     "y6jN6hlfAXY": {
       "id": "y6jN6hlfAXY",
       "title": "When you have problems, you can’t see clearly",
@@ -4417,6 +6785,25 @@
         "Talk"
       ],
       "recorded": "1983-07-10"
+    },
+    "YDS-9oDiRg0": {
+      "id": "YDS-9oDiRg0",
+      "title": "Why haven’t you changed?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73418,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-15"
     },
     "yM1SDGQGYxo": {
       "id": "yM1SDGQGYxo",
@@ -4494,6 +6881,25 @@
       ],
       "recorded": "1966-01-01"
     },
+    "YNaRoXdKoOM": {
+      "id": "YNaRoXdKoOM",
+      "title": "The unread book of yourself",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73448,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-22"
+    },
     "yNMwDdgIScI": {
       "id": "yNMwDdgIScI",
       "title": "A perception not born of knowledge",
@@ -4512,6 +6918,44 @@
         "Talk"
       ],
       "recorded": "1981-07-16"
+    },
+    "yo1Bukg0gK0": {
+      "id": "yo1Bukg0gK0",
+      "title": "Thought hopes to find security",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73603,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-15"
+    },
+    "YPj8ALmwis0": {
+      "id": "YPj8ALmwis0",
+      "title": "Only register what is necessary",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73485,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-14"
     },
     "YQcuDoeKqEI": {
       "id": "YQcuDoeKqEI",
@@ -4570,6 +7014,25 @@
       ],
       "recorded": "1981-07-21"
     },
+    "YVIFFqK3yaY": {
+      "id": "YVIFFqK3yaY",
+      "title": "Love is not attachment",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73570,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-07-26"
+    },
     "YX5FH7VRxLM": {
       "id": "YX5FH7VRxLM",
       "title": "Everyone is trying to become",
@@ -4588,6 +7051,44 @@
         "Talk"
       ],
       "recorded": "1981-07-16"
+    },
+    "Yz8AoGYB4Dg": {
+      "id": "Yz8AoGYB4Dg",
+      "title": "What is the quality of a mind that is free?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73596,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-12"
+    },
+    "YzDZWxi2YK0": {
+      "id": "YzDZWxi2YK0",
+      "title": "Is it possible to not record pleasure?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73430,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-07-18"
     },
     "z6jyxNfm21Y": {
       "id": "z6jyxNfm21Y",
@@ -4646,6 +7147,25 @@
       ],
       "recorded": "1981-07-21"
     },
+    "zfjxMyydS80": {
+      "id": "zfjxMyydS80",
+      "title": "You must be free to look",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73472,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1977-07-31"
+    },
     "ZJC95_BMelg": {
       "id": "ZJC95_BMelg",
       "title": "Belief is a form of hope",
@@ -4702,6 +7222,25 @@
         "Talk"
       ],
       "recorded": "1983-07-17"
+    },
+    "ZLQt_ttmpsk": {
+      "id": "ZLQt_ttmpsk",
+      "title": "Wiping fear away",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73486,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-07-14"
     },
     "ZLUvgAw8tAU": {
       "id": "ZLUvgAw8tAU",
@@ -4778,6 +7317,44 @@
         "Talk"
       ],
       "recorded": "1983-07-19"
+    },
+    "ZW1GNge1p-A": {
+      "id": "ZW1GNge1p-A",
+      "title": "Is there any certainty in relationships?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73577,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-07-28"
+    },
+    "ZZz4gqiMCQc": {
+      "id": "ZZz4gqiMCQc",
+      "title": "Total attention",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-17T04:47:05.366Z",
+      "avail": "ok",
+      "checked": "2026-11-17T04:47:05.366Z",
+      "archive": 73583,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1979-07-08"
     }
   },
   "playlists": {
