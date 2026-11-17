@@ -16,7 +16,23 @@ self.addEventListener('activate', (e) => e.waitUntil(
   caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE && k !== AUDIO && k !== 'kft-daily-v1').map((k) => caches.delete(k)))).then(() => self.clients.claim())
 ));
 
-const put = (req, res) => { if (res && res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); } return res; };
+// Never answer a fetch with nothing (Safari reports "Returned response is null"): offline and not cached is a 503
+const offline = () => new Response('Offline', { status: 503, statusText: 'Offline', headers: { 'Content-Type': 'text/plain' } });
+// Data files are fetched as data/<file>?v=<hash>. Keep one copy per file: when a new version is stored,
+// older versions of the same path are dropped, so the cache doesn't grow with every nightly build.
+const put = (req, res) => {
+  if (res && res.ok) {
+    const copy = res.clone();
+    const u = new URL(req.url);
+    caches.open(CACHE).then(async (c) => {
+      await c.put(req, copy);
+      if (u.pathname.includes('/data/') && u.searchParams.has('v')) {
+        for (const k of await c.keys()) { const o = new URL(k.url); if (o.pathname === u.pathname && o.search !== u.search) await c.delete(k); }
+      }
+    });
+  }
+  return res;
+};
 
 // A downloaded episode, answering Range requests (audio elements seek with them)
 async function fromAudioCache(req) {
@@ -45,11 +61,14 @@ self.addEventListener('fetch', (e) => {
   if (url.pathname.includes('/offline-audio/')) { e.respondWith(fromAudioCache(e.request)); return; }
   // Live data: fresh when online; offline, the last good copy (daily.json may also sit in kft-daily-v1)
   if (/\/data\/(feed|centre|daily)\.json$/.test(url.pathname)) {
-    e.respondWith(fetch(e.request).then((r) => (r.ok ? put(e.request, r) : caches.match(e.request, { ignoreSearch: true }).then((c) => c || r))).catch(() => caches.match(e.request, { ignoreSearch: true })));
+    e.respondWith(fetch(e.request).then((r) => (r.ok ? put(e.request, r) : caches.match(e.request, { ignoreSearch: true }).then((c) => c || r))).catch(() => caches.match(e.request, { ignoreSearch: true }).then((c) => c || offline())));
     return;
   }
+  // Offline, a versioned data file falls back to the copy of the same file kept from an earlier version
+  // and a page in the app's scope falls back to the app shell
+  const fallback = () => Promise.resolve(url.pathname.includes('/data/') ? caches.match(e.request, { ignoreSearch: true }) : e.request.mode === 'navigate' ? caches.match('./') : undefined).then((r) => r || offline());
   e.respondWith(caches.match(e.request).then((hit) => {
-    const net = fetch(e.request).then((r) => put(e.request, r)).catch(() => hit);
+    const net = fetch(e.request).then((r) => put(e.request, r)).catch(() => hit || fallback());
     if (hit) e.waitUntil(net);
     return hit || net;
   }));

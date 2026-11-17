@@ -149,7 +149,7 @@ Talk key = `<place>-<year>-<type>-<n>`, e.g. `ojai-1984-talk-4`; type `talk`, `d
 
 ### Other files
 - `data/booking-check.json`: nightly Inn Style check `{ version, resultSince, retreats, passed, failed, pages: {home, giftVouchers}, results: [{ promo, name, start, nights, url, endDate, checks: {deepLink, promotion, endDate?}, ok }] }`. `resultSince` changes only when the results change.
-- `data/daily.json`: written only when a Daily source exists (`DAILY_SOURCE_URL` repository variable, or committed `data-src/daily/*.json`), validated against `schemas/daily.schema.json`. Never invented.
+- `data/daily.json`: written only when a Daily source exists (`DAILY_SOURCE_URL` repository variable, or committed `data-src/daily/*.json`), validated against `schemas/daily.schema.json`. Never invented. Until then the repo ships an empty, schema-valid placeholder (`"passages": []`) so the app's start-up request answers 200 instead of logging a 404; the app shows the same empty state for it.
 - Not deployed (repo root): `data/library/youtube/<channel>.json` (stored, append-only libraries with descriptions, sources, oEmbed status), `data/library/archive.json` (archive crawl state), `data/seed/youtube/` (Takeout seed CSVs and `playlists.json`).
 
 ### Video sources and checks (no API key)
@@ -163,5 +163,5 @@ Talk key = `<place>-<year>-<type>-<n>`, e.g. `ojai-1984-talk-4`; type `talk`, `d
 
 ## 9. App side (how `public/js/app.js` uses the data)
 - Start: `feed.json`, `centre.json` and `daily.json` (each optional; built-in fallbacks for the first two, an empty state for Daily). Then `files` gives every other path with its version: video indexes load at once (about 30 KB), podcast lists when Listen opens, `descriptions.json` on the first video screen of a channel, `matches.json` on the first episode or video screen, `search.json` on first focus of search, `archive/index.json` only when an archive search result without a YouTube ID is opened.
-- Service worker (`sw.js`, cache `kft-app-v4`): app shell and `centre.json`/`feed.json` precached; `feed.json`, `centre.json` and `daily.json` network-first; other same-origin files stale-while-revalidate (versioned URLs, so a change is a new entry). Downloads: `kft-audio-v1` (served from `./offline-audio/<id>` with byte ranges) and `kft-daily-v1`. Cross-origin requests (Podbean, YouTube, Inn Style) never pass through the worker.
+- Service worker (`sw.js`, cache `kft-app-v4`): app shell and `centre.json`/`feed.json` precached; `feed.json`, `centre.json` and `daily.json` network-first; other same-origin files stale-while-revalidate (versioned URLs, so a change is a new entry; storing a new version drops the older versions of the same data file, and offline a missing version falls back to the last kept copy of that file). Downloads: `kft-audio-v1` (served from `./offline-audio/<id>` with byte ranges) and `kft-daily-v1`. Cross-origin requests (Podbean, YouTube, Inn Style) never pass through the worker.
 - Ids: episodes by `key`, videos by YouTube id, retreats by Inn Style promotion id (so a live feed reload never changes which retreat a sheet shows).

@@ -82,17 +82,17 @@
       ];
       var UP = "https://kfoundation.org/wp-content/uploads/";
       var ARTICLES = [
-        ["What Love Is Not", "We don't know how to love, we only know how to think about love.", "https://kfoundation.org/what-love-is-not", UP + "2022/07/black-and-white-photo-portrait-of-j-krishnamurti-on-a-dark-background-looking-at-the-camera.jpg"],
+        ["What Love Is Not", "We don't know how to love, we only know how to think about love.", "https://kfoundation.org/what-love-is-not/", UP + "2022/07/black-and-white-photo-portrait-of-j-krishnamurti-on-a-dark-background-looking-at-the-camera.jpg"],
         ["Krishnamurti on Meditation", "Meditation must come naturally, like a flower that blooms. You cannot force it.", "https://kfoundation.org/meditation/", UP + "2022/07/black-and-white-photograph-of-j-krishnamurti-with-trees-in-the-background-looking-to-right.jpg"],
-        ["The Root of Fear", "It is only with direct contact with fear that you are free.", "https://kfoundation.org/the-root-of-fear", UP + "2022/07/black-and-white-photograph-of-j-krishnamurti-looking-down-left-with-leaves-background.jpg"],
-        ["On Loneliness", "As long as there is self-centred activity, there must be loneliness.", "https://kfoundation.org/on-loneliness", UP + "2022/07/black-and-white-photograph-of-j-krishnamurti-in-indian-clothes-looking-to-right.jpg"],
-        ["Krishnamurti on Artificial Intelligence", "If the machine can do everything thought can do, what then is man?", "https://kfoundation.org/krishnamurti-on-ai", UP + "2023/09/K-on-AI-Square.jpg"],
+        ["The Root of Fear", "It is only with direct contact with fear that you are free.", "https://kfoundation.org/the-root-of-fear/", UP + "2022/07/black-and-white-photograph-of-j-krishnamurti-looking-down-left-with-leaves-background.jpg"],
+        ["On Loneliness", "As long as there is self-centred activity, there must be loneliness.", "https://kfoundation.org/on-loneliness/", UP + "2022/07/black-and-white-photograph-of-j-krishnamurti-in-indian-clothes-looking-to-right.jpg"],
+        ["Krishnamurti on Artificial Intelligence", "If the machine can do everything thought can do, what then is man?", "https://kfoundation.org/krishnamurti-on-ai/", UP + "2023/09/K-on-AI-Square.jpg"],
         ["What Is Our Relationship to Nature?", "If you lose relationship with nature, you lose relationship with humanity.", "https://kfoundation.org/what-is-our-relationship-with-nature/", UP + "2022/07/colour-photograph-of-j-krishnamurti-looking-at-the-branches-of-a-tree.jpg"]
       ];
       var GENRES = [["Talk", "1,548"], ["Discussion", "760"], ["Question & Answer", "425"], ["Dialogue", "288"], ["Seminar", "192"], ["Film", "57"], ["Interview", "40"]];
       var START = [
         ["Where to Start", "https://kfoundation.org/start/"],
-        ["Biography", "https://kfoundation.org/krishnamurti-biography"],
+        ["Biography", "https://kfoundation.org/krishnamurti-biography/"],
         ["Free 5-Day Introduction", "https://sub.kfoundation.org/five"]
       ];
 
@@ -1224,8 +1224,14 @@
         }
 
         /* ---------- Read ---------- */
+        // Each genre has its own archive page on kfoundation.org (/media-genre/<slug>/, the WordPress term link;
+        // "Question & Answer" → question-answer). Checked 17 Nov 2026 for all eight genres.
+        function genreUrl(name) {
+          var slug = String(name).toLowerCase().replace(/&/g, " ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+          return slug ? "https://kfoundation.org/media-genre/" + slug + "/" : "https://kfoundation.org/video/";
+        }
         function genreTiles() {
-          return GENRES.map(function (g) { return '<a class="x-tile"' + BR("https://kfoundation.org/video", g[0] + "s in the archive") + ' data-q="' + esc(g[0].toLowerCase()) + '"><b>' + esc(g[0]) + "</b><span>" + esc(g[1]) + "</span></a>"; }).join("");
+          return GENRES.map(function (g) { return '<a class="x-tile"' + BR(genreUrl(g[0]), g[0] + " in the archive") + ' data-q="' + esc(g[0].toLowerCase()) + '"><b>' + esc(g[0]) + "</b><span>" + esc(g[1]) + "</span></a>"; }).join("");
         }
         // kfoundation.org blocks its images on other sites, so only the feed's own copy (data/img/…) is used;
         // without one, a calm tinted tile with the title's first letter

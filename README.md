@@ -20,7 +20,7 @@ public/
   vendor/                base stylesheet + helper script from the page builder
   data/feed.json         generated feed v2: Today data + manifest of the other data files (see ARCHITECTURE.md §8)
   data/podcasts/, data/videos/, data/search.json, data/matches.json, data/archive/, data/img/   generated libraries
-  data/daily.json        Daily passages (generated only when KFT's source exists; schema: schemas/daily.schema.json)
+  data/daily.json        Daily passages (generated only when KFT's source exists; until then an empty placeholder; schema: schemas/daily.schema.json)
   data/centre.json       Centre rates, closures, stay rules and phone (edited by hand; read at start)
   manifest.webmanifest   makes it installable (Add to Home Screen)
   sw.js                  service worker: offline shell, network-first feed and centre.json, downloaded episodes
