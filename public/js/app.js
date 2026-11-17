@@ -375,21 +375,26 @@
         /* ---------- Listen ---------- */
         function renderListen() {
           var s = SHOWS[state.show];
+          // A Collection series opened from search lists just its parts, in order
+          var ser = state.show === "kc" && state.series ? state.series : null;
+          var rows = ser ? s.eps.filter(function (ep) { return ep.series === ser; }).sort(function (a, b) { return (a.part || 0) - (b.part || 0); }) : s.eps.slice(0, state.more[state.show]);
           $("s-listen").innerHTML =
             '<div class="x-seg" role="group" aria-label="Podcast">' +
               '<button data-act="lseg" data-k="uoc" class="' + (state.show === "uoc" ? "is-on" : "") + '" aria-pressed="' + (state.show === "uoc") + '">Urgency of Change</button>' +
               '<button data-act="lseg" data-k="kc" class="' + (state.show === "kc" ? "is-on" : "") + '" aria-pressed="' + (state.show === "kc") + '">Collection</button>' +
             "</div>" +
             '<div class="x-show"><img src="' + esc(s.cover) + '" alt="' + esc(s.name) + ' cover art" /><div><h2>' + esc(s.name) + '</h2><p class="x-meta x-clamp2' + (state.descOpen ? " is-open" : "") + '" id="show-desc">' + esc(s.desc) + '</p><p class="x-meta">' + esc(feedTotal(state.show).toLocaleString("en-GB") + " episodes") + (s.desc.length > 70 ? ' <button class="x-more-link" data-act="desc-more" aria-expanded="' + !!state.descOpen + '" aria-controls="show-desc">' + (state.descOpen ? "Less" : "More") + "</button>" : "") + "</p></div></div>" +
+            (ser ? '<div class="x-pad x-series-head"><p class="x-meta">' + esc(state.seriesName || "Series") + '</p><button class="x-btn x-btn--ghost x-btn--block u-mt2" data-act="series-clear">All Collection episodes</button></div>' : "") +
             '<ul class="x-list">' +
-              s.eps.slice(0, state.more[state.show]).map(function (ep) {
+              (ser && !rows.length ? '<li class="x-empty">Loading this series…</li>' : "") +
+              rows.map(function (ep) {
                 var pct = played[ep.id] ? 0 : pctOf(ep);
                 return '<li class="x-row' + (played[ep.id] ? " is-played" : "") + '"><button class="x-row-main" data-act="ep" data-ep="' + esc(ep.id) + '"><span class="x-row-title">' + esc(ep.title) + '</span><span class="x-meta">' + esc(joinMeta(ep.date, mins(ep), epState(ep))) + "</span>" +
                   (pct ? '<span class="x-bar x-rowbar"><i class="x-prog" data-ep="' + esc(ep.id) + '" style="width:' + pct + '%"></i></span>' : "") +
                   "</button>" + playBtn(ep.id) + "</li>";
               }).join("") +
             "</ul>" +
-            moreBtn(state.show, feedTotal(state.show));
+            (ser ? "" : moreBtn(state.show, feedTotal(state.show)));
           syncPlay();
         }
         function epDesc(ep) {
@@ -1203,7 +1208,7 @@
           var o = null;
           for (var i = 0; SEARCH && i < SEARCH.length; i++) if (SEARCH[i].type === type && SEARCH[i].id === id) { o = SEARCH[i]; break; }
           if (type === "u" || type === "c") { openEpisodeKey(id, -1); return; }
-          if (type === "cs") { state.show = "kc"; switchTab("listen"); renderListen(); return; }
+          if (type === "cs") { state.show = "kc"; state.series = id; state.seriesName = o ? o.title : ""; switchTab("listen"); renderListen(); $("s-listen").scrollTop = 0; return; }
           if (type === "v" || (type === "a" && o && /^[\w-]{6,20}$/.test(o.group))) {
             var vid = type === "v" ? id : o.group;
             if (!VIDS[vid] && o) VIDS[vid] = { id: vid, title: o.title, date: o.year, thumb: "", ch: type === "a" ? "Archive" : (VIDEOS[o.group === "official" ? "off" : o.group] || { name: "YouTube" }).name, k: o.group === "official" ? "off" : VIDEOS[o.group] ? o.group : "off", kind: videoKind(o.kind, o.kind === "short", o.group === "official" ? "off" : "kft"), iso: "" };
@@ -1748,7 +1753,8 @@
               toast(was ? "Marked as unplayed" : "Marked as played");
               break;
             case "desc-more": state.descOpen = !state.descOpen; renderListen(); refocus("s-listen", '[data-act="desc-more"]'); break;
-            case "lseg": state.show = el.getAttribute("data-k"); renderListen(); refocus("s-listen", '[data-act="lseg"][data-k="' + state.show + '"]'); break;
+            case "series-clear": state.series = null; renderListen(); refocus("s-listen", '[data-act="lseg"][data-k="kc"]'); break;
+            case "lseg": state.show = el.getAttribute("data-k"); state.series = null; renderListen(); refocus("s-listen", '[data-act="lseg"][data-k="' + state.show + '"]'); break;
             case "wseg": setWkind(el.getAttribute("data-k")); break;
             case "more":
               var mk = el.getAttribute("data-k"), before = state.more[mk];
@@ -1848,6 +1854,7 @@
             // The feed builder cuts descriptions at 600 characters; show that they continue
             if (desc && txt(e.description).length === 600) desc = desc.replace(/\s+\S*$/, "") + "…";
             var ep = { id: id, title: txt(e.title), date: fmtFeedDate(e.date), min: secs ? Math.max(1, Math.round(secs / 60)) : null, url: e.audioUrl, link: isHttp(e.link) ? e.link : "", desc: desc, show: show };
+            if (txt(e.seriesId)) { ep.series = txt(e.seriesId); ep.part = Number(e.part) >= 1 ? Math.floor(e.part) : null; }
             if (Array.isArray(e.chapters)) ep.chapters = e.chapters.map(function (c) {
               return c && txt(c.title) ? { start: typeof c.start === "number" && c.start >= 0 ? c.start : null, title: txt(c.title), source: txt(c.source) } : null;
             }).filter(Boolean);
