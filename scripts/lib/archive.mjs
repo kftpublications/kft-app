@@ -6,12 +6,19 @@
 //     Yoast VideoObject "datePublished":"YYYY-MM-DD"  (recording date)
 //     href=".../transcript/<slug>/"                    (transcript link)
 //     kftSubtitlesConfig "languages":[{"lang_code":…}] (caption languages; captions themselves are NOT fetched)
-//   A page is fetched again only when its REST `modified` changes.
+//     <div class="kft-media-meta"> PLACE | 23 APRIL 1978 | VIDEO EXTRACT </div>  (format label, place, date;
+//                                                     place is left out on some pages)
+//   A page is fetched again when its REST `modified` changes, or when the parser learns a new field
+//   (PAGE_PARSER bumped: pages read by an older parser are queued again, oldest-parser first).
 import { decode, sleep, UA } from './util.mjs';
 
 export const WP = 'https://kfoundation.org/wp-json/wp/v2';
 const FIELDS = 'id,slug,link,title,modified_gmt,kft_media_genre,kft_media_audience,meta,acf,youtube_id,platform,platform_id,platformId,transcript,transcript_id,recording_date';
 const WEEK = 7 * 864e5;
+
+// Bump when parseMediaPage reads a new field, so pages read before it are fetched again.
+// 2: format label, place and date from the .kft-media-meta line (17 Nov 2026).
+export const PAGE_PARSER = 2;
 
 export const emptyArchive = () => ({ version: 1, listedAt: null, fullListAt: null, items: {} });
 
@@ -58,6 +65,7 @@ export function parseMediaPage(html) {
   if (rec) out.recorded = rec[1];
   const tr = /href="https?:\/\/(?:www\.)?kfoundation\.org\/transcript\/([^"\/?#]+)\/?"/.exec(html);
   if (tr) out.transcript = decodeURIComponent(tr[1]);
+  Object.assign(out, parseMetaLine(html));
   const sub = html.indexOf('kftSubtitlesConfig');
   if (sub >= 0) {
     const langs = /"languages"\s*:\s*\[([\s\S]*?)\]/.exec(html.slice(sub, sub + 20000));
@@ -66,6 +74,48 @@ export function parseMediaPage(html) {
       out.captions = [...new Set(codes)];
     }
   }
+  return out;
+}
+
+// The line printed under the player: "[PLACE |] 23 APRIL 1978 | VIDEO EXTRACT".
+// format: extract | full-video | full-audio (any other label is kept as formatLabel only).
+const MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
+const SMALL = new Set(['of', 'the', 'and', 'in', 'at', 'on', 'de', 'la', 'le', 'du']);
+export const titleCase = (s) => s.toLowerCase().replace(/[a-z\u00c0-\u024f]+('[a-z]+)?/g, (w, _a, i) => (i > 0 && SMALL.has(w) ? w : w[0].toUpperCase() + w.slice(1)));
+export function formatOf(label = '') {
+  const l = label.trim().toUpperCase();
+  if (/\bEXTRACTS?\b/.test(l)) return 'extract';
+  if (/^FULL\s+VIDEO$/.test(l)) return 'full-video';
+  if (/^FULL\s+AUDIO$/.test(l)) return 'full-audio';
+  return null;
+}
+export function parseDay(s = '') {
+  const m = /^(?:(\d{1,2})\s+)?([A-Za-z]+)?\s*(\d{4})$/.exec(s.trim());
+  if (!m) return null;
+  const mo = m[2] ? MONTHS.indexOf(m[2].toLowerCase()) + 1 : 0;
+  if (m[2] && !mo) return null;
+  if (m[1] && mo) return `${m[3]}-${String(mo).padStart(2, '0')}-${String(m[1]).padStart(2, '0')}`;
+  return mo ? `${m[3]}-${String(mo).padStart(2, '0')}` : m[3];
+}
+export function parseMetaLine(html) {
+  const block = /<div[^>]*class="[^"]*\bkft-media-meta\b[^"]*"[^>]*>([\s\S]*?)<\/div>/.exec(html);
+  if (!block) return {};
+  const span = (cls) => { const m = new RegExp(`<span[^>]*class="[^"]*\\b${cls}\\b[^"]*"[^>]*>([\\s\\S]*?)<\\/span>`).exec(block[1]); return m ? decode(m[1].replace(/<[^>]+>/g, '')).replace(/\s+/g, ' ').trim() : ''; };
+  let place = span('kft-media-location'), date = span('kft-media-date'), label = span('kft-media-type');
+  if (!place && !date && !label) {
+    // No classed spans: read the plain "A | B | C" text (label last, date the part with a year)
+    const parts = decode(block[1].replace(/<[^>]+>/g, ' ')).split('|').map((x) => x.replace(/\s+/g, ' ').trim()).filter(Boolean);
+    if (parts.length && formatOf(parts[parts.length - 1])) label = parts.pop();
+    const di = parts.findIndex((x) => /\b\d{4}$/.test(x));
+    if (di >= 0) date = parts.splice(di, 1)[0];
+    place = parts.join(', ');
+  }
+  const out = {};
+  const f = formatOf(label);
+  if (f) out.format = f; else if (label) out.formatLabel = label;
+  if (place) out.place = titleCase(place);
+  const d = parseDay(date);
+  if (d) out.date = d;
   return out;
 }
 
@@ -109,8 +159,12 @@ export async function listArchive(state, now, { full = false } = {}) {
 // Items whose page must be (re)fetched: REST gives no YouTube ID and the page was not read at this `modified`.
 export function crawlQueue(state) {
   return Object.values(state.items)
-    .filter((it) => !(it.rest?.yt && it.rest?.transcript && it.rest?.recorded) && it.crawled !== it.modified && !(it.gone && it.crawled === it.modified))
-    .sort((a, b) => (a.crawled ? 1 : 0) - (b.crawled ? 1 : 0) || b.id - a.id);
+    .filter((it) => {
+      if (it.gone) return it.crawled !== it.modified;
+      const fresh = it.crawled === it.modified && (it.pv || 1) >= PAGE_PARSER;
+      return !fresh && !(it.rest?.yt && it.rest?.transcript && it.rest?.recorded && it.page?.format);
+    })
+    .sort((a, b) => (a.crawled ? 1 : 0) - (b.crawled ? 1 : 0) || (a.pv || 1) - (b.pv || 1) || b.id - a.id);
 }
 
 export async function crawlPage(it) {
@@ -121,12 +175,13 @@ export async function crawlPage(it) {
   delete it.gone;
   it.page = page;
   it.crawled = it.modified;
+  it.pv = PAGE_PARSER;
 }
 
 // Effective values: REST fields win over the page.
 export function effective(it) {
   const p = it.page || {}, r = it.rest || {};
-  return { platform: r.platform || p.platform || null, yt: r.yt || p.yt || null, platformId: p.platformId || null, recorded: r.recorded || p.recorded || null, transcript: r.transcript || p.transcript || null, transcriptId: r.transcriptId || null, captions: p.captions || null };
+  return { platform: r.platform || p.platform || null, yt: r.yt || p.yt || null, platformId: p.platformId || null, recorded: r.recorded || p.recorded || null, transcript: r.transcript || p.transcript || null, transcriptId: r.transcriptId || null, captions: p.captions || null, format: p.format || null, place: p.place || null, date: p.date || null };
 }
 
 // Public compact archive index
@@ -142,18 +197,23 @@ export function archivePublic(state, genres, audiences) {
     if (e.transcript) r.tr = e.transcript;
     if (e.transcriptId) r.tid = e.transcriptId;
     if (e.captions?.length) r.cl = e.captions;
+    if (e.format) r.fm = e.format;
+    if (e.place) r.pl = e.place;
     if (it.ch) r.ch = it.ch;
     if (it.avail === 'hidden') r.h = 1;
     return r;
   });
   const crawled = Object.values(state.items).filter((it) => it.crawled || it.rest?.yt).length;
+  const withFormat = rows.filter((r) => r.fm).length;
   return {
     version: 1,
     count: rows.length,
     resolved: crawled,           // items whose page (or REST fields) has been read
     withVideo: rows.filter((r) => r.y).length,
+    withFormat,
     genres: Object.fromEntries((genres || []).map((g) => [g.id, g.name])),
     audiences: Object.fromEntries((audiences || []).map((g) => [g.id, g.name])),
     rows,
   };
 }
+

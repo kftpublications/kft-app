@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 import { parseFeed, emptyStore, applyChannelFeed, toPublic, cleanTitle, videoKind, cleanDescription, dueForCheck } from '../lib/youtube.mjs';
 import { parsePodcast, parseChapters, parseCollectionTitle, timeToSec } from '../lib/podcasts.mjs';
 import { parseCsv, importTakeout } from '../lib/takeout.mjs';
-import { parseMediaPage, restFields } from '../lib/archive.mjs';
+import { parseMediaPage, restFields, parseMetaLine, crawlQueue, PAGE_PARSER } from '../lib/archive.mjs';
 import { promoBlocks } from '../lib/promotions.mjs';
 import { validate, videoIndexSchema, podcastSchema } from '../lib/schema.mjs';
 import { proseTalk, dashedTitle } from '../lib/talks.mjs';
@@ -107,9 +107,28 @@ test('Takeout importer: needed columns only, public only, personal files never r
 });
 
 test('Archive media page: YouTube ID, recording date, transcript, caption languages; REST fields preferred', () => {
-  assert.deepEqual(parseMediaPage(fx('media-page.html')), { platform: 'youtube', yt: 'N_oCPm5P_rg', recorded: '1978-04-23', transcript: 'k-school-discussion-3-victoria-british-columbia-23-april-1978', captions: ['en'] });
+  assert.deepEqual(parseMediaPage(fx('media-page.html')), { platform: 'youtube', yt: 'N_oCPm5P_rg', recorded: '1978-04-23', transcript: 'k-school-discussion-3-victoria-british-columbia-23-april-1978', format: 'extract', date: '1978-04-23', captions: ['en'] });
   assert.deepEqual(restFields({ id: 1 }), {});
   assert.equal(restFields({ meta: { youtube_id: 'N_oCPm5P_rg' } }).yt, 'N_oCPm5P_rg');
+});
+
+test('Archive media page: format label, place and date from the meta line (one fixture per label)', () => {
+  assert.deepEqual(parseMetaLine(fx('media-extract.html')), { format: 'extract', place: 'Madras (Chennai)', date: '1985-01-05' });
+  assert.deepEqual(parseMetaLine(fx('media-full-video.html')), { format: 'full-video', place: 'Wolf Lake School, Victoria, British Columbia', date: '1978-04-23' });
+  assert.deepEqual(parseMetaLine(fx('media-full-audio.html')), { format: 'full-audio', place: 'Santa Monica, California', date: '1970-03-01' });
+  assert.equal(parseMediaPage(fx('media-full-audio.html')).yt, 'AAAAAAAAAA3');
+  // no classed spans: the plain "A | B | C" text is read
+  assert.deepEqual(parseMetaLine('<div class="kft-media-meta">SAANEN | 21 JULY 1970 | FULL AUDIO</div>'), { format: 'full-audio', place: 'Saanen', date: '1970-07-21' });
+  assert.deepEqual(parseMetaLine('<div class="kft-media-meta"><span class="kft-media-type">TRANSCRIPT</span></div>'), { formatLabel: 'TRANSCRIPT' });
+  assert.deepEqual(parseMetaLine('<p>no meta</p>'), {});
+  // pages read by an older parser are fetched again; current ones are not
+  const st = { items: {
+    1: { id: 1, slug: 'a', modified: 'm', crawled: 'm', page: { yt: 'x' } },
+    2: { id: 2, slug: 'b', modified: 'm', crawled: 'm', pv: PAGE_PARSER, page: { yt: 'x', format: 'extract' } },
+    3: { id: 3, slug: 'c', modified: 'm' },
+    4: { id: 4, slug: 'd', modified: 'm', crawled: 'm', gone: true },
+  } };
+  assert.deepEqual(crawlQueue(st).map((it) => it.id), [3, 1]);
 });
 
 test('Promotion HTML becomes safe blocks', () => {
@@ -144,7 +163,8 @@ test('Build: a source going offline keeps the last good library (integration, mo
   assert.equal(kft1.shorts, 10);
   assert.equal(off1.count, 4 + 1); // 4 from RSS + 1 archive-only video (oEmbed author @KFoundation)
   const arow = off1.rows.find((r) => r.id === 'N_oCPm5P_rg');
-  assert.deepEqual([arow.kind, arow.kindSource, arow.r], ['full', 'archive-genre', '1978-04-23']);
+  // genre Discussion (source recording) but the page prints VIDEO EXTRACT: the format decides
+  assert.deepEqual([arow.kind, arow.kindSource, arow.r, arow.fm], ['extract', 'archive-format', '1978-04-23', 'extract']);
   assert.ok(kft1.rows.filter((r) => r.sh).every((r) => r.kind === 'short'));
   const arch = read('archive/index.json');
   assert.equal(arch.rows[0].y, 'N_oCPm5P_rg');
@@ -165,10 +185,14 @@ test('Build: a source going offline keeps the last good library (integration, mo
   assert.ok(existsSync(join(root, 'data', 'library', 'youtube', 'kft.json')));
 });
 
-test('Watch kind rules: archive genre, duration, feed link, channel, unknown', async () => {
+test('Watch kind rules: archive format, duration, feed link, channel, unknown (genre never decides)', async () => {
   const { classify } = await import('../lib/youtube.mjs');
-  assert.deepEqual(classify('official', { genres: ['Extracts'] }), { kind: 'extract', kindSource: 'archive-genre' });
-  assert.deepEqual(classify('kft', { genres: ['Question & Answer'] }), { kind: 'full', kindSource: 'archive-genre' });
+  assert.deepEqual(classify('kft', { format: 'extract', genres: ['Talk'] }), { kind: 'extract', kindSource: 'archive-format' });
+  assert.deepEqual(classify('kft', { format: 'full-video', genres: ['Extracts'] }), { kind: 'full', kindSource: 'archive-format' });
+  assert.deepEqual(classify('official', { format: 'full-audio', durationSec: 300 }), { kind: 'full', kindSource: 'archive-format' });
+  assert.deepEqual(classify('kft', { format: 'extract', short: true }), { kind: 'short', kindSource: 'archive-format' });
+  assert.deepEqual(classify('kft', { genres: ['Discussion'] }), { kind: 'extract', kindSource: 'channel' });
+  assert.deepEqual(classify('official', { genres: ['Extracts'] }), { kind: 'full', kindSource: 'channel' });
   assert.deepEqual(classify('official', { durationSec: 45 }), { kind: 'short', kindSource: 'duration' });
   assert.deepEqual(classify('official', { durationSec: 600 }), { kind: 'extract', kindSource: 'duration' });
   assert.deepEqual(classify('kft', { durationSec: 3600 }), { kind: 'full', kindSource: 'duration' });

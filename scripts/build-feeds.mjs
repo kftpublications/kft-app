@@ -146,9 +146,9 @@ for (const it of Object.values(archive.items)) {
   if (e.platform !== 'youtube' || !e.yt || it.gone) continue;
   const s = storeOfVideo(e.yt);
   const genres = (it.genres || []).map((g) => genreName[g]).filter(Boolean);
-  if (s) { const row = s.videos[e.yt]; row.archive = it.id; if (e.recorded) row.recorded = e.recorded; if (genres.length) row.genres = genres; else delete row.genres; if (!row.src.includes('archive')) row.src = [...row.src, 'archive'].sort(); if (ytStats[s.channel.key]) ytStats[s.channel.key].archive++; continue; }
+  if (s) { const row = s.videos[e.yt]; row.archive = it.id; if (e.recorded) row.recorded = e.recorded; if (e.format) row.format = e.format; else delete row.format; if (e.place) row.place = e.place; else delete row.place; if (genres.length) row.genres = genres; else delete row.genres; if (!row.src.includes('archive')) row.src = [...row.src, 'archive'].sort(); if (ytStats[s.channel.key]) ytStats[s.channel.key].archive++; continue; }
   if (it.ch && it.avail === 'ok' && stores[it.ch]) {
-    upsert(stores[it.ch], { id: e.yt, title: it.title, recorded: e.recorded, archive: it.id, ...(genres.length ? { genres } : {}) }, 'archive', NOW);
+    upsert(stores[it.ch], { id: e.yt, title: it.title, recorded: e.recorded, archive: it.id, ...(e.format ? { format: e.format } : {}), ...(e.place ? { place: e.place } : {}), ...(genres.length ? { genres } : {}) }, 'archive', NOW);
     Object.assign(stores[it.ch].videos[e.yt], { avail: 'ok', checked: it.checked });
   }
 }

@@ -73,6 +73,7 @@ Proposal:
 | Donate | **iPhone:** only inside the app if Apple approves KFT as a nonprofit and the app uses Apple Pay. If not, it must open Safari. **Android:** check Google Play's policy before release |
 | Maps, phone, email | Open the system Maps, Phone and Mail apps. This is normal and expected |
 
+
 ## 7. Test plan (each release)
 
 Test on one iPhone (Safari and installed to the Home Screen) and one Android phone (Chrome):
@@ -124,21 +125,23 @@ Episode: `id` (RSS guid), `key` (short stable id: `u<number>` / `c<number>`; use
 | `s` | duration in seconds **only from Takeout**, else null. Read `getDuration()` from the player on first play; never guess |
 | `k` | format: `talk`, `discussion`, `qa`, `dialogue`, `conversation`, `seminar`, `audio` (title began "Audio \|"), `podcast` (UoC episode video), `extract`, `video` |
 | `kind` | Watch division: `full`, `extract`, `short`, `unknown` (rules below) |
-| `kindSource` | `archive-genre`, `duration`, `feed-link`, `channel` (absent when `kind` is `unknown`) |
+| `kindSource` | `archive-format`, `duration`, `feed-link`, `description-link`, `channel` (absent when `kind` is `unknown`) |
+| `fm` | format label printed on the kfoundation.org media page: `extract`, `full-video`, `full-audio` (a `full-audio` row has `k: "audio"`) |
 | `sh` | 1 = a YouTube Short (the feed links it as `/shorts/<id>`). Shorts only in the Shorts row |
 | `p` | playlist IDs containing the video |
 | `f` | the full video this extract comes from ("Watch the full video at …") |
-| `pl`, `y` | place and year from a "J. Krishnamurti - Ojai 1984 - Public Talk 4 - …" title, or `y` from the recording date |
+| `pl`, `y` | place and year from a "J. Krishnamurti - Ojai 1984 - Public Talk 4 - …" title, else `pl` from the archive page's meta line; `y` from the recording date |
 | `r` | recording date (kfoundation.org archive) |
 | `ar` | kfoundation.org `kft_media` id (archive item) |
 
-**Watch kind rules** (Toby, 16 Nov 2026 23:10), in order: (1) archive match by YouTube ID: genre Extracts → `extract`; Talk, Discussion, Question & Answer, Dialogue, Seminar, Interview, Film → `full`. (2) Duration where known (Takeout): ≤60 s → `short`, < 20 min → `extract`, else `full`; a video the feed links as `/shorts/<id>` → `short` (`kindSource: "feed-link"`). (3) Channel: Official → `full`, KFT Channel → `extract`. (4) Else `unknown`. Nothing else is guessed. Caveat: many Official Channel uploads are extracts (their description says "Watch the full video at …", see `f`); until the archive crawl or a Takeout seed covers them, rule 3 calls them `full`.
+**Watch kind rules** (Toby, post-audit fix list, 17 Nov 2026; replaces the 16 Nov genre rule), in order: (1) archive match by YouTube ID, using the **format label** the kfoundation.org media page prints after the date ("… \| 23 APRIL 1978 \| VIDEO EXTRACT", "FULL VIDEO", "FULL AUDIO"): extract → `extract` (a vertical Short stays `short`), full video / full audio → `full` (`kindSource: "archive-format"`). The archive **genre** (Talk, Discussion, Dialogue, …) is the type of the source recording, so an extract of a talk has genre Talk: genre is a filter and label only and never decides the kind. (2) Duration where known (Takeout): ≤60 s → `short`, < 20 min → `extract`, else `full`; a video the feed links as `/shorts/<id>` → `short` (`kindSource: "feed-link"`). (3) "Watch the full video at …" in the description → `extract`. (4) Channel: Official → `full`, KFT Channel → `extract`. (5) Else `unknown`. Nothing else is guessed. Toby's sample of 40 media pages: 26 extract, 9 full video, 5 full audio.
 
 `playlists.json`: `{ version, channel, count, playlists: [{ id, title, n, complete, items: [video IDs in playlist order], place?, year? }] }`. `complete: false` = the playlist feed was full (15 items), so it may be longer; Takeout makes it complete.
 `descriptions.json`: `{ version, channel, descriptions: { <id>: text } }`, full description without the link/subscribe boilerplate (timestamps kept). Load only on the video screen.
 
 ### `data/archive/index.json` (kfoundation.org media archive)
-`{ version, count, resolved, withVideo, genres: {id: name}, audiences: {id: name}, rows }`. Row: `id` (kft_media id), `s` (slug: page `https://kfoundation.org/media/<s>/`), `t` title, `g` genre ids, `a` audience ids, `y` YouTube ID, `pf`/`pid` (platform other than YouTube, e.g. spotify), `r` recording date, `tr` transcript slug (`https://kfoundation.org/transcript/<tr>/`), `tid` transcript id (when REST provides it), `cl` caption language codes, `ch` channel found by oEmbed (archive-only videos), `h` 1 = hidden by oEmbed. `resolved` = rows whose page has been read; the rest fill in over the first nights.
+`{ version, count, resolved, withVideo, withFormat, genres: {id: name}, audiences: {id: name}, rows }`. Row: `id` (kft_media id), `s` (slug: page `https://kfoundation.org/media/<s>/`), `t` title, `g` genre ids, `a` audience ids, `y` YouTube ID, `pf`/`pid` (platform other than YouTube, e.g. spotify), `r` recording date, `tr` transcript slug (`https://kfoundation.org/transcript/<tr>/`), `tid` transcript id (when REST provides it), `cl` caption language codes, `ch` channel found by oEmbed (archive-only videos), `h` 1 = hidden by oEmbed, `fm` format label (`extract` \| `full-video` \| `full-audio`), `pl` place from the page's meta line (title case, e.g. "Wolf Lake School, Victoria, British Columbia"). `resolved` = rows whose page has been read; the rest fill in over the first nights. Pages read before the parser learned a field (`PAGE_PARSER` in `archive.mjs`) are queued again, oldest parser first.
+
 
 ### `data/matches.json` (same talk across libraries)
 `{ version, talks: { <talkKey>: { label, c: [Collection keys], u: [[UoC key, chapter index]] (index -1 = the whole episode), v: [[channel, video id]], a: [archive ids] } }, byItem: { <episode key | video id>: [talkKeys] }, fullTalk: { <extract id>: <full video id> } }`.

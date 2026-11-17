@@ -59,7 +59,7 @@ export const podcastSchema = {
 };
 const videoRow = {
   type: 'object', required: ['id', 't', 'd', 's', 'k', 'kind'], additionalProperties: false,
-  properties: { id: str(YT), t: S, d: nul(str(DAY)), s: nul(I), k: { enum: ['extract', 'talk', 'discussion', 'qa', 'dialogue', 'conversation', 'seminar', 'audio', 'podcast', 'video'] }, kind: { enum: ['full', 'extract', 'short', 'unknown'] }, kindSource: { enum: ['archive-genre', 'description-link', 'duration', 'feed-link', 'channel', 'title'] }, p: arr(S), sh: { enum: [1] }, f: str(YT), pl: S, y: I, r: str(DAY), ar: I },
+  properties: { id: str(YT), t: S, d: nul(str(DAY)), s: nul(I), k: { enum: ['extract', 'talk', 'discussion', 'qa', 'dialogue', 'conversation', 'seminar', 'audio', 'podcast', 'video'] }, kind: { enum: ['full', 'extract', 'short', 'unknown'] }, kindSource: { enum: ['archive-format', 'archive-genre', 'description-link', 'duration', 'feed-link', 'channel', 'title'] }, p: arr(S), sh: { enum: [1] }, f: str(YT), pl: S, y: I, r: str(DAY), ar: I, fm: { enum: ['extract', 'full-video', 'full-audio'] } },
 };
 export const videoIndexSchema = { type: 'object', required: ['version', 'channel', 'count', 'rows'], additionalProperties: false, properties: { version: I, channel: { type: 'object', required: ['key', 'name'] }, count: I, shorts: I, kinds: { type: 'object', values: I }, kindSources: { type: 'object', values: I }, rows: arr(videoRow) } };
 export const playlistsSchema = {
@@ -70,8 +70,8 @@ export const descSchema = { type: 'object', required: ['version', 'channel', 'de
 export const archiveSchema = {
   type: 'object', required: ['version', 'count', 'rows'], additionalProperties: false,
   properties: {
-    version: I, count: I, resolved: I, withVideo: I, genres: { type: 'object', values: S }, audiences: { type: 'object', values: S },
-    rows: arr({ type: 'object', required: ['id', 's', 't'], additionalProperties: false, properties: { id: I, s: S, t: S, g: arr(I), a: arr(I), y: str(YT), pf: S, pid: S, r: str(DAY), tr: S, tid: I, cl: arr(S), ch: { enum: ['kft', 'official', 'other'] }, h: { enum: [1] } } }),
+    version: I, count: I, resolved: I, withVideo: I, withFormat: I, genres: { type: 'object', values: S }, audiences: { type: 'object', values: S },
+    rows: arr({ type: 'object', required: ['id', 's', 't'], additionalProperties: false, properties: { id: I, s: S, t: S, g: arr(I), a: arr(I), y: str(YT), pf: S, pid: S, r: str(DAY), tr: S, tid: I, cl: arr(S), fm: { enum: ['extract', 'full-video', 'full-audio'] }, pl: S, ch: { enum: ['kft', 'official', 'other'] }, h: { enum: [1] } } }),
   },
 };
 export const searchSchema = { type: 'object', required: ['version', 'fields', 'items'], properties: { version: I, fields: arr(S), types: { type: 'object' }, items: arr({ type: 'array' }) } };
@@ -97,3 +97,4 @@ export const feedSchema = {
     images: { type: 'object', values: str('^data/img/[\\w.-]+$') },
   },
 };
+

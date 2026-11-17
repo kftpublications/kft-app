@@ -72,6 +72,8 @@ export function upsert(store, v, src, now) {
   if (v.archive) row.archive = v.archive;
   if (v.genres) row.genres = v.genres;
   if (v.recorded) row.recorded = v.recorded;
+  if (v.format) row.format = v.format;
+  if (v.place) row.place = v.place;
   if (!row.src.includes(src)) row.src = [...row.src, src].sort();
   store.videos[v.id] = row;
   return !old;
@@ -156,25 +158,28 @@ export function cleanDescription(d = '') {
 }
 const fullLink = (d = '') => (/Watch the full video at\s+https?:\/\/(?:youtu\.be\/|www\.youtube\.com\/watch\?v=)([\w-]{11})/i.exec(d) || [])[1];
 
-// Watch division (Toby, 16 Nov 2026 23:10). Rules in order, nothing guessed beyond them:
-//  1. archive match (kfoundation.org kft_media genre): Extracts -> extract; Talk, Discussion, Question & Answer,
-//     Dialogue, Seminar, Interview, Film -> full                                   (kindSource "archive-genre")
+// Watch division. Rules in order, nothing guessed beyond them:
+//  1. archive format label printed on the kfoundation.org media page ("… | VIDEO EXTRACT", "FULL VIDEO",
+//     "FULL AUDIO"): extract -> extract (a vertical Short from the feed stays short); full-video / full-audio -> full
+//                                                                                  (kindSource "archive-format")
+//     The archive genre (Talk, Discussion, Dialogue, …) is the type of the source recording, not the format of the
+//     upload: an extract of a talk is genre Talk. Genre is a filter/label only and never decides the kind
+//     (Toby, post-audit fix list 17 Nov 2026; replaces the 16 Nov genre rule).
 //  2. duration where known (Takeout): ≤60 s -> short; < 20 min -> extract; else full (kindSource "duration");
 //     a vertical Short (the feed links it as /shorts/<id>) -> short                 (kindSource "feed-link")
-//  3. channel: Official Channel -> full, KFT Channel -> extract                     (kindSource "channel")
-//  4. otherwise kind "unknown" (no kindSource)
+//  3. "Watch the full video at …" in the description -> extract                   (kindSource "description-link")
+//  4. channel: Official Channel -> full, KFT Channel -> extract                     (kindSource "channel")
+//  5. otherwise kind "unknown" (no kindSource)
 const GENRE_FORMAT = { talk: 'talk', discussion: 'discussion', 'question & answer': 'qa', dialogue: 'dialogue', seminar: 'seminar', interview: 'conversation', film: 'video', extracts: 'extract' };
-const FULL_GENRES = /^(talk|discussion|question\s*&\s*answer|q\s*&\s*a|dialogue|seminar|interview|film)$/i;
 export function classify(chKey, v) {
-  const g = v.genres || [];
-  if (g.some((x) => /^extracts?$/i.test(x))) return { kind: 'extract', kindSource: 'archive-genre' };
-  if (g.some((x) => FULL_GENRES.test(x))) return { kind: 'full', kindSource: 'archive-genre' };
+  if (v.format === 'extract') return { kind: v.short || (v.durationSec && v.durationSec <= 60) ? 'short' : 'extract', kindSource: 'archive-format' };
+  if (v.format === 'full-video' || v.format === 'full-audio') return { kind: 'full', kindSource: 'archive-format' };
   if (v.durationSec) {
     if (v.durationSec <= 60 || v.short) return { kind: 'short', kindSource: 'duration' };
     return { kind: v.durationSec < 1200 ? 'extract' : 'full', kindSource: 'duration' };
   }
   if (v.short) return { kind: 'short', kindSource: 'feed-link' };
-  if (fullLink(v.description || v.desc || '')) return { kind: 'extract', kindSource: 'description-link' }; // "Watch the full video at …" (added 16 Nov 2026 after the pipeline report; confirm with Toby)
+  if (fullLink(v.description || v.desc || '')) return { kind: 'extract', kindSource: 'description-link' };
   if (chKey === 'official') return { kind: 'full', kindSource: 'channel' };
   if (chKey === 'kft') return { kind: 'extract', kindSource: 'channel' };
   return { kind: 'unknown' };
@@ -199,12 +204,15 @@ export function toPublic(store) {
     const r = { id: v.id, t: title, d: v.date ? v.date.slice(0, 10) : null, s: v.durationSec || null, k: videoKind(store.channel.key, v.title), ...classify(store.channel.key, v) };
     // Format from the archive genre when the title gives none (e.g. full talks on the KFT Channel)
     const gk = (v.genres || []).map((g) => GENRE_FORMAT[g.toLowerCase()]).find(Boolean);
-    if (gk && (r.k === 'extract' || r.k === 'video')) r.k = gk;
+    if (gk && (r.k === 'extract' || r.k === 'video') && r.kind === 'full') r.k = gk; // genre labels a full recording; an extract stays "extract"
+    if (v.format === 'full-audio') r.k = 'audio';
+    if (v.format) r.fm = v.format;
     if (plOf[v.id]) r.p = plOf[v.id];
     if (v.short) r.sh = 1;
     const f = fullLink(v.description); if (f && f !== v.id) { r.f = f; if (r.k === 'video') r.k = 'extract'; }
     const dt = dashedTitle(title);
     if (dt) { r.pl = dt.place; r.y = dt.year; }
+    else if (v.place) r.pl = v.place;
     if (v.recorded) { r.r = v.recorded; if (!r.y) r.y = Number(v.recorded.slice(0, 4)); }
     if (v.archive) r.ar = v.archive;
     const cd = cleanDescription(v.description); if (cd && cd !== title && cd !== v.title) descriptions[v.id] = cd;
