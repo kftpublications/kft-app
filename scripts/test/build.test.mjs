@@ -14,6 +14,7 @@ import { parseMediaPage, restFields, parseMetaLine, crawlQueue, PAGE_PARSER } fr
 import { promoBlocks } from '../lib/promotions.mjs';
 import { validate, videoIndexSchema, podcastSchema } from '../lib/schema.mjs';
 import { proseTalk, dashedTitle } from '../lib/talks.mjs';
+import { placesOf, buildSearch } from '../lib/index-build.mjs';
 import { dateForms, lastNight, checkEnquiry } from '../check-booking-links.mjs';
 
 const FX = fileURLToPath(new URL('./fixtures/', import.meta.url));
@@ -129,6 +130,21 @@ test('Archive media page: format label, place and date from the meta line (one f
     4: { id: 4, slug: 'd', modified: 'm', crawled: 'm', gone: true },
   } };
   assert.deepEqual(crawlQueue(st).map((it) => it.id), [3, 1]);
+});
+
+test('Search places: known places, no trailing "in"/"at", places and years deduped, years sorted', () => {
+  // was "Saanen Ojai Brockwood Park in" / "1984 1949 1983"
+  assert.deepEqual(placesOf(['Krishnamurti’s third talk in Saanen 1984', 'the ninth talk in Ojai 1949', 'the first talk at Brockwood Park in 1983', 'the second talk in Saanen 1984']),
+    { places: ['Saanen', 'Ojai', 'Brockwood Park'], years: ['1949', '1983', '1984'] });
+  // was "Brockwood Park in Ojai Rajghat in New Delhi"
+  assert.deepEqual(placesOf(['the first talk at Brockwood Park in 1982', 'Krishnamurti’s second talk in Ojai 1983', 'Krishnamurti’s first talk at Rajghat in 1962', 'the third talk in New Delhi 1963']).places,
+    ['Brockwood Park', 'Ojai', 'Rajghat', 'New Delhi']);
+  assert.deepEqual(placesOf(['at Brockwood Park School in 1976', 'in Madras (Chennai) 1985']).places, ['Brockwood Park', 'Madras']);
+  assert.deepEqual(placesOf(['the second talk in Tokyo 1970', 'a direct recording by Krishnamurti in 1984']), { places: ['Tokyo'], years: ['1970', '1984'] });
+  const libs = { uoc: { episodes: [{ key: 'u1', title: 'T', chapters: [{ title: 'a', source: 'the first talk at Brockwood Park in 1983' }, { title: 'b', source: 'the ninth talk in Ojai 1949' }, { title: 'c', source: 'the first talk at Brockwood Park in 1983' }] }] }, collection: { episodes: [] }, videos: {}, playlists: {}, archive: { genres: {}, rows: [{ id: 5, t: 'X', pl: 'Saanen', r: '1981-07-14' }] } };
+  const items = buildSearch(libs).items;
+  assert.deepEqual(items[0].slice(3, 5), ['Brockwood Park Ojai', '1949 1983']);
+  assert.deepEqual(items[1].slice(3, 5), ['Saanen', '1981']);
 });
 
 test('Promotion HTML becomes safe blocks', () => {

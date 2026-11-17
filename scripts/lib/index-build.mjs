@@ -40,14 +40,43 @@ export function buildMatches(libs) {
   return { version: 1, talks, byItem, fullTalk };
 }
 
+// Places Krishnamurti spoke at, as UoC chapter sources and archive pages name them. Longest names are matched
+// first, so "Brockwood Park School" is not also read as "Brockwood Park". Aliases map to one search name.
+export const KNOWN_PLACES = ['Ojai', 'Saanen', 'Brockwood Park', 'Madras', 'Bombay', 'Rajghat', 'New Delhi', 'London', 'New York',
+  'Paris', 'Amsterdam', 'San Francisco', 'Santa Monica', 'Rishi Valley', 'Bangalore', 'Rome', 'San Diego', 'Calcutta',
+  'Los Alamos', 'Colombo', 'Claremont', 'Washington DC', 'Stanford', 'Benares', 'Varanasi', 'Berkeley', 'San Juan', 'Puerto Rico',
+  'Wassenaar', 'Hamburg', 'Sydney', 'Bern', 'Gstaad', 'Chennai', 'Mumbai', 'Kolkata', 'Victoria', 'Oak Grove', 'Malibu', 'Vasanta Vihar',
+  'Wolf Lake School', 'Ommen', 'Eerde', 'Adyar', 'Poona', 'Pune', 'Jabalpur', 'Hyderabad', 'Banaras', 'Montreal', 'Toronto', 'Helsinki',
+  'Stockholm', 'Brussels', 'Vienna', 'Athens', 'Auckland', 'Buenos Aires', 'Rio de Janeiro', 'Montevideo', 'Santiago', 'Mexico City'];
+const PLACE_ALIAS = { 'brockwood park school': 'Brockwood Park', 'brockwood': 'Brockwood Park', 'madras (chennai)': 'Madras', 'washington d.c.': 'Washington DC' };
+const ALIAS_NAMES = Object.keys(PLACE_ALIAS).map((a) => a.replace(/\b\w/g, (c) => c.toUpperCase()));
+const PLACE_NAMES = [...new Set([...KNOWN_PLACES, ...ALIAS_NAMES])].sort((a, b) => b.length - a.length);
+const esc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const PLACE_RE = new RegExp(`\\b(?:${PLACE_NAMES.map(esc).join('|')})(?![\\w])`, 'g');
+const canon = (p) => PLACE_ALIAS[p.toLowerCase()] || KNOWN_PLACES.find((k) => k.toLowerCase() === p.toLowerCase()) || p;
+
+// Places and years named in a set of texts (UoC chapter sources): known places, deduped in order of first mention;
+// years deduped and sorted. A place not on the list is still read from "in/at <Place> [in] 1983" (without a
+// trailing "in"/"at"), so a new venue is not lost.
+export function placesOf(texts) {
+  const places = [], years = [];
+  for (const t of [].concat(texts || [])) {
+    if (!t) continue;
+    let rest = t;
+    for (const m of t.matchAll(PLACE_RE)) { places.push(canon(m[0])); rest = rest.replace(m[0], ' '); }
+    for (const m of rest.matchAll(/\b(?:in|at)\s+((?:[A-Z][\w’'.-]*)(?:\s+[A-Z][\w’'.-]*)*),?\s+(?:in\s+)?(?:19|20)\d\d\b/g)) places.push(m[1].replace(/\s+(?:in|at)$/i, '').trim());
+    for (const m of t.matchAll(/\b(?:19|20)\d\d\b/g)) years.push(m[0]);
+  }
+  return { places: [...new Set(places)], years: [...new Set(years)].sort() };
+}
+
 // Search index: one array per item, fields listed once. Types: u, c (episodes), cs (Collection series),
 // v (video; channel in field 5), pl (playlist), a (archive item).
 export function buildSearch(libs) {
   const items = [];
-  const placesOf = (s = '') => [...s.matchAll(/(?:in|at)\s+([A-Z][\w’'. -]*?)(?:,)?\s+((?:19|20)\d\d)/g)].map((m) => [m[1].trim(), m[2]]);
   libs.uoc.episodes.forEach((e) => {
-    const py = (e.chapters || []).flatMap((c) => placesOf(c.source || ''));
-    items.push(['u', e.key, e.title, [...new Set(py.map((x) => x[0]))].join(' '), [...new Set(py.map((x) => x[1]))].join(' '), e.theme || '', (e.chapters || []).map((c) => c.title).join(' · '), '']);
+    const py = placesOf((e.chapters || []).map((c) => c.source || ''));
+    items.push(['u', e.key, e.title, py.places.join(' '), py.years.join(' '), e.theme || '', (e.chapters || []).map((c) => c.title).join(' · '), '']);
   });
   libs.collection.episodes.forEach((e) => items.push(['c', e.key, e.talkTitle || e.title, e.place || '', e.year ? String(e.year) : '', e.series || '', e.talk || '', '']));
   (libs.collection.series || []).forEach((s) => items.push(['cs', s.id, `${s.name} · ${s.parts} part${s.parts === 1 ? '' : 's'}`, s.place || '', s.year ? String(s.year) : '', s.name, '', '']));
@@ -55,7 +84,7 @@ export function buildSearch(libs) {
     idx.rows.forEach((r) => items.push(['v', r.id, r.t, r.pl || '', r.y ? String(r.y) : '', chKey, r.k, r.kind]));
     (libs.playlists[chKey]?.playlists || []).forEach((p) => items.push(['pl', p.id, p.title, p.place || '', p.year ? String(p.year) : '', chKey, `${p.n} videos`, '']));
   }
-  (libs.archive?.rows || []).filter((a) => !a.h).forEach((a) => items.push(['a', String(a.id), a.t, '', a.r ? a.r.slice(0, 4) : '', a.y || '', (a.g || []).map((g) => libs.archive.genres[g]).filter(Boolean).join(' '), '']));
+  (libs.archive?.rows || []).filter((a) => !a.h).forEach((a) => items.push(['a', String(a.id), a.t, a.pl || '', a.r ? a.r.slice(0, 4) : '', a.y || '', (a.g || []).map((g) => libs.archive.genres[g]).filter(Boolean).join(' '), '']));
   return {
     version: 1,
     fields: ['type', 'id', 'title', 'place', 'year', 'group', 'extra', 'kind'],
