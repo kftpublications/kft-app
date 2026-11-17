@@ -12,7 +12,7 @@
 // data/library/youtube/<ch>.json             stored, append-only video libraries (not deployed)
 // data/library/archive.json                  archive crawl state (not deployed)
 //
-// Env: OEMBED_CAP (900), ARCHIVE_PAGE_CAP (500), REQ_GAP_MS (1000), TIME_BUDGET_MIN (40),
+// Env: OEMBED_CAP (900), ARCHIVE_PAGE_CAP (2000), REQ_GAP_MS (1000), TIME_BUDGET_MIN (40),
 //      FULL_ARCHIVE_LIST=1, OFFLINE_SOURCES="rss-kft,uoc,…" (simulate a source being down, for testing)
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
@@ -20,7 +20,7 @@ import { get, readJson, writeJsonIfChanged, warn, warnings, hash, decode } from 
 import { SHOWS, parsePodcast } from './lib/podcasts.mjs';
 import { importTakeout } from './lib/takeout.mjs';
 import { CHANNELS, channelFeed, playlistFeed, parseFeed, emptyStore, applyTakeout, applyChannelFeed, applyPlaylistFeed, upsert, dueForCheck, oembed, channelOfAuthor, paced, toPublic, sortStore, cleanTitle } from './lib/youtube.mjs';
-import { emptyArchive, listArchive, crawlQueue, crawlPage, effective, archivePublic, WP } from './lib/archive.mjs';
+import { emptyArchive, listArchive, crawlQueue, crawlPage, effective, archivePublic, coverage, WP } from './lib/archive.mjs';
 import { PROMO_URL, parsePromotions } from './lib/promotions.mjs';
 import { mirrorImages, articleImageUrls } from './lib/images.mjs';
 import { buildMatches, buildSearch } from './lib/index-build.mjs';
@@ -120,7 +120,7 @@ await Promise.all([
   paced(cq, async (it) => {
     try { await source('archive-pages', () => crawlPage(it)); crawlStats.fetched++; }
     catch (err) { crawlStats.failed++; if (crawlStats.failed <= 3) warn('Archive page failed', `${it.slug}: ${err.message}`); }
-  }, { gapMs: GAP, cap: Number(env('ARCHIVE_PAGE_CAP', 500)), deadline: DEADLINE }),
+  }, { gapMs: GAP, cap: Number(env('ARCHIVE_PAGE_CAP', 2000)), deadline: DEADLINE }),
 ]);
 // Archive videos found by tonight's crawl: check them now if the oEmbed budget allows
 const oCap = Number(env('OEMBED_CAP', 900));
@@ -233,6 +233,8 @@ const matches = buildMatches(libs);
 await out('matches.json', SCHEMA.matchesSchema, matches, Object.keys(matches.talks).length);
 const search = buildSearch(libs);
 await out('search.json', SCHEMA.searchSchema, search, search.items.length);
+const cov = coverage(archive, archivePub, videos, NOW);
+await out('coverage.json', SCHEMA.coverageSchema, cov, cov.archive.resolved);
 const imgIndex = { version: 1, images };
 await writeJsonIfChanged(join(PUB, 'img', 'images.json'), imgIndex);
 
@@ -272,6 +274,7 @@ log(`Podcasts: UoC ${podcasts.uoc.count}, Collection ${podcasts.collection.count
 for (const ch of Object.keys(CHANNELS)) log(`Videos ${ch}: ${videos[ch].count} visible (${videos[ch].shorts || 0} Shorts), ${Object.keys(stores[ch].videos).length} stored, ${playlists[ch].count} playlists; new: ${JSON.stringify(ytStats[ch] || {})}; kinds ${JSON.stringify(videos[ch].kinds || {})}; kindSource ${JSON.stringify(videos[ch].kindSources || {})}`);
 log(`Playlists: ${plIds.length} seeded, ${plDue.length} due, ${plOk} fetched`);
 log(`Archive: ${archivePub.count} items, ${archivePub.resolved} resolved, ${archivePub.withVideo} with YouTube ID; listing ${archiveList ? `${archiveList.mode} (${archiveList.listed} listed, ${archiveList.removed} removed)` : 'failed'}; pages fetched ${crawlStats.fetched}/${crawlStats.queued} queued`);
+log(`Coverage: archive ${cov.archive.resolved}/${cov.archive.total} resolved, ${cov.archive.withFormat} with format ${JSON.stringify(cov.archive.byFormat)}`);
 log(`oEmbed: ${oStats.checked} checked of ${oStats.queued} due (${oStats.ok} ok, ${oStats.hidden} hidden, ${oStats.errors} errors)`);
 log(`Retreats ${retreats.length}, promotions ${promotions.length}, images ${Object.keys(images).length}, matches ${Object.keys(matches.talks).length}, search items ${search.items.length}`);
 log(`Done in ${((Date.now() - t0) / 1000).toFixed(1)} s, ${warnings.length} warning(s)`);

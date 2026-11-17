@@ -185,6 +185,10 @@ test('Build: a source going offline keeps the last good library (integration, mo
   const arch = read('archive/index.json');
   assert.equal(arch.rows[0].y, 'N_oCPm5P_rg');
   assert.equal(arow.ar, 74210);
+  const cov = read('coverage.json');
+  assert.deepEqual([cov.archive.total, cov.archive.resolved, cov.archive.withFormat, cov.archive.byFormat.extract], [1, 1, 1, 1]);
+  assert.equal(cov.archive.byGenre.Discussion.resolved, 1);
+  assert.equal(cov.watch.official.kinds.extract >= 1, true);
   const feed1 = read('feed.json');
   assert.equal(feed1.counts.kft, 15);
   assert.ok(feed1.files['videos/kft/index.json'].v);

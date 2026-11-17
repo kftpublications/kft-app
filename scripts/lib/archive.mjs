@@ -168,10 +168,11 @@ export function crawlQueue(state) {
 }
 
 export async function crawlPage(it) {
-  const r = await fetch(`https://kfoundation.org/media/${encodeURIComponent(it.slug)}/`, { headers: { 'User-Agent': UA } });
+  // A stalled response must not stop the queue (a page hung for minutes in a catch-up crawl, 17 Nov 2026)
+  const r = await fetch(`https://kfoundation.org/media/${encodeURIComponent(it.slug)}/`, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) });
   if (r.status === 404 || r.status === 410) { it.gone = true; it.crawled = it.modified; return; }
   if (!r.ok) throw new Error(`${r.status} media ${it.slug}`);
-  const page = parseMediaPage(await r.text());
+  const page = parseMediaPage(await r.text()); // body read under the same 30 s signal
   delete it.gone;
   it.page = page;
   it.crawled = it.modified;
@@ -217,3 +218,28 @@ export function archivePublic(state, genres, audiences) {
   };
 }
 
+// public/data/coverage.json: how much of the archive has been resolved (page read), by format and by genre,
+// and how the Watch libraries are divided. `resolved` = page (or REST fields) read at least once;
+// `withFormat` = read by the current parser and printing a format label.
+export function coverage(state, pub, videos, now) {
+  const items = Object.values(state.items).filter((it) => !it.gone);
+  const isRead = (it) => !!(it.crawled || it.rest?.yt);
+  const byFormat = { extract: 0, 'full-video': 0, 'full-audio': 0, 'no-label': 0, unread: 0 };
+  const byGenre = {};
+  for (const it of items) {
+    const f = effective(it).format;
+    if (f) byFormat[f]++; else if (isRead(it) && (it.pv || 1) >= PAGE_PARSER) byFormat['no-label']++; else byFormat.unread++;
+    for (const g of it.genres?.length ? it.genres : [0]) {
+      const name = g ? pub.genres?.[g] || String(g) : 'none';
+      const o = (byGenre[name] ||= { total: 0, resolved: 0 });
+      o.total++; if (isRead(it)) o.resolved++;
+    }
+  }
+  const watch = Object.fromEntries(Object.entries(videos).map(([ch, idx]) => [ch, { count: idx.count, kinds: idx.kinds || {}, kindSources: idx.kindSources || {} }]));
+  return {
+    version: 1,
+    generatedAt: now,
+    archive: { total: items.length, resolved: items.filter(isRead).length, withFormat: items.filter((it) => effective(it).format).length, withVideo: pub.withVideo, byFormat, byGenre },
+    watch,
+  };
+}

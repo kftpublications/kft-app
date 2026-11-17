@@ -98,3 +98,12 @@ export const feedSchema = {
   },
 };
 
+const counts = { type: 'object', values: I };
+export const coverageSchema = {
+  type: 'object', required: ['version', 'archive', 'watch'], additionalProperties: false,
+  properties: {
+    version: I, generatedAt: S,
+    archive: { type: 'object', required: ['total', 'resolved'], additionalProperties: false, properties: { total: I, resolved: I, withFormat: I, withVideo: I, byFormat: counts, byGenre: { type: 'object' } } },
+    watch: { type: 'object' },
+  },
+};
