@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-17T04:47:05.366Z",
+  "generatedAt": "2026-11-18T04:48:21.156Z",
   "files": {
     "podcasts/uoc.json": {
       "v": "d8aed06cb9",
@@ -13,9 +13,9 @@
       "n": 300
     },
     "videos/kft/index.json": {
-      "v": "d07779e93b",
-      "bytes": 66855,
-      "n": 394
+      "v": "26638a42cf",
+      "bytes": 148446,
+      "n": 714
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -23,14 +23,14 @@
       "n": 2
     },
     "videos/kft/descriptions.json": {
-      "v": "26eb7cf0fa",
-      "bytes": 31399,
-      "n": 35
+      "v": "d6662be184",
+      "bytes": 31565,
+      "n": 36
     },
     "videos/official/index.json": {
-      "v": "864b6eb89e",
-      "bytes": 145686,
-      "n": 770
+      "v": "ae8ca19021",
+      "bytes": 297406,
+      "n": 1347
     },
     "videos/official/playlists.json": {
       "v": "87b0b3d58b",
@@ -38,9 +38,9 @@
       "n": 12
     },
     "videos/official/descriptions.json": {
-      "v": "ab137c392e",
-      "bytes": 87028,
-      "n": 129
+      "v": "a98e71724b",
+      "bytes": 87562,
+      "n": 130
     },
     "videos/other/index.json": {
       "v": "5ce29b019c",
@@ -58,31 +58,36 @@
       "n": 0
     },
     "archive/index.json": {
-      "v": "c547f3b7f2",
-      "bytes": 488386,
+      "v": "a394b4019a",
+      "bytes": 846410,
       "n": 3326
     },
     "matches.json": {
-      "v": "c93d4ea584",
-      "bytes": 24769,
-      "n": 126
+      "v": "6d83ad7e1c",
+      "bytes": 25189,
+      "n": 127
     },
     "search.json": {
-      "v": "a023d79e8d",
-      "bytes": 484310,
-      "n": 5162
+      "v": "8ea23c35eb",
+      "bytes": 667276,
+      "n": 6059
+    },
+    "coverage.json": {
+      "v": "fb68781b4a",
+      "bytes": 912,
+      "n": 3326
     }
   },
   "counts": {
     "uoc": 305,
     "collection": 300,
-    "kft": 394,
-    "kftShorts": 12,
-    "official": 770,
+    "kft": 714,
+    "kftShorts": 13,
+    "official": 1347,
     "other": 0,
     "archive": 3326,
-    "archiveWithVideo": 1040,
-    "matches": 126
+    "archiveWithVideo": 3326,
+    "matches": 127
   },
   "podcasts": {
     "urgencyOfChange": {
@@ -371,6 +376,16 @@
   "videos": {
     "kftChannel": [
       {
+        "id": "dlUg-mgdSEU",
+        "title": "The brain demands security",
+        "date": "2026-11-17",
+        "thumbnail": "https://i.ytimg.com/vi/dlUg-mgdSEU/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
+      },
+      {
         "id": "R2qnrj9fssQ",
         "title": "Do the right thing, whatever others do",
         "date": "2026-11-16",
@@ -459,19 +474,19 @@
         "format": "extract",
         "short": false,
         "channel": "kft"
-      },
-      {
-        "id": "V4wqX1RRen0",
-        "title": "The annihilation of division",
-        "date": "2026-11-07",
-        "thumbnail": "https://i.ytimg.com/vi/V4wqX1RRen0/mqdefault.jpg",
-        "kind": "short",
-        "format": "extract",
-        "short": true,
-        "channel": "kft"
       }
     ],
     "officialChannel": [
+      {
+        "id": "jN1D2uXDyEo",
+        "title": "J. Krishnamurti - Rome 1968 - Public Talk 1 - Looking at violence in a totally new way",
+        "date": "2026-11-17",
+        "thumbnail": "https://i.ytimg.com/vi/jN1D2uXDyEo/mqdefault.jpg",
+        "kind": "full",
+        "format": "audio",
+        "short": false,
+        "channel": "official"
+      },
       {
         "id": "SNKwpHnW2GI",
         "title": "Knowledge creates fragmentation",
@@ -559,16 +574,6 @@
         "thumbnail": "https://i.ytimg.com/vi/Yxz24rbg-zg/mqdefault.jpg",
         "kind": "extract",
         "format": "extract",
-        "short": false,
-        "channel": "official"
-      },
-      {
-        "id": "QoYluTR4Y2g",
-        "title": "J. Krishnamurti - Paris 1965 - Public Talk 2 - Why do we accept the continuity of fear?",
-        "date": "2026-10-13",
-        "thumbnail": "https://i.ytimg.com/vi/QoYluTR4Y2g/mqdefault.jpg",
-        "kind": "full",
-        "format": "audio",
         "short": false,
         "channel": "official"
       }
