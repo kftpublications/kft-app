@@ -5,6 +5,28 @@
     "id": null,
     "name": "Other channels"
   },
-  "videos": {},
+  "videos": {
+    "3TO1AYo_7mo": {
+      "id": "3TO1AYo_7mo",
+      "title": "The role of a flower",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-19T04:52:19.745Z",
+      "avail": "ok",
+      "checked": "2026-11-19T04:52:19.745Z",
+      "archive": 71965,
+      "genres": [
+        "Film"
+      ],
+      "recorded": "1985-09-10",
+      "format": "full-video",
+      "place": "Brockwood Park"
+    }
+  },
   "playlists": {}
 }

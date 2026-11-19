@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-18T04:48:21.156Z",
+  "generatedAt": "2026-11-19T04:52:19.745Z",
   "files": {
     "podcasts/uoc.json": {
-      "v": "d8aed06cb9",
-      "bytes": 730588,
-      "n": 305
+      "v": "f46b294a99",
+      "bytes": 733122,
+      "n": 306
     },
     "podcasts/collection.json": {
       "v": "7fc6966984",
@@ -13,9 +13,9 @@
       "n": 300
     },
     "videos/kft/index.json": {
-      "v": "26638a42cf",
-      "bytes": 148446,
-      "n": 714
+      "v": "cb2e8fb5f4",
+      "bytes": 207200,
+      "n": 992
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -23,14 +23,14 @@
       "n": 2
     },
     "videos/kft/descriptions.json": {
-      "v": "d6662be184",
-      "bytes": 31565,
-      "n": 36
+      "v": "270b8581ca",
+      "bytes": 33468,
+      "n": 38
     },
     "videos/official/index.json": {
-      "v": "ae8ca19021",
-      "bytes": 297406,
-      "n": 1347
+      "v": "add2ac7cc7",
+      "bytes": 431037,
+      "n": 1962
     },
     "videos/official/playlists.json": {
       "v": "87b0b3d58b",
@@ -38,14 +38,14 @@
       "n": 12
     },
     "videos/official/descriptions.json": {
-      "v": "a98e71724b",
-      "bytes": 87562,
-      "n": 130
+      "v": "4d143c4245",
+      "bytes": 87774,
+      "n": 131
     },
     "videos/other/index.json": {
-      "v": "5ce29b019c",
-      "bytes": 133,
-      "n": 0
+      "v": "b1b4246ede",
+      "bytes": 357,
+      "n": 1
     },
     "videos/other/playlists.json": {
       "v": "b64ae29e0d",
@@ -58,42 +58,54 @@
       "n": 0
     },
     "archive/index.json": {
-      "v": "a394b4019a",
-      "bytes": 846410,
+      "v": "653b436ef0",
+      "bytes": 859334,
       "n": 3326
     },
     "matches.json": {
-      "v": "6d83ad7e1c",
-      "bytes": 25189,
-      "n": 127
+      "v": "873e2211b2",
+      "bytes": 25446,
+      "n": 128
     },
     "search.json": {
-      "v": "8ea23c35eb",
-      "bytes": 667276,
-      "n": 6059
+      "v": "bc32be9aaa",
+      "bytes": 765122,
+      "n": 6951
     },
     "coverage.json": {
-      "v": "fb68781b4a",
-      "bytes": 912,
+      "v": "f89f3fce3b",
+      "bytes": 948,
       "n": 3326
     }
   },
   "counts": {
-    "uoc": 305,
+    "uoc": 306,
     "collection": 300,
-    "kft": 714,
-    "kftShorts": 13,
-    "official": 1347,
-    "other": 0,
+    "kft": 992,
+    "kftShorts": 14,
+    "official": 1962,
+    "other": 1,
     "archive": 3326,
     "archiveWithVideo": 3326,
-    "matches": 127
+    "matches": 128
   },
   "podcasts": {
     "urgencyOfChange": {
       "title": "Urgency of Change • The Krishnamurti Podcast",
       "image": "https://pbcdn1.podbean.com/imglogo/image-logo/5956680/Podcast-Cover-Art-2025-m.jpg",
       "episodes": [
+        {
+          "key": "u306",
+          "id": "krishnamurti.podbean.com/32b0b5d3-4d54-3edb-a5b3-839ef9a5101c",
+          "number": 306,
+          "title": "Krishnamurti on Totality",
+          "date": "2026-11-18T05:30:00.000Z",
+          "durationSec": 4226,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/wzv3yhu5wh58z6a5/306_Urgency_of_Change7uhsy.mp3",
+          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-totality/",
+          "description": "‘When we understand the totality, the whole picture of life, our particular issues and problems are resolved.’\n\nThis episode on Totality has four sections.\n\nThe first extract (2:38) is from the first discussion at Brockwood Park in 1976, and is titled: Seeing the Totality of…",
+          "theme": "Totality"
+        },
         {
           "key": "u305",
           "id": "krishnamurti.podbean.com/c87f6df3-c1e4-3d00-82e8-f519a41ef7fc",
@@ -201,18 +213,6 @@
           "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-activism-and-social-change/",
           "description": "‘We are always talking about outward change in the social structure, either through violence or through peaceful means. The problem is much deeper than mere social change.’\n\nThis episode on Activism & Social Change has three sections.\n\nThe first extract (2:48) is from the third…",
           "theme": "Activism and Social Change"
-        },
-        {
-          "key": "u296",
-          "id": "krishnamurti.podbean.com/47138c84-5831-36c5-87a7-07df92fc38c4",
-          "number": 296,
-          "title": "Krishnamurti on Sanity",
-          "date": "2026-06-17T04:30:00.000Z",
-          "durationSec": 4561,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/a6igmqey9wafi7pq/296_Urgency_of_Change7ewya.mp3",
-          "link": "https://krishnamurti.podbean.com/e/krishnamurti-on-sanity/",
-          "description": "‘One of the indications of sanity is that there is no contradiction within oneself, no imbalance, where thought and action correspond to each other.’\n\nThis episode on Sanity has four sections.\n\nThe first extract (2:36) is from Krishnamurti’s first talk in Madras 1977, and is…",
-          "theme": "Sanity"
         }
       ]
     },
@@ -376,6 +376,26 @@
   "videos": {
     "kftChannel": [
       {
+        "id": "fAhBHUU65Ck",
+        "title": "A change of direction or dimension",
+        "date": "2026-11-18",
+        "thumbnail": "https://i.ytimg.com/vi/fAhBHUU65Ck/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
+      },
+      {
+        "id": "TNiE3F-dBu8",
+        "title": "Urgency of Change - The Krishnamurti Podcast - Ep. 306 - Krishnamurti on Totality",
+        "date": "2026-11-18",
+        "thumbnail": "https://i.ytimg.com/vi/TNiE3F-dBu8/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
+      },
+      {
         "id": "dlUg-mgdSEU",
         "title": "The brain demands security",
         "date": "2026-11-17",
@@ -454,29 +474,19 @@
         "format": "extract",
         "short": true,
         "channel": "kft"
-      },
-      {
-        "id": "SSqiHYKHISs",
-        "title": "You are anger",
-        "date": "2026-11-09",
-        "thumbnail": "https://i.ytimg.com/vi/SSqiHYKHISs/mqdefault.jpg",
-        "kind": "short",
-        "format": "extract",
-        "short": true,
-        "channel": "kft"
-      },
-      {
-        "id": "nFQxEGIJRuw",
-        "title": "‘What happens when we die?' is a wrong question",
-        "date": "2026-11-08",
-        "thumbnail": "https://i.ytimg.com/vi/nFQxEGIJRuw/mqdefault.jpg",
-        "kind": "extract",
-        "format": "extract",
-        "short": false,
-        "channel": "kft"
       }
     ],
     "officialChannel": [
+      {
+        "id": "I8mtfyThRAA",
+        "title": "Listening with a quiet brain",
+        "date": "2026-11-18",
+        "thumbnail": "https://i.ytimg.com/vi/I8mtfyThRAA/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "official"
+      },
       {
         "id": "jN1D2uXDyEo",
         "title": "J. Krishnamurti - Rome 1968 - Public Talk 1 - Looking at violence in a totally new way",
@@ -564,16 +574,6 @@
         "thumbnail": "https://i.ytimg.com/vi/w1BbGwCjzAE/mqdefault.jpg",
         "kind": "full",
         "format": "audio",
-        "short": false,
-        "channel": "official"
-      },
-      {
-        "id": "Yxz24rbg-zg",
-        "title": "We think we need time to change",
-        "date": "2026-10-17",
-        "thumbnail": "https://i.ytimg.com/vi/Yxz24rbg-zg/mqdefault.jpg",
-        "kind": "extract",
-        "format": "extract",
         "short": false,
         "channel": "official"
       }
