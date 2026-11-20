@@ -2736,6 +2736,27 @@
         "Talk"
       ]
     },
+    "__errnrgNig": {
+      "id": "__errnrgNig",
+      "title": "Freedom, responsibility and discipline",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73141,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1980-12-17",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "_3FnVT_bOKY": {
       "id": "_3FnVT_bOKY",
       "title": "2. Observing ourselves",
@@ -3030,6 +3051,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "_iuN2loTtB0": {
+      "id": "_iuN2loTtB0",
+      "title": "What is the role of questions in life?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72801,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "_jfRX5JgCzg": {
       "id": "_jfRX5JgCzg",
       "title": "What kind of peace do you want?",
@@ -3156,6 +3198,48 @@
       "format": "full-audio",
       "place": "Madras (Chennai)"
     },
+    "_NbfmivYnMw": {
+      "id": "_NbfmivYnMw",
+      "title": "4th Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72798,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-14",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
+    "_nw2ZlZo-QA": {
+      "id": "_nw2ZlZo-QA",
+      "title": "How do you live in regards to income?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72940,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "_OSu1Em814U": {
       "id": "_OSu1Em814U",
       "title": "Observing the root of fear",
@@ -3197,6 +3281,27 @@
       "recorded": "1982-09-02",
       "format": "extract",
       "place": "Brockwood Park"
+    },
+    "_RUGxh3YKj8": {
+      "id": "_RUGxh3YKj8",
+      "title": "Do you know your life is in disorder?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73052,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1978-11-12",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "_TJfcbNNAMc": {
       "id": "_TJfcbNNAMc",
@@ -3450,6 +3555,69 @@
       "format": "full-audio",
       "place": "New Delhi"
     },
+    "-4T2l9ekS-M": {
+      "id": "-4T2l9ekS-M",
+      "title": "Whatever you think, you are",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73084,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-11-18",
+      "format": "full-video",
+      "place": "Rajghat"
+    },
+    "-7-xfpF1rxQ": {
+      "id": "-7-xfpF1rxQ",
+      "title": "On guilt and its relation to the ego",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72938,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "-799HuGPI4w": {
+      "id": "-799HuGPI4w",
+      "title": "On giving complete attention to a problem",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72791,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-07",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "-9cYoAXqfH8": {
       "id": "-9cYoAXqfH8",
       "title": "Observation without prejudice",
@@ -3470,6 +3638,27 @@
       "recorded": "1977-07-30",
       "format": "extract",
       "place": "Saanen"
+    },
+    "-bOByf5WzFo": {
+      "id": "-bOByf5WzFo",
+      "title": "On money going to educate a small group of children",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72857,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-11",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "-BQT0qcoc0U": {
       "id": "-BQT0qcoc0U",
@@ -3723,6 +3912,27 @@
       "format": "extract",
       "place": "New York"
     },
+    "-Nf-deA97L8": {
+      "id": "-Nf-deA97L8",
+      "title": "Are we struggling against our nature in seeking to change?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72947,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-16",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "-nj9u-GPSg0": {
       "id": "-nj9u-GPSg0",
       "title": "What is right education?",
@@ -3827,6 +4037,27 @@
       "recorded": "1962-08-21",
       "format": "full-audio",
       "place": "Gstaad"
+    },
+    "-rYZeqA5KMg": {
+      "id": "-rYZeqA5KMg",
+      "title": "What is the significance of death?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72830,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-17",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "-vn9rXz_nRE": {
       "id": "-vn9rXz_nRE",
@@ -4311,6 +4542,27 @@
       "format": "full-audio",
       "place": "Madras (Chennai)"
     },
+    "0nHrhOsiZcw": {
+      "id": "0nHrhOsiZcw",
+      "title": "What is wrong with pleasure?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72927,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1984-05-20",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "0nU5Tapp3W4": {
       "id": "0nU5Tapp3W4",
       "title": "Isn’t comparison a form of violence?",
@@ -4542,6 +4794,48 @@
       "format": "extract",
       "place": "Saanen"
     },
+    "0YjkB15J2wg": {
+      "id": "0YjkB15J2wg",
+      "title": "If there is sorrow there is no love",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73100,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-11-22",
+      "format": "extract",
+      "place": "Rajghat"
+    },
+    "0Yv0BKtgqpQ": {
+      "id": "0Yv0BKtgqpQ",
+      "title": "Can you observe your thinking?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73121,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-07",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "0zbkho3dpWI": {
       "id": "0zbkho3dpWI",
       "title": "Why Brockwood exists",
@@ -4646,6 +4940,27 @@
       "recorded": "1978-01-03",
       "format": "full-audio",
       "place": "Madras (Chennai)"
+    },
+    "18tn-9V2ge4": {
+      "id": "18tn-9V2ge4",
+      "title": "1st Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72914,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-22",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "1aUEvVw_nCs": {
       "id": "1aUEvVw_nCs",
@@ -4877,6 +5192,27 @@
       "recorded": "1979-01-14",
       "format": "extract",
       "place": "Madras (Chennai)"
+    },
+    "1iUkGudB608": {
+      "id": "1iUkGudB608",
+      "title": "Do racial physical differences affect conditioning?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72939,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "1j65trSTSZg": {
       "id": "1j65trSTSZg",
@@ -5151,6 +5487,27 @@
       "format": "extract",
       "place": "Brockwood Park"
     },
+    "1Y9MLbBGcXE": {
+      "id": "1Y9MLbBGcXE",
+      "title": "What is one to do confronted with deterioration in the world?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73106,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1969-11-04",
+      "format": "full-audio",
+      "place": "Rome"
+    },
     "1yCGTd3L9O8": {
       "id": "1yCGTd3L9O8",
       "title": "Can consciousness see itself wholly?",
@@ -5297,6 +5654,27 @@
       "recorded": "1985-07-24",
       "format": "extract",
       "place": "Saanen"
+    },
+    "23ldkQDtfvY": {
+      "id": "23ldkQDtfvY",
+      "title": "The division between the observer and the observed",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73112,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1973-10-30",
+      "format": "full-audio",
+      "place": "Rome"
     },
     "26PnFKuFhz8": {
       "id": "26PnFKuFhz8",
@@ -5592,6 +5970,27 @@
       "format": "extract",
       "place": "San Diego, California"
     },
+    "2oTEU5rOIs4": {
+      "id": "2oTEU5rOIs4",
+      "title": "Learning and sorrow",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73053,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1981-11-17",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "2pHE5BCOtBo": {
       "id": "2pHE5BCOtBo",
       "title": "What is our responsibility?",
@@ -5844,6 +6243,27 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "39VNJvPlwz4": {
+      "id": "39VNJvPlwz4",
+      "title": "How will you, as educators, help the student to listen?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73129,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-03",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
     "3d5ysJsUk1E": {
       "id": "3d5ysJsUk1E",
       "title": "Are you revolutionary?",
@@ -5948,6 +6368,27 @@
       "recorded": "1975-06-26",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "3GLwXLr_Q8E": {
+      "id": "3GLwXLr_Q8E",
+      "title": "Psychological suffering",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72834,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-04-17",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "3GsJdlA05ww": {
       "id": "3GsJdlA05ww",
@@ -6264,6 +6705,27 @@
       "format": "full-audio",
       "place": "Ojai, California"
     },
+    "3rv6jENYqBc": {
+      "id": "3rv6jENYqBc",
+      "title": "How do we make the mind see?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73016,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-06-01",
+      "format": "extract",
+      "place": "Brockwood Park"
+    },
     "3TNOLquKtYE": {
       "id": "3TNOLquKtYE",
       "title": "Can the mind remain with hurt?",
@@ -6432,6 +6894,27 @@
       "format": "extract",
       "place": "Saanen"
     },
+    "3Wph-te0Y2A": {
+      "id": "3Wph-te0Y2A",
+      "title": "Remaining with sorrow",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72825,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-16",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "3XcPIF6Q4Dc": {
       "id": "3XcPIF6Q4Dc",
       "title": "What is it to observe holistically?",
@@ -6558,6 +7041,27 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "4-KaFzgAEaE": {
+      "id": "4-KaFzgAEaE",
+      "title": "Have you ever asked yourself what knowledge is?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73143,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1981-12-10",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "40hoolW_uyk": {
       "id": "40hoolW_uyk",
       "title": "A way of living that cannot be taught by another",
@@ -6579,6 +7083,27 @@
       "format": "full-audio",
       "place": "Brandeis, Massachusetts"
     },
+    "46fkd7BsYZM": {
+      "id": "46fkd7BsYZM",
+      "title": "I have been deeply hurt in childhood-What am I to do?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72783,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-05",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "48nPpIj6pq0": {
       "id": "48nPpIj6pq0",
       "title": "Religion and meditation",
@@ -6599,6 +7124,27 @@
       "recorded": "1972-07-30",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "494vZU0shBw": {
+      "id": "494vZU0shBw",
+      "title": "What is the cause of our destructive way of living?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73051,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1978-11-11",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "4DlVHzf4nNI": {
       "id": "4DlVHzf4nNI",
@@ -6873,6 +7419,27 @@
       "format": "full-audio",
       "place": "London"
     },
+    "4pY7TBveDgQ": {
+      "id": "4pY7TBveDgQ",
+      "title": "Why is our house in disorder?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72951,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-05-11",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "4qM6uWCzM0U": {
       "id": "4qM6uWCzM0U",
       "title": "What will break the chain in which the brain is caught?",
@@ -6999,6 +7566,27 @@
       "format": "extract",
       "place": "Santa Monica, California"
     },
+    "4Y005F8EM10": {
+      "id": "4Y005F8EM10",
+      "title": "Is it possible to bring about the unity of man?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73036,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1967-01-04",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "4yz7eibY-Tw": {
       "id": "4yz7eibY-Tw",
       "title": "What is our relationship to another?",
@@ -7019,6 +7607,27 @@
       "recorded": "1980-12-28",
       "format": "full-video",
       "place": "Madras (Chennai)"
+    },
+    "5_wINzpJhbo": {
+      "id": "5_wINzpJhbo",
+      "title": "To watch without any movement of thought",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72910,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1983-05-22",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "51ztr6_SiDs": {
       "id": "51ztr6_SiDs",
@@ -7103,6 +7712,27 @@
       "recorded": "1979-04-12",
       "format": "full-video",
       "place": "Ojai, California"
+    },
+    "598bq3CT-T0": {
+      "id": "598bq3CT-T0",
+      "title": "Are the teachings of K going to meet the same fate of Buddha’s and Christ’s?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73083,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1985-11-21",
+      "format": "extract",
+      "place": "Rajghat"
     },
     "59V_T-m7MjI": {
       "id": "59V_T-m7MjI",
@@ -7250,6 +7880,27 @@
       "recorded": "1966-12-18",
       "format": "full-audio",
       "place": "New Delhi"
+    },
+    "5fdUfaTOiP8": {
+      "id": "5fdUfaTOiP8",
+      "title": "To behave rightly is to have consideration and respect",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73122,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-12",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "5hsxwWFXW1E": {
       "id": "5hsxwWFXW1E",
@@ -7649,6 +8300,27 @@
       "recorded": "1969-03-23",
       "format": "full-audio",
       "place": "London"
+    },
+    "60JwG4P8w4Q": {
+      "id": "60JwG4P8w4Q",
+      "title": "How will you bring about a group of people who are helping each other to uncondition themselves?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73133,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-17",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "62TkHEle1B8": {
       "id": "62TkHEle1B8",
@@ -8154,6 +8826,27 @@
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
     },
+    "6RTofNWQod0": {
+      "id": "6RTofNWQod0",
+      "title": "Look at the human being, not the word",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73123,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-14",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "6TePL_LPEZ8": {
       "id": "6TePL_LPEZ8",
       "title": "Habits and time, living and death",
@@ -8466,6 +9159,27 @@
       "format": "extract",
       "place": "Madras (Chennai)"
     },
+    "7Covu0rQU8I": {
+      "id": "7Covu0rQU8I",
+      "title": "On gurus and mantras",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72888,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-17",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "7DdCS_jBvcM": {
       "id": "7DdCS_jBvcM",
       "title": "Is there in the brain anything untouched by culture?",
@@ -8676,6 +9390,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "7RhDrNLGJFQ": {
+      "id": "7RhDrNLGJFQ",
+      "title": "What is the root of the crisis in mankind?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72809,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-02",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "7rLvmMDplf4": {
       "id": "7rLvmMDplf4",
       "title": "An intensely awake mind does not need experience",
@@ -8696,6 +9431,27 @@
       "recorded": "1962-07-24",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "7sL6JkVGmXc": {
+      "id": "7sL6JkVGmXc",
+      "title": "Ending the chattering of the mind",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73113,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1973-10-31",
+      "format": "full-audio",
+      "place": "Rome"
     },
     "7snp7bGjHx8": {
       "id": "7snp7bGjHx8",
@@ -8800,6 +9556,27 @@
       ],
       "recorded": "1997-01-01",
       "format": "full-video"
+    },
+    "7WFKGCtUr2A": {
+      "id": "7WFKGCtUr2A",
+      "title": "Question & answer meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73055,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-11-28",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "7Xogf7fvLo4": {
       "id": "7Xogf7fvLo4",
@@ -9179,6 +9956,27 @@
       "format": "extract",
       "place": "Madras (Chennai)"
     },
+    "8iqjELJcgqA": {
+      "id": "8iqjELJcgqA",
+      "title": "On conditioning",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72781,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-05",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "8iyzk1pZABQ": {
       "id": "8iyzk1pZABQ",
       "title": "Is it possible to be competitive and yet not hurt?",
@@ -9452,6 +10250,27 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "8YtjMX-A4e0": {
+      "id": "8YtjMX-A4e0",
+      "title": "Death and Krishnamurti’s effect on the stream of humanity",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72913,
+      "genres": [
+        "Interview"
+      ],
+      "recorded": "1984-04-24",
+      "format": "full-audio",
+      "place": "Ojai, California"
+    },
     "8yVoHUYoPoA": {
       "id": "8yVoHUYoPoA",
       "title": "Like and dislike",
@@ -9515,6 +10334,27 @@
       "format": "full-audio",
       "place": "Sydney"
     },
+    "9_2vIO6K2Ts": {
+      "id": "9_2vIO6K2Ts",
+      "title": "What is the significance of our daily life?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73059,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1984-11-11",
+      "format": "full-video",
+      "place": "Rajghat"
+    },
     "90aXNvl8OSo": {
       "id": "90aXNvl8OSo",
       "title": "On transformation",
@@ -9535,6 +10375,27 @@
       "recorded": "1981-01-06",
       "format": "extract",
       "place": "Madras (Chennai)"
+    },
+    "92S1bRx2R6Q": {
+      "id": "92S1bRx2R6Q",
+      "title": "The intelligence of love",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72974,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-09-16",
+      "format": "full-video",
+      "place": "Brockwood Park"
     },
     "9447s-qM2b0": {
       "id": "9447s-qM2b0",
@@ -9662,6 +10523,27 @@
       "format": "full-audio",
       "place": "New Delhi"
     },
+    "9fDCsPZPBXw": {
+      "id": "9fDCsPZPBXw",
+      "title": "Is it possible to use the whole brain?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73163,
+      "genres": [
+        "Seminar"
+      ],
+      "recorded": "1983-11-24",
+      "format": "extract",
+      "place": "Rishi Valley"
+    },
     "9fTq7OhbYxo": {
       "id": "9fTq7OhbYxo",
       "title": "Order within oneself",
@@ -9785,6 +10667,27 @@
         "Question & Answer"
       ],
       "recorded": "1980-05-08",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "9iN95B5o-7o": {
+      "id": "9iN95B5o-7o",
+      "title": "What is the relationship between intelligence and responsibility?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72793,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-12",
       "format": "extract",
       "place": "Ojai, California"
     },
@@ -10040,6 +10943,27 @@
       "format": "extract",
       "place": "Washington Dc"
     },
+    "9UlTeD1qdV8": {
+      "id": "9UlTeD1qdV8",
+      "title": "Why does one have to have order in life?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73033,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1965-12-07",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "9vackzgT8uI": {
       "id": "9vackzgT8uI",
       "title": "Love is that quality of mind in which there is no division",
@@ -10124,6 +11048,27 @@
       "format": "full-audio",
       "place": "Gstaad"
     },
+    "9VxWwg3vJ54": {
+      "id": "9VxWwg3vJ54",
+      "title": "Love means having no fear",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73125,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-19",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
     "9wbJXBWuVd4": {
       "id": "9wbJXBWuVd4",
       "title": "Can the mind be completely free of any distorting factor?",
@@ -10165,6 +11110,27 @@
       "recorded": "1981-07-31",
       "format": "extract",
       "place": "Saanen"
+    },
+    "9XYB_Tv2sHM": {
+      "id": "9XYB_Tv2sHM",
+      "title": "Looking at pleasure and pain",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73024,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1969-04-22",
+      "format": "full-audio",
+      "place": "Paris"
     },
     "9Y9c0n6Q_FM": {
       "id": "9Y9c0n6Q_FM",
@@ -10291,6 +11257,27 @@
       "recorded": "1968-11-11",
       "format": "full-audio",
       "place": "Claremont, California"
+    },
+    "A04AlkIpJrw": {
+      "id": "A04AlkIpJrw",
+      "title": "Are you aware of what is happening in the technological world?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73139,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1980-12-13",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "a0xoAKvFx6g": {
       "id": "a0xoAKvFx6g",
@@ -10607,6 +11594,27 @@
       "format": "extract",
       "place": "Madras (Chennai)"
     },
+    "AEZNjyb3HSg": {
+      "id": "AEZNjyb3HSg",
+      "title": "The action of insight and perception",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73111,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1972-10-29",
+      "format": "full-audio",
+      "place": "Rome"
+    },
     "AFI4K44AZB0": {
       "id": "AFI4K44AZB0",
       "title": "What is the beginning of conditioning?",
@@ -10712,6 +11720,48 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "AHswx5MneVw": {
+      "id": "AHswx5MneVw",
+      "title": "Thought is bringing about division",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73162,
+      "genres": [
+        "Seminar"
+      ],
+      "recorded": "1983-11-24",
+      "format": "extract",
+      "place": "Rishi Valley"
+    },
+    "AHWyxci5egg": {
+      "id": "AHWyxci5egg",
+      "title": "The ending of psychological knowledge",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72980,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-09-18",
+      "format": "full-video",
+      "place": "Brockwood Park"
+    },
     "AiVENvpu-lM": {
       "id": "AiVENvpu-lM",
       "title": "3rd Question & Answer Meeting",
@@ -10796,6 +11846,27 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "Al-A0-l1TPw": {
+      "id": "Al-A0-l1TPw",
+      "title": "What will bring about total relationship in our life?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73130,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-09",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
     "AlzPCj90hfc": {
       "id": "AlzPCj90hfc",
       "title": "An action with no past or future",
@@ -10816,6 +11887,27 @@
       "recorded": "1985-12-28",
       "format": "full-video",
       "place": "Madras (Chennai)"
+    },
+    "Am9kQWWgC_s": {
+      "id": "Am9kQWWgC_s",
+      "title": "Have we lost all sense of religion?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72808,
+      "genres": [
+        "Seminar"
+      ],
+      "recorded": "1981-04-05",
+      "format": "full-audio",
+      "place": "Ojai, California"
     },
     "aMKhs7JTfUc": {
       "id": "aMKhs7JTfUc",
@@ -10858,6 +11950,27 @@
       "recorded": "1985-01-05",
       "format": "full-video",
       "place": "Madras (Chennai)"
+    },
+    "AoMS5b2MLRc": {
+      "id": "AoMS5b2MLRc",
+      "title": "The roots of psychological disorder",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72832,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-04-16",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "AOTD3bJeJLA": {
       "id": "AOTD3bJeJLA",
@@ -10922,6 +12035,27 @@
       "format": "extract",
       "place": "Saanen"
     },
+    "aPZo1WJntpY": {
+      "id": "aPZo1WJntpY",
+      "title": "Q3: Is there some essential religious instinct in all human beings?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72948,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-16",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "AQK06RhHPVM": {
       "id": "AQK06RhHPVM",
       "title": "Affection and responsibility",
@@ -10985,6 +12119,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "ARKgnyXlwYY": {
+      "id": "ARKgnyXlwYY",
+      "title": "A religious mind has great sense of beauty",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73069,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1984-11-12",
+      "format": "full-video",
+      "place": "Rajghat"
+    },
     "AS4fifHDU0M": {
       "id": "AS4fifHDU0M",
       "title": "What is the relationship between truth and reality?",
@@ -11005,6 +12160,27 @@
       "recorded": "1975-08-01",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "AS7toG5FR1s": {
+      "id": "AS7toG5FR1s",
+      "title": "Learning the art of attention",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73128,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-02",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "aSbMPBraX7c": {
       "id": "aSbMPBraX7c",
@@ -11153,6 +12329,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "aU5WXHdFaic": {
+      "id": "aU5WXHdFaic",
+      "title": "Can human problems be solved?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72992,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-09-27",
+      "format": "full-video",
+      "place": "Brockwood Park"
+    },
     "aUb3QAJhKGc": {
       "id": "aUb3QAJhKGc",
       "title": "It is your responsibility to change",
@@ -11215,6 +12412,27 @@
       "recorded": "1982-07-15",
       "format": "full-video",
       "place": "Saanen"
+    },
+    "AUgZqlpp15Y": {
+      "id": "AUgZqlpp15Y",
+      "title": "On the nature of intelligence",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72895,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-19",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "Auv2F0av7_I": {
       "id": "Auv2F0av7_I",
@@ -11510,6 +12728,27 @@
       "format": "full-video",
       "place": "Madras (Chennai)"
     },
+    "Az9aM4J22yA": {
+      "id": "Az9aM4J22yA",
+      "title": "Show me how to dissolve the ‘I’",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72796,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-12",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "aZb56-ZesRg": {
       "id": "aZb56-ZesRg",
       "title": "Are you aware of the structure of yourself?",
@@ -11593,6 +12832,27 @@
       "recorded": "1970-12-24",
       "format": "full-audio",
       "place": "New Delhi"
+    },
+    "B_3wNqikiKY": {
+      "id": "B_3wNqikiKY",
+      "title": "Is there love between people only when physically present?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72802,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "b_spfKqaVAQ": {
       "id": "b_spfKqaVAQ",
@@ -11740,6 +13000,48 @@
       "recorded": "1983-04-09",
       "format": "full-audio",
       "place": "New York"
+    },
+    "B4Zj6k1eanc": {
+      "id": "B4Zj6k1eanc",
+      "title": "How can we bring about human beings who are flowering deeply?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73132,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-16",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
+    "B5-Z3KUvdFA": {
+      "id": "B5-Z3KUvdFA",
+      "title": "Is there anything sacred in life?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72873,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1982-05-16",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "b564_BwjcTc": {
       "id": "b564_BwjcTc",
@@ -12140,6 +13442,27 @@
       "format": "full-video",
       "place": "Saanen"
     },
+    "bHb9cWXmG4g": {
+      "id": "bHb9cWXmG4g",
+      "title": "Attention is like a fire",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72928,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1984-05-26",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "BHFwyN1HnE4": {
       "id": "BHFwyN1HnE4",
       "title": "What is the root cause of the disorder in the world?",
@@ -12245,6 +13568,27 @@
       "format": "extract",
       "place": "Brockwood Park"
     },
+    "BjQwvXvgHkY": {
+      "id": "BjQwvXvgHkY",
+      "title": "When there is freedom",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72841,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-04-18",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "bJxp-_eLEWw": {
       "id": "bJxp-_eLEWw",
       "title": "Is there a faculty to see that there is no path to truth outside myself?",
@@ -12308,6 +13652,27 @@
       "format": "extract",
       "place": "Ojai, California"
     },
+    "Bm_KBtFNtXY": {
+      "id": "Bm_KBtFNtXY",
+      "title": "Is death a matter of continuity, or ending?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72934,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1985-04-29",
+      "format": "full-audio",
+      "place": "Ojai, California"
+    },
     "BmjsozAdG1A": {
       "id": "BmjsozAdG1A",
       "title": "Is it possible to know yourself when you are not related to anybody?",
@@ -12348,6 +13713,27 @@
       ],
       "recorded": "1980-05-13",
       "format": "full-video",
+      "place": "Ojai, California"
+    },
+    "bninEYf9REE": {
+      "id": "bninEYf9REE",
+      "title": "Why is the observance of silence so important?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72920,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-22",
+      "format": "extract",
       "place": "Ojai, California"
     },
     "BNm5mZmvV20": {
@@ -12476,6 +13862,27 @@
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
     },
+    "bpwPAKstpy4": {
+      "id": "bpwPAKstpy4",
+      "title": "On fears and escapes",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72893,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-19",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "bpz7bMRI8To": {
       "id": "bpz7bMRI8To",
       "title": "Will the discovery of the cause of suffering end it?",
@@ -12496,6 +13903,27 @@
       "recorded": "1972-07-25",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "Bq1ZdK0AaFc": {
+      "id": "Bq1ZdK0AaFc",
+      "title": "Can our minds being in disorder create order?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72870,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1982-05-08",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "BQkp-38Vxdo": {
       "id": "BQkp-38Vxdo",
@@ -12580,6 +14008,27 @@
       "recorded": "1983-09-01",
       "format": "full-video",
       "place": "Brockwood Park"
+    },
+    "BshO7Sw1BZ4": {
+      "id": "BshO7Sw1BZ4",
+      "title": "From whom are we learning?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73170,
+      "genres": [
+        "Seminar"
+      ],
+      "recorded": "1983-11-26",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "bsmiTQoTd1Y": {
       "id": "bsmiTQoTd1Y",
@@ -13042,6 +14491,27 @@
       "format": "extract",
       "place": "Saanen"
     },
+    "c4AoFpdN3vE": {
+      "id": "c4AoFpdN3vE",
+      "title": "Why are you being educated?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73031,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1965-12-01",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "C4nW9g7z2D8": {
       "id": "C4nW9g7z2D8",
       "title": "How do you observe your fears?",
@@ -13230,6 +14700,27 @@
       "recorded": "1972-03-26",
       "format": "extract",
       "place": "Santa Monica, California"
+    },
+    "cBYyu6MvVd8": {
+      "id": "cBYyu6MvVd8",
+      "title": "How does one tackle the dormant seed of fear?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72794,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-12",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "cBZ-77p7yeI": {
       "id": "cBZ-77p7yeI",
@@ -13840,6 +15331,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "CmN3XStKAb0": {
+      "id": "CmN3XStKAb0",
+      "title": "Senility and the brain cells",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73007,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-06-01",
+      "format": "full-video",
+      "place": "Brockwood Park"
+    },
     "cMsZKPmI4Lc": {
       "id": "cMsZKPmI4Lc",
       "title": "Why is there violence in the human heart?",
@@ -14176,6 +15688,27 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "cuIJslzNjl0": {
+      "id": "cuIJslzNjl0",
+      "title": "2nd Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72850,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-06",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "CvL4uNA4U-k": {
       "id": "CvL4uNA4U-k",
       "title": "Is there an action not touched by thought?",
@@ -14344,6 +15877,27 @@
       "format": "full-audio",
       "place": "New Delhi"
     },
+    "d-odWZDv1cI": {
+      "id": "d-odWZDv1cI",
+      "title": "On livelihood and on being unselfish and intelligent",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72891,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-19",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "D0ulmphYIdk": {
       "id": "D0ulmphYIdk",
       "title": "How do I look at my wound?",
@@ -14448,6 +16002,27 @@
       "recorded": "1985-04-21",
       "format": "full-video",
       "place": "Washington Dc"
+    },
+    "d4GkwFmB_Y0": {
+      "id": "d4GkwFmB_Y0",
+      "title": "Will you be responsible not to be corrupt?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73144,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1981-12-15",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "D6PHOGhPc6M": {
       "id": "D6PHOGhPc6M",
@@ -14617,6 +16192,27 @@
       "format": "full-audio",
       "place": "San Francisco, California"
     },
+    "dAvqWG-f7Bk": {
+      "id": "dAvqWG-f7Bk",
+      "title": "What are the causes of human conflict?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72871,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1982-05-09",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "DbDzoxBIPUE": {
       "id": "DbDzoxBIPUE",
       "title": "The meaning of life, pleasure and fear",
@@ -14637,6 +16233,27 @@
       "recorded": "1973-04-08",
       "format": "full-audio",
       "place": "Ojai, California"
+    },
+    "dBGosvmL3hE": {
+      "id": "dBGosvmL3hE",
+      "title": "What place has thought in the movement of desire?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73081,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1984-11-25",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "dbv_T5eLue8": {
       "id": "dbv_T5eLue8",
@@ -14806,6 +16423,27 @@
       "format": "extract",
       "place": "Ojai, California"
     },
+    "Dfo5QEEffxI": {
+      "id": "Dfo5QEEffxI",
+      "title": "What is judgement?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72923,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-24",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "dfOs044CX28": {
       "id": "dfOs044CX28",
       "title": "The action of intelligence",
@@ -14826,6 +16464,27 @@
       "recorded": "1972-09-14",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "dgRM6bfXyxI": {
+      "id": "dgRM6bfXyxI",
+      "title": "The world is on fire, what is one to do?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73040,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1969-11-23",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "DH695Wr3rGQ": {
       "id": "DH695Wr3rGQ",
@@ -14931,6 +16590,27 @@
       "recorded": "1974-01-26",
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
+    },
+    "dJaagyJr9N8": {
+      "id": "dJaagyJr9N8",
+      "title": "Can we live without division?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73028,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1969-04-20",
+      "format": "full-audio",
+      "place": "Paris"
     },
     "dK7x_l8Q5Qg": {
       "id": "dK7x_l8Q5Qg",
@@ -15078,6 +16758,27 @@
       "format": "full-video",
       "place": "Saanen"
     },
+    "dO8T4yUa_VQ": {
+      "id": "dO8T4yUa_VQ",
+      "title": "The mind of Krishnamurti",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73126,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-11",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
     "DoKL9I67gpk": {
       "id": "DoKL9I67gpk",
       "title": "What are the factors of jealousy?",
@@ -15119,6 +16820,27 @@
       "recorded": "1980-07-23",
       "format": "extract",
       "place": "Saanen"
+    },
+    "dp_HqAB23UE": {
+      "id": "dp_HqAB23UE",
+      "title": "Listening without resistance",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73117,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-12-05",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "dp6ciEyT4uQ": {
       "id": "dp6ciEyT4uQ",
@@ -15435,6 +17157,48 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "dyCrTx3XGEI": {
+      "id": "dyCrTx3XGEI",
+      "title": "Change and fear",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73025,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1969-04-10",
+      "format": "full-audio",
+      "place": "Paris"
+    },
+    "dyhgeZzGH34": {
+      "id": "dyhgeZzGH34",
+      "title": "Thought and knowledge are limited",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72896,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1983-05-14",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "DyxLGqrUw4M": {
       "id": "DyxLGqrUw4M",
       "title": "What is the element that brings about a tremendous instant revolution?",
@@ -15455,6 +17219,27 @@
       "recorded": "1969-01-19",
       "format": "full-audio",
       "place": "Malibu, California"
+    },
+    "dzNaJNlDoDo": {
+      "id": "dzNaJNlDoDo",
+      "title": "Where there is sorrow there is no love",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72872,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1982-05-15",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "DzTuu-eGQZg": {
       "id": "DzTuu-eGQZg",
@@ -16065,6 +17850,27 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "EOnjHVNvEhQ": {
+      "id": "EOnjHVNvEhQ",
+      "title": "On sharing the same consciousness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72916,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-22",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "Ep_g41H-6nE": {
       "id": "Ep_g41H-6nE",
       "title": "What is the right relationship to money?",
@@ -16295,6 +18101,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "etFFsWFvuHM": {
+      "id": "etFFsWFvuHM",
+      "title": "Looking freely",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73118,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-12-07",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
     "ETQMyw2l0Wc": {
       "id": "ETQMyw2l0Wc",
       "title": "Psychological revolution without time",
@@ -16420,6 +18247,27 @@
       "recorded": "1971-02-17",
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
+    },
+    "EXzeeoBnccU": {
+      "id": "EXzeeoBnccU",
+      "title": "Flowering is only possible in freedom",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73038,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1969-12-01",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "EYginXBqLCs": {
       "id": "EYginXBqLCs",
@@ -16588,6 +18436,48 @@
       "recorded": "1971-04-25",
       "format": "extract",
       "place": "New York"
+    },
+    "f0fUIoWLt2I": {
+      "id": "f0fUIoWLt2I",
+      "title": "Can the mind observe without time?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73044,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1972-11-26",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
+    "f1bRWHifjEQ": {
+      "id": "f1bRWHifjEQ",
+      "title": "Creation is never ending",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72954,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-05-18",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "F22mU6ncBvo": {
       "id": "F22mU6ncBvo",
@@ -17429,6 +19319,27 @@
       "format": "full-audio",
       "place": "London"
     },
+    "fwJ9dx1NJsA": {
+      "id": "fwJ9dx1NJsA",
+      "title": "How am I to have a global vision?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72892,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-19",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "FwvDC36m5uU": {
       "id": "FwvDC36m5uU",
       "title": "Are we helping each other not to be mediocre?",
@@ -17639,6 +19550,48 @@
       "format": "full-audio",
       "place": "Gstaad"
     },
+    "GD1QB4U1mmw": {
+      "id": "GD1QB4U1mmw",
+      "title": "Are we concerned with total human existence?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72868,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1982-05-01",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
+    "gd4B6MZKVhw": {
+      "id": "gd4B6MZKVhw",
+      "title": "Why do you think at all?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73087,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-11-18",
+      "format": "extract",
+      "place": "Rajghat"
+    },
     "GdE89RnA0XI": {
       "id": "GdE89RnA0XI",
       "title": "9. The violent self",
@@ -17827,6 +19780,27 @@
       "format": "extract",
       "place": "Madras (Chennai)"
     },
+    "gjq_dc01K5w": {
+      "id": "gjq_dc01K5w",
+      "title": "The trap",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73047,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1976-11-04",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "GKLpHjJcLCU": {
       "id": "GKLpHjJcLCU",
       "title": "Defining being human, compassion, feeling special",
@@ -17847,6 +19821,27 @@
       "recorded": "1974-10-14",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "GLSJxkEISLA": {
+      "id": "GLSJxkEISLA",
+      "title": "Why are we confused?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73023,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1969-04-19",
+      "format": "full-audio",
+      "place": "Paris"
     },
     "gMbnjW-klx0": {
       "id": "gMbnjW-klx0",
@@ -18309,6 +20304,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "h-XEMtGFqWk": {
+      "id": "h-XEMtGFqWk",
+      "title": "Unless you radically change now the future is what you are now",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73080,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1984-11-24",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "H18XVD4bRD8": {
       "id": "H18XVD4bRD8",
       "title": "Thought and time",
@@ -18392,6 +20408,27 @@
       "recorded": "1985-07-23",
       "format": "extract",
       "place": "Saanen"
+    },
+    "h6t8xHQABp0": {
+      "id": "h6t8xHQABp0",
+      "title": "Dreams, order and space",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73115,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1972-12-30",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "H7fBR7gAB9Q": {
       "id": "H7fBR7gAB9Q",
@@ -18560,6 +20597,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "Hd1-UkV1c78": {
+      "id": "Hd1-UkV1c78",
+      "title": "The world is divided by ideas and ideologies",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73037,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1967-01-07",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "HdjjPZJIDmA": {
       "id": "HdjjPZJIDmA",
       "title": "How is a mind so heavily conditioned to be made new?",
@@ -18581,6 +20639,27 @@
       "format": "full-audio",
       "place": "New Delhi"
     },
+    "HDuhXRInSRI": {
+      "id": "HDuhXRInSRI",
+      "title": "You become insensitive if you get used to anything",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73054,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1981-11-19",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "HDyWjAh7T9I": {
       "id": "HDyWjAh7T9I",
       "title": "Your consciousness is not separate from humanity’s",
@@ -18601,6 +20680,27 @@
       "recorded": "1983-11-07",
       "format": "full-audio",
       "place": "New Delhi"
+    },
+    "hEfredoMOE4": {
+      "id": "hEfredoMOE4",
+      "title": "Is it possible to bring about a mutation in consciousness?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73116,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1977-12-03",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "HEK0dsvhaAE": {
       "id": "HEK0dsvhaAE",
@@ -18854,6 +20954,27 @@
       "format": "full-audio",
       "place": "Madras (Chennai)"
     },
+    "HLQ0I0C6jYM": {
+      "id": "HLQ0I0C6jYM",
+      "title": "Why do you say there is no psychological evolution?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72941,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "hMWF7vLWr7A": {
       "id": "hMWF7vLWr7A",
       "title": "Pleasure is a factor of conditioning",
@@ -18895,6 +21016,27 @@
       "recorded": "1974-02-28",
       "format": "full-video",
       "place": "San Diego, California"
+    },
+    "hN7j17V4wc8": {
+      "id": "hN7j17V4wc8",
+      "title": "Do you lead a life of hypocrisy?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73135,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-11-19",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "HOBsym9IeO0": {
       "id": "HOBsym9IeO0",
@@ -19085,6 +21227,27 @@
       "format": "full-audio",
       "place": "San Francisco, California"
     },
+    "HsplW0zkOWM": {
+      "id": "HsplW0zkOWM",
+      "title": "The world is on fire",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73109,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1972-11-02",
+      "format": "full-audio",
+      "place": "Rome"
+    },
     "hta0Aae2ZLY": {
       "id": "hta0Aae2ZLY",
       "title": "Order in consciousness",
@@ -19253,6 +21416,27 @@
       "format": "full-audio",
       "place": "New York"
     },
+    "HwAVHI5cM5s": {
+      "id": "HwAVHI5cM5s",
+      "title": "How do we help children face the threatening world?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72847,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-04",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "hX5q0lTZpQ0": {
       "id": "hX5q0lTZpQ0",
       "title": "Looking without conclusion",
@@ -19273,6 +21457,27 @@
       "recorded": "1971-01-18",
       "format": "full-audio",
       "place": "Madras (Chennai)"
+    },
+    "HXpv5IojLOk": {
+      "id": "HXpv5IojLOk",
+      "title": "How is one to live on earth without destructing its beauty?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72925,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-24",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "HYd_HRllMIM": {
       "id": "HYd_HRllMIM",
@@ -19316,6 +21521,69 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "hYuH6sSGT_Y": {
+      "id": "hYuH6sSGT_Y",
+      "title": "1st Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72936,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-14",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
+    "HZUJZ2psYBo": {
+      "id": "HZUJZ2psYBo",
+      "title": "Why do we not change?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72854,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-06",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "HzZ4jbZHego": {
+      "id": "HzZ4jbZHego",
+      "title": "2nd Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72784,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-07",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "I0Yr8668Ffo": {
       "id": "I0Yr8668Ffo",
       "title": "Why has sex become so important?",
@@ -19357,6 +21625,27 @@
       "recorded": "1962-02-04",
       "format": "full-audio",
       "place": "New Delhi"
+    },
+    "I23IreBg2Lg": {
+      "id": "I23IreBg2Lg",
+      "title": "What are humility and modesty?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72867,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-13",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "I2myR5cRc1c": {
       "id": "I2myR5cRc1c",
@@ -19547,6 +21836,27 @@
       "format": "extract",
       "place": "Saanen"
     },
+    "IA_IAdVKoOs": {
+      "id": "IA_IAdVKoOs",
+      "title": "Fear, time and silence",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73027,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1969-04-17",
+      "format": "full-audio",
+      "place": "Paris"
+    },
     "iabR_D_uxXI": {
       "id": "iabR_D_uxXI",
       "title": "The brain, images in relationship, yoga",
@@ -19588,6 +21898,27 @@
       "recorded": "1981-07-30",
       "format": "extract",
       "place": "Saanen"
+    },
+    "IbnDqXep6-c": {
+      "id": "IbnDqXep6-c",
+      "title": "To be sensitive is to be aware of what you are doing",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73134,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-11-17",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "ic21Fo0syog": {
       "id": "ic21Fo0syog",
@@ -19714,6 +22045,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "IEeyiP1oAcU": {
+      "id": "IEeyiP1oAcU",
+      "title": "Will there be less conflict when you depart?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72848,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-04",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "IeG7Pf_qlnI": {
       "id": "IeG7Pf_qlnI",
       "title": "We can listen only when there is no motive",
@@ -19734,6 +22086,27 @@
       "recorded": "1962-07-22",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "ifFrJkVFI4E": {
+      "id": "ifFrJkVFI4E",
+      "title": "Great freedom is needed to perceive truth",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73042,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1969-11-30",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "iGqL3TJx3KE": {
       "id": "iGqL3TJx3KE",
@@ -19861,6 +22234,27 @@
       "format": "extract",
       "place": "Saanen"
     },
+    "iIyL2qcResY": {
+      "id": "iIyL2qcResY",
+      "title": "What makes us change?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72874,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1983-03-27",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "Ij5UiOucCeI": {
       "id": "Ij5UiOucCeI",
       "title": "What is a religious life?",
@@ -19965,6 +22359,27 @@
       "recorded": "1972-03-19",
       "format": "full-video",
       "place": "Santa Monica, California"
+    },
+    "iMQRGa4iPqQ": {
+      "id": "iMQRGa4iPqQ",
+      "title": "Can I live a life which is totally harmonious?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73108,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1972-10-31",
+      "format": "full-audio",
+      "place": "Rome"
     },
     "ImwupgkXAuM": {
       "id": "ImwupgkXAuM",
@@ -20470,6 +22885,27 @@
       "format": "extract",
       "place": "Calcutta (Kolkata)"
     },
+    "Ivs6o7M45Es": {
+      "id": "Ivs6o7M45Es",
+      "title": "The mind in the universe",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72986,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-09-20",
+      "format": "full-video",
+      "place": "Brockwood Park"
+    },
     "ivXUlRuXjW8": {
       "id": "ivXUlRuXjW8",
       "title": "Meditation is the release of creative energy",
@@ -20532,6 +22968,27 @@
       "recorded": "1978-09-14",
       "format": "full-video",
       "place": "Brockwood Park"
+    },
+    "iWGPo6uN5zs": {
+      "id": "iWGPo6uN5zs",
+      "title": "The ending of continuity",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72956,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-05-19",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "IwHOVMOLzUs": {
       "id": "IwHOVMOLzUs",
@@ -20826,6 +23283,27 @@
       "recorded": "1970-06-20",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "jA_mlW6PYHE": {
+      "id": "jA_mlW6PYHE",
+      "title": "1st Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72843,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-04",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "jAAlBUPYJEA": {
       "id": "jAAlBUPYJEA",
@@ -21499,6 +23977,27 @@
       "format": "full-audio",
       "place": "Colombo"
     },
+    "JnbePJ2bSow": {
+      "id": "JnbePJ2bSow",
+      "title": "What is the summation of Krishnamurti’s teaching and who are you?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72912,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1984-04-28",
+      "format": "full-audio",
+      "place": "Ojai, California"
+    },
     "jnUAG6b0kwU": {
       "id": "jnUAG6b0kwU",
       "title": "Is the ageing of the mind inevitable?",
@@ -22108,6 +24607,27 @@
       "format": "extract",
       "place": "Madras (Chennai)"
     },
+    "K_qwbiwtzqM": {
+      "id": "K_qwbiwtzqM",
+      "title": "What is necessary to allow a sustained clarity?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72922,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-24",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "K-e8ZJDHAuE": {
       "id": "K-e8ZJDHAuE",
       "title": "5th Question & Answer Meeting",
@@ -22213,6 +24733,27 @@
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
     },
+    "K76iFYMoMYk": {
+      "id": "K76iFYMoMYk",
+      "title": "We must create a new social structure",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73035,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1967-01-01",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "k7n_s_6LUhY": {
       "id": "k7n_s_6LUhY",
       "title": "Can the mind be free of fear?",
@@ -22255,6 +24796,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "k8Y0_1A1uXM": {
+      "id": "k8Y0_1A1uXM",
+      "title": "What part does psychic healing play in this?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72861,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-11",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "k9PxF3xxl-w": {
       "id": "k9PxF3xxl-w",
       "title": "Is there security at all psychologically?",
@@ -22275,6 +24837,27 @@
       "recorded": "1979-07-12",
       "format": "full-video",
       "place": "Saanen"
+    },
+    "K9r-VND22FE": {
+      "id": "K9r-VND22FE",
+      "title": "In ending, which is death, is great beauty",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72826,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-17",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "kBh8u2ibPp8": {
       "id": "kBh8u2ibPp8",
@@ -22549,6 +25132,27 @@
       "format": "extract",
       "place": "Brockwood Park"
     },
+    "KFhmAMmPjTc": {
+      "id": "KFhmAMmPjTc",
+      "title": "Can we truly be enlightened through words?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72853,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-06",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "kfYBvGh6C74": {
       "id": "kfYBvGh6C74",
       "title": "Why does the brain register?",
@@ -22568,6 +25172,27 @@
       ],
       "recorded": "1977-10-09",
       "format": "full-video",
+      "place": "Brockwood Park"
+    },
+    "KgBibeD53oU": {
+      "id": "KgBibeD53oU",
+      "title": "Seeing the danger of becoming",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72998,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-09-27",
+      "format": "extract",
       "place": "Brockwood Park"
     },
     "KGcAQ-qbxzs": {
@@ -22800,6 +25425,27 @@
       "recorded": "1984-07-08",
       "format": "full-video",
       "place": "Saanen"
+    },
+    "kM2esi_3lZY": {
+      "id": "kM2esi_3lZY",
+      "title": "Can education bring a holistic way of living?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73189,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1985-12-07",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "KNc_FghQE2k": {
       "id": "KNc_FghQE2k",
@@ -23200,6 +25846,27 @@
       "format": "full-video",
       "place": "Ojai, California"
     },
+    "KyMdYQBcaeQ": {
+      "id": "KyMdYQBcaeQ",
+      "title": "What is your future?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73155,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1983-12-12",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "KzBPntK9tfA": {
       "id": "KzBPntK9tfA",
       "title": "Can the brain transform itself?",
@@ -23368,6 +26035,48 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "L2leNDmLWyc": {
+      "id": "L2leNDmLWyc",
+      "title": "Meditation is understanding the whole movement of life",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72775,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1980-05-18",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "l5h0kZE1Ml0": {
+      "id": "l5h0kZE1Ml0",
+      "title": "There is disorder as long as there is conflict",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72823,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-10",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "L6l3AnG3-KQ": {
       "id": "L6l3AnG3-KQ",
       "title": "The right place for thought",
@@ -23388,6 +26097,27 @@
       "recorded": "1979-04-14",
       "format": "extract",
       "place": "Ojai, California"
+    },
+    "L6V9SGkEiuw": {
+      "id": "L6V9SGkEiuw",
+      "title": "Thought in relationships brings disorder",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73056,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-11-25",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "L72u6D-QoJg": {
       "id": "L72u6D-QoJg",
@@ -23452,6 +26182,27 @@
       "format": "full-audio",
       "place": "Ojai, California"
     },
+    "l99DOMtu-kU": {
+      "id": "l99DOMtu-kU",
+      "title": "What is the role of the artist?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72884,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-17",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "lA2IP5jkQRY": {
       "id": "lA2IP5jkQRY",
       "title": "Freedom, systems and conditioning",
@@ -23472,6 +26223,48 @@
       "recorded": "1968-07-11",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "lAc2-W1qSa8": {
+      "id": "lAc2-W1qSa8",
+      "title": "Computers, thought and insight",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72777,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1981-04-01",
+      "format": "full-audio",
+      "place": "Ojai, California"
+    },
+    "Lc-Vv7V-Ye4": {
+      "id": "Lc-Vv7V-Ye4",
+      "title": "As long as there is a meditator, there is no meditation",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73097,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-11-22",
+      "format": "full-video",
+      "place": "Rajghat"
     },
     "lcCatGCos_U": {
       "id": "lcCatGCos_U",
@@ -23662,6 +26455,27 @@
       "format": "extract",
       "place": "Ojai, California"
     },
+    "lHkjlofGrsg": {
+      "id": "lHkjlofGrsg",
+      "title": "Understanding the nature of meditation",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73058,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-11-29",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "LhM3v1m-thQ": {
       "id": "LhM3v1m-thQ",
       "title": "Observation is the total denial of analysis",
@@ -23703,6 +26517,27 @@
       "recorded": "1978-06-23",
       "format": "extract",
       "place": "Brockwood Park"
+    },
+    "LIurRT7zrWE": {
+      "id": "LIurRT7zrWE",
+      "title": "How do I deal with my deep-rooted violence?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72805,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "LIyW4N96gYA": {
       "id": "LIyW4N96gYA",
@@ -23809,6 +26644,48 @@
       "format": "extract",
       "place": "Brockwood Park"
     },
+    "LlBQGODx_a8": {
+      "id": "LlBQGODx_a8",
+      "title": "Is there a difference between the brain and the mind?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72782,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-05",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "lLWp7n-MlCI": {
+      "id": "lLWp7n-MlCI",
+      "title": "On religion and God",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72862,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-11",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "LLzAx8zpFhg": {
       "id": "LLzAx8zpFhg",
       "title": "When I say I must know myself, what is ‘myself’?",
@@ -23850,6 +26727,48 @@
       "recorded": "1979-12-27",
       "format": "full-video",
       "place": "Madras (Chennai)"
+    },
+    "LMi3F-Zv5XQ": {
+      "id": "LMi3F-Zv5XQ",
+      "title": "All time is contained now",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73090,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-11-19",
+      "format": "full-video",
+      "place": "Rajghat"
+    },
+    "lNAKkcGBhos": {
+      "id": "lNAKkcGBhos",
+      "title": "War is a symptom",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72908,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1983-05-15",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "LnjtOTBYOp4": {
       "id": "LnjtOTBYOp4",
@@ -23912,6 +26831,48 @@
       ],
       "recorded": "1979-03-16",
       "format": "full-audio",
+      "place": "Ojai, California"
+    },
+    "lpWEa-fNffY": {
+      "id": "lpWEa-fNffY",
+      "title": "On revolution in consciousness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72803,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "lPWyGNtKcxE": {
+      "id": "lPWyGNtKcxE",
+      "title": "How do I deal with my deep-rooted emotion?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72849,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-04",
+      "format": "extract",
       "place": "Ojai, California"
     },
     "lqsA8NALv8M": {
@@ -24039,6 +27000,27 @@
       "recorded": "1972-03-27",
       "format": "full-audio",
       "place": "Malibu, California"
+    },
+    "LrS6flK8o7I": {
+      "id": "LrS6flK8o7I",
+      "title": "4th Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72863,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-13",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "ls1iKCZ7eP4": {
       "id": "ls1iKCZ7eP4",
@@ -24187,6 +27169,27 @@
       "format": "full-video",
       "place": "Saanen"
     },
+    "LUOUUrzEFxA": {
+      "id": "LUOUUrzEFxA",
+      "title": "What is an action and state of being that is pure?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72852,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-06",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "LUz-7Qb1UxI": {
       "id": "LUz-7Qb1UxI",
       "title": "Simplicity cannot be found unless one is free inwardly",
@@ -24311,6 +27314,27 @@
       "recorded": "1972-12-17",
       "format": "full-audio",
       "place": "Madras (Chennai)"
+    },
+    "lXvTSFf9pZc": {
+      "id": "lXvTSFf9pZc",
+      "title": "What is the state of the mind when the observer is not?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73021,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1969-04-12",
+      "format": "full-audio",
+      "place": "Paris"
     },
     "lywlwOi82WE": {
       "id": "lywlwOi82WE",
@@ -24521,6 +27545,27 @@
       "recorded": "1970-07-26",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "m4tXELH7AkI": {
+      "id": "m4tXELH7AkI",
+      "title": "What is the obstacle preventing observation and insight?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72949,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-16",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "M4zMjvhy4NE": {
       "id": "M4zMjvhy4NE",
@@ -24795,6 +27840,27 @@
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
     },
+    "MDjI96swADw": {
+      "id": "MDjI96swADw",
+      "title": "On becoming a victim or a predator",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72866,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-13",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "mDnoUCsVV2Y": {
       "id": "mDnoUCsVV2Y",
       "title": "Can we ever perceive truth?",
@@ -24836,6 +27902,27 @@
       "recorded": "1978-05-28",
       "format": "full-video",
       "place": "Brockwood Park"
+    },
+    "MECkExQQGgg": {
+      "id": "MECkExQQGgg",
+      "title": "Have you designated a special person to carry on your teachings?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72917,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-22",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "MeNS3cFRhXU": {
       "id": "MeNS3cFRhXU",
@@ -25047,6 +28134,27 @@
       "format": "extract",
       "place": "Brockwood Park"
     },
+    "MhmNxOdxRJM": {
+      "id": "MhmNxOdxRJM",
+      "title": "What is the difference between insight and enlightenment?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72797,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-12",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "mi7usjQL8Qs": {
       "id": "mi7usjQL8Qs",
       "title": "Seeing the false as false",
@@ -25193,6 +28301,27 @@
       "recorded": "1978-06-23",
       "format": "extract",
       "place": "Brockwood Park"
+    },
+    "Mm8OUoTUMU0": {
+      "id": "Mm8OUoTUMU0",
+      "title": "Thinking about the future causes fear",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73140,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1980-12-15",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "mnlmHcIWJoA": {
       "id": "mnlmHcIWJoA",
@@ -25488,6 +28617,48 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "MUTyG8EphzI": {
+      "id": "MUTyG8EphzI",
+      "title": "Why are you educating your children?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73160,
+      "genres": [
+        "Seminar"
+      ],
+      "recorded": "1983-11-24",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
+    "MuUu5h5Nqws": {
+      "id": "MuUu5h5Nqws",
+      "title": "Ending without any motive",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72909,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1983-05-21",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "MV-4pYUWSNo": {
       "id": "MV-4pYUWSNo",
       "title": "What does it mean to meditate?",
@@ -25593,6 +28764,69 @@
       "format": "full-audio",
       "place": "Madras (Chennai)"
     },
+    "MXKrxa90Gck": {
+      "id": "MXKrxa90Gck",
+      "title": "Why aren’t you more practical and less abstract?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72890,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-19",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "mxoe9IrLdfo": {
+      "id": "mxoe9IrLdfo",
+      "title": "Cosmic order",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72959,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-06-07",
+      "format": "full-video",
+      "place": "Brockwood Park"
+    },
+    "mYF2XVzanKQ": {
+      "id": "mYF2XVzanKQ",
+      "title": "Tomorrow is now",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73096,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-11-19",
+      "format": "extract",
+      "place": "Rajghat"
+    },
     "N_2JihQj1II": {
       "id": "N_2JihQj1II",
       "title": "Is there anything truly holy, sacred?",
@@ -25676,6 +28910,27 @@
       "recorded": "1962-08-17",
       "format": "full-audio",
       "place": "Gstaad"
+    },
+    "N07FKu8kG2g": {
+      "id": "N07FKu8kG2g",
+      "title": "Why do we confuse function with role?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72858,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-11",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "n0kbmqKmWkg": {
       "id": "n0kbmqKmWkg",
@@ -25824,6 +29079,48 @@
       "format": "full-video",
       "place": "Madras (Chennai)"
     },
+    "n7oQBcLsqiM": {
+      "id": "n7oQBcLsqiM",
+      "title": "A different human being",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73188,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1985-12-03",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
+    "n7XIvEzP990": {
+      "id": "n7XIvEzP990",
+      "title": "What can one do to nourish attention?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72851,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-06",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "N8EEmL31Jr4": {
       "id": "N8EEmL31Jr4",
       "title": "Meditation, virtue, love and order",
@@ -25907,6 +29204,27 @@
       "recorded": "1983-06-23",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "nCoXpqlFBK8": {
+      "id": "nCoXpqlFBK8",
+      "title": "Short talks given by Krishnamurti and Indira Gandhi",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73142,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-12-20",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "NcpEgtO6yyk": {
       "id": "NcpEgtO6yyk",
@@ -26118,6 +29436,27 @@
       "format": "extract",
       "place": "San Diego, California"
     },
+    "NgQZAMN2ehE": {
+      "id": "NgQZAMN2ehE",
+      "title": "To understand death we must understand living",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73034,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1965-12-10",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "NjQtnz0dvEw": {
       "id": "NjQtnz0dvEw",
       "title": "Inquiring into meditation",
@@ -26181,6 +29520,27 @@
       "format": "extract",
       "place": "Brockwood Park"
     },
+    "nmLW7WcZRnk": {
+      "id": "nmLW7WcZRnk",
+      "title": "Suffering and the stream of consciousness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73045,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1974-11-23",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "NmxxJXbo-zM": {
       "id": "NmxxJXbo-zM",
       "title": "What is the nature of your consciousness?",
@@ -26222,6 +29582,27 @@
       "recorded": "1984-07-08",
       "format": "extract",
       "place": "Saanen"
+    },
+    "NnhUQY7NRv0": {
+      "id": "NnhUQY7NRv0",
+      "title": "I realise I act neurotically but the neurosis remains. What can I do?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72787,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-07",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "NnV7FAT_7gI": {
       "id": "NnV7FAT_7gI",
@@ -26306,6 +29687,27 @@
       "recorded": "1978-01-28",
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
+    },
+    "NQQtxpd-XI0": {
+      "id": "NQQtxpd-XI0",
+      "title": "3rd Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72792,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-12",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "nrCu1KXqqbc": {
       "id": "nrCu1KXqqbc",
@@ -26537,6 +29939,27 @@
       "recorded": "1970-03-22",
       "format": "full-video",
       "place": "Malibu, California"
+    },
+    "nu12YUzWtB4": {
+      "id": "nu12YUzWtB4",
+      "title": "Life is a movement of relationship",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72813,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-03",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "nu1bty6L_58": {
       "id": "nu1bty6L_58",
@@ -27084,6 +30507,27 @@
       "format": "extract",
       "place": "Saanen"
     },
+    "odGEXcojOOU": {
+      "id": "odGEXcojOOU",
+      "title": "The function of an educator is to help students have a good academic brain and be good human beings",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73156,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1983-12-14",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "oDTsKAAfdpA": {
       "id": "oDTsKAAfdpA",
       "title": "What is the relationship between attention and lack of attention?",
@@ -27144,6 +30588,27 @@
         "Talk"
       ],
       "recorded": "1980-05-03",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
+    "oEszHQaNOfM": {
+      "id": "oEszHQaNOfM",
+      "title": "Can thought bring about right action?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72817,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-09",
       "format": "full-video",
       "place": "Ojai, California"
     },
@@ -27210,6 +30675,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "oH9cqY6zvOc": {
+      "id": "oH9cqY6zvOc",
+      "title": "Can the mind function not in the old pattern?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73039,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1969-11-28",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "OHCjVxjSfy8": {
       "id": "OHCjVxjSfy8",
       "title": "Why haven’t we been able to resolve our problems?",
@@ -27251,6 +30737,27 @@
       "recorded": "1971-08-04",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "oIBSJTRlH3Q": {
+      "id": "oIBSJTRlH3Q",
+      "title": "Truth is a pathless land",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73030,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1929-01-01",
+      "format": "full-audio",
+      "place": "Ojai, California"
     },
     "oJfu7NVhv7w": {
       "id": "oJfu7NVhv7w",
@@ -27294,6 +30801,27 @@
       "format": "extract",
       "place": "Ojai, California"
     },
+    "OK9P4X2IFzo": {
+      "id": "OK9P4X2IFzo",
+      "title": "Krishnamurti on education: The quality of attention",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72779,
+      "genres": [
+        "Film"
+      ],
+      "recorded": "1981-05-01",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "OKXNGNjRhd0": {
       "id": "OKXNGNjRhd0",
       "title": "Society has helped us to have no capacity",
@@ -27335,6 +30863,27 @@
       "recorded": "1968-12-14",
       "format": "full-audio",
       "place": "Malibu, California"
+    },
+    "oL9o-nwTn4U": {
+      "id": "oL9o-nwTn4U",
+      "title": "Can there be inward security?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73060,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1984-11-11",
+      "format": "extract",
+      "place": "Rajghat"
     },
     "olBDbhNZaX8": {
       "id": "olBDbhNZaX8",
@@ -27483,6 +31032,27 @@
       "format": "full-audio",
       "place": "New Delhi"
     },
+    "oMTdvz9G87I": {
+      "id": "oMTdvz9G87I",
+      "title": "What is my relationship to society?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72804,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "oMwOAn_jxq4": {
       "id": "oMwOAn_jxq4",
       "title": "Why do we seek and what is there to seek?",
@@ -27587,6 +31157,27 @@
       "recorded": "1981-01-17",
       "format": "extract",
       "place": "Madras (Chennai)"
+    },
+    "OnoBKyR7Hdw": {
+      "id": "OnoBKyR7Hdw",
+      "title": "What is the taste of fear?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73185,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1985-12-05",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "onuZPjwspX0": {
       "id": "onuZPjwspX0",
@@ -27798,6 +31389,48 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "OrixqFMHUeQ": {
+      "id": "OrixqFMHUeQ",
+      "title": "Life is impermanent",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73020,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1965-05-27",
+      "format": "extract",
+      "place": "Paris"
+    },
+    "ORNCfV1YyRE": {
+      "id": "ORNCfV1YyRE",
+      "title": "On homosexuality",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72924,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-24",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "OrRt_rE9xfI": {
       "id": "OrRt_rE9xfI",
       "title": "On religious life, change and fear",
@@ -27818,6 +31451,27 @@
       "recorded": "1969-07-13",
       "format": "full-audio",
       "place": "Schönried"
+    },
+    "OrvixH7vEQA": {
+      "id": "OrvixH7vEQA",
+      "title": "On active political involvement",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72864,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-13",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "orx5urVQx3M": {
       "id": "orx5urVQx3M",
@@ -27966,6 +31620,48 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "oTXwO5CXZ6c": {
+      "id": "oTXwO5CXZ6c",
+      "title": "The liberation of insight",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72966,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-09-14",
+      "format": "full-video",
+      "place": "Brockwood Park"
+    },
+    "oTYopKvwhEY": {
+      "id": "oTYopKvwhEY",
+      "title": "Is there a way of living not based on thought?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73127,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-11-28",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
     "oTZ-UDyETGA": {
       "id": "oTZ-UDyETGA",
       "title": "Can one establish a relationship with reality?",
@@ -27986,6 +31682,27 @@
       "recorded": "1968-05-11",
       "format": "full-audio",
       "place": "Amsterdam"
+    },
+    "OuoUVAGShDI": {
+      "id": "OuoUVAGShDI",
+      "title": "What can this country give to the rest of the world?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72788,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-07",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "OuQpx4zzmYI": {
       "id": "OuQpx4zzmYI",
@@ -28071,6 +31788,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "Ow8YzB3j628": {
+      "id": "Ow8YzB3j628",
+      "title": "Knowledge and love",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73041,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1969-11-26",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "ow96VqRi71Y": {
       "id": "ow96VqRi71Y",
       "title": "To perceive the present, the past must be absent",
@@ -28154,6 +31892,27 @@
       "recorded": "1975-07-13",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "OYp707Fofb8": {
+      "id": "OYp707Fofb8",
+      "title": "What is a healthy mind?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72840,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-04-18",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "OYuH0c9eP9U": {
       "id": "OYuH0c9eP9U",
@@ -28596,6 +32355,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "pEgYPN97ETk": {
+      "id": "pEgYPN97ETk",
+      "title": "Do you know your fears?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73095,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-11-19",
+      "format": "extract",
+      "place": "Rajghat"
+    },
     "PeunW5spv5w": {
       "id": "PeunW5spv5w",
       "title": "Love and death are something unknown",
@@ -28657,6 +32437,27 @@
       ],
       "recorded": "1966-11-05",
       "format": "full-audio",
+      "place": "Ojai, California"
+    },
+    "pFBQJhbrVLc": {
+      "id": "pFBQJhbrVLc",
+      "title": "What is the place of knowledge in our lives?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72869,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1982-05-02",
+      "format": "full-video",
       "place": "Ojai, California"
     },
     "PGWFyAYPYeY": {
@@ -29016,6 +32817,27 @@
       "format": "full-video",
       "place": "Madras (Chennai)"
     },
+    "PQXHsNV5WRs": {
+      "id": "PQXHsNV5WRs",
+      "title": "You can understand yourself very simply when you are quiet",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73032,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1965-12-04",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "PR9LUwCKzIg": {
       "id": "PR9LUwCKzIg",
       "title": "Order, influence, intelligence and watching",
@@ -29184,6 +33006,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "pwFP3zg-7hU": {
+      "id": "pwFP3zg-7hU",
+      "title": "What is a healthy mind?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72842,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-04-18",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "pxflkugI1jY": {
       "id": "pxflkugI1jY",
       "title": "Complete freedom from thought",
@@ -29309,6 +33152,48 @@
       "recorded": "1970-08-04",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "pzE4TFCWrXY": {
+      "id": "pzE4TFCWrXY",
+      "title": "Consciousness and learning",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72807,
+      "genres": [
+        "Seminar"
+      ],
+      "recorded": "1981-04-04",
+      "format": "full-audio",
+      "place": "Ojai, California"
+    },
+    "Q_vDCo_aOvo": {
+      "id": "Q_vDCo_aOvo",
+      "title": "Is it possible to achieve a constant attention?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72799,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "Q-3nIKd4d8M": {
       "id": "Q-3nIKd4d8M",
@@ -29457,6 +33342,27 @@
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
     },
+    "Q6Pdp2bSznE": {
+      "id": "Q6Pdp2bSznE",
+      "title": "How is man to change?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73107,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1971-10-31",
+      "format": "full-audio",
+      "place": "Rome"
+    },
     "q8aXdFnk1dk": {
       "id": "q8aXdFnk1dk",
       "title": "What is the function of the brain?",
@@ -29517,6 +33423,48 @@
         "Talk"
       ],
       "recorded": "1977-04-02",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "Qb2mM6CujHs": {
+      "id": "Qb2mM6CujHs",
+      "title": "Relationship is life",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72816,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-03",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "QbCjY4VZNwk": {
+      "id": "QbCjY4VZNwk",
+      "title": "What is right action when understanding isn’t total?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72800,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-14",
       "format": "extract",
       "place": "Ojai, California"
     },
@@ -29772,6 +33720,27 @@
       "format": "extract",
       "place": "Brockwood Park"
     },
+    "QhtsxG15Ht0": {
+      "id": "QhtsxG15Ht0",
+      "title": "On the meaning of holiness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72855,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-06",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "QI9QdshjAEQ": {
       "id": "QI9QdshjAEQ",
       "title": "Modern physics and Eastern mysticism, the self and seeing",
@@ -29833,6 +33802,27 @@
       ],
       "recorded": "1997-01-01",
       "format": "full-video"
+    },
+    "qkR1EYGqL6I": {
+      "id": "qkR1EYGqL6I",
+      "title": "Won’t we find truth through service to humanity?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72860,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-11",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "QL-ENKKsEUM": {
       "id": "QL-ENKKsEUM",
@@ -30065,6 +34055,27 @@
       "format": "full-audio",
       "place": "New Delhi"
     },
+    "qReIox5jObY": {
+      "id": "qReIox5jObY",
+      "title": "1st Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72883,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-17",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "QRIJNPYeVT4": {
       "id": "QRIJNPYeVT4",
       "title": "Remaining with the challenge of sorrow",
@@ -30190,6 +34201,27 @@
       "recorded": "1963-07-25",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "qVN5SD_X-r0": {
+      "id": "qVN5SD_X-r0",
+      "title": "Self-centred relationship",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72833,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-04-16",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "QwWMd7Aa2ms": {
       "id": "QwWMd7Aa2ms",
@@ -30527,6 +34559,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "r934t5_a5HQ": {
+      "id": "r934t5_a5HQ",
+      "title": "Truth is the catalyst to end conflict",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72926,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1984-05-19",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "Ra61eR916ZQ": {
       "id": "Ra61eR916ZQ",
       "title": "Knowledge is always in the past",
@@ -30716,6 +34769,27 @@
       "format": "full-audio",
       "place": "Madras (Chennai)"
     },
+    "rFi4rxizekQ": {
+      "id": "rFi4rxizekQ",
+      "title": "Is there anything new at all?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73110,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1972-11-04",
+      "format": "full-audio",
+      "place": "Rome"
+    },
     "rGegAUPeMoU": {
       "id": "rGegAUPeMoU",
       "title": "Religion, attention and meditation",
@@ -30800,6 +34874,27 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "rk-ucoZOgiw": {
+      "id": "rk-ucoZOgiw",
+      "title": "Why do we divide the spiritual and the mundane?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73082,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1985-11-21",
+      "format": "full-video",
+      "place": "Rajghat"
+    },
     "rkGBg3-MhGY": {
       "id": "rkGBg3-MhGY",
       "title": "Creating a good mind",
@@ -30883,6 +34978,27 @@
       "recorded": "1979-07-27",
       "format": "full-video",
       "place": "Saanen"
+    },
+    "rnyHs_wPmyM": {
+      "id": "rnyHs_wPmyM",
+      "title": "Can the image-making machinery stop?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73049,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-11-03",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "rOLC_H3TB5Y": {
       "id": "rOLC_H3TB5Y",
@@ -31282,6 +35398,48 @@
       "recorded": "1969-09-06",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "ryLxSXedyms": {
+      "id": "ryLxSXedyms",
+      "title": "Uncovering the content of consciousness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73026,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1969-04-13",
+      "format": "full-audio",
+      "place": "Paris"
+    },
+    "RymPoGgnS_k": {
+      "id": "RymPoGgnS_k",
+      "title": "On relationships and conflict",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72790,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-07",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "s06gKvnJobQ": {
       "id": "s06gKvnJobQ",
@@ -31892,6 +36050,27 @@
       "format": "full-audio",
       "place": "Madras (Chennai)"
     },
+    "SI7iR84sEG0": {
+      "id": "SI7iR84sEG0",
+      "title": "Thinking about myself all day long",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73186,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1985-12-11",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "SIMeM3DFHmI": {
       "id": "SIMeM3DFHmI",
       "title": "How can the idea that ‘you are the world’ be justified?",
@@ -31933,6 +36112,27 @@
       "recorded": "1980-09-04",
       "format": "extract",
       "place": "Brockwood Park"
+    },
+    "SiUTnZnOavA": {
+      "id": "SiUTnZnOavA",
+      "title": "What is our responsibility as educators and human beings?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73131,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-10",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "SJ1q9KeGdwI": {
       "id": "SJ1q9KeGdwI",
@@ -31996,6 +36196,27 @@
       "recorded": "1969-10-21",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "Sk3eGMIN7wo": {
+      "id": "Sk3eGMIN7wo",
+      "title": "Desire, suffering, death and meditation",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73050,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1976-11-07",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "SlQYDYOqy6M": {
       "id": "SlQYDYOqy6M",
@@ -32227,6 +36448,48 @@
       "recorded": "1985-07-23",
       "format": "extract",
       "place": "Saanen"
+    },
+    "SqPbWfA0YFc": {
+      "id": "SqPbWfA0YFc",
+      "title": "On perceiving truth and not acting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72919,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-22",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "SqPzNRShhAE": {
+      "id": "SqPzNRShhAE",
+      "title": "Reading the book of mankind",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73145,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-12-18",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "SrU-bpzAi3w": {
       "id": "SrU-bpzAi3w",
@@ -32900,6 +37163,48 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "TeW5pvCQGus": {
+      "id": "TeW5pvCQGus",
+      "title": "A crisis in our consciousness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72952,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-05-12",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
+    "tFpC4xdMKhQ": {
+      "id": "tFpC4xdMKhQ",
+      "title": "Discipline means to learn",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73153,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-12-13",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "tfU_4vD4YcU": {
       "id": "tfU_4vD4YcU",
       "title": "The art of listening",
@@ -33319,6 +37624,27 @@
       "format": "full-video",
       "place": "Saanen"
     },
+    "TRNmh1zVFgE": {
+      "id": "TRNmh1zVFgE",
+      "title": "How does one negate the ‘I’ without suppression?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72865,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-13",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "trWDLsYH6_s": {
       "id": "trWDLsYH6_s",
       "title": "The place of knowledge",
@@ -33444,6 +37770,27 @@
       "recorded": "1974-02-28",
       "format": "extract",
       "place": "San Diego, California"
+    },
+    "TUxhieKOSFs": {
+      "id": "TUxhieKOSFs",
+      "title": "Can you be free of the image?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73136,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-11-21",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "tVCJVZOriik": {
       "id": "tVCJVZOriik",
@@ -33676,6 +38023,27 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "u_vVNCkD8H4": {
+      "id": "u_vVNCkD8H4",
+      "title": "Isn’t the observation of thought continuing its use?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72885,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-17",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "u-3dcNwAsRk": {
       "id": "u-3dcNwAsRk",
       "title": "Emptying the mind of fear",
@@ -33718,6 +38086,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "u0HNShx8vzc": {
+      "id": "u0HNShx8vzc",
+      "title": "Truth has no abiding place",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73046,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1974-11-24",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "U0URcrjfiD4": {
       "id": "U0URcrjfiD4",
       "title": "Don’t be smothered by the world",
@@ -33738,6 +38127,27 @@
       "recorded": "1973-02-07",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "u2eOI5iIoFc": {
+      "id": "u2eOI5iIoFc",
+      "title": "Perceiving the whole movement of fear",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73057,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-11-26",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "u2ldnHbrxH8": {
       "id": "u2ldnHbrxH8",
@@ -34537,6 +38947,27 @@
       "format": "extract",
       "place": "Brockwood Park"
     },
+    "UHlu6rIjDhQ": {
+      "id": "UHlu6rIjDhQ",
+      "title": "The brain functions in time",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72820,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-09",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "uImZLwcQRks": {
       "id": "uImZLwcQRks",
       "title": "As a human being caught in the structure of society what is right action?",
@@ -34746,6 +39177,27 @@
       "recorded": "1976-10-08",
       "format": "full-video",
       "place": "Brockwood Park"
+    },
+    "Umv8CInN1Ag": {
+      "id": "Umv8CInN1Ag",
+      "title": "Isn’t political action necessary to bring about total change?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72859,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-11",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "UN3MIrfBcC8": {
       "id": "UN3MIrfBcC8",
@@ -35081,6 +39533,27 @@
       ],
       "recorded": "1975-04-16",
       "format": "full-audio",
+      "place": "Ojai, California"
+    },
+    "UWxVT-z8MBo": {
+      "id": "UWxVT-z8MBo",
+      "title": "On death, continuity and creation",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72957,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1985-05-19",
+      "format": "extract",
       "place": "Ojai, California"
     },
     "uxfjtX75Y7c": {
@@ -35440,6 +39913,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "V6x8jIe07Ag": {
+      "id": "V6x8jIe07Ag",
+      "title": "On living together without marriage",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72886,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-17",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "V8V_WeCrNzc": {
       "id": "V8V_WeCrNzc",
       "title": "The nature, depth and beauty of death",
@@ -35629,6 +40123,27 @@
       "format": "extract",
       "place": "Ojai, California"
     },
+    "VgmMC6jCQ18": {
+      "id": "VgmMC6jCQ18",
+      "title": "The empty mind",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72988,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-09-20",
+      "format": "extract",
+      "place": "Brockwood Park"
+    },
     "Vgu8-31SJiw": {
       "id": "Vgu8-31SJiw",
       "title": "Listening is a great miracle",
@@ -35650,6 +40165,69 @@
       "format": "full-video",
       "place": "San Diego, California"
     },
+    "vH4ohwy8WRQ": {
+      "id": "vH4ohwy8WRQ",
+      "title": "What is observing thought down to its very roots?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72918,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-22",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "VhPokqXKtcg": {
+      "id": "VhPokqXKtcg",
+      "title": "Is it lack of energy that prevents us going to the end of problems?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72894,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-19",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "Vi9CEGkXHFQ": {
+      "id": "Vi9CEGkXHFQ",
+      "title": "When the mind realises the observer is the observed there is a release of energy",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73114,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1973-10-28",
+      "format": "full-audio",
+      "place": "Rome"
+    },
     "viwEpJSTLnU": {
       "id": "viwEpJSTLnU",
       "title": "How does one find peace in the world, and in oneself?",
@@ -35670,6 +40248,48 @@
       "recorded": "1984-08-30",
       "format": "extract",
       "place": "Brockwood Park"
+    },
+    "vJlsu3F5j6U": {
+      "id": "vJlsu3F5j6U",
+      "title": "Where do I look to see what I am?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73158,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1983-12-16",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
+    "VJs3Qr7CQsU": {
+      "id": "VJs3Qr7CQsU",
+      "title": "The need for security",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72837,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-04-17",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "vJwM5Y4jtYA": {
       "id": "vJwM5Y4jtYA",
@@ -35776,6 +40396,27 @@
       "format": "full-audio",
       "place": "Malibu, California"
     },
+    "VKmpaJJkb7E": {
+      "id": "VKmpaJJkb7E",
+      "title": "What is our responsibility to ourselves and others?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72950,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-16",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "Vkn1nZ-qtMY": {
       "id": "Vkn1nZ-qtMY",
       "title": "Thought is the origin of fragmentation",
@@ -35838,6 +40479,27 @@
       "recorded": "1985-07-24",
       "format": "extract",
       "place": "Saanen"
+    },
+    "vNAMv_4Igfw": {
+      "id": "vNAMv_4Igfw",
+      "title": "What is the greatest profession?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73157,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1983-12-14",
+      "format": "extract",
+      "place": "Rishi Valley"
     },
     "vQ7dD1OjUhQ": {
       "id": "vQ7dD1OjUhQ",
@@ -36112,6 +40774,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "vxf3kko_Dhk": {
+      "id": "vxf3kko_Dhk",
+      "title": "What is the difference between shyness and fear?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72946,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-16",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "VyhzAOQhlvE": {
       "id": "VyhzAOQhlvE",
       "title": "Can the mind bring about a radical change in itself?",
@@ -36237,6 +40920,27 @@
       "recorded": "1981-09-19",
       "format": "extract",
       "place": "Amsterdam"
+    },
+    "W_q2qNAnJdw": {
+      "id": "W_q2qNAnJdw",
+      "title": "Have you noticed how your brain is conditioned?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73152,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-12-08",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "W0DA0mPSSqc": {
       "id": "W0DA0mPSSqc",
@@ -36405,6 +41109,27 @@
       "recorded": "1978-01-22",
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
+    },
+    "w6h4ag1xJak": {
+      "id": "w6h4ag1xJak",
+      "title": "On living peacefully with intelligence",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72942,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "w87yaZpkRjg": {
       "id": "w87yaZpkRjg",
@@ -36762,6 +41487,27 @@
       "recorded": "1983-01-22",
       "format": "full-audio",
       "place": "Bombay (Mumbai)"
+    },
+    "WJn3QQaDIKg": {
+      "id": "WJn3QQaDIKg",
+      "title": "Don’t compare yourself with anybody",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73119,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-11-30",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "wjZFVyGhxgo": {
       "id": "wjZFVyGhxgo",
@@ -37161,6 +41907,27 @@
       "format": "full-video",
       "place": "Ojai, California"
     },
+    "WuiTpD2-x58": {
+      "id": "WuiTpD2-x58",
+      "title": "Can we live in ways that allow silence to come?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72887,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-17",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "wW3xDYetMcA": {
       "id": "wW3xDYetMcA",
       "title": "Whatever thought creates is reality",
@@ -37223,6 +41990,27 @@
       "recorded": "1978-09-14",
       "format": "extract",
       "place": "Brockwood Park"
+    },
+    "Wy-0cOjSEaU": {
+      "id": "Wy-0cOjSEaU",
+      "title": "3rd Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72856,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1982-05-11",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "wYxZhEemJoo": {
       "id": "wYxZhEemJoo",
@@ -37579,6 +42367,27 @@
       "recorded": "1968-07-24",
       "format": "full-audio",
       "place": "Saanen"
+    },
+    "XA-w_p7KFro": {
+      "id": "XA-w_p7KFro",
+      "title": "2nd Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72944,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-16",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "xAkeVtj6pjk": {
       "id": "xAkeVtj6pjk",
@@ -38042,6 +42851,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "xHeKCxKhgro": {
+      "id": "xHeKCxKhgro",
+      "title": "Do we have the patience to listen to ourselves?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72822,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-10",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "XHtFNFv49Es": {
       "id": "XHtFNFv49Es",
       "title": "Psychological time is the cause of conflict",
@@ -38104,6 +42934,27 @@
       "recorded": "1971-01-30",
       "format": "full-audio",
       "place": "Bangalore"
+    },
+    "xjjLkbZeBS8": {
+      "id": "xjjLkbZeBS8",
+      "title": "2nd Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72889,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1983-05-19",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "XJtOb0SJO_0": {
       "id": "XJtOb0SJO_0",
@@ -38168,6 +43019,27 @@
       "format": "full-audio",
       "place": "Brockwood Park"
     },
+    "XkAHBxAPTyk": {
+      "id": "XkAHBxAPTyk",
+      "title": "Can insight be awakened in another?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73006,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-04-19",
+      "format": "full-audio",
+      "place": "Ojai, California"
+    },
     "XMaT_0b8OhE": {
       "id": "XMaT_0b8OhE",
       "title": "What silence is",
@@ -38188,6 +43060,27 @@
       "recorded": "1975-06-01",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "xMJk62TcgtM": {
+      "id": "xMJk62TcgtM",
+      "title": "What are the factors which bring about a deterioration of the brain?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73154,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1982-12-16",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "xMVhYKutjgI": {
       "id": "xMVhYKutjgI",
@@ -38314,6 +43207,27 @@
       "recorded": "1970-01-06",
       "format": "full-audio",
       "place": "Madras (Chennai)"
+    },
+    "xQbuYIrwGQU": {
+      "id": "xQbuYIrwGQU",
+      "title": "Do you have confidence or trust in anybody?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73137,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1979-11-27",
+      "format": "full-video",
+      "place": "Rishi Valley"
     },
     "xqljdesJsts": {
       "id": "xqljdesJsts",
@@ -38503,6 +43417,48 @@
       "recorded": "1981-07-12",
       "format": "full-video",
       "place": "Saanen"
+    },
+    "xt7Llu2AFjk": {
+      "id": "xt7Llu2AFjk",
+      "title": "We live in conflict with everything",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72911,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1984-05-01",
+      "format": "full-audio",
+      "place": "Ojai, California"
+    },
+    "XtUZiCD6xD0": {
+      "id": "XtUZiCD6xD0",
+      "title": "The future is what you are now – Krishnamurti interviewed by Roy Tuckman",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72882,
+      "genres": [
+        "Interview"
+      ],
+      "recorded": "1983-03-17",
+      "format": "full-audio",
+      "place": "Ojai, California"
     },
     "xU6hk9-xRZc": {
       "id": "xU6hk9-xRZc",
@@ -38966,6 +43922,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "YArhkfYBAwM": {
+      "id": "YArhkfYBAwM",
+      "title": "Why do images about oneself and others arise?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73159,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1983-12-18",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
     "YBqCHN-FGLk": {
       "id": "YBqCHN-FGLk",
       "title": "Fragmentation, time and death",
@@ -39213,6 +44190,48 @@
       "format": "full-audio",
       "place": "Madras (Chennai)"
     },
+    "YHrc2v6LzKU": {
+      "id": "YHrc2v6LzKU",
+      "title": "1st Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72780,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-05",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
+    "yIBZHSYU36I": {
+      "id": "yIBZHSYU36I",
+      "title": "What happens when you are concerned only with yourself?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73138,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1980-12-11",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "YIuTWK0q1Qw": {
       "id": "YIuTWK0q1Qw",
       "title": "Knowledge in relationship is destructive",
@@ -39275,6 +44294,27 @@
       "recorded": "1981-11-05",
       "format": "full-video",
       "place": "New Delhi"
+    },
+    "yjUGAfwAHXQ": {
+      "id": "yjUGAfwAHXQ",
+      "title": "An energy that has never known corruption",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73043,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1972-11-25",
+      "format": "full-audio",
+      "place": "Rajghat"
     },
     "YkDaf2SV3qQ": {
       "id": "YkDaf2SV3qQ",
@@ -39402,6 +44442,27 @@
       "format": "extract",
       "place": "Saanen"
     },
+    "yO9w3txmxY0": {
+      "id": "yO9w3txmxY0",
+      "title": "2nd Question & Answer Meeting",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72921,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1984-05-24",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
     "YOlcy18sN0Y": {
       "id": "YOlcy18sN0Y",
       "title": "Respect",
@@ -39422,6 +44483,27 @@
       "recorded": "1975-06-19",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "YPISzPnsIAQ": {
+      "id": "YPISzPnsIAQ",
+      "title": "What is it that all of us desire?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72943,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-14",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "Yq1hV9XhdtY": {
       "id": "Yq1hV9XhdtY",
@@ -39675,6 +44757,48 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "yVkRDecXhxQ": {
+      "id": "yVkRDecXhxQ",
+      "title": "Is love part of consciousness?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72929,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1984-05-27",
+      "format": "full-video",
+      "place": "Ojai, California"
+    },
+    "YwTkIPeA7sU": {
+      "id": "YwTkIPeA7sU",
+      "title": "Education, fear and breaking the cycle of time",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72935,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1985-05-05",
+      "format": "full-audio",
+      "place": "Ojai, California"
+    },
     "yx27RpjU6QA": {
       "id": "yx27RpjU6QA",
       "title": "Can you look without prejudice?",
@@ -39822,6 +44946,27 @@
       "format": "full-video",
       "place": "Brockwood Park"
     },
+    "YyDFjWV60DA": {
+      "id": "YyDFjWV60DA",
+      "title": "Consciousness is not yours, it is global",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72810,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1981-05-02",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
     "YyE_ebMsUdc": {
       "id": "YyE_ebMsUdc",
       "title": "What is the operation of thought?",
@@ -39926,6 +45071,27 @@
       "recorded": "1969-01-18",
       "format": "full-audio",
       "place": "Malibu, California"
+    },
+    "Z_qogRi7YLY": {
+      "id": "Z_qogRi7YLY",
+      "title": "The ground of being, and the mind of man",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73003,
+      "genres": [
+        "Dialogue"
+      ],
+      "recorded": "1980-04-12",
+      "format": "full-audio",
+      "place": "Ojai, California"
     },
     "Z_QpHabajKI": {
       "id": "Z_QpHabajKI",
@@ -40094,6 +45260,48 @@
       "recorded": "1974-02-26",
       "format": "extract",
       "place": "San Diego, California"
+    },
+    "z6WKIypndVg": {
+      "id": "z6WKIypndVg",
+      "title": "Intelligence is total security",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73124,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-18",
+      "format": "full-audio",
+      "place": "Rishi Valley"
+    },
+    "z9AzulSNeBI": {
+      "id": "z9AzulSNeBI",
+      "title": "The Oak Grove School: An exploration of learning",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72778,
+      "genres": [
+        "Film"
+      ],
+      "recorded": "1981-05-01",
+      "format": "full-video",
+      "place": "Ojai, California"
     },
     "Z9cWN4Og-rc": {
       "id": "Z9cWN4Og-rc",
@@ -40346,6 +45554,27 @@
       "recorded": "1975-05-11",
       "format": "full-audio",
       "place": "Brockwood Park"
+    },
+    "zEDsO7OZeWM": {
+      "id": "zEDsO7OZeWM",
+      "title": "What are the barriers that prevent us from understanding?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72945,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1985-05-16",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "zegvas6S4gI": {
       "id": "zegvas6S4gI",
@@ -40619,6 +45848,27 @@
       "format": "full-audio",
       "place": "Schönried"
     },
+    "zj5X1PweLYA": {
+      "id": "zj5X1PweLYA",
+      "title": "Do you see the importance of not being frightened?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73120,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1978-12-05",
+      "format": "full-video",
+      "place": "Rishi Valley"
+    },
     "zjE3TvzR_SM": {
       "id": "zjE3TvzR_SM",
       "title": "Listening without resistance",
@@ -40660,6 +45910,27 @@
       "recorded": "1971-01-31",
       "format": "full-audio",
       "place": "Bangalore"
+    },
+    "ZkUCGthU4HI": {
+      "id": "ZkUCGthU4HI",
+      "title": "What am I to do in life?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73022,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1969-04-16",
+      "format": "full-audio",
+      "place": "Paris"
     },
     "zKUdrh2Zwco": {
       "id": "zKUdrh2Zwco",
@@ -40808,6 +46079,27 @@
       "format": "full-audio",
       "place": "Saanen"
     },
+    "ZnX9y6xkzSE": {
+      "id": "ZnX9y6xkzSE",
+      "title": "A reality of a different dimension",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73029,
+      "genres": [
+        "Talk"
+      ],
+      "recorded": "1969-04-24",
+      "format": "full-audio",
+      "place": "Paris"
+    },
     "ZQGdEvhZl1U": {
       "id": "ZQGdEvhZl1U",
       "title": "What is the best way to educate a child?",
@@ -40891,6 +46183,69 @@
       "recorded": "1971-03-27",
       "format": "full-audio",
       "place": "Malibu, California"
+    },
+    "Ztffwnkn5Bo": {
+      "id": "Ztffwnkn5Bo",
+      "title": "There is no individual consciousness",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72806,
+      "genres": [
+        "Seminar"
+      ],
+      "recorded": "1981-04-03",
+      "format": "full-audio",
+      "place": "Ojai, California"
+    },
+    "ztLEMnrEE2s": {
+      "id": "ztLEMnrEE2s",
+      "title": "On attachment and love",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72789,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-07",
+      "format": "extract",
+      "place": "Ojai, California"
+    },
+    "zTSDkkwuPV0": {
+      "id": "zTSDkkwuPV0",
+      "title": "Have you ever looked with all your senses?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73183,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1984-12-16",
+      "format": "full-audio",
+      "place": "Rishi Valley"
     },
     "zu4yvjTDVjM": {
       "id": "zu4yvjTDVjM",
@@ -41081,6 +46436,27 @@
       "format": "extract",
       "place": "Brockwood Park"
     },
+    "zXbrHU0zGgo": {
+      "id": "zXbrHU0zGgo",
+      "title": "Is it possible not to be hurt?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 73048,
+      "genres": [
+        "Discussion"
+      ],
+      "recorded": "1976-11-06",
+      "format": "full-audio",
+      "place": "Rajghat"
+    },
     "ZXGMYNNs-yo": {
       "id": "ZXGMYNNs-yo",
       "title": "Life is relationship and action",
@@ -41101,6 +46477,27 @@
       "recorded": "1980-11-08",
       "format": "full-audio",
       "place": "Colombo"
+    },
+    "ZYg3G9sWBts": {
+      "id": "ZYg3G9sWBts",
+      "title": "How would you define and value the quality of modesty?",
+      "date": null,
+      "description": "",
+      "short": null,
+      "durationSec": null,
+      "src": [
+        "archive"
+      ],
+      "first": "2026-11-20T04:48:33.108Z",
+      "avail": "ok",
+      "checked": "2026-11-20T04:48:33.108Z",
+      "archive": 72795,
+      "genres": [
+        "Question & Answer"
+      ],
+      "recorded": "1981-05-12",
+      "format": "extract",
+      "place": "Ojai, California"
     },
     "zZbpYx5Xib4": {
       "id": "zZbpYx5Xib4",
