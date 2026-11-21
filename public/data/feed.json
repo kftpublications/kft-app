@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-20T04:48:33.108Z",
+  "generatedAt": "2026-11-21T04:44:57.059Z",
   "files": {
     "podcasts/uoc.json": {
       "v": "f46b294a99",
@@ -13,9 +13,9 @@
       "n": 300
     },
     "videos/kft/index.json": {
-      "v": "91dbde97fb",
-      "bytes": 237852,
-      "n": 1137
+      "v": "ad83492303",
+      "bytes": 238020,
+      "n": 1138
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -23,9 +23,9 @@
       "n": 2
     },
     "videos/kft/descriptions.json": {
-      "v": "cb9da6e129",
-      "bytes": 33655,
-      "n": 39
+      "v": "43d38fc6a5",
+      "bytes": 33787,
+      "n": 40
     },
     "videos/official/index.json": {
       "v": "392deb67cb",
@@ -63,17 +63,17 @@
       "n": 3326
     },
     "matches.json": {
-      "v": "42a6403c66",
-      "bytes": 25474,
+      "v": "f0419f0e2c",
+      "bytes": 25502,
       "n": 128
     },
     "search.json": {
-      "v": "97cbfcd3b7",
-      "bytes": 808604,
-      "n": 7351
+      "v": "f7cd6d225d",
+      "bytes": 808692,
+      "n": 7352
     },
     "coverage.json": {
-      "v": "71af24591c",
+      "v": "64785fa6ee",
       "bytes": 951,
       "n": 3326
     }
@@ -81,7 +81,7 @@
   "counts": {
     "uoc": 306,
     "collection": 300,
-    "kft": 1137,
+    "kft": 1138,
     "kftShorts": 15,
     "official": 2219,
     "other": 1,
@@ -376,6 +376,16 @@
   "videos": {
     "kftChannel": [
       {
+        "id": "MaGoZXu5EIw",
+        "title": "What is the source of all energy?",
+        "date": "2026-11-20",
+        "thumbnail": "https://i.ytimg.com/vi/MaGoZXu5EIw/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
+      },
+      {
         "id": "M_S7kS2e17I",
         "title": "To understand pleasure",
         "date": "2026-11-19",
@@ -460,16 +470,6 @@
         "title": "We are afraid to be free of mediocrity",
         "date": "2026-11-12",
         "thumbnail": "https://i.ytimg.com/vi/WrmdS6-wbVQ/mqdefault.jpg",
-        "kind": "short",
-        "format": "extract",
-        "short": true,
-        "channel": "kft"
-      },
-      {
-        "id": "YQQyjwwyUvg",
-        "title": "Is relationship an escape from loneliness?",
-        "date": "2026-11-11",
-        "thumbnail": "https://i.ytimg.com/vi/YQQyjwwyUvg/mqdefault.jpg",
         "kind": "short",
         "format": "extract",
         "short": true,
@@ -580,12 +580,6 @@
     ]
   },
   "retreats": [
-    {
-      "promo": 72322,
-      "name": "Young Adults Retreat",
-      "start": "2026-11-20",
-      "nights": 4
-    },
     {
       "promo": 72330,
       "name": "Group Retreat",

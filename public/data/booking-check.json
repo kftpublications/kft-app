@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "resultSince": "2026-11-17T05:04:31.829Z",
+  "resultSince": "2026-11-21T04:45:48.642Z",
   "deepChecked": false,
-  "retreats": 25,
-  "passed": 25,
+  "retreats": 24,
+  "passed": 24,
   "failed": 0,
   "pages": {
     "home": {
@@ -18,17 +18,6 @@
     }
   },
   "results": [
-    {
-      "promo": 72322,
-      "name": "Young Adults Retreat",
-      "start": "2026-11-20",
-      "nights": 4,
-      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/72322?start_date=2026-11-20&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=72322",
-      "checks": {
-        "promotion": "ok"
-      },
-      "ok": true
-    },
     {
       "promo": 72330,
       "name": "Group Retreat",
