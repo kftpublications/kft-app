@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-21T04:44:57.059Z",
+  "generatedAt": "2026-11-22T04:46:59.440Z",
   "files": {
     "podcasts/uoc.json": {
       "v": "f46b294a99",
@@ -8,14 +8,14 @@
       "n": 306
     },
     "podcasts/collection.json": {
-      "v": "7fc6966984",
-      "bytes": 906664,
-      "n": 300
+      "v": "b5f6dd5070",
+      "bytes": 925304,
+      "n": 306
     },
     "videos/kft/index.json": {
-      "v": "ad83492303",
-      "bytes": 238020,
-      "n": 1138
+      "v": "684420e9b9",
+      "bytes": 238175,
+      "n": 1139
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -23,9 +23,9 @@
       "n": 2
     },
     "videos/kft/descriptions.json": {
-      "v": "43d38fc6a5",
-      "bytes": 33787,
-      "n": 40
+      "v": "433265d22b",
+      "bytes": 33953,
+      "n": 41
     },
     "videos/official/index.json": {
       "v": "392deb67cb",
@@ -63,31 +63,31 @@
       "n": 3326
     },
     "matches.json": {
-      "v": "f0419f0e2c",
-      "bytes": 25502,
-      "n": 128
+      "v": "f7f85e0442",
+      "bytes": 26082,
+      "n": 131
     },
     "search.json": {
-      "v": "f7cd6d225d",
-      "bytes": 808692,
-      "n": 7352
+      "v": "ad7057c0fb",
+      "bytes": 809598,
+      "n": 7360
     },
     "coverage.json": {
-      "v": "64785fa6ee",
+      "v": "5babf5b5ae",
       "bytes": 951,
       "n": 3326
     }
   },
   "counts": {
     "uoc": 306,
-    "collection": 300,
-    "kft": 1138,
-    "kftShorts": 15,
+    "collection": 306,
+    "kft": 1139,
+    "kftShorts": 16,
     "official": 2219,
     "other": 1,
     "archive": 3326,
     "archiveWithVideo": 3326,
-    "matches": 128
+    "matches": 131
   },
   "podcasts": {
     "urgencyOfChange": {
@@ -221,6 +221,96 @@
       "image": "https://pbcdn1.podbean.com/imglogo/image-logo/22322522/The_Krishnamurti_Collection_-_Smallbqqkw.jpg",
       "episodes": [
         {
+          "key": "c306",
+          "id": "krishnamurticollection.podbean.com/ecfae76c-1e5b-3173-a690-3cec84d53b7f",
+          "number": 306,
+          "title": "306 • Brockwood Park 1969 (6/6) • Talk 4: Meditation Is the Beginning of Understanding Oneself",
+          "date": "2026-11-21T06:00:00.000Z",
+          "durationSec": 5129,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/vmwmjxcwqc4883ej/0306_9KC3_690914_J_Krishnamurti_BR69T4bozmp.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/306-%e2%80%a2-brockwood-park-1969-66-%e2%80%a2-talk-4-meditation-is-the-beginning-of-understanding-oneself/",
+          "description": "Krishnamurti: Understanding Ourselves\n\nBrockwood Park 1969, Public Meetings\n\n6/6: Meditation Is the Beginning of Understanding Oneself\n\nMeditation and systems.\n\nOne can only observe when there is no image through which one is looking.\n\nWhen I look at myself, is the observer…",
+          "series": "Brockwood Park 1969",
+          "seriesId": "brockwood-park-1969-301",
+          "part": 6,
+          "parts": 6
+        },
+        {
+          "key": "c305",
+          "id": "krishnamurticollection.podbean.com/713d35fa-e97f-3da4-94b8-7730c3ff837f",
+          "number": 305,
+          "title": "305 • Brockwood Park 1969 (5/6) • Talk 3: Knowing What Love Is",
+          "date": "2026-11-21T06:00:00.000Z",
+          "durationSec": 4283,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/ihacwzs2nk9e7gvg/0305_8DNT_690913_J_Krishnamurti_BR69T38gl3x.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/305-%e2%80%a2-brockwood-park-1969-56-%e2%80%a2-talk-3-knowing-what-love-is/",
+          "description": "Krishnamurti: Understanding Ourselves\n\nBrockwood Park 1969, Public Meetings\n\n5/6: Knowing What Love Is\n\nMost of us are seeking some kind of deep significance or meaning to life.\n\nHonesty is to see exactly ‘what is’ without any distortion outwardly and inwardly.\n\nLove is not…",
+          "series": "Brockwood Park 1969",
+          "seriesId": "brockwood-park-1969-301",
+          "part": 5,
+          "parts": 6
+        },
+        {
+          "key": "c304",
+          "id": "krishnamurticollection.podbean.com/0ae5eecd-32bf-3667-a28d-f1ab783c37c5",
+          "number": 304,
+          "title": "304 • Brockwood Park 1969 (4/6) • Discussion 2: Can I Live Completely Without Resistance?",
+          "date": "2026-11-21T06:00:00.000Z",
+          "durationSec": 5078,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/i42irsp74z2gbyf8/0304_7NWS_690911_J_Krishnamurti_BR69D2bn4yw.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/304-%e2%80%a2-brockwood-park-1969-46-%e2%80%a2-discussion-2-can-i-live-completely-without-resistance/",
+          "description": "Krishnamurti: Understanding Ourselves\n\nBrockwood Park 1969, Discussions\n\n4/6: Can I Live Completely Without Resistance?\n\nIs it a fact that resistance is a wastage of energy?\n\nAny form of conclusion or opinion is a resistance, and divides people.\n\nI recognise I am resisting and I…",
+          "series": "Brockwood Park 1969",
+          "seriesId": "brockwood-park-1969-301",
+          "part": 4,
+          "parts": 6
+        },
+        {
+          "key": "c303",
+          "id": "krishnamurticollection.podbean.com/82de5c6b-848b-3fcb-a14a-62e2356fbace",
+          "number": 303,
+          "title": "303 • Brockwood Park 1969 (3/6) • Discussion 1: How Am I to Become Extraordinarily Alert?",
+          "date": "2026-11-21T06:00:00.000Z",
+          "durationSec": 4737,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/cr49mbdesk9ki5xn/0303_6UOC_690909_J_Krishnamurti_BR69D1aedm7.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/303-%e2%80%a2-brockwood-park-1969-36-%e2%80%a2-discussion-1-how-am-i-to-become-extraordinarily-alert/",
+          "description": "Krishnamurti: Understanding Ourselves\n\nBrockwood Park 1969, Discussions\n\n3/6: How Am I to Become Extraordinarily Alert?\n\nCan I, being somewhat neurotic, look at myself?\n\nWhy should I take a drug when there is a much more direct, simple way of looking at myself, which is in my…",
+          "series": "Brockwood Park 1969",
+          "seriesId": "brockwood-park-1969-301",
+          "part": 3,
+          "parts": 6
+        },
+        {
+          "key": "c302",
+          "id": "krishnamurticollection.podbean.com/1b545e5a-2dd7-3d69-9bd9-2f751c2ebce3",
+          "number": 302,
+          "title": "302 • Brockwood Park 1969 (2/6) • Talk 2: Why Are We Not Completely Aware of the Psychological Dangers in Which We Live?",
+          "date": "2026-11-21T06:00:00.000Z",
+          "durationSec": 4216,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/7xedtvzsnipbhz5s/0302_5SMD_690907_J_Krishnamurti_BR69T275h14.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/302-%e2%80%a2-brockwood-park-1969-26-%e2%80%a2-talk-2-why-are-we-not-completely-aware-of-the-psychological-dangers-in-which-we-live/",
+          "description": "Krishnamurti: Understanding Ourselves\n\nBrockwood Park 1969, Public Meetings\n\n2/6: Why Are We Not Completely Aware of the Psychological Dangers in Which We Live?\n\nThe talk starts with a short introduction about the newly created school at Brockwood Park.\n\nOne of our major…",
+          "series": "Brockwood Park 1969",
+          "seriesId": "brockwood-park-1969-301",
+          "part": 2,
+          "parts": 6
+        },
+        {
+          "key": "c301",
+          "id": "krishnamurticollection.podbean.com/187c0cda-472a-3e93-b8e8-ad7b89a81191",
+          "number": 301,
+          "title": "301 • Brockwood Park 1969 (1/6) • Talk 1: Living Without Resistance",
+          "date": "2026-11-21T06:00:00.000Z",
+          "durationSec": 3546,
+          "audioUrl": "https://mcdn.podbean.com/mf/web/k5wsdbbcdsvqfr95/0301_4KC2_690906_J_Krishnamurti_BR69T1bwgcr.mp3",
+          "link": "https://krishnamurticollection.podbean.com/e/301-%e2%80%a2-brockwood-park-1969-16-%e2%80%a2-talk-1-living-without-resistance/",
+          "description": "Krishnamurti: Understanding Ourselves\n\nBrockwood Park 1969, Public Meetings\n\n1/6: Living Without Resistance\n\nIs it possible for human beings to find out if they can live in a state of non-duality?\n\nThe very nature of thought is to divide, bring about fragmentation as the…",
+          "series": "Brockwood Park 1969",
+          "seriesId": "brockwood-park-1969-301",
+          "part": 1,
+          "parts": 6
+        },
+        {
           "key": "c300",
           "id": "krishnamurticollection.podbean.com/c791972b-4e79-3b9e-8f1b-0b9257b5a7ad",
           "number": 300,
@@ -279,102 +369,22 @@
           "seriesId": "ojai-1984-294",
           "part": 4,
           "parts": 6
-        },
-        {
-          "key": "c296",
-          "id": "krishnamurticollection.podbean.com/f7aa80cf-f737-33ac-a6df-6e1e9a7be31a",
-          "number": 296,
-          "title": "296 • Ojai 1984 (3/6) • Question & Answer Meeting 1: 1st Question & Answer Meeting",
-          "date": "2026-11-07T06:00:00.000Z",
-          "durationSec": 4607,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/6g6scvtthv367whj/0296_8DNT_05_OJ84Q1_-_Ojai_1984_-_Public_Q_A_1bdzfx.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/296-%e2%80%a2-ojai-1984-36-%e2%80%a2-question-answer-meeting-1-1st-question-answer-meeting/",
-          "description": "Krishnamurti: Attention and Order\n\nOjai 1984, Public Meetings\n\n3/6: 1st Question & Answer Meeting\n\nQ1: I understand that all people have a similar consciousness, but it seems a vast jump to say that all people share the same consciousness.\n\nQ2: Have you designated a special…",
-          "series": "Ojai 1984",
-          "seriesId": "ojai-1984-294",
-          "part": 3,
-          "parts": 6
-        },
-        {
-          "key": "c295",
-          "id": "krishnamurticollection.podbean.com/851ebc8e-7f4d-3e8d-a5f2-1c9a0a4a40ac",
-          "number": 295,
-          "title": "295 • Ojai 1984 (2/6) • Talk 2: What Is Wrong with Pleasure?",
-          "date": "2026-11-07T06:00:00.000Z",
-          "durationSec": 3973,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/46nzf5e5yxbsifra/0295_7NWS_02_OJ84T2_-_Ojai_1984_-_Public_Talk_2_-_What_is_wrong_with_pleasure9xobm.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/295-%e2%80%a2-ojai-1984-26-%e2%80%a2-talk-2-what-is-wrong-with-pleasure/",
-          "description": "Krishnamurti: Attention and Order\n\nOjai 1984, Public Meetings\n\n2/6: What Is Wrong with Pleasure?\n\nWhat is order?\n\nLearning implies a constant movement, observation without a motive.\n\nWhy have I sought pleasure all my life? What is wrong with pleasure?\n\nCan fear ever end or must…",
-          "series": "Ojai 1984",
-          "seriesId": "ojai-1984-294",
-          "part": 2,
-          "parts": 6
-        },
-        {
-          "key": "c294",
-          "id": "krishnamurticollection.podbean.com/944947da-6e5e-3202-8362-9494fa6da1e3",
-          "number": 294,
-          "title": "294 • Ojai 1984 (1/6) • Talk 1: Truth Is the Catalyst to End Conflict",
-          "date": "2026-11-07T06:00:00.000Z",
-          "durationSec": 5019,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/snuwj82fsrbh6uyv/0294_6UOC_01_OJ84T1_-_Ojai_1984_-_Public_Talk_1_-_Truth_is_the_catalyst_to_end_conflict9uxmm.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/294-%e2%80%a2-ojai-1984-16-%e2%80%a2-talk-1-truth-is-the-catalyst-to-end-conflict/",
-          "description": "Krishnamurti: Attention and Order\n\nOjai 1984, Public Meetings\n\n1/6: Truth Is the Catalyst to End Conflict\n\nWe are going to question everything, including what the speaker is saying.\n\nIf you are dissatisfied, not in revolt, with all the things that man has put together, then you…",
-          "series": "Ojai 1984",
-          "seriesId": "ojai-1984-294",
-          "part": 1,
-          "parts": 6
-        },
-        {
-          "key": "c293",
-          "id": "krishnamurticollection.podbean.com/2140d716-be07-3a58-867d-f815e01e404f",
-          "number": 293,
-          "title": "293 • Santa Cruz 1969 (4/4) • Students Talk 4: Putting Aside All Seeking; Understanding Oneself",
-          "date": "2026-10-31T06:00:00.000Z",
-          "durationSec": 6464,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/r8kgsqqaphrw6a2s/0293_5SMD_04_SZ69TYP4_-_Santa_Cruz_1969_-_Students_Talk_4_-_Putting_aside_all_seeking_understanding_oneselfbnt9c.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/293-%e2%80%a2-santa-cruz-1969-44-%e2%80%a2-students-talk-4-putting-aside-all-seeking-understanding-oneself/",
-          "description": "Krishnamurti: The Enlightenment of Understanding Oneself\n\nSanta Cruz 1969, Students Talks\n\n4/4: Putting Aside All Seeking; Understanding Oneself\n\nWhat does it mean to seek?\n\nCan I know myself?\n\nQ: Does denying the false imply effort and striving?\n\nWhat is the hidden part of me?…",
-          "series": "Santa Cruz 1969",
-          "seriesId": "santa-cruz-1969-290",
-          "part": 4,
-          "parts": 4
-        },
-        {
-          "key": "c292",
-          "id": "krishnamurticollection.podbean.com/09ce829c-4364-33f3-879b-c433535ba37b",
-          "number": 292,
-          "title": "292 • Santa Cruz 1969 (3/4) • Students Talk 3: The Purpose of Life; Asking the Impossible",
-          "date": "2026-10-31T06:00:00.000Z",
-          "durationSec": 5455,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/pfj3yqvu54ur7xiy/0292_4KC2_03_SZ69TYP3_-_Santa_Cruz_1969_-_Students_Talk_3_-_The_purpose_of_life_asking_the_impossiblea73gb.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/292-%e2%80%a2-santa-cruz-1969-34-%e2%80%a2-students-talk-3-the-purpose-of-life-asking-the-impossible/",
-          "description": "Krishnamurti: The Enlightenment of Understanding Oneself\n\nSanta Cruz 1969, Students Talks\n\n3/4: The Purpose of Life; Asking the Impossible\n\nCan one take part in the whole of life?\n\nWhat is the purpose of all existence?\n\nTo find out what is possible, one must find out what is…",
-          "series": "Santa Cruz 1969",
-          "seriesId": "santa-cruz-1969-290",
-          "part": 3,
-          "parts": 4
-        },
-        {
-          "key": "c291",
-          "id": "krishnamurticollection.podbean.com/ce45e8cb-fec9-3fab-b99e-4908ab0546c6",
-          "number": 291,
-          "title": "291 • Santa Cruz 1969 (2/4) • Students Talk 2: Is Fear Something Separate from the Observer?",
-          "date": "2026-10-31T06:00:00.000Z",
-          "durationSec": 5231,
-          "audioUrl": "https://mcdn.podbean.com/mf/web/chj4sgsrcxs4smxk/0291_3KFT_02_SZ69TYP2_-_Santa_Cruz_1969_-_Students_Talk_2_-_Is_fear_something_separate_from_the_observer_airl8.mp3",
-          "link": "https://krishnamurticollection.podbean.com/e/291-%e2%80%a2-santa-cruz-1969-24-%e2%80%a2-students-talk-2-is-fear-something-separate-from-the-observer/",
-          "description": "Krishnamurti: The Enlightenment of Understanding Oneself\n\nSanta Cruz 1969, Students Talks\n\n2/4: Is Fear Something Separate from the Observer?\n\nAre the thinker and thought different from fear?\n\nCan fear be dissipated through analysis?\n\nThe fact is I am violent. Why do I have an…",
-          "series": "Santa Cruz 1969",
-          "seriesId": "santa-cruz-1969-290",
-          "part": 2,
-          "parts": 4
         }
       ]
     }
   },
   "videos": {
     "kftChannel": [
+      {
+        "id": "_idmgjxWxfw",
+        "title": "Desire causes conflict",
+        "date": "2026-11-21",
+        "thumbnail": "https://i.ytimg.com/vi/_idmgjxWxfw/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
+      },
       {
         "id": "MaGoZXu5EIw",
         "title": "What is the source of all energy?",
@@ -463,16 +473,6 @@
         "kind": "extract",
         "format": "extract",
         "short": false,
-        "channel": "kft"
-      },
-      {
-        "id": "WrmdS6-wbVQ",
-        "title": "We are afraid to be free of mediocrity",
-        "date": "2026-11-12",
-        "thumbnail": "https://i.ytimg.com/vi/WrmdS6-wbVQ/mqdefault.jpg",
-        "kind": "short",
-        "format": "extract",
-        "short": true,
         "channel": "kft"
       }
     ],
