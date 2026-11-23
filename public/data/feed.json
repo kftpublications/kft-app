@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-22T04:46:59.440Z",
+  "generatedAt": "2026-11-23T05:00:21.763Z",
   "files": {
     "podcasts/uoc.json": {
       "v": "f46b294a99",
@@ -13,9 +13,9 @@
       "n": 306
     },
     "videos/kft/index.json": {
-      "v": "684420e9b9",
-      "bytes": 238175,
-      "n": 1139
+      "v": "e306bdc9a2",
+      "bytes": 238347,
+      "n": 1140
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -23,9 +23,9 @@
       "n": 2
     },
     "videos/kft/descriptions.json": {
-      "v": "433265d22b",
-      "bytes": 33953,
-      "n": 41
+      "v": "d74639de89",
+      "bytes": 34096,
+      "n": 42
     },
     "videos/official/index.json": {
       "v": "392deb67cb",
@@ -63,17 +63,17 @@
       "n": 3326
     },
     "matches.json": {
-      "v": "f7f85e0442",
-      "bytes": 26082,
+      "v": "a56b55c522",
+      "bytes": 26110,
       "n": 131
     },
     "search.json": {
-      "v": "ad7057c0fb",
-      "bytes": 809598,
-      "n": 7360
+      "v": "99bd2ec9db",
+      "bytes": 809690,
+      "n": 7361
     },
     "coverage.json": {
-      "v": "5babf5b5ae",
+      "v": "92acde20ef",
       "bytes": 951,
       "n": 3326
     }
@@ -81,7 +81,7 @@
   "counts": {
     "uoc": 306,
     "collection": 306,
-    "kft": 1139,
+    "kft": 1140,
     "kftShorts": 16,
     "official": 2219,
     "other": 1,
@@ -376,6 +376,16 @@
   "videos": {
     "kftChannel": [
       {
+        "id": "jyvWhsliO_4",
+        "title": "I won’t escape through sex or drugs",
+        "date": "2026-11-22",
+        "thumbnail": "https://i.ytimg.com/vi/jyvWhsliO_4/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
+      },
+      {
         "id": "_idmgjxWxfw",
         "title": "Desire causes conflict",
         "date": "2026-11-21",
@@ -463,16 +473,6 @@
         "kind": "short",
         "format": "extract",
         "short": true,
-        "channel": "kft"
-      },
-      {
-        "id": "wwt2bQcVykc",
-        "title": "Are you carrying the burden of occupation?",
-        "date": "2026-11-13",
-        "thumbnail": "https://i.ytimg.com/vi/wwt2bQcVykc/mqdefault.jpg",
-        "kind": "extract",
-        "format": "extract",
-        "short": false,
         "channel": "kft"
       }
     ],
