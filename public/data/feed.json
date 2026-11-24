@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-23T05:00:21.763Z",
+  "generatedAt": "2026-11-24T04:54:04.614Z",
   "files": {
     "podcasts/uoc.json": {
       "v": "f46b294a99",
@@ -13,9 +13,9 @@
       "n": 306
     },
     "videos/kft/index.json": {
-      "v": "e306bdc9a2",
-      "bytes": 238347,
-      "n": 1140
+      "v": "15c74d2b6c",
+      "bytes": 238512,
+      "n": 1141
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -23,9 +23,9 @@
       "n": 2
     },
     "videos/kft/descriptions.json": {
-      "v": "d74639de89",
-      "bytes": 34096,
-      "n": 42
+      "v": "6021519dd9",
+      "bytes": 34282,
+      "n": 43
     },
     "videos/official/index.json": {
       "v": "392deb67cb",
@@ -63,17 +63,17 @@
       "n": 3326
     },
     "matches.json": {
-      "v": "a56b55c522",
-      "bytes": 26110,
+      "v": "29b7d276ce",
+      "bytes": 26138,
       "n": 131
     },
     "search.json": {
-      "v": "99bd2ec9db",
-      "bytes": 809690,
-      "n": 7361
+      "v": "d48fd19223",
+      "bytes": 809775,
+      "n": 7362
     },
     "coverage.json": {
-      "v": "92acde20ef",
+      "v": "5ae91b469b",
       "bytes": 951,
       "n": 3326
     }
@@ -81,8 +81,8 @@
   "counts": {
     "uoc": 306,
     "collection": 306,
-    "kft": 1140,
-    "kftShorts": 16,
+    "kft": 1141,
+    "kftShorts": 17,
     "official": 2219,
     "other": 1,
     "archive": 3326,
@@ -376,6 +376,16 @@
   "videos": {
     "kftChannel": [
       {
+        "id": "BT-Hdyukqtc",
+        "title": "Perception empties consciousness",
+        "date": "2026-11-23",
+        "thumbnail": "https://i.ytimg.com/vi/BT-Hdyukqtc/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
+      },
+      {
         "id": "jyvWhsliO_4",
         "title": "I won’t escape through sex or drugs",
         "date": "2026-11-22",
@@ -463,16 +473,6 @@
         "kind": "extract",
         "format": "extract",
         "short": false,
-        "channel": "kft"
-      },
-      {
-        "id": "k05pL2MkeHg",
-        "title": "What do we mean by change?",
-        "date": "2026-11-14",
-        "thumbnail": "https://i.ytimg.com/vi/k05pL2MkeHg/mqdefault.jpg",
-        "kind": "short",
-        "format": "extract",
-        "short": true,
         "channel": "kft"
       }
     ],
