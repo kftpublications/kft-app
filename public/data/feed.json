@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-24T04:54:04.614Z",
+  "generatedAt": "2026-11-25T04:56:27.519Z",
   "files": {
     "podcasts/uoc.json": {
-      "v": "f46b294a99",
-      "bytes": 733122,
+      "v": "6ff68ab5ea",
+      "bytes": 733192,
       "n": 306
     },
     "podcasts/collection.json": {
@@ -13,9 +13,9 @@
       "n": 306
     },
     "videos/kft/index.json": {
-      "v": "15c74d2b6c",
-      "bytes": 238512,
-      "n": 1141
+      "v": "d8bf81eba8",
+      "bytes": 238688,
+      "n": 1142
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -23,14 +23,14 @@
       "n": 2
     },
     "videos/kft/descriptions.json": {
-      "v": "6021519dd9",
-      "bytes": 34282,
-      "n": 43
+      "v": "adb3d13efc",
+      "bytes": 34421,
+      "n": 44
     },
     "videos/official/index.json": {
-      "v": "392deb67cb",
-      "bytes": 486642,
-      "n": 2219
+      "v": "2fee78f33e",
+      "bytes": 486854,
+      "n": 2220
     },
     "videos/official/playlists.json": {
       "v": "87b0b3d58b",
@@ -38,9 +38,9 @@
       "n": 12
     },
     "videos/official/descriptions.json": {
-      "v": "4d143c4245",
-      "bytes": 87774,
-      "n": 131
+      "v": "dfe0b7921b",
+      "bytes": 88360,
+      "n": 132
     },
     "videos/other/index.json": {
       "v": "b1b4246ede",
@@ -63,17 +63,17 @@
       "n": 3326
     },
     "matches.json": {
-      "v": "29b7d276ce",
-      "bytes": 26138,
+      "v": "726a353d0d",
+      "bytes": 26166,
       "n": 131
     },
     "search.json": {
-      "v": "d48fd19223",
-      "bytes": 809775,
-      "n": 7362
+      "v": "f6761ea1d4",
+      "bytes": 810022,
+      "n": 7364
     },
     "coverage.json": {
-      "v": "5ae91b469b",
+      "v": "d097cdbc5d",
       "bytes": 951,
       "n": 3326
     }
@@ -81,9 +81,9 @@
   "counts": {
     "uoc": 306,
     "collection": 306,
-    "kft": 1141,
-    "kftShorts": 17,
-    "official": 2219,
+    "kft": 1142,
+    "kftShorts": 18,
+    "official": 2220,
     "other": 1,
     "archive": 3326,
     "archiveWithVideo": 3326,
@@ -376,6 +376,16 @@
   "videos": {
     "kftChannel": [
       {
+        "id": "xauybr7leF8",
+        "title": "Are human beings programmed like computers?",
+        "date": "2026-11-24",
+        "thumbnail": "https://i.ytimg.com/vi/xauybr7leF8/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
+      },
+      {
         "id": "BT-Hdyukqtc",
         "title": "Perception empties consciousness",
         "date": "2026-11-23",
@@ -464,19 +474,19 @@
         "format": "extract",
         "short": true,
         "channel": "kft"
-      },
-      {
-        "id": "D2yzpTDRYxY",
-        "title": "Space means silence",
-        "date": "2026-11-15",
-        "thumbnail": "https://i.ytimg.com/vi/D2yzpTDRYxY/mqdefault.jpg",
-        "kind": "extract",
-        "format": "extract",
-        "short": false,
-        "channel": "kft"
       }
     ],
     "officialChannel": [
+      {
+        "id": "y-SHooYLhq4",
+        "title": "J. Krishnamurti - Rome 1968 - Public Talk 2 - To be free of violence, understand fear...",
+        "date": "2026-11-24",
+        "thumbnail": "https://i.ytimg.com/vi/y-SHooYLhq4/mqdefault.jpg",
+        "kind": "full",
+        "format": "audio",
+        "short": false,
+        "channel": "official"
+      },
       {
         "id": "I8mtfyThRAA",
         "title": "Listening with a quiet brain",
@@ -564,16 +574,6 @@
         "thumbnail": "https://i.ytimg.com/vi/qOv5_SzWx0Q/mqdefault.jpg",
         "kind": "extract",
         "format": "extract",
-        "short": false,
-        "channel": "official"
-      },
-      {
-        "id": "w1BbGwCjzAE",
-        "title": "J. Krishnamurti - Paris 1965 - Public Talk 3 - Seeing the limitations of pleasure and desire",
-        "date": "2026-10-20",
-        "thumbnail": "https://i.ytimg.com/vi/w1BbGwCjzAE/mqdefault.jpg",
-        "kind": "full",
-        "format": "audio",
         "short": false,
         "channel": "official"
       }
