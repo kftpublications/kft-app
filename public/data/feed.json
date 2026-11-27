@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-26T04:55:03.129Z",
+  "generatedAt": "2026-11-27T04:54:48.501Z",
   "files": {
     "podcasts/uoc.json": {
       "v": "6ff68ab5ea",
@@ -13,9 +13,9 @@
       "n": 306
     },
     "videos/kft/index.json": {
-      "v": "0c827123b9",
-      "bytes": 238838,
-      "n": 1143
+      "v": "a71c46fd2b",
+      "bytes": 239009,
+      "n": 1144
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -23,9 +23,9 @@
       "n": 2
     },
     "videos/kft/descriptions.json": {
-      "v": "5c1c5d375f",
-      "bytes": 34569,
-      "n": 45
+      "v": "0607bc944c",
+      "bytes": 34731,
+      "n": 46
     },
     "videos/official/index.json": {
       "v": "2fee78f33e",
@@ -63,17 +63,17 @@
       "n": 3326
     },
     "matches.json": {
-      "v": "a15131dd9b",
-      "bytes": 26194,
+      "v": "a570deb8c3",
+      "bytes": 26222,
       "n": 131
     },
     "search.json": {
-      "v": "d872d6339d",
-      "bytes": 810092,
-      "n": 7365
+      "v": "82ddff4557",
+      "bytes": 810183,
+      "n": 7366
     },
     "coverage.json": {
-      "v": "ee70eb23e6",
+      "v": "726f98835d",
       "bytes": 951,
       "n": 3326
     }
@@ -81,8 +81,8 @@
   "counts": {
     "uoc": 306,
     "collection": 306,
-    "kft": 1143,
-    "kftShorts": 19,
+    "kft": 1144,
+    "kftShorts": 20,
     "official": 2220,
     "other": 1,
     "archive": 3326,
@@ -376,6 +376,16 @@
   "videos": {
     "kftChannel": [
       {
+        "id": "xZf5JA-qEaE",
+        "title": "The importance given to the individual",
+        "date": "2026-11-26",
+        "thumbnail": "https://i.ytimg.com/vi/xZf5JA-qEaE/mqdefault.jpg",
+        "kind": "short",
+        "format": "extract",
+        "short": true,
+        "channel": "kft"
+      },
+      {
         "id": "7MhAZZ2Et2A",
         "title": "What is pleasure?",
         "date": "2026-11-25",
@@ -463,16 +473,6 @@
         "kind": "extract",
         "format": "extract",
         "short": false,
-        "channel": "kft"
-      },
-      {
-        "id": "dlUg-mgdSEU",
-        "title": "The brain demands security",
-        "date": "2026-11-17",
-        "thumbnail": "https://i.ytimg.com/vi/dlUg-mgdSEU/mqdefault.jpg",
-        "kind": "short",
-        "format": "extract",
-        "short": true,
         "channel": "kft"
       }
     ],
