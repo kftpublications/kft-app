@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-27T04:54:48.501Z",
+  "generatedAt": "2026-11-28T04:49:52.667Z",
   "files": {
     "podcasts/uoc.json": {
       "v": "6ff68ab5ea",
@@ -13,9 +13,9 @@
       "n": 306
     },
     "videos/kft/index.json": {
-      "v": "a71c46fd2b",
-      "bytes": 239009,
-      "n": 1144
+      "v": "95a1f28fca",
+      "bytes": 239945,
+      "n": 1149
     },
     "videos/kft/playlists.json": {
       "v": "beacdc4dcd",
@@ -23,9 +23,9 @@
       "n": 2
     },
     "videos/kft/descriptions.json": {
-      "v": "0607bc944c",
-      "bytes": 34731,
-      "n": 46
+      "v": "810329aeb6",
+      "bytes": 41370,
+      "n": 51
     },
     "videos/official/index.json": {
       "v": "2fee78f33e",
@@ -63,17 +63,17 @@
       "n": 3326
     },
     "matches.json": {
-      "v": "a570deb8c3",
-      "bytes": 26222,
+      "v": "5076bca54b",
+      "bytes": 26250,
       "n": 131
     },
     "search.json": {
-      "v": "82ddff4557",
-      "bytes": 810183,
-      "n": 7366
+      "v": "52a9faaba0",
+      "bytes": 810827,
+      "n": 7371
     },
     "coverage.json": {
-      "v": "726f98835d",
+      "v": "e45cce2ea4",
       "bytes": 951,
       "n": 3326
     }
@@ -81,7 +81,7 @@
   "counts": {
     "uoc": 306,
     "collection": 306,
-    "kft": 1144,
+    "kft": 1149,
     "kftShorts": 20,
     "official": 2220,
     "other": 1,
@@ -376,6 +376,56 @@
   "videos": {
     "kftChannel": [
       {
+        "id": "My1eisRaHHM",
+        "title": "Urgency of Change - The Krishnamurti Podcast - Ep. 310 - Krishnamurti on The Conditioned Mind",
+        "date": "2026-11-27",
+        "thumbnail": "https://i.ytimg.com/vi/My1eisRaHHM/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
+      },
+      {
+        "id": "zLsUagi9x4Q",
+        "title": "Urgency of Change - The Krishnamurti Podcast - Ep. 309 - Krishnamurti on Inertia & Laziness",
+        "date": "2026-11-27",
+        "thumbnail": "https://i.ytimg.com/vi/zLsUagi9x4Q/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
+      },
+      {
+        "id": "q6MFFszDNxM",
+        "title": "Urgency of Change - The Krishnamurti Podcast - Ep. 308 - Krishnamurti on The Unknown",
+        "date": "2026-11-27",
+        "thumbnail": "https://i.ytimg.com/vi/q6MFFszDNxM/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
+      },
+      {
+        "id": "zIhRXVwQsiE",
+        "title": "Urgency of Change - The Krishnamurti Podcast - Ep. 307 - Krishnamurti on Logic & Reason",
+        "date": "2026-11-27",
+        "thumbnail": "https://i.ytimg.com/vi/zIhRXVwQsiE/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
+      },
+      {
+        "id": "hrshEhOZiDE",
+        "title": "What is sleep?",
+        "date": "2026-11-27",
+        "thumbnail": "https://i.ytimg.com/vi/hrshEhOZiDE/mqdefault.jpg",
+        "kind": "extract",
+        "format": "extract",
+        "short": false,
+        "channel": "kft"
+      },
+      {
         "id": "xZf5JA-qEaE",
         "title": "The importance given to the individual",
         "date": "2026-11-26",
@@ -420,56 +470,6 @@
         "title": "I won’t escape through sex or drugs",
         "date": "2026-11-22",
         "thumbnail": "https://i.ytimg.com/vi/jyvWhsliO_4/mqdefault.jpg",
-        "kind": "extract",
-        "format": "extract",
-        "short": false,
-        "channel": "kft"
-      },
-      {
-        "id": "_idmgjxWxfw",
-        "title": "Desire causes conflict",
-        "date": "2026-11-21",
-        "thumbnail": "https://i.ytimg.com/vi/_idmgjxWxfw/mqdefault.jpg",
-        "kind": "short",
-        "format": "extract",
-        "short": true,
-        "channel": "kft"
-      },
-      {
-        "id": "MaGoZXu5EIw",
-        "title": "What is the source of all energy?",
-        "date": "2026-11-20",
-        "thumbnail": "https://i.ytimg.com/vi/MaGoZXu5EIw/mqdefault.jpg",
-        "kind": "extract",
-        "format": "extract",
-        "short": false,
-        "channel": "kft"
-      },
-      {
-        "id": "M_S7kS2e17I",
-        "title": "To understand pleasure",
-        "date": "2026-11-19",
-        "thumbnail": "https://i.ytimg.com/vi/M_S7kS2e17I/mqdefault.jpg",
-        "kind": "short",
-        "format": "extract",
-        "short": true,
-        "channel": "kft"
-      },
-      {
-        "id": "fAhBHUU65Ck",
-        "title": "A change of direction or dimension",
-        "date": "2026-11-18",
-        "thumbnail": "https://i.ytimg.com/vi/fAhBHUU65Ck/mqdefault.jpg",
-        "kind": "short",
-        "format": "extract",
-        "short": true,
-        "channel": "kft"
-      },
-      {
-        "id": "TNiE3F-dBu8",
-        "title": "Urgency of Change - The Krishnamurti Podcast - Ep. 306 - Krishnamurti on Totality",
-        "date": "2026-11-18",
-        "thumbnail": "https://i.ytimg.com/vi/TNiE3F-dBu8/mqdefault.jpg",
         "kind": "extract",
         "format": "extract",
         "short": false,
@@ -583,8 +583,8 @@
     {
       "promo": 72330,
       "name": "Group Retreat",
-      "start": "2026-11-27",
-      "nights": 4
+      "start": "2026-11-28",
+      "nights": 1
     },
     {
       "promo": 75544,

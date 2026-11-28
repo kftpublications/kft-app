@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "resultSince": "2026-11-21T04:45:48.642Z",
+  "resultSince": "2026-11-28T04:50:46.691Z",
   "deepChecked": false,
   "retreats": 24,
   "passed": 24,
@@ -21,9 +21,9 @@
     {
       "promo": 72330,
       "name": "Group Retreat",
-      "start": "2026-11-27",
-      "nights": 4,
-      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/72330?start_date=2026-11-27&nights=4&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=72330",
+      "start": "2026-11-28",
+      "nights": 1,
+      "url": "https://krishnamurticentre.innstyle.co.uk/enquiries/72330?start_date=2026-11-28&nights=1&occupancies_attributes%5Badults%5D=1&bo=1964&promotion=72330",
       "checks": {
         "promotion": "ok"
       },
